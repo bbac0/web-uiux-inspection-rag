@@ -63,3 +63,9 @@ _archive/
 /index.html
 /uiux.png
 /readme.txt
+
+# R-full and all-run outputs are published (Data Availability)
+!results/revision/runs/*/shots/
+!results/revision/runs/*/prompts/
+!results/revision/full_index/chroma_db/
+!results/revision/full_index/chroma_db/**

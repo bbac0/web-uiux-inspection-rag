@@ -161,5 +161,43 @@ CHROMA_DB_PATH=./chroma_db python experiments/rag_ablation.py
 - 해시 검증: 홈 경로를 `<HOME>` 으로 바꾼 파일(86개, 주로 run 폴더의 `calls.jsonl`, `run_meta.json`, `summary.json`)은
   run 폴더의 `SHA256SUMS`(원본 기준)와 맞지 않는다. 이 파일들은 루트의 `sha256sum -c SHA256SUMS.public` 으로 검증하고,
   원래 해시는 `SHA256SUMS.original` 에 있다(run 폴더 `SHA256SUMS` 의 값과 같다).
-- E1~E4 run의 SHA256SUMS에는 스크린샷과 일부 프롬프트 파일이 적혀 있으나, 이 파일들은 처음부터 버전 관리 대상이 아니어서 저장소에 없다.
-  이 run들을 옵션 없이 sha256sum -c 로 검증하면 '파일 없음'이 보고되며(--ignore-missing을 쓰면 건너뜀), 이는 데이터 누락이 아니다.
+- E1~E4 run(파일럿 포함)과 R-full 의 스크린샷(`shots/`)과 프롬프트 원문(`prompts/`)은 원래 버전 관리 대상이 아니었으나,
+  이 공개본에는 실행 당시 원본 파일 그대로 넣었다(v4.2). 각 run 폴더의 SHA256SUMS 값과 일치한다.
+- pilot-01 의 `calls.jsonl`, `reports.jsonl`, `summary.md` 3개 파일은 그 폴더의 SHA256SUMS 와 맞지 않는다. 이 run 은
+  줄바꿈 변환을 막는 설정(`.gitattributes`)이 생기기 전에 커밋되어, 저장소에 넣을 때 줄바꿈이 CRLF → LF 로 바뀌었다.
+  SHA256SUMS 는 실행 직후의 원본(CRLF) 파일로 계산한 값이며, 원본 작업 폴더의 파일은 SHA256SUMS 와 일치한다.
+  파일 내용(줄바꿈 외)은 같다. pilot-01 은 논문 결과에 쓰지 않은 파일럿 실행이다(크레딧 소진으로 중단).
+
+## R-full: 전체 색인으로 주 조건 R 1회 재실행
+
+- 조건: 주 조건 R(E1-R1)과 같은 설정(고정 질의 "웹 UI/UX 표준 가이드라인 공통 규정", K=4, 스크린샷 + HTML, `gemini-2.5-flash`,
+  temperature 0, 같은 프롬프트, testbed_200 200페이지)에서 **검색 인덱스만** 전체 색인으로 바꾼 1회 실행이다.
+  실험 인덱스는 gov_guide 1~736쪽 범위의 721쪽(1,020청크)만 담고 있었고, 전체 색인은 1,485청크(가이드라인 1,197 + 체크리스트 288)다.
+- 사전 지정: `results/revision/analysis_plan_addendum_rfull.md`. 보고서: `results/revision/reports/rfull_report.md`
+  (지표 CSV: `results/revision/rfull/`).
+- 실행 폴더: `results/revision/runs/E1-Rfull-r1/` (calls.jsonl, reports.jsonl, summary.json, run_meta.json, SHA256SUMS).
+  스크린샷(`shots/`)과 프롬프트 원문(`prompts/`)도 들어 있다(원본 파일 그대로, SHA256SUMS 와 일치).
+- 채점 폴더: `results/revision/semantic_scores/E1-Rfull-r1-sem-p1/`(1차), `E1-Rfull-r1-sem-p1-retry/`(잘림 16건 재채점),
+  병합 이슈표 `results/revision/issue_tables_merged/E1-Rfull-r1.csv`, 재채점 대상 `results/revision/semantic_truncation_targets_rfull.csv`.
+- 전체 색인: `results/revision/full_index/chroma_db/` (약 33 MiB). 만든 방법과 실험 인덱스와의 비교는
+  `experiments/revision/full_index_compare.py`, `results/revision/reports/q9_full_index_compare.md`.
+- 재현 명령 (API 키는 환경변수로만):
+
+```bash
+python -m http.server 8080 --bind 127.0.0.1      # 저장소 루트, 별도 터미널
+python experiments/revision/run_experiment.py --run-id E1-Rfull-r1 --condition R-full --pages all --max-pages 1 \
+    --chroma-path results/revision/full_index/chroma_db --prompt-date 2026-11-11 --concurrency 1
+python scoring/semantic_grader_batch.py submit --run-id E1-Rfull-r1 --out-id E1-Rfull-r1-sem-p1 --pass 1
+python scoring/semantic_grader_batch.py collect --out-id E1-Rfull-r1-sem-p1
+python experiments/revision/rfull_retry_targets.py
+python scoring/semantic_grader_retry.py submit --orig-out-id E1-Rfull-r1-sem-p1 \
+    --targets results/revision/semantic_truncation_targets_rfull.csv --config scoring/grader_config_retry800.json
+python scoring/semantic_grader_retry.py collect --out-id E1-Rfull-r1-sem-p1-retry
+python scoring/issue_table_merged.py --run-id E1-Rfull-r1 --out results/revision/issue_tables_merged/E1-Rfull-r1.csv
+python experiments/revision/rfull_report.py
+```
+
+## 변경 기록
+
+- v4.2: R-full 산출물 추가; E1~E4·파일럿·R-full 실행의 스크린샷과 프롬프트 원문 추가; `.github/workflows/` 삭제;
+  pilot-01 해시 불일치 사유 기록
