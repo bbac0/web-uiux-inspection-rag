@@ -1,0 +1,13 @@
+집계,건수,비고
+A. 전체 이슈 (E8 분모),1054,
+  source_file = JSON null,17,E8: 말뭉치 밖으로 셈
+  source_file = 'N/A',19,E8: 말뭉치 밖으로 셈
+  source_file = '',2,
+B. source_file 이 null/''/'N/A' 아님 (audit_pipeline_artifacts.py 분모),1016,"기존 1,016 과 일치"
+B 중 대상 페이지 이슈,464,
+B 중 링크된 /login 404 페이지 이슈,552,
+B 중 gov_guide.pdf + [12] (모두 /login 이슈),288,후보: 288
+B 중 gov_guide.pdf 이면서 쪽이 예시값 아님,291,후보: 291
+B 중 'General ...' 계열 파일명,294,후보: 294
+B 중 말뭉치에 없는 파일명,356,
+B 중 gov_guide.pdf + 예시 쪽,369,E8 '파일과 쪽 모두 예시값'과 같음

@@ -1,0 +1,13 @@
+{
+ "started_utc": "2026-11-18T16:18:46.671+00:00",
+ "finished_utc": "2026-11-18T16:26:06.059+00:00",
+ "n_chunks": 1485,
+ "expected_chunks": 1485,
+ "pdfs": [
+  "data/gov_check.pdf",
+  "data/gov_guide.pdf"
+ ],
+ "splitter": "RecursiveCharacterTextSplitter(1000, 100)",
+ "model": "models/gemini-embedding-001",
+ "batch_size": 10
+}

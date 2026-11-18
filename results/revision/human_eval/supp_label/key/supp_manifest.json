@@ -1,0 +1,29 @@
+{
+ "sample_selection": "results/revision/human_eval/supp_label/key/sample_selection.csv",
+ "plan": "results/revision/analysis_plan_addendum_supp_label.md",
+ "seeds": {
+  "stratum_shuffle_base_order": 20261122,
+  "order_A": 20261127,
+  "order_B": 20261128,
+  "tokens": "supp-tokens-20261122"
+ },
+ "order_method": "random.Random(seed).shuffle(기준 순서 목록 사본)",
+ "guidelines": "docs/rater_guidelines_v2.md",
+ "issues": 107,
+ "pages": 64,
+ "screenshot_files": 64,
+ "strata": {
+  "S1": 43,
+  "S2": 34,
+  "S3": 30
+ },
+ "screenshot_substituted": 6,
+ "viewer_storage_keys": {
+  "A": "human_eval_A_supp",
+  "B": "human_eval_B_supp"
+ },
+ "sheet_sha256": {
+  "A": "cf90ab966e20317b99ba06546d22ea75c0ddd6f1ebb573b32dc4b3bd318f6622",
+  "B": "6e7a383a9c4073dfc0c45538032223b00dd1cac8a7279f25435b49f719f93d36"
+ }
+}

@@ -1,0 +1,11 @@
+﻿file,line,category,match,context
+repo_public_staging/experiments/revision/run_e9_main.py,111,이메일,⟨이메일⟩ (길이 21),"y: Claude Opus 5.5 <⟨이메일⟩>""])"
+repo_public_staging/experiments/revision/run_remaining.py,109,이메일,⟨이메일⟩ (길이 21),"y: Claude Opus 5.5 <⟨이메일⟩>""])"
+repo_public_staging/results/revision/oracle_candidates.csv,92,전화번호,⟨전화번호⟩ (길이 13),화번호 입력 필드에 플레이스홀더로 ‘⟨전화번호⟩’ 숫자를 제공함-생년월일 입력 필드
+repo_public_staging/results/revision/oracle_candidates.md,507,전화번호,⟨전화번호⟩ (길이 13),화번호 입력 필드에 플레이스홀더로 ‘⟨전화번호⟩’ 숫자를 제공함-생년월일 입력 필드
+repo_public_staging/scripts/redact_home_paths.py,6,홈 경로,⟨홈 경로⟩ (길이 14),  ⟨홈 경로⟩ ⟨홈 경로⟩
+repo_public_staging/scripts/redact_home_paths.py,6,홈 경로,⟨홈 경로⟩ (길이 17),  ⟨홈 경로⟩ ⟨홈 경로⟩
+repo_public_staging/tools/scan_personal.py,6,aternos,⟨aternos⟩ (길이 7),"분류: ⟨aternos⟩, 이메일, 전화번호, 사용자 홈 경"
+repo_public_staging/tools/scan_personal.py,43,aternos,⟨aternos⟩ (길이 7),"    P = [(""⟨aternos⟩"", re.compile(r""ater"
+repo_public_staging/tools/scan_personal.py,43,aternos,⟨aternos⟩ (길이 7),"rnos"", re.compile(r""⟨aternos⟩"", re.I)),"
+repo_public_staging/tools/scan_personal.py,52,홈 경로,⟨홈 경로⟩ (길이 8),"[^/\s\""']+|(?<![\w])⟨홈 경로⟩/\s\""']+"", re.I))]"

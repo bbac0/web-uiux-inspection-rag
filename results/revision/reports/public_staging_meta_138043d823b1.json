@@ -1,0 +1,63 @@
+{
+ "head": "138043d823b1ec9d0a66f73b5ba97018ea95f09f",
+ "archive": "git -c core.autocrlf=false archive HEAD",
+ "files": 4046,
+ "bytes": 101176756,
+ "excluded_from_archive": [
+  "data/gov_check.pdf",
+  "data/gov_guide.pdf"
+ ],
+ "aternos_redactions": 0,
+ "semantic_scores_added": 137,
+ "home_redaction": {
+  "files": 86,
+  "replacements": 2403
+ },
+ "rater_copies": [
+  {
+   "path": "results/revision/human_eval/consensus/disagreement_for_consensus_filled.csv",
+   "sha256_original": "fb442a4e9688c8ddc0e7679ce22b7a2ddb2d56cb9030836654a7cac2cf6b4b57",
+   "sha256_copy": "fb442a4e9688c8ddc0e7679ce22b7a2ddb2d56cb9030836654a7cac2cf6b4b57"
+  },
+  {
+   "path": "results/revision/human_eval/e9_eval/rater_A_e9_hit52/eval_sheet_A_e9_hit52_filled.csv",
+   "sha256_original": "f6be1617181a66abe67feed6bdef14757a3487f3aeea65b556ca98d5cff3bf06",
+   "sha256_copy": "f6be1617181a66abe67feed6bdef14757a3487f3aeea65b556ca98d5cff3bf06"
+  },
+  {
+   "path": "results/revision/human_eval/pilot_rater/eval_sheet_pilot_filled_A.csv",
+   "sha256_original": "febefb84c5f870fc311701aa26b3498195cd23f8aeccd441dd382479a7725059",
+   "sha256_copy": "febefb84c5f870fc311701aa26b3498195cd23f8aeccd441dd382479a7725059"
+  },
+  {
+   "path": "results/revision/human_eval/pilot_rater/eval_sheet_pilot_filled_B.csv",
+   "sha256_original": "808c73898a10501814a7e881fe814a80661f1a07483de3c7fbe02b56135fba14",
+   "sha256_copy": "808c73898a10501814a7e881fe814a80661f1a07483de3c7fbe02b56135fba14"
+  },
+  {
+   "path": "results/revision/human_eval/rater_A/eval_sheet_A_filled.csv",
+   "sha256_original": "14dcc061cafd1adb89587142716537367863e028e9e93110c66cdd040c495fcf",
+   "sha256_copy": "14dcc061cafd1adb89587142716537367863e028e9e93110c66cdd040c495fcf"
+  },
+  {
+   "path": "results/revision/human_eval/rater_A_retest/eval_sheet_A_retest_filled.csv",
+   "sha256_original": "48fdd2422b2b197e50b8032a5067441b7e7a8dbcd69c4f52ab49d62a786d57bc",
+   "sha256_copy": "48fdd2422b2b197e50b8032a5067441b7e7a8dbcd69c4f52ab49d62a786d57bc"
+  },
+  {
+   "path": "results/revision/human_eval/rater_B/eval_sheet_B_filled.csv",
+   "sha256_original": "fbc74105b0f3c5599b9d800c1bcadd50392d17116ec78dcacf7e44850141d1d7",
+   "sha256_copy": "fbc74105b0f3c5599b9d800c1bcadd50392d17116ec78dcacf7e44850141d1d7"
+  },
+  {
+   "path": "results/revision/human_eval/supp_label/rater_A_supp/eval_sheet_A_supp_filled.csv",
+   "sha256_original": "9cb3b728c193132051dce0d236b56ba32b5bbba973fbfad0ee5a234def4c476a",
+   "sha256_copy": "9cb3b728c193132051dce0d236b56ba32b5bbba973fbfad0ee5a234def4c476a"
+  },
+  {
+   "path": "results/revision/human_eval/supp_label/rater_B_supp/eval_sheet_B_supp_filled.csv",
+   "sha256_original": "97c0ba92fd91e1c9e223ccfb9f9b7c6dbaf26a853a7c726b36f1fae7f0b5fd44",
+   "sha256_copy": "97c0ba92fd91e1c9e223ccfb9f9b7c6dbaf26a853a7c726b36f1fae7f0b5fd44"
+  }
+ ]
+}

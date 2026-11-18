@@ -1,0 +1,111 @@
+{
+  "run_id": "E1-R3",
+  "status": "aborted",
+  "marked_utc": "2026-11-12T05:12:16.588+00:00",
+  "cause": "Claude Code 가 시스템 메모리 부족(세션 유휴 중 critically low memory)으로 백그라운드 프로세스를 강제 종료했다. 순서 실행 드라이버(run_e1_a1_sequence.py)와 테스트베드 HTTP 서버가 함께 종료되어 러너의 마무리 단계(summary 작성, chroma 복사본 삭제, 잠금)가 실행되지 않았다. 러너 오류나 API 오류가 아니다.",
+  "run_started_utc": "2026-11-12T03:43:49.591+00:00",
+  "last_record_end_utc": "2026-11-12T04:03:59.299+00:00",
+  "records": 160,
+  "status_counts": {
+    "ok": 160
+  },
+  "pages_requested": 200,
+  "pages_with_record": 160,
+  "pages_missing": [
+    "page_161",
+    "page_162",
+    "page_163",
+    "page_164",
+    "page_165",
+    "page_166",
+    "page_167",
+    "page_168",
+    "page_169",
+    "page_170",
+    "page_171",
+    "page_172",
+    "page_173",
+    "page_174",
+    "page_175",
+    "page_176",
+    "page_177",
+    "page_178",
+    "page_179",
+    "page_180",
+    "page_181",
+    "page_182",
+    "page_183",
+    "page_184",
+    "page_185",
+    "page_186",
+    "page_187",
+    "page_188",
+    "page_189",
+    "page_190",
+    "page_191",
+    "page_192",
+    "page_193",
+    "page_194",
+    "page_195",
+    "page_196",
+    "page_197",
+    "page_198",
+    "page_199",
+    "page_200"
+  ],
+  "note": "동시 실행 4건이었으므로 강제 종료 순간 진행 중이던 최대 4페이지는 API 호출이 이루어졌어도 기록되지 않았을 수 있다(과금되었으나 로그 없음). 기존 파일은 수정하지 않았고 이 표시 파일만 추가한 뒤 잠갔다. 재실행하지 않았다(사용자 지시).",
+  "cost_usd_recorded": 1.299019,
+  "amendments": [
+    {
+      "amended_utc": "2026-11-12T10:34:38.349+00:00",
+      "reason": "사용자 지시: 저장소 루트에 남은 임시 스크린샷의 파일 목록과 해시를 기록한 뒤 삭제한다.",
+      "previous_ABORTED_json_sha256": "7ba866e3385fa0d051d2bb23d04e5b642781fb4cc35bd00c9a2469b226f27ebe",
+      "temp_screenshots": [
+        {
+          "file": "temp_shot_E1-R3_page_161_0.png",
+          "bytes": 7143,
+          "sha256": "a4f834a65abc05d68c3c6266ed0260852eab730c2ceb5bff59453f6c2a08fde6",
+          "mtime_utc": "2026-11-12T04:03:37.918+00:00"
+        },
+        {
+          "file": "temp_shot_E1-R3_page_162_0.png",
+          "bytes": 8410,
+          "sha256": "1d71a73081494ef78da2c9fb215f8eb13e75ae8c9b0481d73c11a77a4ec096f7",
+          "mtime_utc": "2026-11-12T04:03:55.878+00:00"
+        },
+        {
+          "file": "temp_shot_E1-R3_page_163_0.png",
+          "bytes": 5834,
+          "sha256": "69d90c11f3d0a53a749686c157dba9601610515fbbad4f8ee0dbbd1e6f5e6c4f",
+          "mtime_utc": "2026-11-12T04:03:58.477+00:00"
+        }
+      ],
+      "temp_screenshots_deleted_after_record": true,
+      "sequence_log_last_write_utc": "2026-11-12T04:03:59.875+00:00",
+      "unlogged_billable_estimate": {
+        "basis": "스크린샷은 수집 단계 끝에서 저장되고 이후 질의 임베딩 → 이미지 업로드(File API) → 생성 호출 순서로 진행된다. 강제 종료는 순서 로그 마지막 쓰기 시각 전후로 본다. R1 평균: 업로드 5.1초, 생성 18.7초.",
+        "pages": {
+          "page_161": "스크린샷 후 약 22초 경과 → 생성 호출 진행 중이었을 가능성 높음 (과금 가능성 높음)",
+          "page_162": "스크린샷 후 약 4초 → 업로드 중 또는 생성 시작 직후 (과금 가능성 있음)",
+          "page_163": "스크린샷 후 약 1~2초 → 임베딩·업로드 단계 (생성 과금 가능성 낮음)",
+          "4th_slot": "스크린샷 없음 → 수집 단계였다고 보고 생성 과금 없음으로 둔다"
+        },
+        "generation_calls_possible": {
+          "low": 0,
+          "likely": 1,
+          "high": 3
+        },
+        "r3_cost_per_call_usd": {
+          "mean": 0.008119,
+          "max": 0.014516
+        },
+        "cost_usd": {
+          "likely": 0.0081,
+          "high_mean_based": 0.0244,
+          "high_max_based": 0.0435
+        },
+        "note": "생성 요청이 클라이언트 종료로 끊겨도 서버에서 과금될 수 있다고 보수적으로 가정한 추정이다. 비용 기록은 생성 호출 기준이며 질의 임베딩 호출은 다른 run 에서도 비용에 넣지 않았으므로 여기서도 넣지 않는다."
+      }
+    }
+  ]
+}

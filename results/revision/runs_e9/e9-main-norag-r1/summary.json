@@ -1,0 +1,170 @@
+{
+  "run_id": "e9-main-norag-r1",
+  "condition": "E9-norag",
+  "started_utc": "2026-11-13T03:31:41.436+00:00",
+  "finished_utc": "2026-11-13T03:54:45.307+00:00",
+  "aborted": false,
+  "abort_reason": null,
+  "pages_requested": 91,
+  "pages_with_record": 91,
+  "pages_missing_record": [],
+  "records": 91,
+  "status_counts": {
+    "ok": 91
+  },
+  "failed_pages": [],
+  "parse_error_pages": [],
+  "tokens_total": {
+    "prompt_token_count": 153146,
+    "cached_content_token_count": 47357,
+    "candidates_token_count": 53573,
+    "total_token_count": 493879,
+    "thoughts_token_count_derived": 239803
+  },
+  "tokens_mean": {
+    "prompt_token_count": 1682.9,
+    "cached_content_token_count": 520.4,
+    "candidates_token_count": 588.7,
+    "total_token_count": 5427.2,
+    "thoughts_token_count_derived": 2635.2
+  },
+  "cost_usd_total": 0.766597,
+  "cost_usd_mean_per_call": 0.008424,
+  "latency_sec": {
+    "acquisition": {
+      "n": 91,
+      "mean": 4.1404,
+      "median": 4.1404,
+      "p95": 4.1592
+    },
+    "query_embedding": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "p95": null
+    },
+    "vector_search": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "p95": null
+    },
+    "upload": {
+      "n": 91,
+      "mean": 4.4073,
+      "median": 4.1604,
+      "p95": 4.6688
+    },
+    "llm": {
+      "n": 91,
+      "mean": 18.9619,
+      "median": 18.3486,
+      "p95": 25.4528
+    },
+    "total": {
+      "n": 91,
+      "mean": 29.225,
+      "median": 28.5115,
+      "p95": 35.8107
+    }
+  },
+  "retries_total": 0,
+  "model_versions": [
+    "gemini-2.5-flash"
+  ],
+  "prompt_sha256_distinct": 61,
+  "negative_derived_thoughts": [],
+  "cached_tokens_positive": [
+    "e9_003",
+    "e9_005",
+    "e9_008",
+    "e9_011",
+    "e9_012",
+    "e9_017",
+    "e9_021",
+    "e9_023",
+    "e9_024",
+    "e9_031",
+    "e9_030",
+    "e9_033",
+    "e9_034",
+    "e9_036",
+    "e9_037",
+    "e9_039",
+    "e9_049",
+    "e9_051",
+    "e9_052",
+    "e9_053",
+    "e9_055",
+    "e9_057",
+    "e9_059",
+    "e9_061",
+    "e9_060",
+    "e9_064",
+    "e9_065",
+    "e9_067",
+    "e9_068",
+    "e9_070",
+    "e9_073",
+    "e9_075",
+    "e9_080",
+    "e9_081",
+    "e9_082",
+    "e9_085",
+    "e9_086"
+  ],
+  "rag_n_chunks_counts": {
+    "0": 91
+  },
+  "schema_problem_records": 0,
+  "cost_usd_breakdown": {
+    "input_uncached": 0.031737,
+    "input_cached": 0.001421,
+    "output": 0.73344
+  },
+  "thoughts_check_mismatch": [
+    "e9_003",
+    "e9_005",
+    "e9_008",
+    "e9_011",
+    "e9_012",
+    "e9_017",
+    "e9_021",
+    "e9_023",
+    "e9_024",
+    "e9_031",
+    "e9_030",
+    "e9_033",
+    "e9_034",
+    "e9_036",
+    "e9_037",
+    "e9_039",
+    "e9_049",
+    "e9_051",
+    "e9_052",
+    "e9_053",
+    "e9_055",
+    "e9_057",
+    "e9_059",
+    "e9_061",
+    "e9_060",
+    "e9_064",
+    "e9_065",
+    "e9_067",
+    "e9_068",
+    "e9_070",
+    "e9_073",
+    "e9_075",
+    "e9_080",
+    "e9_081",
+    "e9_082",
+    "e9_085",
+    "e9_086"
+  ],
+  "chroma": null,
+  "prices": {
+    "input_uncached_per_1M": 0.3,
+    "input_cached_per_1M": 0.03,
+    "output_incl_thinking_per_1M": 2.5
+  }
+}

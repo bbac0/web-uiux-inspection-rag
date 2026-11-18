@@ -1,0 +1,139 @@
+﻿issue_id,pos_A,in_retest,pos_retest,screenshot_path,screenshot_path_retest,run_id,page_id,page_stratum,subtype,variant,injected_string,issue_index,regex_stratum,primary_E9-1,primary_E9-2,primary_E9-3,primary_E9-4,aux_E9-1,aux_E9-2,aux_E9-3,aux_E9-4,dup_n_in_sample
+Id66eb98c1b,50,0,,shots/P3b3bba380f.png,,e9-main-related-r1,e9_032,E9-1,E9-1b,space_i_nurijip,이누리집은 대한민국 공식 전자정부 누리집입니다.,0,miss,0,0,1,0,0,0,1,0,1
+Ife58788927,96,0,,shots/Pfd5f9cd427.png,,e9-main-related-r1,e9_040,E9-1,E9-1b,space_jeonja_nurijip,이 누리집은 대한민국 공식 전자정부누리집입니다.,0,hit,1,0,0,0,1,0,0,0,1
+I838d39dacf,41,0,,shots/Pb6457b4b4b.png,,e9-main-related-r1,e9_041,E9-1,E9-1a,delete_gongsik,이 누리집은 대한민국 전자정부 누리집입니다.,0,hit,1,0,0,0,1,0,0,0,1
+I17cf8a3976,138,1,4,shots/Pa1d1c6a6ed.png,shots/P2bac0af346.png,e9-main-related-r1,e9_045,E9-1,E9-1a,nurijip_to_homepage,이 누리집은 대한민국 공식 전자정부 홈페이지입니다.,0,hit,1,0,0,0,1,0,0,0,1
+If0cace61f9,135,0,,shots/Pa1d1c6a6ed.png,,e9-main-related-r1,e9_045,E9-1,E9-1a,nurijip_to_homepage,이 누리집은 대한민국 공식 전자정부 홈페이지입니다.,1,miss,0,0,0,0,0,0,0,0,1
+I7465b58914,136,0,,shots/P06226707f2.png,,e9-main-related-r1,e9_048,E9-1,E9-1a,replace_whole,대한민국 공식 전자정부 웹사이트입니다.,0,hit,1,0,0,0,1,0,0,0,1
+Iacfd7817b4,84,0,,shots/Pd34fc824a4.png,,e9-main-related-r1,e9_063,E9-1,E9-1a,nurijip_to_homepage,이 누리집은 대한민국 공식 전자정부 홈페이지입니다.,0,hit,1,0,0,0,1,0,0,0,1
+If5a887eac4,80,0,,shots/Pd0ae81fa8a.png,,e9-main-related-r1,e9_066,E9-1,E9-1b,space_jeonja_nurijip,이 누리집은 대한민국 공식 전자정부누리집입니다.,0,hit,1,0,0,0,1,0,0,0,1
+I81dea8de07,85,0,,shots/Pd0ae81fa8a.png,,e9-main-related-r1,e9_066,E9-1,E9-1b,space_jeonja_nurijip,이 누리집은 대한민국 공식 전자정부누리집입니다.,1,miss,0,1,0,0,0,1,0,0,1
+I634d2e3f92,31,0,,shots/Pd0ae81fa8a.png,,e9-main-related-r1,e9_066,E9-1,E9-1b,space_jeonja_nurijip,이 누리집은 대한민국 공식 전자정부누리집입니다.,2,hit,1,1,0,0,1,1,0,0,1
+If744aae75c,56,0,,shots/P53f45d9491.png,,e9-main-related-r1,e9_071,E9-1,E9-1b,space_i_nurijip,이누리집은 대한민국 공식 전자정부 누리집입니다.,0,miss,0,0,0,0,0,0,0,0,1
+Ic946679e96,102,1,12,shots/P7958dabf76.png,shots/Pdc16324a68.png,e9-main-related-r1,e9_072,E9-1,E9-1a,delete_gongsik,이 누리집은 대한민국 전자정부 누리집입니다.,0,hit,1,0,0,0,1,0,0,0,1
+Id115123353,116,0,,shots/P7958dabf76.png,,e9-main-related-r1,e9_072,E9-1,E9-1a,delete_gongsik,이 누리집은 대한민국 전자정부 누리집입니다.,1,miss,0,0,0,0,0,0,0,0,1
+Id2c7f4367a,52,0,,shots/P33d1025cad.png,,e9-main-related-r1,e9_074,E9-1,E9-1a,nurijip_to_homepage,이 누리집은 대한민국 공식 전자정부 홈페이지입니다.,0,hit,1,0,0,0,1,0,0,0,1
+Ia91889f3b0,77,0,,shots/P33d1025cad.png,,e9-main-related-r1,e9_074,E9-1,E9-1a,nurijip_to_homepage,이 누리집은 대한민국 공식 전자정부 홈페이지입니다.,1,miss,0,0,0,0,0,0,0,0,1
+I30e2b21bf3,12,0,,shots/P9afb985ca5.png,,e9-main-related-r1,e9_076,E9-1,E9-1a,replace_whole,대한민국 공식 전자정부 웹사이트입니다.,0,hit,1,0,0,0,1,0,0,0,1
+Ida475f47e1,23,0,,shots/Pf70a2c664e.png,,e9-main-related-r1,e9_077,E9-1,E9-1b,space_i_nurijip,이누리집은 대한민국 공식 전자정부 누리집입니다.,0,miss,0,0,0,0,0,0,0,0,1
+I45fd324a75,78,0,,shots/P575318efcc.png,,e9-main-related-r1,e9_006,E9-2,E9-2-banner,.gov-banner font-size:14px,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#EDF1F5;font-family:pretendardGOV;font-size:14px;font-weight:400;color:#1D1D1D},0,hit,1,1,0,0,1,1,0,0,1
+I6dcf5ce5a7,43,1,18,shots/P8fc89c780a.png,shots/Pe1246b37b8.png,e9-main-related-r1,e9_013,E9-2,E9-2-footer,.ft color:#000000,.ft{background:#F8F8F8;border-top:1px solid #D8D8D8;color:#000000;padding:12px 16px},0,miss,0,0,0,0,0,0,0,0,1
+I9cdc51d980,130,0,,shots/P8fc89c780a.png,,e9-main-related-r1,e9_013,E9-2,E9-2-footer,.ft color:#000000,.ft{background:#F8F8F8;border-top:1px solid #D8D8D8;color:#000000;padding:12px 16px},1,hit,0,1,0,0,0,1,0,0,1
+I275358d352,45,0,,shots/P3658362ece.png,,e9-main-related-r1,e9_015,E9-2,E9-2-header,.hd-icon font-size:15px,.hd-icon{font-size:15px;font-weight:700},0,hit,0,1,0,0,0,1,0,0,1
+I339ef19b0b,54,0,,shots/P3658362ece.png,,e9-main-related-r1,e9_015,E9-2,E9-2-header,.hd-icon font-size:15px,.hd-icon{font-size:15px;font-weight:700},1,miss,0,0,0,0,0,0,0,0,1
+I9a13d5a7fc,30,0,,shots/P649294e060.png,,e9-main-related-r1,e9_019,E9-2,E9-2-banner,.gov-banner padding:10px,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:10px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#1D1D1D},0,hit,0,1,0,0,0,1,0,0,1
+I0c0617b5e3,28,0,,shots/Pa297781dc8.png,,e9-main-related-r1,e9_020,E9-2,E9-2-header,.hd-icon font-size:15px,.hd-icon{font-size:15px;font-weight:700},0,hit,0,1,0,0,0,1,0,0,1
+I73ce7433b6,114,0,,shots/P404b1bc44d.png,,e9-main-related-r1,e9_022,E9-2,E9-2-banner,.gov-banner padding:10px,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:10px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#1D1D1D},0,hit,0,1,0,0,0,1,0,0,1
+I2506d4c467,79,1,15,shots/Pe6f4be2aa1.png,shots/Pcb35527d98.png,e9-main-related-r1,e9_025,E9-2,E9-2-banner,.gov-banner background:#FFFFFF,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#FFFFFF;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#1D1D1D},0,hit,0,1,0,0,0,1,0,0,1
+I40134fa7a8,73,1,6,shots/P5df375a9b3.png,shots/Pa8b6dfeb26.png,e9-main-related-r1,e9_027,E9-2,E9-2-footer,.ft background:#FFFFFF,.ft{background:#FFFFFF;border-top:1px solid #D8D8D8;color:#1D1D1D;padding:12px 16px},0,hit,0,1,0,0,0,1,0,0,1
+Ib7019a07a1,131,0,,shots/P964974a7cc.png,,e9-main-related-r1,e9_038,E9-2,E9-2-footer,.ft-copy font-weight:700,.ft-copy{font-size:15px;font-weight:700},0,hit,0,1,0,0,0,1,0,0,1
+I13475b2014,68,0,,shots/P7aa032d708.png,,e9-main-related-r1,e9_043,E9-2,E9-2-banner,.gov-banner font-weight:700,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:700;color:#1D1D1D},0,hit,1,1,0,0,1,1,0,0,1
+I85f8183cb1,118,0,,shots/P66ce7aca43.png,,e9-main-related-r1,e9_044,E9-2,E9-2-header,.hd-icon font-size:15px,.hd-icon{font-size:15px;font-weight:700},0,hit,0,1,0,0,0,1,0,0,1
+Ic2dfd8c2bc,67,0,,shots/P44bd28a5aa.png,,e9-main-related-r1,e9_047,E9-2,E9-2-banner,.gov-banner font-weight:700,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:700;color:#1D1D1D},0,hit,1,1,0,0,1,1,0,0,1
+I558324d1ca,86,0,,shots/P8ab7c6db33.png,,e9-main-related-r1,e9_050,E9-2,E9-2-banner,.gov-banner color:#000000,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#000000},0,hit,1,1,0,0,1,1,0,0,1
+I4dae46c6a2,40,0,,shots/Pcf1a8bf409.png,,e9-main-related-r1,e9_087,E9-2,E9-2-header,.hd-icon font-size:15px,.hd-icon{font-size:15px;font-weight:700},0,hit,0,1,0,0,0,1,0,0,1
+I18a2497f3c,37,0,,shots/Pf857146e3b.png,,e9-main-related-r1,e9_090,E9-2,E9-2-footer,.ft-contact font-size:15px,.ft-contact{font-size:15px;font-weight:400},0,hit,0,1,0,0,0,1,0,0,1
+I8852e04900,70,0,,shots/Pc716983fed.png,,e9-main-related-r1,e9_003,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,hit,0,0,1,0,0,0,1,0,1
+I7722e0641d,112,0,,shots/P24ed6b4f40.png,,e9-main-related-r1,e9_004,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,hit,0,0,1,0,0,0,1,0,1
+Idf436f551c,128,0,,shots/P24ed6b4f40.png,,e9-main-related-r1,e9_004,E9-3,E9-3,href /login -> /signup,"href=""/signup""",1,miss,0,0,0,0,0,0,0,0,1
+I533254cd29,22,1,17,shots/Pbfb13e0ecc.png,shots/P3f6a3f8edd.png,e9-main-related-r1,e9_017,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,hit,0,0,1,0,0,0,1,0,1
+Idf3235276d,18,0,,shots/Pf57cbed2ef.png,,e9-main-related-r1,e9_024,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,hit,0,0,1,0,0,0,1,0,1
+I0f343f5d81,51,0,,shots/Pf57cbed2ef.png,,e9-main-related-r1,e9_024,E9-3,E9-3,href /login -> /signup,"href=""/signup""",2,miss,0,0,0,0,0,0,0,0,1
+I34e327ffce,58,0,,shots/Pd984f83d67.png,,e9-main-related-r1,e9_026,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,hit,0,0,1,0,0,0,1,0,2
+I5defaf3687,110,0,,shots/Pd984f83d67.png,,e9-main-related-r1,e9_026,E9-3,E9-3,href /login -> /signup,"href=""/signup""",1,hit,0,0,1,0,0,0,1,0,2
+I023b296e00,120,1,2,shots/P6e9ffb0db6.png,shots/P3b081187fc.png,e9-main-related-r1,e9_029,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,miss,1,1,0,0,1,1,0,0,1
+I785447869d,117,1,3,shots/P6e9ffb0db6.png,shots/P3b081187fc.png,e9-main-related-r1,e9_029,E9-3,E9-3,href /login -> /signup,"href=""/signup""",1,hit,0,0,1,0,0,0,1,0,1
+Id06362449a,44,0,,shots/P381b2c2cc2.png,,e9-main-related-r1,e9_034,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,hit,0,0,1,0,0,0,1,0,1
+I762bde78a1,83,0,,shots/P862bb906ae.png,,e9-main-related-r1,e9_049,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,hit,0,0,1,0,0,0,1,0,1
+I52e7a0f6f0,11,0,,shots/P064966454c.png,,e9-main-related-r1,e9_053,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,hit,0,0,1,0,0,0,1,0,1
+I3e579df0ae,132,0,,shots/P77f7fb452f.png,,e9-main-related-r1,e9_058,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,hit,0,0,1,0,0,0,1,0,2
+I5e2d9aa3ca,103,0,,shots/P77f7fb452f.png,,e9-main-related-r1,e9_058,E9-3,E9-3,href /login -> /signup,"href=""/signup""",1,hit,0,0,1,0,0,0,1,0,2
+Id77368eb5c,49,0,,shots/P632c3e6a96.png,,e9-main-related-r1,e9_062,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,miss,0,0,0,0,0,0,0,0,1
+I75c20cd897,123,0,,shots/P632c3e6a96.png,,e9-main-related-r1,e9_062,E9-3,E9-3,href /login -> /signup,"href=""/signup""",1,hit,0,0,1,0,0,0,1,0,1
+I0c72a7c35f,125,0,,shots/P337c7789f4.png,,e9-main-related-r1,e9_075,E9-3,E9-3,href /login -> /signup,"href=""/signup""",1,miss,0,0,0,0,0,0,0,0,1
+Ib31059d5e9,81,0,,shots/P337c7789f4.png,,e9-main-related-r1,e9_075,E9-3,E9-3,href /login -> /signup,"href=""/signup""",2,hit,0,0,1,0,0,0,1,0,1
+I51206329a7,121,0,,shots/Pbce9514388.png,,e9-main-related-r1,e9_080,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,hit,0,0,1,0,0,0,1,0,1
+I32517455ff,38,0,,shots/P0002b3767f.png,,e9-main-related-r1,e9_088,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,hit,0,0,1,0,0,0,1,0,1
+I09c0607a6a,124,0,,shots/P83f00690ba.png,,e9-main-related-r1,e9_089,E9-3,E9-3,href /login -> /signup,"href=""/signup""",1,miss,1,1,0,0,1,1,0,0,1
+I8274b501ca,16,0,,shots/P83f00690ba.png,,e9-main-related-r1,e9_089,E9-3,E9-3,href /login -> /signup,"href=""/signup""",2,hit,0,0,1,0,0,0,1,0,1
+I59734f6cb7,69,0,,shots/P12d19a80c0.png,,e9-main-related-r1,e9_009,control,control,,,0,miss,0,0,0,0,0,0,0,0,3
+Ib919a7b7f4,87,0,,shots/P755c8ec4cd.png,,e9-main-related-r1,e9_010,control,control,,,0,miss,0,0,0,0,0,0,0,0,3
+I0652924706,66,0,,shots/P80eaef33da.png,,e9-main-related-r1,e9_011,control,control,,,0,miss,0,0,0,0,0,0,0,0,1
+Iaae4dc3627,64,1,5,shots/Pe45e8c27e7.png,shots/P671342cdea.png,e9-main-related-r1,e9_012,control,control,,,0,miss,0,0,0,0,0,0,0,0,1
+Ied78e4abe2,101,0,,shots/P35066b94f5.png,,e9-main-related-r1,e9_028,control,control,,,0,miss,0,0,0,0,0,0,0,0,3
+I7d8d2c6489,82,0,,shots/P1b6f884e90.png,,e9-main-related-r1,e9_039,control,control,,,0,miss,0,0,0,0,0,0,0,0,3
+I315e2fc6f4,36,0,,shots/Pe28eecda18.png,,e9-main-related-r1,e9_054,control,control,,,1,miss,0,0,0,0,0,0,0,0,1
+Idac3182e97,95,0,,shots/Pf3e0e896c9.png,,e9-main-related-r1,e9_061,control,control,,,0,miss,0,0,0,0,0,0,0,0,1
+I610715c113,105,0,,shots/P76d52ca7a2.png,,e9-main-related-r1,e9_064,control,control,,,0,hit,0,0,1,0,0,0,1,0,1
+I403dbe0dc8,129,0,,shots/P0a601ba6c0.png,,e9-main-related-r1,e9_068,control,control,,,0,miss,0,0,0,0,0,0,0,0,3
+I5ad835dad2,109,0,,shots/P5c06943899.png,,e9-main-related-r1,e9_073,control,control,,,0,miss,0,0,0,0,0,0,0,0,1
+I985142f797,13,0,,shots/P17bab8c151.png,,e9-main-related-r1,e9_081,control,control,,,0,miss,0,0,0,0,0,0,0,0,3
+I16fa4a6030,34,0,,shots/P2c3fb41b26.png,,e9-main-related-r1,e9_084,control,control,,,0,hit,0,0,1,0,0,0,1,0,1
+I0436868c07,127,0,,shots/P639754b313.png,,e9-main-norag-r1,e9_018,E9-1,E9-1b,space_gongsik_jeonja,이 누리집은 대한민국 공식전자정부 누리집입니다.,2,miss,0,0,0,0,0,0,0,0,1
+If8ea462819,1,0,,shots/P351926d8b3.png,,e9-main-norag-r1,e9_032,E9-1,E9-1b,space_i_nurijip,이누리집은 대한민국 공식 전자정부 누리집입니다.,3,miss,0,0,0,0,0,0,0,0,1
+I72cc8e472a,97,1,10,shots/Pf58cadbcce.png,shots/P6e1a4efc48.png,e9-main-norag-r1,e9_035,E9-1,E9-1b,space_gongsik_jeonja,이 누리집은 대한민국 공식전자정부 누리집입니다.,0,miss,0,0,0,0,0,0,0,0,1
+Iee05fdf75a,108,0,,shots/P219b38f838.png,,e9-main-norag-r1,e9_040,E9-1,E9-1b,space_jeonja_nurijip,이 누리집은 대한민국 공식 전자정부누리집입니다.,1,miss,0,0,0,0,0,0,0,0,1
+I83ed861b70,63,0,,shots/P027f9e4fd6.png,,e9-main-norag-r1,e9_041,E9-1,E9-1a,delete_gongsik,이 누리집은 대한민국 전자정부 누리집입니다.,2,miss,0,0,0,0,0,0,0,0,1
+I529fdfb605,9,0,,shots/Pa0bfd6f5f2.png,,e9-main-norag-r1,e9_045,E9-1,E9-1a,nurijip_to_homepage,이 누리집은 대한민국 공식 전자정부 홈페이지입니다.,2,miss,0,0,0,0,0,0,0,0,1
+I1d491d957c,98,1,13,shots/P573dac2fd9.png,shots/Pc7e1bd0698.png,e9-main-norag-r1,e9_048,E9-1,E9-1a,replace_whole,대한민국 공식 전자정부 웹사이트입니다.,2,miss,0,0,0,0,0,0,0,0,1
+Ic1fa080b38,92,1,19,shots/Pf4169c04c6.png,shots/P4a4f4de396.png,e9-main-norag-r1,e9_063,E9-1,E9-1a,nurijip_to_homepage,이 누리집은 대한민국 공식 전자정부 홈페이지입니다.,2,miss,0,0,0,0,0,0,0,0,1
+I2983129ff1,90,0,,shots/P823e9f2dee.png,,e9-main-norag-r1,e9_066,E9-1,E9-1b,space_jeonja_nurijip,이 누리집은 대한민국 공식 전자정부누리집입니다.,2,miss,0,0,0,0,0,0,0,0,1
+If1526aa8a8,27,0,,shots/P7ccfb9d7dc.png,,e9-main-norag-r1,e9_069,E9-1,E9-1b,space_gongsik_jeonja,이 누리집은 대한민국 공식전자정부 누리집입니다.,3,miss,0,0,0,0,0,0,0,0,1
+Ibe0844cf32,33,0,,shots/Pe63c0bba71.png,,e9-main-norag-r1,e9_071,E9-1,E9-1b,space_i_nurijip,이누리집은 대한민국 공식 전자정부 누리집입니다.,0,miss,0,0,0,0,0,0,0,0,1
+I932ebe2fc8,5,0,,shots/Pe63c0bba71.png,,e9-main-norag-r1,e9_071,E9-1,E9-1b,space_i_nurijip,이누리집은 대한민국 공식 전자정부 누리집입니다.,1,hit,1,0,0,0,1,0,0,0,1
+I655a26a022,6,0,,shots/Pa000fcff56.png,,e9-main-norag-r1,e9_072,E9-1,E9-1a,delete_gongsik,이 누리집은 대한민국 전자정부 누리집입니다.,0,miss,0,0,0,0,0,0,0,0,1
+Ie647d5bb2e,62,0,,shots/P7dcee17b0e.png,,e9-main-norag-r1,e9_074,E9-1,E9-1a,nurijip_to_homepage,이 누리집은 대한민국 공식 전자정부 홈페이지입니다.,1,miss,0,0,0,0,0,0,0,0,1
+I066a9285ec,106,0,,shots/Pf56e4ad880.png,,e9-main-norag-r1,e9_076,E9-1,E9-1a,replace_whole,대한민국 공식 전자정부 웹사이트입니다.,0,miss,0,0,0,0,0,0,0,0,1
+Ifa5264480c,89,0,,shots/P4b54e053d3.png,,e9-main-norag-r1,e9_077,E9-1,E9-1b,space_i_nurijip,이누리집은 대한민국 공식 전자정부 누리집입니다.,0,miss,0,0,0,0,0,0,0,0,1
+I8e356eeb21,104,0,,shots/P1f86e03a56.png,,e9-main-norag-r1,e9_006,E9-2,E9-2-banner,.gov-banner font-size:14px,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#EDF1F5;font-family:pretendardGOV;font-size:14px;font-weight:400;color:#1D1D1D},1,miss,0,0,0,0,0,0,0,0,1
+I5b91414244,26,0,,shots/P65a63f44f2.png,,e9-main-norag-r1,e9_013,E9-2,E9-2-footer,.ft color:#000000,.ft{background:#F8F8F8;border-top:1px solid #D8D8D8;color:#000000;padding:12px 16px},0,miss,0,0,0,0,0,0,0,0,1
+I6ae26cc1e6,29,0,,shots/P1e8e01636f.png,,e9-main-norag-r1,e9_015,E9-2,E9-2-header,.hd-icon font-size:15px,.hd-icon{font-size:15px;font-weight:700},2,miss,0,0,0,0,0,0,0,0,1
+Ia720d7fed7,32,0,,shots/Pc3da100bbf.png,,e9-main-norag-r1,e9_019,E9-2,E9-2-banner,.gov-banner padding:10px,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:10px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#1D1D1D},1,miss,0,0,0,0,0,0,0,0,1
+I308e0ce188,3,0,,shots/P66cb1dddba.png,,e9-main-norag-r1,e9_020,E9-2,E9-2-header,.hd-icon font-size:15px,.hd-icon{font-size:15px;font-weight:700},0,miss,0,0,0,0,0,0,0,0,1
+I761bbfe9c1,65,0,,shots/P371ebcd91c.png,,e9-main-norag-r1,e9_022,E9-2,E9-2-banner,.gov-banner padding:10px,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:10px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#1D1D1D},1,hit,0,1,0,0,0,1,0,0,1
+Iae1b2388d4,4,0,,shots/P371ebcd91c.png,,e9-main-norag-r1,e9_022,E9-2,E9-2-banner,.gov-banner padding:10px,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:10px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#1D1D1D},2,miss,0,0,0,0,0,0,0,0,1
+I40d8ccb99d,39,0,,shots/P371ebcd91c.png,,e9-main-norag-r1,e9_022,E9-2,E9-2-banner,.gov-banner padding:10px,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:10px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#1D1D1D},4,hit,0,1,0,0,0,1,0,0,1
+I7ca1d40270,111,0,,shots/Pe152af18eb.png,,e9-main-norag-r1,e9_025,E9-2,E9-2-banner,.gov-banner background:#FFFFFF,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#FFFFFF;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#1D1D1D},2,miss,0,0,0,0,0,0,0,0,1
+I79cfc32114,20,0,,shots/Pb1e14d18dc.png,,e9-main-norag-r1,e9_027,E9-2,E9-2-footer,.ft background:#FFFFFF,.ft{background:#FFFFFF;border-top:1px solid #D8D8D8;color:#1D1D1D;padding:12px 16px},1,miss,0,0,0,0,0,0,0,0,1
+Ia848a76206,53,0,,shots/P284bf722d5.png,,e9-main-norag-r1,e9_038,E9-2,E9-2-footer,.ft-copy font-weight:700,.ft-copy{font-size:15px;font-weight:700},3,miss,0,0,0,0,0,0,0,0,1
+I46dad5fca3,55,0,,shots/P0b4088422d.png,,e9-main-norag-r1,e9_043,E9-2,E9-2-banner,.gov-banner font-weight:700,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:700;color:#1D1D1D},2,miss,0,0,0,0,0,0,0,0,1
+Ia4cf3dd108,8,0,,shots/P3746389981.png,,e9-main-norag-r1,e9_044,E9-2,E9-2-header,.hd-icon font-size:15px,.hd-icon{font-size:15px;font-weight:700},0,miss,0,0,0,0,0,0,0,0,1
+Ia9f6150f8e,71,0,,shots/Pda6cb75af5.png,,e9-main-norag-r1,e9_047,E9-2,E9-2-banner,.gov-banner font-weight:700,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:700;color:#1D1D1D},0,miss,0,0,0,0,0,0,0,0,1
+I3fac7ad440,134,0,,shots/Pd1c7b31237.png,,e9-main-norag-r1,e9_050,E9-2,E9-2-banner,.gov-banner color:#000000,.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#000000},2,miss,0,0,0,0,0,0,0,0,1
+I87eec5fa6b,119,0,,shots/Pc0aa3d8fa2.png,,e9-main-norag-r1,e9_087,E9-2,E9-2-header,.hd-icon font-size:15px,.hd-icon{font-size:15px;font-weight:700},0,miss,0,0,0,0,0,0,0,0,1
+If1f9fc3a37,21,1,11,shots/Pfdeee21c7b.png,shots/Pc49a316946.png,e9-main-norag-r1,e9_090,E9-2,E9-2-footer,.ft-contact font-size:15px,.ft-contact{font-size:15px;font-weight:400},1,miss,0,0,0,0,0,0,0,0,1
+I767682f7f3,93,0,,shots/Pd6cf3042ab.png,,e9-main-norag-r1,e9_003,E9-3,E9-3,href /login -> /signup,"href=""/signup""",1,miss,0,0,0,0,0,0,0,0,1
+Ieecd25670c,137,1,7,shots/P837cda6cda.png,shots/P474db865e8.png,e9-main-norag-r1,e9_004,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,miss,0,0,0,0,0,0,0,0,1
+I491359a0a5,7,0,,shots/Pda6728f339.png,,e9-main-norag-r1,e9_017,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,miss,0,0,0,0,0,0,0,0,1
+I42ddc6d63e,113,0,,shots/P238ade69e9.png,,e9-main-norag-r1,e9_024,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,miss,0,0,0,0,0,0,0,0,1
+I60f73ecf12,59,0,,shots/P8aca3819da.png,,e9-main-norag-r1,e9_026,E9-3,E9-3,href /login -> /signup,"href=""/signup""",1,miss,0,0,0,0,0,0,0,0,1
+I944eed37d9,91,0,,shots/P8aca3819da.png,,e9-main-norag-r1,e9_026,E9-3,E9-3,href /login -> /signup,"href=""/signup""",2,hit,0,0,1,0,0,0,1,0,2
+I6558eaaa0c,94,1,9,shots/P34fe77e28e.png,shots/P02dce6dbc8.png,e9-main-norag-r1,e9_029,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,miss,0,0,0,0,0,0,0,0,1
+Ic7e505aed3,46,1,16,shots/P62e12d0927.png,shots/P7dd98401ea.png,e9-main-norag-r1,e9_034,E9-3,E9-3,href /login -> /signup,"href=""/signup""",1,hit,0,0,1,0,0,0,1,0,1
+Ibe5dab10a0,14,0,,shots/P62e12d0927.png,,e9-main-norag-r1,e9_034,E9-3,E9-3,href /login -> /signup,"href=""/signup""",2,miss,0,0,0,0,0,0,0,0,1
+I9b44bed7f0,72,0,,shots/P29c2777875.png,,e9-main-norag-r1,e9_049,E9-3,E9-3,href /login -> /signup,"href=""/signup""",1,miss,0,0,0,0,0,0,0,0,2
+I133274a380,133,0,,shots/Pc8912759e8.png,,e9-main-norag-r1,e9_053,E9-3,E9-3,href /login -> /signup,"href=""/signup""",1,miss,0,0,0,0,0,0,0,0,2
+I9231ed5d43,42,0,,shots/P5c2ea49d44.png,,e9-main-norag-r1,e9_058,E9-3,E9-3,href /login -> /signup,"href=""/signup""",2,hit,0,0,1,0,0,0,1,0,2
+I8a6028b2f3,122,0,,shots/P5c2ea49d44.png,,e9-main-norag-r1,e9_058,E9-3,E9-3,href /login -> /signup,"href=""/signup""",4,miss,0,0,0,0,0,0,0,0,1
+Icf36d35aaf,48,0,,shots/P8f0ca848f4.png,,e9-main-norag-r1,e9_062,E9-3,E9-3,href /login -> /signup,"href=""/signup""",3,miss,0,0,0,0,0,0,0,0,1
+I27d493bc9d,24,0,,shots/P2cd64027d9.png,,e9-main-norag-r1,e9_075,E9-3,E9-3,href /login -> /signup,"href=""/signup""",4,miss,0,0,0,0,0,0,0,0,1
+I0a7f6e7c83,99,0,,shots/P78ef1a92fb.png,,e9-main-norag-r1,e9_080,E9-3,E9-3,href /login -> /signup,"href=""/signup""",1,miss,0,0,0,0,0,0,0,0,1
+Ic57e07f8ab,47,0,,shots/P6d1d2507f0.png,,e9-main-norag-r1,e9_088,E9-3,E9-3,href /login -> /signup,"href=""/signup""",0,miss,0,0,0,0,0,0,0,0,1
+Ia6bf4bfb50,57,0,,shots/P38b1b78a7f.png,,e9-main-norag-r1,e9_089,E9-3,E9-3,href /login -> /signup,"href=""/signup""",2,miss,0,0,0,0,0,0,0,0,1
+I978781cb57,75,0,,shots/Pe8e47d8078.png,,e9-main-norag-r1,e9_009,control,control,,,1,miss,0,0,0,0,0,0,0,0,2
+Ie448706fdd,60,0,,shots/Pcd04a890d1.png,,e9-main-norag-r1,e9_010,control,control,,,0,miss,0,0,0,0,0,0,0,0,2
+I35d21b764d,100,1,14,shots/Pcd04a890d1.png,shots/Pb853713160.png,e9-main-norag-r1,e9_010,control,control,,,2,hit,0,1,0,0,0,1,0,0,2
+I6657a918fb,25,0,,shots/P0d82c42a60.png,,e9-main-norag-r1,e9_011,control,control,,,0,miss,0,0,0,0,0,0,0,0,1
+I9c40dcb64e,19,0,,shots/P34a66bad4a.png,,e9-main-norag-r1,e9_012,control,control,,,0,miss,0,0,0,0,0,0,0,0,1
+I8447c7395f,35,0,,shots/Pd156213e75.png,,e9-main-norag-r1,e9_028,control,control,,,0,miss,0,0,0,0,0,0,0,0,1
+I43df36fc3a,61,0,,shots/P44728db9b7.png,,e9-main-norag-r1,e9_036,control,control,,,2,miss,0,0,0,0,0,0,0,0,1
+I1d9f08547e,76,1,1,shots/P5c38a24db1.png,shots/Pf827fb229c.png,e9-main-norag-r1,e9_039,control,control,,,0,miss,0,0,0,0,0,0,0,0,2
+I1dc33c6122,2,0,,shots/P5c38a24db1.png,,e9-main-norag-r1,e9_039,control,control,,,2,hit,0,1,0,0,0,1,0,0,2
+Id98ac5cec0,10,0,,shots/Pd9c8d73c67.png,,e9-main-norag-r1,e9_054,control,control,,,1,miss,0,0,0,0,0,0,0,0,1
+I0084f71857,74,0,,shots/Pb94dc5e3a6.png,,e9-main-norag-r1,e9_060,control,control,,,5,miss,0,0,0,0,0,0,0,0,1
+I3f158b3f26,107,0,,shots/Pe6ad2fac4b.png,,e9-main-norag-r1,e9_061,control,control,,,1,miss,0,0,0,0,0,0,0,0,1
+I74d1b62e31,17,1,20,shots/P5bfde671b2.png,shots/P5047d93aa6.png,e9-main-norag-r1,e9_064,control,control,,,1,miss,0,0,0,0,0,0,0,0,1
+I4568398764,15,0,,shots/Pf9dfdae376.png,,e9-main-norag-r1,e9_068,control,control,,,1,miss,0,0,0,0,0,0,0,0,2
+Id94ecf9d0c,115,1,8,shots/Pa70e0779f1.png,shots/P9e41c000fb.png,e9-main-norag-r1,e9_073,control,control,,,2,miss,0,0,0,0,0,0,0,0,1
+I8be2eb7ef5,88,0,,shots/P55ab7515ed.png,,e9-main-norag-r1,e9_081,control,control,,,0,miss,0,0,0,0,0,0,0,0,1
+Ie77ba6dcc0,126,0,,shots/P51b6f997f6.png,,e9-main-norag-r1,e9_084,control,control,,,3,miss,0,0,0,0,0,0,0,0,1

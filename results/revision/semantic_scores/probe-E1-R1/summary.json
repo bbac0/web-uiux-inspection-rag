@@ -1,0 +1,33 @@
+{
+  "out_id": "probe-E1-R1",
+  "source_run": "E1-R1",
+  "seed": 20261115,
+  "n_requested": 20,
+  "n_called": 20,
+  "issues_in_run": 676,
+  "mock": false,
+  "config_sha256": "290b6eadc2fef41f2be56f0407db963677f1c18114a4a1eb1d7a8664b9fce8e0",
+  "input_tokens": {
+    "n": 20,
+    "mean": 892.1,
+    "min": 780,
+    "max": 996
+  },
+  "output_tokens": {
+    "n": 20,
+    "mean": 12.7,
+    "min": 10,
+    "max": 20
+  },
+  "stop_reasons": {
+    "end_turn": 20
+  },
+  "truncated_max_tokens": 0,
+  "model_versions": [
+    "claude-sonnet-5-5"
+  ],
+  "sent_via_extra_body": [],
+  "stopped": null,
+  "finished_utc": "2026-11-12T16:35:04.309+00:00",
+  "note": "labels and raw responses are not recorded (blinded); not used as grading results"
+}

@@ -1,0 +1,157 @@
+{
+  "run_id": "E4-mobile",
+  "condition": "E4-mobile",
+  "started_utc": "2026-11-12T19:00:12.131+00:00",
+  "finished_utc": "2026-11-12T19:24:21.772+00:00",
+  "aborted": false,
+  "abort_reason": null,
+  "pages_requested": 95,
+  "pages_with_record": 95,
+  "pages_missing_record": [],
+  "records": 95,
+  "status_counts": {
+    "ok": 95
+  },
+  "failed_pages": [],
+  "parse_error_pages": [],
+  "tokens_total": {
+    "prompt_token_count": 215588,
+    "cached_content_token_count": 45794,
+    "candidates_token_count": 61690,
+    "total_token_count": 549019,
+    "thoughts_token_count_derived": 225947
+  },
+  "tokens_mean": {
+    "prompt_token_count": 2269.3,
+    "cached_content_token_count": 482.0,
+    "candidates_token_count": 649.4,
+    "total_token_count": 5779.1,
+    "thoughts_token_count_derived": 2378.4
+  },
+  "cost_usd_total": 0.771405,
+  "cost_usd_mean_per_call": 0.00812,
+  "latency_sec": {
+    "acquisition": {
+      "n": 95,
+      "mean": 3.8783,
+      "median": 3.878,
+      "p95": 3.9012
+    },
+    "query_embedding": {
+      "n": 95,
+      "mean": 0.4714,
+      "median": 0.4785,
+      "p95": 0.5131
+    },
+    "vector_search": {
+      "n": 95,
+      "mean": 0.0042,
+      "median": 0.003,
+      "p95": 0.0157
+    },
+    "upload": {
+      "n": 95,
+      "mean": 4.4769,
+      "median": 4.3515,
+      "p95": 5.3207
+    },
+    "llm": {
+      "n": 95,
+      "mean": 18.1345,
+      "median": 18.0205,
+      "p95": 23.1169
+    },
+    "total": {
+      "n": 95,
+      "mean": 29.1033,
+      "median": 28.8158,
+      "p95": 34.7489
+    }
+  },
+  "retries_total": 0,
+  "model_versions": [
+    "gemini-2.5-flash"
+  ],
+  "prompt_sha256_distinct": 46,
+  "negative_derived_thoughts": [],
+  "cached_tokens_positive": [
+    "page_016",
+    "page_024",
+    "page_026",
+    "page_042",
+    "page_067",
+    "page_068",
+    "page_071",
+    "page_078",
+    "page_085",
+    "page_087",
+    "page_100",
+    "page_110",
+    "page_112",
+    "page_118",
+    "page_120",
+    "page_136",
+    "page_158",
+    "page_162",
+    "page_178",
+    "page_186",
+    "page_192",
+    "page_199"
+  ],
+  "rag_n_chunks_counts": {
+    "4": 95
+  },
+  "schema_problem_records": 0,
+  "cost_usd_breakdown": {
+    "input_uncached": 0.050938,
+    "input_cached": 0.001374,
+    "output": 0.719093
+  },
+  "thoughts_check_mismatch": [
+    "page_016",
+    "page_024",
+    "page_026",
+    "page_042",
+    "page_067",
+    "page_068",
+    "page_071",
+    "page_078",
+    "page_085",
+    "page_087",
+    "page_100",
+    "page_110",
+    "page_112",
+    "page_118",
+    "page_120",
+    "page_136",
+    "page_158",
+    "page_162",
+    "page_178",
+    "page_186",
+    "page_192",
+    "page_199"
+  ],
+  "chroma": {
+    "source": "services/chroma_db",
+    "copied_at_utc": "2026-11-12T19:00:12.744+00:00",
+    "copy_path": "<HOME>\\AppData\\Local\\Temp\\chroma_E4-mobile_3ja3w1iu\\chroma_db",
+    "source_sha256": {
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/data_level0.bin": "9a04f76f4997901ab061bc48d621e9cf3044a1a90180878d09482192a1c3366f",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/header.bin": "397183ff93fe1d8f4a9ea91f6fd2615782c5cd7ca30e5275d1a5f899abb10a17",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/index_metadata.pickle": "3487e78d48f423e5444892612440b5e8998e73a9f314c9d099b69985eb509a63",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/length.bin": "fd7ca52bc90eefbe7a82498b18f6668824b7e3380b096d656c53e57a3d0d515f",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/link_lists.bin": "affa510add7d2d97492f814a35f8a10054564ab48f9663661e2f1da92895dcd6",
+      "chroma.sqlite3": "b3fed16a5f4b65a26b867e98a27cceb60712a7951afe80643588d7cae1a4809b"
+    },
+    "source_combined_sha256": "95165c227ef7567f9bc99b0d132b0de45a0828c82565b3ce9cf72e5bd8ebaae1",
+    "cleanup": {
+      "deleted": true,
+      "warning": null
+    }
+  },
+  "prices": {
+    "input_uncached_per_1M": 0.3,
+    "input_cached_per_1M": 0.03,
+    "output_incl_thinking_per_1M": 2.5
+  }
+}

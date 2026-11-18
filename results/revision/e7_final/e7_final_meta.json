@@ -1,0 +1,53 @@
+{
+ "keyword_string_match_vs_e7_mismatch_cells": {
+  "E1-R1": {
+   "keyword": 0,
+   "string_match": 0
+  },
+  "E1-R2": {
+   "keyword": 0,
+   "string_match": 0
+  },
+  "E1-R3b": {
+   "keyword": 0,
+   "string_match": 0
+  },
+  "E2-A1-1": {
+   "keyword": 0,
+   "string_match": 0
+  },
+  "E2-A1-2": {
+   "keyword": 0,
+   "string_match": 0
+  },
+  "E2-A1-3": {
+   "keyword": 0,
+   "string_match": 0
+  }
+ },
+ "has_semantic": {
+  "E1-R1": true,
+  "E1-R2": true,
+  "E1-R3b": true,
+  "E2-A1-1": true,
+  "E2-A1-2": true,
+  "E2-A1-3": true
+ },
+ "bootstrap": {
+  "B": 10000,
+  "seed": 20261111,
+  "templates": [
+   "board_list",
+   "contact_page",
+   "dashboard",
+   "detail_page",
+   "faq_page",
+   "form_page",
+   "login_page",
+   "portal_main",
+   "search_result",
+   "terms_page"
+  ]
+ },
+ "e4_viewport_note": "E4 블록은 nominal, effective(1280), effective_390, 근거 층(1280, 390) 모두 계산"
+}

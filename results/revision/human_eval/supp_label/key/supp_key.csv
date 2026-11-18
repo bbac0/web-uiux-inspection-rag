@@ -1,0 +1,108 @@
+﻿issue_id,base_order,pos_A,pos_B,stratum,run_id,page_id,issue_index,source_issue_id,semantic_pass1_merged,string_match_term,keyword_types,screenshot_path,screenshot_run,screenshot_substituted,dup_n_total,dup_by_run
+Ie2ee2fecae,1,31,39,S1,E3-oracle,page_007,0,E3-oracle:page_007:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/Pc0e398c88a.png,E3-oracle,0,1,E3-oracle:1
+I81928faaa4,2,41,102,S1,E3-oracle,page_180,1,E3-oracle:page_180:01,Standard Terminology Violation,1,Standard Terminology Violation,shots/Pba44547559.png,E3-oracle,0,1,E3-oracle:1
+Ide5be6c817,3,39,3,S2,E2-A1-1,page_175,1,E2-A1-1:page_175:01,None,1,Standard Terminology Violation,shots/P2bd668edc5.png,E2-A1-1,0,2,E2-A1-1:1;E2-A1-3:1
+Ie54861ffa0,4,85,70,S1,E3-oracle,page_119,1,E3-oracle:page_119:01,Standard Terminology Violation,1,Standard Terminology Violation,shots/P6d6d2a02a3.png,E3-oracle,0,1,E3-oracle:1
+Ie8dca014d2,5,107,45,S2,E2-A1-2,page_121,2,E2-A1-2:page_121:02,None,1,Standard Terminology Violation,shots/P96413df44b.png,E2-A1-2,0,1,E2-A1-2:1
+Iff6ff3adf6,6,90,84,S1,E2-A1-1,page_044,1,E2-A1-1:page_044:01,Standard Terminology Violation,0,,shots/P245922c26a.png,E2-A1-1,0,1,E2-A1-1:1
+I5f805c4e04,7,84,43,S1,E2-A1-1,page_061,0,E2-A1-1:page_061:00,Standard Terminology Violation,0,,shots/Pd22a62554c.png,E2-A1-1,0,5,E2-A1-1:2;E2-A1-2:1;E2-A1-3:2
+I817c543352,8,17,95,S2,E2-A1-1,page_134,1,E2-A1-1:page_134:01,None,1,Standard Terminology Violation,shots/P15ac2abb42.png,E2-A1-1,0,2,E2-A1-1:1;E2-A1-2:1
+Id8a236970f,9,50,10,S3,E2-A1-1,page_048,0,E2-A1-1:page_048:00,Duplicate ID Markup Error,0,Duplicate ID Markup Error,shots/P668c552d82.png,E2-A1-1,0,4,E2-A1-1:1;E2-A1-2:2;E2-A1-3:1
+I6e1a184e66,10,20,8,S3,E2-A1-1,page_148,0,E2-A1-1:page_148:00,Mobile Layout Breakage,0,Mobile Layout Breakage,shots/Pcc1e876b57.png,E2-A1-1,0,9,E2-A1-1:1;E2-A1-2:4;E2-A1-3:4
+Icb4f6e214c,11,45,32,S2,E2-A1-2,page_049,0,E2-A1-2:page_049:00,None,1,Standard Terminology Violation,shots/P6b29f162af.png,E2-A1-2,0,3,E2-A1-2:2;E2-A1-3:1
+Ida9402bb5c,12,96,75,S3,E2-A1-1,page_104,2,E2-A1-1:page_104:02,None,0,,shots/P72f0b5985c.png,E2-A1-1,0,2,E2-A1-1:1;E2-A1-2:1
+I8c9119751a,13,6,103,S2,E2-A1-1,page_023,0,E2-A1-1:page_023:00,Button Area Clipping,1,Standard Terminology Violation,shots/P14cc631d5d.png,E2-A1-1,0,5,E2-A1-1:2;E2-A1-2:2;E2-A1-3:1
+Ifbc92cc89d,14,18,50,S1,E3-oracle,page_159,1,E3-oracle:page_159:01,Standard Terminology Violation,1,Standard Terminology Violation,shots/P3ebbbfe8a2.png,E3-oracle,0,1,E3-oracle:1
+Ib4036db33c,15,37,106,S1,E3-page,page_079,1,E3-page:page_079:01,Standard Terminology Violation,1,Standard Terminology Violation,shots/P00c2e6a280.png,E3-page,0,1,E3-page:1
+I08de5cad49,16,61,82,S3,E3-page,page_076,1,E3-page:page_076:01,None,0,,shots/P38c26d5f26.png,E3-page,0,1,E3-page:1
+I3f79e76520,17,33,11,S2,E2-A1-1,page_052,2,E2-A1-1:page_052:02,None,1,Standard Terminology Violation,shots/P604c24f8e0.png,E2-A1-1,0,2,E2-A1-1:1;E2-A1-2:1
+Iaeb0be0003,18,65,56,S1,E3-oracle,page_160,0,E3-oracle:page_160:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/P0ffbdb2e50.png,E3-oracle,0,1,E3-oracle:1
+Iaf86779f7b,19,102,69,S2,E3-oracle,page_133,0,E3-oracle:page_133:00,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage;Standard Terminology Violation,shots/P97d51bdb7e.png,E3-oracle,0,1,E3-oracle:1
+I63ebbe9c58,20,86,20,S3,E2-A1-1,page_098,2,E2-A1-1:page_098:02,None,0,,shots/P48c65b5b05.png,E2-A1-1,0,3,E2-A1-1:3
+I8e229e8849,21,95,33,S3,E2-A1-2,page_101,3,E2-A1-2:page_101:03,None,0,,shots/P4fa35b00ab.png,E2-A1-2,0,6,E2-A1-2:2;E2-A1-3:4
+Ieb0657bb64,22,101,76,S1,E4-mobile,page_007,2,E4-mobile:page_007:02,Standard Terminology Violation,1,Standard Terminology Violation,shots/Pc0e398c88a.png,E1-R1,1,1,E4-mobile:1
+If4f9375a0c,23,8,21,S1,E3-oracle,page_119,0,E3-oracle:page_119:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/P6d6d2a02a3.png,E3-oracle,0,1,E3-oracle:1
+I327b9d0a09,24,21,68,S1,E3-oracle,page_062,0,E3-oracle:page_062:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/Pb2c9d34fef.png,E3-oracle,0,1,E3-oracle:1
+Iee757a6931,25,26,89,S1,E4-mobile,page_117,2,E4-mobile:page_117:02,Standard Terminology Violation,0,,shots/Pa66bdb0ed1.png,E1-R1,1,1,E4-mobile:1
+I22c71db0fa,26,25,38,S1,E2-A1-2,page_157,0,E2-A1-2:page_157:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/P95ee1371ce.png,E2-A1-2,0,5,E2-A1-2:2;E2-A1-3:3
+Iabf5e72281,27,91,15,S3,E3-page,page_171,0,E3-page:page_171:00,Duplicate ID Markup Error,0,Duplicate ID Markup Error,shots/P82332d5fa5.png,E3-page,0,1,E3-page:1
+Id7d83ebdb1,28,2,30,S1,E4-mobile,page_131,3,E4-mobile:page_131:03,Standard Terminology Violation,0,,shots/Pc2e9184b03.png,E1-R1,1,1,E4-mobile:1
+Ifaf9e5d4c3,29,34,73,S1,E4-mobile,page_062,2,E4-mobile:page_062:02,Standard Terminology Violation,1,Standard Terminology Violation,shots/Pb2c9d34fef.png,E1-R1,1,1,E4-mobile:1
+I4dee4da73f,30,3,94,S2,E2-A1-1,page_079,1,E2-A1-1:page_079:01,None,1,Standard Terminology Violation,shots/P00c2e6a280.png,E2-A1-1,0,2,E2-A1-1:1;E2-A1-2:1
+Ic9f4e8cb47,31,98,54,S1,E3-oracle,page_076,1,E3-oracle:page_076:01,Standard Terminology Violation,1,Standard Terminology Violation,shots/P38c26d5f26.png,E3-oracle,0,1,E3-oracle:1
+Ieb8cc55f52,32,46,5,S2,E2-A1-1,page_169,2,E2-A1-1:page_169:02,None,1,Standard Terminology Violation,shots/P528209c3f7.png,E2-A1-1,0,2,E2-A1-1:1;E2-A1-2:1
+I449e884a58,33,69,57,S1,E3-oracle,page_049,0,E3-oracle:page_049:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/P6b29f162af.png,E3-oracle,0,1,E3-oracle:1
+I16733c3cf2,34,105,65,S3,E3-oracle,page_025,0,E3-oracle:page_025:00,Mobile Layout Breakage,0,Mobile Layout Breakage,shots/Pd500190d45.png,E3-oracle,0,2,E3-oracle:2
+Iede63b6bfd,35,97,87,S2,E3-page,page_133,0,E3-page:page_133:00,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage;Standard Terminology Violation,shots/P97d51bdb7e.png,E3-page,0,1,E3-page:1
+Ic0192e33df,36,79,58,S1,E3-page,page_076,0,E3-page:page_076:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/P38c26d5f26.png,E3-page,0,1,E3-page:1
+I4471521d9e,37,100,14,S3,E4-mobile,page_163,3,E4-mobile:page_163:03,None,0,,shots/P0090e7d5d1.png,E1-R1,1,1,E4-mobile:1
+I843783087a,38,13,35,S2,E3-oracle,page_171,0,E3-oracle:page_171:00,None,1,Standard Terminology Violation,shots/P82332d5fa5.png,E3-oracle,0,1,E3-oracle:1
+I1a66c0b19d,39,104,42,S1,E3-page,page_152,0,E3-page:page_152:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/P227b9347e0.png,E3-page,0,2,E3-page:2
+Ic200ebdc2b,40,30,64,S1,E3-page,page_034,0,E3-page:page_034:00,Standard Terminology Violation,0,,shots/P0153ab5821.png,E3-page,0,2,E3-page:2
+I1ed708881f,41,63,63,S3,E2-A1-1,page_123,1,E2-A1-1:page_123:01,Mobile Layout Breakage,0,Mobile Layout Breakage,shots/Pbd7f4eaffa.png,E2-A1-1,0,1,E2-A1-1:1
+I4871c701c1,42,10,37,S2,E2-A1-1,page_017,1,E2-A1-1:page_017:01,None,1,Standard Terminology Violation,shots/Pb5543434f5.png,E2-A1-1,0,2,E2-A1-1:1;E2-A1-3:1
+I872cde5eef,43,55,74,S1,E3-oracle,page_072,0,E3-oracle:page_072:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/P68608c1c41.png,E3-oracle,0,3,E3-oracle:3
+Ia3e7680276,44,53,77,S3,E2-A1-1,page_010,2,E2-A1-1:page_010:02,None,0,,shots/Pcf728042c7.png,E2-A1-1,0,2,E2-A1-1:1;E2-A1-2:1
+Id1ec83e3d3,45,28,60,S1,E3-oracle,page_151,0,E3-oracle:page_151:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/Pb4fb38f0fd.png,E3-oracle,0,2,E3-oracle:2
+I61efd2bf7e,46,54,93,S3,E2-A1-1,page_116,1,E2-A1-1:page_116:01,None,0,,shots/P37c5127859.png,E2-A1-1,0,6,E2-A1-1:3;E2-A1-2:2;E2-A1-3:1
+I554551254d,47,43,98,S2,E2-A1-1,page_049,1,E2-A1-1:page_049:01,None,1,Standard Terminology Violation,shots/P6b29f162af.png,E2-A1-1,0,3,E2-A1-1:2;E2-A1-3:1
+I19b672def9,48,14,18,S3,E2-A1-1,page_021,1,E2-A1-1:page_021:01,Mobile Layout Breakage,0,Mobile Layout Breakage,shots/P0c790ea1c7.png,E2-A1-1,0,4,E2-A1-1:1;E2-A1-2:2;E2-A1-3:1
+I2cbfa07a97,49,5,67,S1,E3-oracle,page_079,0,E3-oracle:page_079:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/P00c2e6a280.png,E3-oracle,0,1,E3-oracle:1
+Ia5887560b4,50,70,99,S3,E2-A1-1,page_014,0,E2-A1-1:page_014:00,Duplicate ID Markup Error,0,,shots/Pe16c5e6db6.png,E2-A1-1,0,1,E2-A1-1:1
+I035cc414ab,51,99,100,S1,E2-A1-1,page_122,3,E2-A1-1:page_122:03,Standard Terminology Violation,1,Standard Terminology Violation,shots/P53cfb225a0.png,E2-A1-1,0,7,E2-A1-1:2;E2-A1-2:3;E2-A1-3:2
+Ide8ccc03f2,52,36,41,S2,E3-oracle,page_170,2,E3-oracle:page_170:02,Poor Contrast Ratio,1,Poor Contrast Ratio;Standard Terminology Violation,shots/P5d3af2969e.png,E3-oracle,0,1,E3-oracle:1
+I13f71ec4f0,53,66,80,S1,E3-oracle,page_169,1,E3-oracle:page_169:01,Standard Terminology Violation,1,Standard Terminology Violation,shots/P528209c3f7.png,E3-oracle,0,1,E3-oracle:1
+Ia0b52d8c1c,54,24,79,S1,E3-page,page_151,0,E3-page:page_151:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/Pb4fb38f0fd.png,E3-page,0,2,E3-page:2
+I8660d7bcce,55,19,71,S3,E2-A1-1,page_064,0,E2-A1-1:page_064:00,None,0,Mobile Layout Breakage,shots/Pd8087007b0.png,E2-A1-1,0,8,E2-A1-1:2;E2-A1-2:2;E2-A1-3:4
+I2fd29d005d,56,51,23,S2,E3-oracle,page_023,0,E3-oracle:page_023:00,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage;Standard Terminology Violation,shots/P14cc631d5d.png,E3-oracle,0,2,E3-oracle:2
+I94c5ec178d,57,11,16,S1,E3-oracle,page_200,1,E3-oracle:page_200:01,Standard Terminology Violation,1,Standard Terminology Violation,shots/P335285c854.png,E3-oracle,0,1,E3-oracle:1
+Id374cdcc47,58,83,9,S2,E2-A1-1,page_079,2,E2-A1-1:page_079:02,None,1,Standard Terminology Violation,shots/P00c2e6a280.png,E2-A1-1,0,2,E2-A1-1:1;E2-A1-2:1
+I1988e653db,59,64,107,S2,E3-oracle,page_170,0,E3-oracle:page_170:00,Poor Contrast Ratio,1,Poor Contrast Ratio;Standard Terminology Violation,shots/P5d3af2969e.png,E3-oracle,0,1,E3-oracle:1
+Ib720a22da6,60,94,4,S1,E3-oracle,page_122,1,E3-oracle:page_122:01,Standard Terminology Violation,1,Standard Terminology Violation,shots/P53cfb225a0.png,E3-oracle,0,1,E3-oracle:1
+I34015101bb,61,78,59,S3,E2-A1-1,page_122,2,E2-A1-1:page_122:02,None,0,,shots/P53cfb225a0.png,E2-A1-1,0,7,E2-A1-1:2;E2-A1-2:3;E2-A1-3:2
+I15afee7d69,62,22,88,S1,E3-page,page_070,0,E3-page:page_070:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/P8d1868787b.png,E3-page,0,1,E3-page:1
+I8483552cd3,63,87,34,S2,E2-A1-1,page_076,2,E2-A1-1:page_076:02,None,1,Standard Terminology Violation,shots/P38c26d5f26.png,E2-A1-1,0,2,E2-A1-1:1;E2-A1-2:1
+I8d817c5729,64,16,90,S2,E3-oracle,page_200,0,E3-oracle:page_200:00,None,1,Standard Terminology Violation,shots/P335285c854.png,E3-oracle,0,1,E3-oracle:1
+If06effb8e2,65,52,6,S1,E3-oracle,page_140,1,E3-oracle:page_140:01,Standard Terminology Violation,1,Standard Terminology Violation,shots/P7ce55f251f.png,E3-oracle,0,1,E3-oracle:1
+I9afdf50b39,66,72,24,S3,E2-A1-3,page_141,0,E2-A1-3:page_141:00,Mobile Layout Breakage,0,Mobile Layout Breakage,shots/Pb2c25977e1.png,E2-A1-3,0,1,E2-A1-3:1
+I863a9afb90,67,82,66,S3,E3-page,page_079,0,E3-page:page_079:00,Button Area Clipping,0,Button Area Clipping,shots/P00c2e6a280.png,E3-page,0,1,E3-page:1
+I4152b12053,68,76,83,S3,E2-A1-1,page_156,2,E2-A1-1:page_156:02,None,0,,shots/Pce724fb21b.png,E2-A1-1,0,3,E2-A1-1:1;E2-A1-2:1;E2-A1-3:1
+I677e973e88,69,58,36,S1,E3-page,page_170,2,E3-page:page_170:02,Standard Terminology Violation,1,Standard Terminology Violation,shots/P5d3af2969e.png,E3-page,0,2,E3-page:2
+Ic1625d2aa7,70,103,49,S3,E2-A1-1,page_116,0,E2-A1-1:page_116:00,Poor Contrast Ratio,0,Poor Contrast Ratio,shots/P37c5127859.png,E2-A1-1,0,6,E2-A1-1:3;E2-A1-2:2;E2-A1-3:1
+If231e0524f,71,35,97,S2,E2-A1-2,page_175,0,E2-A1-2:page_175:00,None,1,Standard Terminology Violation,shots/P2bd668edc5.png,E2-A1-2,0,1,E2-A1-2:1
+Ic980009d62,72,48,25,S1,E2-A1-1,page_134,2,E2-A1-1:page_134:02,Standard Terminology Violation,0,,shots/P15ac2abb42.png,E2-A1-1,0,2,E2-A1-1:1;E2-A1-2:1
+I106dc31c0c,73,12,29,S2,E3-oracle,page_023,1,E3-oracle:page_023:01,Button Area Clipping,1,Standard Terminology Violation,shots/P14cc631d5d.png,E3-oracle,0,2,E3-oracle:2
+Iff6ce9fac8,74,81,22,S1,E3-page,page_179,3,E3-page:page_179:03,Standard Terminology Violation,1,Standard Terminology Violation,shots/P953678b4de.png,E3-page,0,1,E3-page:1
+I7cd7134e05,75,89,1,S3,E2-A1-3,page_128,1,E2-A1-3:page_128:01,None,0,,shots/P51dd9ccb93.png,E2-A1-3,0,1,E2-A1-3:1
+I1b0afc2e03,76,106,28,S2,E3-oracle,page_122,0,E3-oracle:page_122:00,None,1,Standard Terminology Violation,shots/P53cfb225a0.png,E3-oracle,0,1,E3-oracle:1
+Id7116fd92e,77,75,85,S3,E2-A1-3,page_193,0,E2-A1-3:page_193:00,Mobile Layout Breakage,0,Mobile Layout Breakage,shots/Pddd19a32f0.png,E2-A1-3,0,1,E2-A1-3:1
+I1993deac61,78,74,2,S2,E3-oracle,page_173,0,E3-oracle:page_173:00,Poor Contrast Ratio,1,Poor Contrast Ratio;Standard Terminology Violation,shots/P2c988cd9c5.png,E3-oracle,0,1,E3-oracle:1
+I8a178c56cf,79,67,78,S1,E3-oracle,page_179,0,E3-oracle:page_179:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/P953678b4de.png,E3-oracle,0,1,E3-oracle:1
+Ia957eaa01f,80,59,17,S2,E2-A1-1,page_175,0,E2-A1-1:page_175:00,None,1,Standard Terminology Violation,shots/P2bd668edc5.png,E2-A1-1,0,2,E2-A1-1:1;E2-A1-3:1
+I0199c108c2,81,32,19,S1,E2-A1-1,page_181,2,E2-A1-1:page_181:02,Standard Terminology Violation,1,Standard Terminology Violation,shots/P5a91bf7d5c.png,E2-A1-1,0,3,E2-A1-1:1;E2-A1-2:1;E2-A1-3:1
+I665187b7af,82,23,101,S2,E3-oracle,page_121,0,E3-oracle:page_121:00,None,1,Standard Terminology Violation,shots/P96413df44b.png,E3-oracle,0,1,E3-oracle:1
+I3781d5fe0c,83,62,91,S2,E3-page,page_072,0,E3-page:page_072:00,None,1,Standard Terminology Violation,shots/P68608c1c41.png,E3-page,0,2,E3-page:2
+Id66b24d593,84,88,46,S1,E2-A1-1,page_104,3,E2-A1-1:page_104:03,Standard Terminology Violation,0,,shots/P72f0b5985c.png,E2-A1-1,0,2,E2-A1-1:1;E2-A1-2:1
+Iaa5d764306,85,27,13,S2,E3-page,page_023,0,E3-page:page_023:00,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage;Standard Terminology Violation,shots/P14cc631d5d.png,E3-page,0,2,E3-page:2
+I9e227617d8,86,68,7,S2,E3-oracle,page_104,0,E3-oracle:page_104:00,None,1,Standard Terminology Violation,shots/P72f0b5985c.png,E3-oracle,0,1,E3-oracle:1
+Ia0dac2d6c1,87,15,26,S1,E2-A1-2,page_159,1,E2-A1-2:page_159:01,Standard Terminology Violation,1,Standard Terminology Violation,shots/P3ebbbfe8a2.png,E2-A1-2,0,2,E2-A1-2:1;E2-A1-3:1
+Iad26b5add1,88,56,55,S2,E2-A1-1,page_077,0,E2-A1-1:page_077:00,None,1,Standard Terminology Violation,shots/Pbe161aa91c.png,E2-A1-1,0,4,E2-A1-1:3;E2-A1-2:1
+I221cdcbf45,89,42,72,S3,E2-A1-1,page_109,1,E2-A1-1:page_109:01,Duplicate ID Markup Error,0,Duplicate ID Markup Error,shots/P32bf0e2fbd.png,E2-A1-1,0,1,E2-A1-1:1
+I3512279622,90,47,96,S1,E2-A1-1,page_014,2,E2-A1-1:page_014:02,Standard Terminology Violation,0,,shots/Pe16c5e6db6.png,E2-A1-1,0,1,E2-A1-1:1
+Ie277a53237,91,1,52,S3,E2-A1-1,page_015,1,E2-A1-1:page_015:01,Mobile Layout Breakage,0,Mobile Layout Breakage,shots/P94dfddd500.png,E2-A1-1,0,9,E2-A1-1:2;E2-A1-2:4;E2-A1-3:3
+I9d99f545cd,92,49,48,S3,E2-A1-1,page_016,5,E2-A1-1:page_016:05,None,0,,shots/P3aa1e5065e.png,E2-A1-1,0,7,E2-A1-1:3;E2-A1-2:2;E2-A1-3:2
+I213598f200,93,77,44,S2,E4-mobile,page_174,2,E4-mobile:page_174:02,None,1,Standard Terminology Violation,shots/P71e395f69d.png,E1-R1,1,1,E4-mobile:1
+Id185654bd0,94,38,105,S2,E3-oracle,page_169,2,E3-oracle:page_169:02,None,1,Standard Terminology Violation,shots/P528209c3f7.png,E3-oracle,0,1,E3-oracle:1
+I819647afcf,95,92,40,S1,E3-page,page_062,1,E3-page:page_062:01,Standard Terminology Violation,1,Standard Terminology Violation,shots/Pb2c9d34fef.png,E3-page,0,1,E3-page:1
+Ie42537b2ec,96,9,27,S1,E3-oracle,page_052,0,E3-oracle:page_052:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/P604c24f8e0.png,E3-oracle,0,1,E3-oracle:1
+I463d01217c,97,7,62,S3,E3-page,page_069,1,E3-page:page_069:01,None,0,,shots/P9dc83986e8.png,E3-page,0,3,E3-page:3
+If548cb743a,98,73,86,S3,E2-A1-2,page_011,3,E2-A1-2:page_011:03,None,0,,shots/Pb0a01e9038.png,E2-A1-2,0,2,E2-A1-2:1;E2-A1-3:1
+I3b9b3687ca,99,4,51,S1,E3-oracle,page_077,0,E3-oracle:page_077:00,Standard Terminology Violation,1,Standard Terminology Violation,shots/Pbe161aa91c.png,E3-oracle,0,3,E3-oracle:3
+I96cc2eccbd,100,44,104,S1,E3-oracle,page_070,1,E3-oracle:page_070:01,Standard Terminology Violation,1,Standard Terminology Violation,shots/P8d1868787b.png,E3-oracle,0,1,E3-oracle:1
+I947a4d884b,101,71,12,S3,E2-A1-1,page_018,1,E2-A1-1:page_018:01,Button Area Clipping,0,Button Area Clipping;Mobile Layout Breakage;Poor Contrast Ratio,shots/Pffe1bc46e2.png,E2-A1-1,0,2,E2-A1-1:1;E2-A1-3:1
+I62552905d9,102,60,31,S3,E3-page,page_065,0,E3-page:page_065:00,Duplicate ID Markup Error,0,Duplicate ID Markup Error,shots/P6503230175.png,E3-page,0,1,E3-page:1
+I9044aba367,103,80,92,S2,E3-oracle,page_113,0,E3-oracle:page_113:00,None,1,Standard Terminology Violation,shots/P63997c27d4.png,E3-oracle,0,1,E3-oracle:1
+Ie0db299df2,104,40,53,S3,E2-A1-1,page_115,0,E2-A1-1:page_115:00,Button Area Clipping,0,Button Area Clipping;Poor Contrast Ratio,shots/P2f2e31bab9.png,E2-A1-1,0,5,E2-A1-1:2;E2-A1-2:2;E2-A1-3:1
+I12e55c1648,105,57,81,S1,E2-A1-1,page_024,0,E2-A1-1:page_024:00,Standard Terminology Violation,0,,shots/Pc49ce2a8d8.png,E2-A1-1,0,4,E2-A1-1:2;E2-A1-2:2
+I91b477bca5,106,29,61,S2,E3-oracle,page_017,0,E3-oracle:page_017:00,None,1,Standard Terminology Violation,shots/Pb5543434f5.png,E3-oracle,0,1,E3-oracle:1
+I07fdcad11d,107,93,47,S2,E3-oracle,page_133,1,E3-oracle:page_133:01,None,1,Standard Terminology Violation,shots/P97d51bdb7e.png,E3-oracle,0,1,E3-oracle:1

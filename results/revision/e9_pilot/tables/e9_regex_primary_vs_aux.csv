@@ -1,0 +1,61 @@
+condition,run,type,rule,rule_desc,defect_pages,detected,recall,controls,control_detected,control_fpr,main_metric
+E9-pilot-fixed,e9-pilot-fixed,E9-1,primary,page-specific injected variant (primary),2,0,0.000,2,1,0.500,yes
+E9-pilot-fixed,e9-pilot-fixed,E9-1,aux,all 6 variants on every page (auxiliary),2,0,0.000,2,1,0.500,yes
+E9-pilot-fixed,e9-pilot-fixed,E9-1a,primary,page-specific injected variant (primary),1,0,0.000,2,1,0.500,yes
+E9-pilot-fixed,e9-pilot-fixed,E9-1a,aux,all 6 variants on every page (auxiliary),1,0,0.000,2,1,0.500,yes
+E9-pilot-fixed,e9-pilot-fixed,E9-1b,primary,page-specific injected variant (primary),1,0,0.000,2,1,0.500,yes
+E9-pilot-fixed,e9-pilot-fixed,E9-1b,aux,all 6 variants on every page (auxiliary),1,0,0.000,2,1,0.500,yes
+E9-pilot-fixed,e9-pilot-fixed,E9-2,primary,page-specific injected variant (primary),2,1,0.500,2,0,0.000,yes
+E9-pilot-fixed,e9-pilot-fixed,E9-2,aux,all 6 variants on every page (auxiliary),2,1,0.500,2,0,0.000,yes
+E9-pilot-fixed,e9-pilot-fixed,E9-3,primary,page-specific injected variant (primary),1,0,0.000,2,0,0.000,yes
+E9-pilot-fixed,e9-pilot-fixed,E9-3,aux,all 6 variants on every page (auxiliary),1,0,0.000,2,0,0.000,yes
+E9-pilot-fixed,e9-pilot-fixed,E9-4,primary,page-specific injected variant (primary),1,0,0.000,2,0,0.000,no (auxiliary E9-4)
+E9-pilot-fixed,e9-pilot-fixed,E9-4,aux,all 6 variants on every page (auxiliary),1,0,0.000,2,0,0.000,no (auxiliary E9-4)
+E9-pilot-fixedlong,e9-pilot-fixedlong,E9-1,primary,page-specific injected variant (primary),2,0,0.000,2,0,0.000,yes
+E9-pilot-fixedlong,e9-pilot-fixedlong,E9-1,aux,all 6 variants on every page (auxiliary),2,0,0.000,2,0,0.000,yes
+E9-pilot-fixedlong,e9-pilot-fixedlong,E9-1a,primary,page-specific injected variant (primary),1,0,0.000,2,0,0.000,yes
+E9-pilot-fixedlong,e9-pilot-fixedlong,E9-1a,aux,all 6 variants on every page (auxiliary),1,0,0.000,2,0,0.000,yes
+E9-pilot-fixedlong,e9-pilot-fixedlong,E9-1b,primary,page-specific injected variant (primary),1,0,0.000,2,0,0.000,yes
+E9-pilot-fixedlong,e9-pilot-fixedlong,E9-1b,aux,all 6 variants on every page (auxiliary),1,0,0.000,2,0,0.000,yes
+E9-pilot-fixedlong,e9-pilot-fixedlong,E9-2,primary,page-specific injected variant (primary),2,0,0.000,2,0,0.000,yes
+E9-pilot-fixedlong,e9-pilot-fixedlong,E9-2,aux,all 6 variants on every page (auxiliary),2,0,0.000,2,0,0.000,yes
+E9-pilot-fixedlong,e9-pilot-fixedlong,E9-3,primary,page-specific injected variant (primary),1,0,0.000,2,0,0.000,yes
+E9-pilot-fixedlong,e9-pilot-fixedlong,E9-3,aux,all 6 variants on every page (auxiliary),1,0,0.000,2,0,0.000,yes
+E9-pilot-fixedlong,e9-pilot-fixedlong,E9-4,primary,page-specific injected variant (primary),1,1,1.000,2,0,0.000,no (auxiliary E9-4)
+E9-pilot-fixedlong,e9-pilot-fixedlong,E9-4,aux,all 6 variants on every page (auxiliary),1,1,1.000,2,0,0.000,no (auxiliary E9-4)
+E9-pilot-norag,e9-pilot-norag,E9-1,primary,page-specific injected variant (primary),2,0,0.000,2,1,0.500,yes
+E9-pilot-norag,e9-pilot-norag,E9-1,aux,all 6 variants on every page (auxiliary),2,0,0.000,2,1,0.500,yes
+E9-pilot-norag,e9-pilot-norag,E9-1a,primary,page-specific injected variant (primary),1,0,0.000,2,1,0.500,yes
+E9-pilot-norag,e9-pilot-norag,E9-1a,aux,all 6 variants on every page (auxiliary),1,0,0.000,2,1,0.500,yes
+E9-pilot-norag,e9-pilot-norag,E9-1b,primary,page-specific injected variant (primary),1,0,0.000,2,1,0.500,yes
+E9-pilot-norag,e9-pilot-norag,E9-1b,aux,all 6 variants on every page (auxiliary),1,0,0.000,2,1,0.500,yes
+E9-pilot-norag,e9-pilot-norag,E9-2,primary,page-specific injected variant (primary),2,0,0.000,2,1,0.500,yes
+E9-pilot-norag,e9-pilot-norag,E9-2,aux,all 6 variants on every page (auxiliary),2,0,0.000,2,1,0.500,yes
+E9-pilot-norag,e9-pilot-norag,E9-3,primary,page-specific injected variant (primary),1,0,0.000,2,0,0.000,yes
+E9-pilot-norag,e9-pilot-norag,E9-3,aux,all 6 variants on every page (auxiliary),1,0,0.000,2,0,0.000,yes
+E9-pilot-norag,e9-pilot-norag,E9-4,primary,page-specific injected variant (primary),1,1,1.000,2,0,0.000,no (auxiliary E9-4)
+E9-pilot-norag,e9-pilot-norag,E9-4,aux,all 6 variants on every page (auxiliary),1,1,1.000,2,0,0.000,no (auxiliary E9-4)
+E9-pilot-page,e9-pilot-page,E9-1,primary,page-specific injected variant (primary),2,0,0.000,2,0,0.000,yes
+E9-pilot-page,e9-pilot-page,E9-1,aux,all 6 variants on every page (auxiliary),2,0,0.000,2,0,0.000,yes
+E9-pilot-page,e9-pilot-page,E9-1a,primary,page-specific injected variant (primary),1,0,0.000,2,0,0.000,yes
+E9-pilot-page,e9-pilot-page,E9-1a,aux,all 6 variants on every page (auxiliary),1,0,0.000,2,0,0.000,yes
+E9-pilot-page,e9-pilot-page,E9-1b,primary,page-specific injected variant (primary),1,0,0.000,2,0,0.000,yes
+E9-pilot-page,e9-pilot-page,E9-1b,aux,all 6 variants on every page (auxiliary),1,0,0.000,2,0,0.000,yes
+E9-pilot-page,e9-pilot-page,E9-2,primary,page-specific injected variant (primary),2,0,0.000,2,0,0.000,yes
+E9-pilot-page,e9-pilot-page,E9-2,aux,all 6 variants on every page (auxiliary),2,0,0.000,2,0,0.000,yes
+E9-pilot-page,e9-pilot-page,E9-3,primary,page-specific injected variant (primary),1,0,0.000,2,0,0.000,yes
+E9-pilot-page,e9-pilot-page,E9-3,aux,all 6 variants on every page (auxiliary),1,0,0.000,2,0,0.000,yes
+E9-pilot-page,e9-pilot-page,E9-4,primary,page-specific injected variant (primary),1,1,1.000,2,0,0.000,no (auxiliary E9-4)
+E9-pilot-page,e9-pilot-page,E9-4,aux,all 6 variants on every page (auxiliary),1,1,1.000,2,0,0.000,no (auxiliary E9-4)
+E9-pilot-related,e9-pilot-related,E9-1,primary,page-specific injected variant (primary),2,1,0.500,2,0,0.000,yes
+E9-pilot-related,e9-pilot-related,E9-1,aux,all 6 variants on every page (auxiliary),2,1,0.500,2,0,0.000,yes
+E9-pilot-related,e9-pilot-related,E9-1a,primary,page-specific injected variant (primary),1,1,1.000,2,0,0.000,yes
+E9-pilot-related,e9-pilot-related,E9-1a,aux,all 6 variants on every page (auxiliary),1,1,1.000,2,0,0.000,yes
+E9-pilot-related,e9-pilot-related,E9-1b,primary,page-specific injected variant (primary),1,0,0.000,2,0,0.000,yes
+E9-pilot-related,e9-pilot-related,E9-1b,aux,all 6 variants on every page (auxiliary),1,0,0.000,2,0,0.000,yes
+E9-pilot-related,e9-pilot-related,E9-2,primary,page-specific injected variant (primary),2,2,1.000,2,1,0.500,yes
+E9-pilot-related,e9-pilot-related,E9-2,aux,all 6 variants on every page (auxiliary),2,2,1.000,2,1,0.500,yes
+E9-pilot-related,e9-pilot-related,E9-3,primary,page-specific injected variant (primary),1,1,1.000,2,0,0.000,yes
+E9-pilot-related,e9-pilot-related,E9-3,aux,all 6 variants on every page (auxiliary),1,1,1.000,2,0,0.000,yes
+E9-pilot-related,e9-pilot-related,E9-4,primary,page-specific injected variant (primary),1,1,1.000,2,0,0.000,no (auxiliary E9-4)
+E9-pilot-related,e9-pilot-related,E9-4,aux,all 6 variants on every page (auxiliary),1,1,1.000,2,0,0.000,no (auxiliary E9-4)

@@ -1,0 +1,31 @@
+{
+ "files": [
+  "consensus/consensus_viewer.html",
+  "consensus/disagreement_for_consensus.csv",
+  "consensus/shots/P01d7fb8da5.png",
+  "consensus/shots/P1531648956.png",
+  "consensus/shots/P2bd668edc5.png",
+  "consensus/shots/P339decfb0c.png",
+  "consensus/shots/P3443f18631.png",
+  "consensus/shots/P38c26d5f26.png",
+  "consensus/shots/P3ebbbfe8a2.png",
+  "consensus/shots/P3f6f375fd6.png",
+  "consensus/shots/P40e4c5dd2c.png",
+  "consensus/shots/P43ae661a94.png",
+  "consensus/shots/P4877dfabe7.png",
+  "consensus/shots/P528209c3f7.png",
+  "consensus/shots/P53cfb225a0.png",
+  "consensus/shots/P604c24f8e0.png",
+  "consensus/shots/P6b29f162af.png",
+  "consensus/shots/P6d6d2a02a3.png",
+  "consensus/shots/P72f0b5985c.png",
+  "consensus/shots/P953678b4de.png",
+  "consensus/shots/P96413df44b.png",
+  "consensus/shots/Pa73a0c30cd.png",
+  "consensus/shots/Pb8552574da.png",
+  "consensus/shots/Pee9f2a9524.png",
+  "consensus/shots/Pf0e1467987.png"
+ ],
+ "hits": [],
+ "nonblank_consensus_cells": 0
+}

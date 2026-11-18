@@ -1,0 +1,26 @@
+page_id,template_id,axe_version,rule_id,impact,tags,n_nodes,targets,help
+page_006,search_result,4.14.0,label,critical,cat.forms;wcag2a;wcag412;section508;section508.22.n;TTv5;TT5.c;EN-301-549;EN-9.4.1.2;ACT;RGAAv4;RGAA-11.1.1,1,input,Form elements must have labels
+page_006,search_result,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_024,detail_page,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_033,login_page,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_058,form_page,4.14.0,label,critical,cat.forms;wcag2a;wcag412;section508;section508.22.n;TTv5;TT5.c;EN-301-549;EN-9.4.1.2;ACT;RGAAv4;RGAA-11.1.1,1,input,Form elements must have labels
+page_058,form_page,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_064,detail_page,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_078,form_page,4.14.0,label,critical,cat.forms;wcag2a;wcag412;section508;section508.22.n;TTv5;TT5.c;EN-301-549;EN-9.4.1.2;ACT;RGAAv4;RGAA-11.1.1,1,input,Form elements must have labels
+page_078,form_page,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_083,login_page,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_086,search_result,4.14.0,label,critical,cat.forms;wcag2a;wcag412;section508;section508.22.n;TTv5;TT5.c;EN-301-549;EN-9.4.1.2;ACT;RGAAv4;RGAA-11.1.1,1,input,Form elements must have labels
+page_086,search_result,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_108,form_page,4.14.0,label,critical,cat.forms;wcag2a;wcag412;section508;section508.22.n;TTv5;TT5.c;EN-301-549;EN-9.4.1.2;ACT;RGAAv4;RGAA-11.1.1,1,input,Form elements must have labels
+page_108,form_page,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_114,detail_page,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_126,search_result,4.14.0,label,critical,cat.forms;wcag2a;wcag412;section508;section508.22.n;TTv5;TT5.c;EN-301-549;EN-9.4.1.2;ACT;RGAAv4;RGAA-11.1.1,1,input,Form elements must have labels
+page_126,search_result,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_136,search_result,4.14.0,label,critical,cat.forms;wcag2a;wcag412;section508;section508.22.n;TTv5;TT5.c;EN-301-549;EN-9.4.1.2;ACT;RGAAv4;RGAA-11.1.1,1,input,Form elements must have labels
+page_136,search_result,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_158,form_page,4.14.0,label,critical,cat.forms;wcag2a;wcag412;section508;section508.22.n;TTv5;TT5.c;EN-301-549;EN-9.4.1.2;ACT;RGAAv4;RGAA-11.1.1,1,input,Form elements must have labels
+page_158,form_page,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_165,dashboard,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_178,form_page,4.14.0,label,critical,cat.forms;wcag2a;wcag412;section508;section508.22.n;TTv5;TT5.c;EN-301-549;EN-9.4.1.2;ACT;RGAAv4;RGAA-11.1.1,1,input,Form elements must have labels
+page_178,form_page,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading
+page_194,detail_page,4.14.0,page-has-heading-one,moderate,cat.semantics;best-practice,1,html,Page should contain a level-one heading

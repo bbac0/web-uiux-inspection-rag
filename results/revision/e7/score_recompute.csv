@@ -1,0 +1,7 @@
+run,pages,recomputed_round_vs_stored_mismatch_pages,note
+E1-R1,200,0,"--max-pages 1: page average over a single page, so // and round give the same value"
+E1-R2,200,0,"--max-pages 1: page average over a single page, so // and round give the same value"
+E1-R3b,200,0,"--max-pages 1: page average over a single page, so // and round give the same value"
+E2-A1-1,200,0,"--max-pages 1: page average over a single page, so // and round give the same value"
+E2-A1-2,200,0,"--max-pages 1: page average over a single page, so // and round give the same value"
+E2-A1-3,200,0,"--max-pages 1: page average over a single page, so // and round give the same value"

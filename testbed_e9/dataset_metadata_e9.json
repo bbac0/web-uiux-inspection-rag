@@ -1,0 +1,1207 @@
+{
+ "seed": 20261116,
+ "generator": "experiments/revision/e9_generate.py",
+ "design": "docs/e9_design.md (v5)",
+ "banner_text_required": "이 누리집은 대한민국 공식 전자정부 누리집입니다.",
+ "base_css": "body{margin:0;font-family:pretendardGOV,sans-serif;color:#1D1D1D}.gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#1D1D1D}.gov-banner .flag{width:24px;height:16px}.hd{background:#FFFFFF;border-bottom:1px solid #D8D8D8;color:#1D1D1D;padding:8px 16px}.hd a{color:#1D1D1D;text-decoration:none;margin-right:12px}.hd-util a{font-size:15px;font-weight:400}.hd-icon{font-size:17px;font-weight:700}.hd-menu a{font-size:19px;font-weight:700}main{padding:16px}.ft{background:#F8F8F8;border-top:1px solid #D8D8D8;color:#1D1D1D;padding:12px 16px}.ft-contact{font-size:17px;font-weight:400}.ft-policy a{font-size:17px;font-weight:700;color:#1D1D1D;margin-right:12px}.ft-copy{font-size:15px;font-weight:400}",
+ "base_css_chars": 805,
+ "e9_4_media_query": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+ "body_templates": {
+  "portal_main": {
+   "title": "정부24 메인",
+   "login_links_removed_from_main": 0
+  },
+  "board_list": {
+   "title": "공지사항 게시판",
+   "login_links_removed_from_main": 0
+  },
+  "login_page": {
+   "title": "로그인 - 대한민국 정부",
+   "login_links_removed_from_main": 0
+  },
+  "detail_page": {
+   "title": "민원 안내 상세",
+   "login_links_removed_from_main": 0
+  },
+  "dashboard": {
+   "title": "마이페이지 대시보드",
+   "login_links_removed_from_main": 0
+  },
+  "search_result": {
+   "title": "통합 검색 결과",
+   "login_links_removed_from_main": 0
+  },
+  "faq_page": {
+   "title": "자주 묻는 질문",
+   "login_links_removed_from_main": 1
+  },
+  "form_page": {
+   "title": "민원 신청서 작성",
+   "login_links_removed_from_main": 0
+  },
+  "terms_page": {
+   "title": "이용약관",
+   "login_links_removed_from_main": 1
+  },
+  "contact_page": {
+   "title": "고객센터",
+   "login_links_removed_from_main": 1
+  }
+ },
+ "reassignments": {},
+ "pages": [
+  {
+   "page_id": "e9_001",
+   "subtype": "control",
+   "body_template": "terms_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1940
+  },
+  {
+   "page_id": "e9_002",
+   "subtype": "E9-4",
+   "body_template": "form_page",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 2064
+  },
+  {
+   "page_id": "e9_003",
+   "subtype": "E9-3",
+   "body_template": "terms_page",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 1941
+  },
+  {
+   "page_id": "e9_004",
+   "subtype": "E9-3",
+   "body_template": "portal_main",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 1974
+  },
+  {
+   "page_id": "e9_005",
+   "subtype": "control",
+   "body_template": "portal_main",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1973
+  },
+  {
+   "page_id": "e9_006",
+   "subtype": "E9-2-banner",
+   "body_template": "form_page",
+   "defect_id": "E9-2",
+   "intensity": "banner",
+   "variant": ".gov-banner font-size:14px",
+   "injected_string": ".gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#EDF1F5;font-family:pretendardGOV;font-size:14px;font-weight:400;color:#1D1D1D}",
+   "expected_failing_checks": [
+    "banner_font_size"
+   ],
+   "bytes": 1966
+  },
+  {
+   "page_id": "e9_007",
+   "subtype": "E9-4",
+   "body_template": "login_page",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 2099
+  },
+  {
+   "page_id": "e9_008",
+   "subtype": "control",
+   "body_template": "login_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 2001
+  },
+  {
+   "page_id": "e9_009",
+   "subtype": "control",
+   "body_template": "search_result",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1923
+  },
+  {
+   "page_id": "e9_010",
+   "subtype": "control",
+   "body_template": "dashboard",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1928
+  },
+  {
+   "page_id": "e9_011",
+   "subtype": "control",
+   "body_template": "portal_main",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1973
+  },
+  {
+   "page_id": "e9_012",
+   "subtype": "control",
+   "body_template": "terms_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1940
+  },
+  {
+   "page_id": "e9_013",
+   "subtype": "E9-2-footer",
+   "body_template": "portal_main",
+   "defect_id": "E9-2",
+   "intensity": "footer",
+   "variant": ".ft color:#000000",
+   "injected_string": ".ft{background:#F8F8F8;border-top:1px solid #D8D8D8;color:#000000;padding:12px 16px}",
+   "expected_failing_checks": [
+    "footer_color"
+   ],
+   "bytes": 1973
+  },
+  {
+   "page_id": "e9_014",
+   "subtype": "control",
+   "body_template": "faq_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1933
+  },
+  {
+   "page_id": "e9_015",
+   "subtype": "E9-2-header",
+   "body_template": "board_list",
+   "defect_id": "E9-2",
+   "intensity": "header",
+   "variant": ".hd-icon font-size:15px",
+   "injected_string": ".hd-icon{font-size:15px;font-weight:700}",
+   "expected_failing_checks": [
+    "header_icon_font_size"
+   ],
+   "bytes": 1987
+  },
+  {
+   "page_id": "e9_016",
+   "subtype": "E9-4",
+   "body_template": "detail_page",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 2109
+  },
+  {
+   "page_id": "e9_017",
+   "subtype": "E9-3",
+   "body_template": "detail_page",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 2012
+  },
+  {
+   "page_id": "e9_018",
+   "subtype": "E9-1b",
+   "body_template": "detail_page",
+   "defect_id": "E9-1",
+   "intensity": "b",
+   "variant": "space_gongsik_jeonja",
+   "injected_string": "이 누리집은 대한민국 공식전자정부 누리집입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 2010
+  },
+  {
+   "page_id": "e9_019",
+   "subtype": "E9-2-banner",
+   "body_template": "portal_main",
+   "defect_id": "E9-2",
+   "intensity": "banner",
+   "variant": ".gov-banner padding:10px",
+   "injected_string": ".gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:10px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#1D1D1D}",
+   "expected_failing_checks": [
+    "banner_padding"
+   ],
+   "bytes": 1971
+  },
+  {
+   "page_id": "e9_020",
+   "subtype": "E9-2-header",
+   "body_template": "search_result",
+   "defect_id": "E9-2",
+   "intensity": "header",
+   "variant": ".hd-icon font-size:15px",
+   "injected_string": ".hd-icon{font-size:15px;font-weight:700}",
+   "expected_failing_checks": [
+    "header_icon_font_size"
+   ],
+   "bytes": 1923
+  },
+  {
+   "page_id": "e9_021",
+   "subtype": "E9-4",
+   "body_template": "faq_page",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 2031
+  },
+  {
+   "page_id": "e9_022",
+   "subtype": "E9-2-banner",
+   "body_template": "contact_page",
+   "defect_id": "E9-2",
+   "intensity": "banner",
+   "variant": ".gov-banner padding:10px",
+   "injected_string": ".gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:10px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#1D1D1D}",
+   "expected_failing_checks": [
+    "banner_padding"
+   ],
+   "bytes": 1881
+  },
+  {
+   "page_id": "e9_023",
+   "subtype": "E9-4",
+   "body_template": "terms_page",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 2038
+  },
+  {
+   "page_id": "e9_024",
+   "subtype": "E9-3",
+   "body_template": "portal_main",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 1974
+  },
+  {
+   "page_id": "e9_025",
+   "subtype": "E9-2-banner",
+   "body_template": "faq_page",
+   "defect_id": "E9-2",
+   "intensity": "banner",
+   "variant": ".gov-banner background:#FFFFFF",
+   "injected_string": ".gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#FFFFFF;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#1D1D1D}",
+   "expected_failing_checks": [
+    "banner_background"
+   ],
+   "bytes": 1933
+  },
+  {
+   "page_id": "e9_026",
+   "subtype": "E9-3",
+   "body_template": "login_page",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 2002
+  },
+  {
+   "page_id": "e9_027",
+   "subtype": "E9-2-footer",
+   "body_template": "terms_page",
+   "defect_id": "E9-2",
+   "intensity": "footer",
+   "variant": ".ft background:#FFFFFF",
+   "injected_string": ".ft{background:#FFFFFF;border-top:1px solid #D8D8D8;color:#1D1D1D;padding:12px 16px}",
+   "expected_failing_checks": [
+    "footer_background"
+   ],
+   "bytes": 1940
+  },
+  {
+   "page_id": "e9_028",
+   "subtype": "control",
+   "body_template": "dashboard",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1928
+  },
+  {
+   "page_id": "e9_029",
+   "subtype": "E9-3",
+   "body_template": "contact_page",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 1884
+  },
+  {
+   "page_id": "e9_030",
+   "subtype": "control",
+   "body_template": "faq_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1933
+  },
+  {
+   "page_id": "e9_031",
+   "subtype": "E9-4",
+   "body_template": "contact_page",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 1981
+  },
+  {
+   "page_id": "e9_032",
+   "subtype": "E9-1b",
+   "body_template": "login_page",
+   "defect_id": "E9-1",
+   "intensity": "b",
+   "variant": "space_i_nurijip",
+   "injected_string": "이누리집은 대한민국 공식 전자정부 누리집입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 2000
+  },
+  {
+   "page_id": "e9_033",
+   "subtype": "E9-4",
+   "body_template": "dashboard",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 2026
+  },
+  {
+   "page_id": "e9_034",
+   "subtype": "E9-3",
+   "body_template": "contact_page",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 1884
+  },
+  {
+   "page_id": "e9_035",
+   "subtype": "E9-1b",
+   "body_template": "terms_page",
+   "defect_id": "E9-1",
+   "intensity": "b",
+   "variant": "space_gongsik_jeonja",
+   "injected_string": "이 누리집은 대한민국 공식전자정부 누리집입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 1939
+  },
+  {
+   "page_id": "e9_036",
+   "subtype": "control",
+   "body_template": "portal_main",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1973
+  },
+  {
+   "page_id": "e9_037",
+   "subtype": "control",
+   "body_template": "contact_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1883
+  },
+  {
+   "page_id": "e9_038",
+   "subtype": "E9-2-footer",
+   "body_template": "form_page",
+   "defect_id": "E9-2",
+   "intensity": "footer",
+   "variant": ".ft-copy font-weight:700",
+   "injected_string": ".ft-copy{font-size:15px;font-weight:700}",
+   "expected_failing_checks": [
+    "footer_copy_font_weight"
+   ],
+   "bytes": 1966
+  },
+  {
+   "page_id": "e9_039",
+   "subtype": "control",
+   "body_template": "dashboard",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1928
+  },
+  {
+   "page_id": "e9_040",
+   "subtype": "E9-1b",
+   "body_template": "contact_page",
+   "defect_id": "E9-1",
+   "intensity": "b",
+   "variant": "space_jeonja_nurijip",
+   "injected_string": "이 누리집은 대한민국 공식 전자정부누리집입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 1882
+  },
+  {
+   "page_id": "e9_041",
+   "subtype": "E9-1a",
+   "body_template": "search_result",
+   "defect_id": "E9-1",
+   "intensity": "a",
+   "variant": "delete_gongsik",
+   "injected_string": "이 누리집은 대한민국 전자정부 누리집입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 1916
+  },
+  {
+   "page_id": "e9_042",
+   "subtype": "control",
+   "body_template": "board_list",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1987
+  },
+  {
+   "page_id": "e9_043",
+   "subtype": "E9-2-banner",
+   "body_template": "dashboard",
+   "defect_id": "E9-2",
+   "intensity": "banner",
+   "variant": ".gov-banner font-weight:700",
+   "injected_string": ".gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:700;color:#1D1D1D}",
+   "expected_failing_checks": [
+    "banner_font_weight"
+   ],
+   "bytes": 1928
+  },
+  {
+   "page_id": "e9_044",
+   "subtype": "E9-2-header",
+   "body_template": "detail_page",
+   "defect_id": "E9-2",
+   "intensity": "header",
+   "variant": ".hd-icon font-size:15px",
+   "injected_string": ".hd-icon{font-size:15px;font-weight:700}",
+   "expected_failing_checks": [
+    "header_icon_font_size"
+   ],
+   "bytes": 2011
+  },
+  {
+   "page_id": "e9_045",
+   "subtype": "E9-1a",
+   "body_template": "form_page",
+   "defect_id": "E9-1",
+   "intensity": "a",
+   "variant": "nurijip_to_homepage",
+   "injected_string": "이 누리집은 대한민국 공식 전자정부 홈페이지입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 1969
+  },
+  {
+   "page_id": "e9_046",
+   "subtype": "control",
+   "body_template": "detail_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 2011
+  },
+  {
+   "page_id": "e9_047",
+   "subtype": "E9-2-banner",
+   "body_template": "search_result",
+   "defect_id": "E9-2",
+   "intensity": "banner",
+   "variant": ".gov-banner font-weight:700",
+   "injected_string": ".gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:700;color:#1D1D1D}",
+   "expected_failing_checks": [
+    "banner_font_weight"
+   ],
+   "bytes": 1923
+  },
+  {
+   "page_id": "e9_048",
+   "subtype": "E9-1a",
+   "body_template": "faq_page",
+   "defect_id": "E9-1",
+   "intensity": "a",
+   "variant": "replace_whole",
+   "injected_string": "대한민국 공식 전자정부 웹사이트입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 1919
+  },
+  {
+   "page_id": "e9_049",
+   "subtype": "E9-3",
+   "body_template": "board_list",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 1988
+  },
+  {
+   "page_id": "e9_050",
+   "subtype": "E9-2-banner",
+   "body_template": "terms_page",
+   "defect_id": "E9-2",
+   "intensity": "banner",
+   "variant": ".gov-banner color:#000000",
+   "injected_string": ".gov-banner{display:flex;align-items:center;gap:8px;height:32px;padding:0 16px;background:#EDF1F5;font-family:pretendardGOV;font-size:15px;font-weight:400;color:#000000}",
+   "expected_failing_checks": [
+    "banner_color"
+   ],
+   "bytes": 1940
+  },
+  {
+   "page_id": "e9_051",
+   "subtype": "control",
+   "body_template": "contact_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1883
+  },
+  {
+   "page_id": "e9_052",
+   "subtype": "E9-4",
+   "body_template": "board_list",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 2085
+  },
+  {
+   "page_id": "e9_053",
+   "subtype": "E9-3",
+   "body_template": "board_list",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 1988
+  },
+  {
+   "page_id": "e9_054",
+   "subtype": "control",
+   "body_template": "form_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1966
+  },
+  {
+   "page_id": "e9_055",
+   "subtype": "control",
+   "body_template": "contact_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1883
+  },
+  {
+   "page_id": "e9_056",
+   "subtype": "control",
+   "body_template": "terms_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1940
+  },
+  {
+   "page_id": "e9_057",
+   "subtype": "E9-4",
+   "body_template": "board_list",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 2085
+  },
+  {
+   "page_id": "e9_058",
+   "subtype": "E9-3",
+   "body_template": "login_page",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 2002
+  },
+  {
+   "page_id": "e9_059",
+   "subtype": "control",
+   "body_template": "detail_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 2011
+  },
+  {
+   "page_id": "e9_060",
+   "subtype": "control",
+   "body_template": "form_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1966
+  },
+  {
+   "page_id": "e9_061",
+   "subtype": "control",
+   "body_template": "board_list",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1987
+  },
+  {
+   "page_id": "e9_062",
+   "subtype": "E9-3",
+   "body_template": "search_result",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 1924
+  },
+  {
+   "page_id": "e9_063",
+   "subtype": "E9-1a",
+   "body_template": "portal_main",
+   "defect_id": "E9-1",
+   "intensity": "a",
+   "variant": "nurijip_to_homepage",
+   "injected_string": "이 누리집은 대한민국 공식 전자정부 홈페이지입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 1976
+  },
+  {
+   "page_id": "e9_064",
+   "subtype": "control",
+   "body_template": "login_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 2001
+  },
+  {
+   "page_id": "e9_065",
+   "subtype": "E9-4",
+   "body_template": "search_result",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 2021
+  },
+  {
+   "page_id": "e9_066",
+   "subtype": "E9-1b",
+   "body_template": "dashboard",
+   "defect_id": "E9-1",
+   "intensity": "b",
+   "variant": "space_jeonja_nurijip",
+   "injected_string": "이 누리집은 대한민국 공식 전자정부누리집입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 1927
+  },
+  {
+   "page_id": "e9_067",
+   "subtype": "E9-4",
+   "body_template": "terms_page",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 2038
+  },
+  {
+   "page_id": "e9_068",
+   "subtype": "control",
+   "body_template": "search_result",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1923
+  },
+  {
+   "page_id": "e9_069",
+   "subtype": "E9-1b",
+   "body_template": "faq_page",
+   "defect_id": "E9-1",
+   "intensity": "b",
+   "variant": "space_gongsik_jeonja",
+   "injected_string": "이 누리집은 대한민국 공식전자정부 누리집입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 1932
+  },
+  {
+   "page_id": "e9_070",
+   "subtype": "control",
+   "body_template": "form_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1966
+  },
+  {
+   "page_id": "e9_071",
+   "subtype": "E9-1b",
+   "body_template": "portal_main",
+   "defect_id": "E9-1",
+   "intensity": "b",
+   "variant": "space_i_nurijip",
+   "injected_string": "이누리집은 대한민국 공식 전자정부 누리집입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 1972
+  },
+  {
+   "page_id": "e9_072",
+   "subtype": "E9-1a",
+   "body_template": "dashboard",
+   "defect_id": "E9-1",
+   "intensity": "a",
+   "variant": "delete_gongsik",
+   "injected_string": "이 누리집은 대한민국 전자정부 누리집입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 1921
+  },
+  {
+   "page_id": "e9_073",
+   "subtype": "control",
+   "body_template": "board_list",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1987
+  },
+  {
+   "page_id": "e9_074",
+   "subtype": "E9-1a",
+   "body_template": "contact_page",
+   "defect_id": "E9-1",
+   "intensity": "a",
+   "variant": "nurijip_to_homepage",
+   "injected_string": "이 누리집은 대한민국 공식 전자정부 홈페이지입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 1886
+  },
+  {
+   "page_id": "e9_075",
+   "subtype": "E9-3",
+   "body_template": "form_page",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 1967
+  },
+  {
+   "page_id": "e9_076",
+   "subtype": "E9-1a",
+   "body_template": "board_list",
+   "defect_id": "E9-1",
+   "intensity": "a",
+   "variant": "replace_whole",
+   "injected_string": "대한민국 공식 전자정부 웹사이트입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 1973
+  },
+  {
+   "page_id": "e9_077",
+   "subtype": "E9-1b",
+   "body_template": "form_page",
+   "defect_id": "E9-1",
+   "intensity": "b",
+   "variant": "space_i_nurijip",
+   "injected_string": "이누리집은 대한민국 공식 전자정부 누리집입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 1965
+  },
+  {
+   "page_id": "e9_078",
+   "subtype": "E9-4",
+   "body_template": "portal_main",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 2071
+  },
+  {
+   "page_id": "e9_079",
+   "subtype": "E9-4",
+   "body_template": "faq_page",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 2031
+  },
+  {
+   "page_id": "e9_080",
+   "subtype": "E9-3",
+   "body_template": "faq_page",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 1934
+  },
+  {
+   "page_id": "e9_081",
+   "subtype": "control",
+   "body_template": "search_result",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1923
+  },
+  {
+   "page_id": "e9_082",
+   "subtype": "E9-4",
+   "body_template": "form_page",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 2064
+  },
+  {
+   "page_id": "e9_083",
+   "subtype": "E9-1a",
+   "body_template": "login_page",
+   "defect_id": "E9-1",
+   "intensity": "a",
+   "variant": "replace_whole",
+   "injected_string": "대한민국 공식 전자정부 웹사이트입니다.",
+   "expected_failing_checks": [
+    "banner_text"
+   ],
+   "bytes": 1987
+  },
+  {
+   "page_id": "e9_084",
+   "subtype": "control",
+   "body_template": "login_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 2001
+  },
+  {
+   "page_id": "e9_085",
+   "subtype": "control",
+   "body_template": "faq_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 1933
+  },
+  {
+   "page_id": "e9_086",
+   "subtype": "E9-4",
+   "body_template": "login_page",
+   "defect_id": "E9-4",
+   "intensity": null,
+   "variant": "hide login link at max-width 768px",
+   "injected_string": "@media (max-width: 768px) { header a[href=\"/login\"] { display: none !important; } }",
+   "expected_failing_checks": [
+    "login_visible_768",
+    "login_visible_390"
+   ],
+   "bytes": 2099
+  },
+  {
+   "page_id": "e9_087",
+   "subtype": "E9-2-header",
+   "body_template": "faq_page",
+   "defect_id": "E9-2",
+   "intensity": "header",
+   "variant": ".hd-icon font-size:15px",
+   "injected_string": ".hd-icon{font-size:15px;font-weight:700}",
+   "expected_failing_checks": [
+    "header_icon_font_size"
+   ],
+   "bytes": 1933
+  },
+  {
+   "page_id": "e9_088",
+   "subtype": "E9-3",
+   "body_template": "terms_page",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 1941
+  },
+  {
+   "page_id": "e9_089",
+   "subtype": "E9-3",
+   "body_template": "dashboard",
+   "defect_id": "E9-3",
+   "intensity": null,
+   "variant": "href /login -> /signup",
+   "injected_string": "href=\"/signup\"",
+   "expected_failing_checks": [
+    "login_href",
+    "login_destination"
+   ],
+   "bytes": 1929
+  },
+  {
+   "page_id": "e9_090",
+   "subtype": "E9-2-footer",
+   "body_template": "detail_page",
+   "defect_id": "E9-2",
+   "intensity": "footer",
+   "variant": ".ft-contact font-size:15px",
+   "injected_string": ".ft-contact{font-size:15px;font-weight:400}",
+   "expected_failing_checks": [
+    "footer_contact_font_size"
+   ],
+   "bytes": 2011
+  },
+  {
+   "page_id": "e9_091",
+   "subtype": "control",
+   "body_template": "detail_page",
+   "defect_id": null,
+   "intensity": null,
+   "variant": null,
+   "injected_string": null,
+   "expected_failing_checks": [],
+   "bytes": 2011
+  }
+ ]
+}

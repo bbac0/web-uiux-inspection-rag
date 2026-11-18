@@ -1,0 +1,37 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Exact McNemar tests on cell-level correctness (RAG on vs off).}
+\label{tab:e7-mcnemar}
+\begin{tabular}{lllllrrrrl}
+\toprule
+Comparison & Role & Scorer & Label & Type & Cells & b & c & p (exact) & Family \\
+\midrule
+E1-R1 vs E2-A1-1 & primary & keyword & nominal & micro (5 types) & 1000 & 68 & 26 & 1.732e-05 & E2 family (A1/A2/A3 vs R1), Holm \\
+E1-R1 vs E2-A1-1 & primary & keyword & effective & micro (5 types) & 1000 & 66 & 28 & 0.0001111 & E2 family (A1/A2/A3 vs R1), Holm \\
+E1-R1 vs E2-A1-1 & primary & keyword & guideline\_grounded & micro (5 types) & 200 & 25 & 3 & 2.744e-05 & E2 family (A1/A2/A3 vs R1), Holm \\
+E1-R1 vs E2-A1-1 & primary & keyword & guideline\_grounded\_btn\_true & micro (5 types) & 400 & 28 & 8 & 0.001193 & E2 family (A1/A2/A3 vs R1), Holm \\
+E1-R1 vs E2-A1-1 & primary & string\_match & nominal & Terminology & 200 & 4 & 9 & 0.2668 & exploratory (unadjusted) \\
+E1-R1 vs E2-A1-1 & primary & string\_match & effective & Terminology & 200 & 4 & 9 & 0.2668 & exploratory (unadjusted) \\
+E1-R2 vs E2-A1-2 & auxiliary & keyword & nominal & micro (5 types) & 1000 & 73 & 27 & 4.692e-06 & auxiliary (unadjusted) \\
+E1-R2 vs E2-A1-2 & auxiliary & keyword & effective & micro (5 types) & 1000 & 67 & 33 & 0.0008737 & auxiliary (unadjusted) \\
+E1-R2 vs E2-A1-2 & auxiliary & keyword & guideline\_grounded & micro (5 types) & 200 & 21 & 4 & 0.0009105 & auxiliary (unadjusted) \\
+E1-R2 vs E2-A1-2 & auxiliary & keyword & guideline\_grounded\_btn\_true & micro (5 types) & 400 & 23 & 12 & 0.08953 & auxiliary (unadjusted) \\
+E1-R2 vs E2-A1-2 & auxiliary & string\_match & nominal & Terminology & 200 & 4 & 9 & 0.2668 & exploratory (unadjusted) \\
+E1-R2 vs E2-A1-2 & auxiliary & string\_match & effective & Terminology & 200 & 4 & 9 & 0.2668 & exploratory (unadjusted) \\
+E1-R3b vs E2-A1-3 & auxiliary & keyword & nominal & micro (5 types) & 1000 & 68 & 23 & 2.522e-06 & auxiliary (unadjusted) \\
+E1-R3b vs E2-A1-3 & auxiliary & keyword & effective & micro (5 types) & 1000 & 66 & 25 & 2.028e-05 & auxiliary (unadjusted) \\
+E1-R3b vs E2-A1-3 & auxiliary & keyword & guideline\_grounded & micro (5 types) & 200 & 23 & 2 & 1.943e-05 & auxiliary (unadjusted) \\
+E1-R3b vs E2-A1-3 & auxiliary & keyword & guideline\_grounded\_btn\_true & micro (5 types) & 400 & 26 & 7 & 0.001319 & auxiliary (unadjusted) \\
+E1-R3b vs E2-A1-3 & auxiliary & string\_match & nominal & Terminology & 200 & 7 & 7 & 1 & exploratory (unadjusted) \\
+E1-R3b vs E2-A1-3 & auxiliary & string\_match & effective & Terminology & 200 & 7 & 7 & 1 & exploratory (unadjusted) \\
+E1-majority vs A1-majority & robustness (3-run majority) & keyword & nominal & micro (5 types) & 1000 & 68 & 29 & 9.341e-05 & robustness (3-run majority) (unadjusted) \\
+E1-majority vs A1-majority & robustness (3-run majority) & keyword & effective & micro (5 types) & 1000 & 67 & 30 & 0.0002189 & robustness (3-run majority) (unadjusted) \\
+E1-majority vs A1-majority & robustness (3-run majority) & keyword & guideline\_grounded & micro (5 types) & 200 & 25 & 3 & 2.744e-05 & robustness (3-run majority) (unadjusted) \\
+E1-majority vs A1-majority & robustness (3-run majority) & keyword & guideline\_grounded\_btn\_true & micro (5 types) & 400 & 29 & 8 & 0.0007529 & robustness (3-run majority) (unadjusted) \\
+E1-majority vs A1-majority & robustness (3-run majority) & string\_match & nominal & Terminology & 200 & 3 & 9 & 0.146 & exploratory (unadjusted) \\
+E1-majority vs A1-majority & robustness (3-run majority) & string\_match & effective & Terminology & 200 & 3 & 9 & 0.146 & exploratory (unadjusted) \\
+\bottomrule
+\end{tabular}
+\par\footnotesize b: cells correct only in the first condition; c: only in the second. Primary test R1 vs A1-1 (keyword, micro) belongs to the pre-registered E2 Holm family with A2 and A3, which have not run yet; Holm-adjusted p is reported once the family is complete (upper bound 3p). Per-type tests are exploratory (see mcnemar.csv).
+\end{table}

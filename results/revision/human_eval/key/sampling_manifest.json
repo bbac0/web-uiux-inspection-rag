@@ -1,0 +1,50 @@
+{
+  "run_id": "E1-R1",
+  "seed_a": 20261112,
+  "seed_b": 20261113,
+  "pages_A": 132,
+  "pages_B": 60,
+  "issues_A": 444,
+  "issues_B": 204,
+  "strata_A": {
+    "control": 39,
+    "terminology": 45,
+    "Poor Contrast Ratio": 12,
+    "Mobile Layout Breakage": 12,
+    "Button Area Clipping": 12,
+    "Duplicate ID Markup Error": 12
+  },
+  "strata_B": {
+    "control": 18,
+    "terminology": 20,
+    "Poor Contrast Ratio": 6,
+    "Mobile Layout Breakage": 6,
+    "Button Area Clipping": 5,
+    "Duplicate ID Markup Error": 5
+  },
+  "type_coverage_A": {
+    "Poor Contrast Ratio": 21,
+    "Mobile Layout Breakage": 29,
+    "Button Area Clipping": 28,
+    "Standard Terminology Violation": 45,
+    "Duplicate ID Markup Error": 24
+  },
+  "pages_without_issues_A": [],
+  "category_choices": [
+    "명도 대비 부족",
+    "모바일 레이아웃 깨짐",
+    "버튼 영역 잘림",
+    "표준 용어 위반",
+    "중복 ID",
+    "해당 없음"
+  ],
+  "answer_choices": [
+    "예",
+    "아니오",
+    "판단 불가"
+  ],
+  "login_link_label_concern_choices": [
+    "예",
+    "아니오"
+  ]
+}

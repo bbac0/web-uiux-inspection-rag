@@ -1,0 +1,32 @@
+{
+ "stats": {
+  "undefined": 77,
+  "small": 13
+ },
+ "checks": {},
+ "n": {
+  "A_only": 240,
+  "A_B": 204,
+  "supp": 107
+ },
+ "seeds": {
+  "cluster": [
+   10000,
+   20261111
+  ],
+  "issue": [
+   2000,
+   20261118
+  ]
+ },
+ "sources": {
+  "hf_main": "results/revision/human_eval/human_final_main.csv",
+  "hf_supp": "results/revision/human_eval/human_final_supp.csv",
+  "eval_key": "results/revision/human_eval/key/eval_key.csv",
+  "supp_key": "results/revision/human_eval/supp_label/key/supp_key.csv",
+  "merged": "results/revision/issue_tables_merged/{run}.csv",
+  "meta": "testbed_200/dataset_metadata.json",
+  "sheet_main": "results/revision/human_eval/rater_A/eval_sheet_A.csv",
+  "sheet_supp": "results/revision/human_eval/supp_label/rater_A_supp/eval_sheet_A_supp.csv"
+ }
+}

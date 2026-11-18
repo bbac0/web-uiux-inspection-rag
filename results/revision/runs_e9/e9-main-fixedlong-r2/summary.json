@@ -1,0 +1,173 @@
+{
+  "run_id": "e9-main-fixedlong-r2",
+  "condition": "E9-fixedlong",
+  "started_utc": "2026-11-13T07:14:53.450+00:00",
+  "finished_utc": "2026-11-13T07:41:41.095+00:00",
+  "aborted": false,
+  "abort_reason": null,
+  "pages_requested": 91,
+  "pages_with_record": 91,
+  "pages_missing_record": [],
+  "records": 91,
+  "status_counts": {
+    "ok": 91
+  },
+  "failed_pages": [],
+  "parse_error_pages": [],
+  "tokens_total": {
+    "prompt_token_count": 401485,
+    "cached_content_token_count": 93697,
+    "candidates_token_count": 45593,
+    "total_token_count": 818908,
+    "thoughts_token_count_derived": 278133
+  },
+  "tokens_mean": {
+    "prompt_token_count": 4411.9,
+    "cached_content_token_count": 1029.6,
+    "candidates_token_count": 501.0,
+    "total_token_count": 8999.0,
+    "thoughts_token_count_derived": 3056.4
+  },
+  "cost_usd_total": 0.909387,
+  "cost_usd_mean_per_call": 0.009993,
+  "latency_sec": {
+    "acquisition": {
+      "n": 91,
+      "mean": 4.1422,
+      "median": 4.1426,
+      "p95": 4.1661
+    },
+    "query_embedding": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "p95": null
+    },
+    "vector_search": {
+      "n": 91,
+      "mean": 0.0024,
+      "median": 0.002,
+      "p95": 0.003
+    },
+    "upload": {
+      "n": 91,
+      "mean": 4.1453,
+      "median": 4.0973,
+      "p95": 4.5774
+    },
+    "llm": {
+      "n": 91,
+      "mean": 23.8443,
+      "median": 23.1197,
+      "p95": 29.6153
+    },
+    "total": {
+      "n": 91,
+      "mean": 33.8377,
+      "median": 33.2746,
+      "p95": 39.4487
+    }
+  },
+  "retries_total": 0,
+  "model_versions": [
+    "gemini-2.5-flash"
+  ],
+  "prompt_sha256_distinct": 61,
+  "negative_derived_thoughts": [
+    "e9_033",
+    "e9_034",
+    "e9_052",
+    "e9_057",
+    "e9_061",
+    "e9_080",
+    "e9_082"
+  ],
+  "cached_tokens_positive": [
+    "e9_001",
+    "e9_003",
+    "e9_005",
+    "e9_008",
+    "e9_011",
+    "e9_012",
+    "e9_017",
+    "e9_021",
+    "e9_030",
+    "e9_031",
+    "e9_033",
+    "e9_034",
+    "e9_037",
+    "e9_049",
+    "e9_052",
+    "e9_057",
+    "e9_060",
+    "e9_061",
+    "e9_064",
+    "e9_065",
+    "e9_068",
+    "e9_075",
+    "e9_080",
+    "e9_082",
+    "e9_085",
+    "e9_086"
+  ],
+  "rag_n_chunks_counts": {
+    "9": 91
+  },
+  "schema_problem_records": 0,
+  "cost_usd_breakdown": {
+    "input_uncached": 0.092336,
+    "input_cached": 0.002811,
+    "output": 0.81424
+  },
+  "thoughts_check_mismatch": [
+    "e9_001",
+    "e9_003",
+    "e9_005",
+    "e9_008",
+    "e9_011",
+    "e9_012",
+    "e9_017",
+    "e9_021",
+    "e9_030",
+    "e9_031",
+    "e9_033",
+    "e9_034",
+    "e9_037",
+    "e9_049",
+    "e9_052",
+    "e9_057",
+    "e9_060",
+    "e9_061",
+    "e9_064",
+    "e9_065",
+    "e9_068",
+    "e9_075",
+    "e9_080",
+    "e9_082",
+    "e9_085",
+    "e9_086"
+  ],
+  "chroma": {
+    "source": "services/chroma_db",
+    "copied_at_utc": "2026-11-13T07:14:54.096+00:00",
+    "copy_path": "<HOME>\\AppData\\Local\\Temp\\chroma_e9-main-fixedlong-r2_6irkhajx\\chroma_db",
+    "source_sha256": {
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/data_level0.bin": "9a04f76f4997901ab061bc48d621e9cf3044a1a90180878d09482192a1c3366f",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/header.bin": "397183ff93fe1d8f4a9ea91f6fd2615782c5cd7ca30e5275d1a5f899abb10a17",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/index_metadata.pickle": "3487e78d48f423e5444892612440b5e8998e73a9f314c9d099b69985eb509a63",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/length.bin": "fd7ca52bc90eefbe7a82498b18f6668824b7e3380b096d656c53e57a3d0d515f",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/link_lists.bin": "affa510add7d2d97492f814a35f8a10054564ab48f9663661e2f1da92895dcd6",
+      "chroma.sqlite3": "b3fed16a5f4b65a26b867e98a27cceb60712a7951afe80643588d7cae1a4809b"
+    },
+    "source_combined_sha256": "95165c227ef7567f9bc99b0d132b0de45a0828c82565b3ce9cf72e5bd8ebaae1",
+    "cleanup": {
+      "deleted": true,
+      "warning": null
+    }
+  },
+  "prices": {
+    "input_uncached_per_1M": 0.3,
+    "input_cached_per_1M": 0.03,
+    "output_incl_thinking_per_1M": 2.5
+  }
+}

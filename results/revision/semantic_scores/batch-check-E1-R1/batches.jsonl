@@ -1,0 +1,2 @@
+{"event": "submitted", "batch_id": "msgbatch_01SeapUjL7pb2u9vZwYLmzmn", "ts_utc": "2026-11-13T03:19:44.970+00:00", "n_requests": 1, "pass": 1, "issue_ids": ["E1-R1:page_001:00"], "custom_ids_sha256": "0a616c755571162d00492cd068ce8304e16aab6b712bb262ba4bc231d5dcc010", "config_sha256": "290b6eadc2fef41f2be56f0407db963677f1c18114a4a1eb1d7a8664b9fce8e0", "processing_status": "in_progress", "resume": false}
+{"event": "collected", "batch_id": "msgbatch_01SeapUjL7pb2u9vZwYLmzmn", "ts_utc": "2026-11-13T03:23:26.410+00:00", "n_results": 1, "status_counts": {"ok": 1}}

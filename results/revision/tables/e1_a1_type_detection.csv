@@ -1,0 +1,13 @@
+defect_type,label,positives,E1-R1_tp_pages,E1-R1_fp_pages,E1-R2_tp_pages,E1-R2_fp_pages,E1-R3b_tp_pages,E1-R3b_fp_pages,E2-A1-1_tp_pages,E2-A1-1_fp_pages,E2-A1-2_tp_pages,E2-A1-2_fp_pages,E2-A1-3_tp_pages,E2-A1-3_fp_pages
+Poor Contrast Ratio,nominal,44,44,3,44,4,44,2,44,25,44,21,44,23
+Poor Contrast Ratio,effective,44,44,3,44,4,44,2,44,25,44,21,44,23
+Mobile Layout Breakage,nominal,56,56,32,56,32,56,28,56,49,56,52,56,49
+Mobile Layout Breakage,effective,56,56,32,56,32,56,28,56,49,56,52,56,49
+Button Area Clipping,nominal,46,40,0,40,0,40,0,38,0,34,0,38,0
+Button Area Clipping,effective,20,20,20,20,20,20,20,20,18,20,14,20,18
+Standard Terminology Violation,nominal,45,12,0,14,0,12,0,17,0,19,0,12,0
+Standard Terminology Violation,effective,42,12,0,14,0,12,0,17,0,19,0,12,0
+Duplicate ID Markup Error,nominal,40,34,0,37,0,33,0,31,3,34,5,34,2
+Duplicate ID Markup Error,effective,40,34,0,37,0,33,0,31,3,34,5,34,2
+"Standard Terminology Violation [string_match, mention-based]",nominal,45,12,0,14,0,12,0,17,0,19,0,12,0
+"Standard Terminology Violation [string_match, mention-based]",effective,42,12,0,14,0,12,0,17,0,19,0,12,0

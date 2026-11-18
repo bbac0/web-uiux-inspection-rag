@@ -1,0 +1,40 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Metric differences RAG on minus off (template-cluster bootstrap 95\% CI).}
+\label{tab:e7-diffs}
+\begin{tabular}{llllrrrrrr}
+\toprule
+Comparison & Scorer & Label & Type & BA diff & CI lo & CI hi & MCC diff & CI lo  & CI hi  \\
+\midrule
+E1-R1 - E2-A1-1 & keyword & nominal & Terminology & -0.056 & -0.134 & 0.027 & -0.097 & -0.244 & 0.049 \\
+E1-R1 - E2-A1-1 & keyword & nominal & micro (5 types) & 0.027 & -0.003 & 0.054 & 0.097 & 0.043 & 0.147 \\
+E1-R1 - E2-A1-1 & keyword & effective & Terminology & -0.060 & -0.146 & 0.028 & -0.101 & -0.255 & 0.051 \\
+E1-R1 - E2-A1-1 & keyword & effective & micro (5 types) & 0.020 & -0.006 & 0.046 & 0.079 & 0.022 & 0.129 \\
+E1-R1 - E2-A1-1 & keyword & guideline\_grounded & micro (5 types) & 0.071 & 0.031 & 0.117 & 0.226 & 0.111 & 0.336 \\
+E1-R1 - E2-A1-1 & string\_match & nominal & Terminology & -0.056 & -0.134 & 0.027 & -0.097 & -0.244 & 0.049 \\
+E1-R1 - E2-A1-1 & string\_match & effective & Terminology & -0.060 & -0.146 & 0.028 & -0.101 & -0.255 & 0.051 \\
+E1-R2 - E2-A1-2 & keyword & nominal & Terminology & -0.056 & -0.152 & 0.042 & -0.092 & -0.249 & 0.074 \\
+E1-R2 - E2-A1-2 & keyword & nominal & micro (5 types) & 0.036 & 0.006 & 0.066 & 0.109 & 0.048 & 0.173 \\
+E1-R2 - E2-A1-2 & keyword & effective & Terminology & -0.060 & -0.163 & 0.045 & -0.096 & -0.261 & 0.078 \\
+E1-R2 - E2-A1-2 & keyword & effective & micro (5 types) & 0.018 & -0.015 & 0.050 & 0.070 & -0.009 & 0.140 \\
+E1-R2 - E2-A1-2 & keyword & guideline\_grounded & micro (5 types) & 0.054 & 0.011 & 0.108 & 0.180 & 0.039 & 0.337 \\
+E1-R2 - E2-A1-2 & string\_match & nominal & Terminology & -0.056 & -0.152 & 0.042 & -0.092 & -0.249 & 0.074 \\
+E1-R2 - E2-A1-2 & string\_match & effective & Terminology & -0.060 & -0.163 & 0.045 & -0.096 & -0.261 & 0.078 \\
+E1-R3b - E2-A1-3 & keyword & nominal & Terminology & 0.000 & -0.076 & 0.088 & 0.000 & -0.144 & 0.176 \\
+E1-R3b - E2-A1-3 & keyword & nominal & micro (5 types) & 0.031 & 0.005 & 0.051 & 0.107 & 0.052 & 0.156 \\
+E1-R3b - E2-A1-3 & keyword & effective & Terminology & 0.000 & -0.083 & 0.094 & 0.000 & -0.152 & 0.186 \\
+E1-R3b - E2-A1-3 & keyword & effective & micro (5 types) & 0.024 & -0.003 & 0.048 & 0.089 & 0.027 & 0.141 \\
+E1-R3b - E2-A1-3 & keyword & guideline\_grounded & micro (5 types) & 0.067 & 0.030 & 0.108 & 0.223 & 0.111 & 0.334 \\
+E1-R3b - E2-A1-3 & string\_match & nominal & Terminology & 0.000 & -0.076 & 0.088 & 0.000 & -0.144 & 0.176 \\
+E1-R3b - E2-A1-3 & string\_match & effective & Terminology & 0.000 & -0.083 & 0.094 & 0.000 & -0.152 & 0.186 \\
+E1-majority - A1-majority & keyword & nominal & Terminology & -0.067 & -0.153 & 0.028 & -0.115 & -0.262 & 0.050 \\
+E1-majority - A1-majority & keyword & nominal & micro (5 types) & 0.019 & -0.006 & 0.041 & 0.086 & 0.040 & 0.127 \\
+E1-majority - A1-majority & keyword & effective & Terminology & -0.071 & -0.163 & 0.030 & -0.120 & -0.275 & 0.052 \\
+E1-majority - A1-majority & keyword & effective & micro (5 types) & 0.014 & -0.014 & 0.039 & 0.072 & 0.015 & 0.121 \\
+E1-majority - A1-majority & keyword & guideline\_grounded & micro (5 types) & 0.071 & 0.029 & 0.119 & 0.226 & 0.105 & 0.349 \\
+E1-majority - A1-majority & string\_match & nominal & Terminology & -0.067 & -0.153 & 0.028 & -0.115 & -0.262 & 0.050 \\
+E1-majority - A1-majority & string\_match & effective & Terminology & -0.071 & -0.163 & 0.030 & -0.120 & -0.275 & 0.052 \\
+\bottomrule
+\end{tabular}
+\end{table}

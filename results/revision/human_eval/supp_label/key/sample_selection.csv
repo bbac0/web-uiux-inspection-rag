@@ -1,0 +1,108 @@
+﻿order,stratum,issue_id,run_id,page_id,issue_index,semantic_pass1_merged,string_match_term,keyword_types,dup_n,dup_mixed
+1,S1,E3-oracle:page_007:00,E3-oracle,page_007,0,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+2,S1,E3-oracle:page_180:01,E3-oracle,page_180,1,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+3,S2,E2-A1-1:page_175:01,E2-A1-1,page_175,1,None,1,Standard Terminology Violation,2,0
+4,S1,E3-oracle:page_119:01,E3-oracle,page_119,1,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+5,S2,E2-A1-2:page_121:02,E2-A1-2,page_121,2,None,1,Standard Terminology Violation,1,0
+6,S1,E2-A1-1:page_044:01,E2-A1-1,page_044,1,Standard Terminology Violation,0,,1,0
+7,S1,E2-A1-1:page_061:00,E2-A1-1,page_061,0,Standard Terminology Violation,0,,5,0
+8,S2,E2-A1-1:page_134:01,E2-A1-1,page_134,1,None,1,Standard Terminology Violation,2,0
+9,S3,E2-A1-1:page_048:00,E2-A1-1,page_048,0,Duplicate ID Markup Error,0,Duplicate ID Markup Error,4,0
+10,S3,E2-A1-1:page_148:00,E2-A1-1,page_148,0,Mobile Layout Breakage,0,Mobile Layout Breakage,9,0
+11,S2,E2-A1-2:page_049:00,E2-A1-2,page_049,0,None,1,Standard Terminology Violation,3,0
+12,S3,E2-A1-1:page_104:02,E2-A1-1,page_104,2,None,0,,2,0
+13,S2,E2-A1-1:page_023:00,E2-A1-1,page_023,0,Button Area Clipping,1,Standard Terminology Violation,5,0
+14,S1,E3-oracle:page_159:01,E3-oracle,page_159,1,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+15,S1,E3-page:page_079:01,E3-page,page_079,1,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+16,S3,E3-page:page_076:01,E3-page,page_076,1,None,0,,1,0
+17,S2,E2-A1-1:page_052:02,E2-A1-1,page_052,2,None,1,Standard Terminology Violation,2,0
+18,S1,E3-oracle:page_160:00,E3-oracle,page_160,0,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+19,S2,E3-oracle:page_133:00,E3-oracle,page_133,0,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage;Standard Terminology Violation,1,0
+20,S3,E2-A1-1:page_098:02,E2-A1-1,page_098,2,None,0,,3,0
+21,S3,E2-A1-2:page_101:03,E2-A1-2,page_101,3,None,0,,6,0
+22,S1,E4-mobile:page_007:02,E4-mobile,page_007,2,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+23,S1,E3-oracle:page_119:00,E3-oracle,page_119,0,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+24,S1,E3-oracle:page_062:00,E3-oracle,page_062,0,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+25,S1,E4-mobile:page_117:02,E4-mobile,page_117,2,Standard Terminology Violation,0,,1,0
+26,S1,E2-A1-2:page_157:00,E2-A1-2,page_157,0,Standard Terminology Violation,1,Standard Terminology Violation,5,0
+27,S3,E3-page:page_171:00,E3-page,page_171,0,Duplicate ID Markup Error,0,Duplicate ID Markup Error,1,0
+28,S1,E4-mobile:page_131:03,E4-mobile,page_131,3,Standard Terminology Violation,0,,1,0
+29,S1,E4-mobile:page_062:02,E4-mobile,page_062,2,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+30,S2,E2-A1-1:page_079:01,E2-A1-1,page_079,1,None,1,Standard Terminology Violation,2,0
+31,S1,E3-oracle:page_076:01,E3-oracle,page_076,1,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+32,S2,E2-A1-1:page_169:02,E2-A1-1,page_169,2,None,1,Standard Terminology Violation,2,0
+33,S1,E3-oracle:page_049:00,E3-oracle,page_049,0,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+34,S3,E3-oracle:page_025:00,E3-oracle,page_025,0,Mobile Layout Breakage,0,Mobile Layout Breakage,2,0
+35,S2,E3-page:page_133:00,E3-page,page_133,0,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage;Standard Terminology Violation,1,0
+36,S1,E3-page:page_076:00,E3-page,page_076,0,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+37,S3,E4-mobile:page_163:03,E4-mobile,page_163,3,None,0,,1,0
+38,S2,E3-oracle:page_171:00,E3-oracle,page_171,0,None,1,Standard Terminology Violation,1,0
+39,S1,E3-page:page_152:00,E3-page,page_152,0,Standard Terminology Violation,1,Standard Terminology Violation,2,0
+40,S1,E3-page:page_034:00,E3-page,page_034,0,Standard Terminology Violation,0,,2,0
+41,S3,E2-A1-1:page_123:01,E2-A1-1,page_123,1,Mobile Layout Breakage,0,Mobile Layout Breakage,1,0
+42,S2,E2-A1-1:page_017:01,E2-A1-1,page_017,1,None,1,Standard Terminology Violation,2,0
+43,S1,E3-oracle:page_072:00,E3-oracle,page_072,0,Standard Terminology Violation,1,Standard Terminology Violation,3,0
+44,S3,E2-A1-1:page_010:02,E2-A1-1,page_010,2,None,0,,2,0
+45,S1,E3-oracle:page_151:00,E3-oracle,page_151,0,Standard Terminology Violation,1,Standard Terminology Violation,2,0
+46,S3,E2-A1-1:page_116:01,E2-A1-1,page_116,1,None,0,,6,0
+47,S2,E2-A1-1:page_049:01,E2-A1-1,page_049,1,None,1,Standard Terminology Violation,3,0
+48,S3,E2-A1-1:page_021:01,E2-A1-1,page_021,1,Mobile Layout Breakage,0,Mobile Layout Breakage,4,0
+49,S1,E3-oracle:page_079:00,E3-oracle,page_079,0,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+50,S3,E2-A1-1:page_014:00,E2-A1-1,page_014,0,Duplicate ID Markup Error,0,,1,0
+51,S1,E2-A1-1:page_122:03,E2-A1-1,page_122,3,Standard Terminology Violation,1,Standard Terminology Violation,7,0
+52,S2,E3-oracle:page_170:02,E3-oracle,page_170,2,Poor Contrast Ratio,1,Poor Contrast Ratio;Standard Terminology Violation,1,0
+53,S1,E3-oracle:page_169:01,E3-oracle,page_169,1,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+54,S1,E3-page:page_151:00,E3-page,page_151,0,Standard Terminology Violation,1,Standard Terminology Violation,2,0
+55,S3,E2-A1-1:page_064:00,E2-A1-1,page_064,0,None,0,Mobile Layout Breakage,8,0
+56,S2,E3-oracle:page_023:00,E3-oracle,page_023,0,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage;Standard Terminology Violation,2,0
+57,S1,E3-oracle:page_200:01,E3-oracle,page_200,1,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+58,S2,E2-A1-1:page_079:02,E2-A1-1,page_079,2,None,1,Standard Terminology Violation,2,0
+59,S2,E3-oracle:page_170:00,E3-oracle,page_170,0,Poor Contrast Ratio,1,Poor Contrast Ratio;Standard Terminology Violation,1,0
+60,S1,E3-oracle:page_122:01,E3-oracle,page_122,1,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+61,S3,E2-A1-1:page_122:02,E2-A1-1,page_122,2,None,0,,7,0
+62,S1,E3-page:page_070:00,E3-page,page_070,0,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+63,S2,E2-A1-1:page_076:02,E2-A1-1,page_076,2,None,1,Standard Terminology Violation,2,0
+64,S2,E3-oracle:page_200:00,E3-oracle,page_200,0,None,1,Standard Terminology Violation,1,0
+65,S1,E3-oracle:page_140:01,E3-oracle,page_140,1,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+66,S3,E2-A1-3:page_141:00,E2-A1-3,page_141,0,Mobile Layout Breakage,0,Mobile Layout Breakage,1,0
+67,S3,E3-page:page_079:00,E3-page,page_079,0,Button Area Clipping,0,Button Area Clipping,1,0
+68,S3,E2-A1-1:page_156:02,E2-A1-1,page_156,2,None,0,,3,0
+69,S1,E3-page:page_170:02,E3-page,page_170,2,Standard Terminology Violation,1,Standard Terminology Violation,2,0
+70,S3,E2-A1-1:page_116:00,E2-A1-1,page_116,0,Poor Contrast Ratio,0,Poor Contrast Ratio,6,0
+71,S2,E2-A1-2:page_175:00,E2-A1-2,page_175,0,None,1,Standard Terminology Violation,1,0
+72,S1,E2-A1-1:page_134:02,E2-A1-1,page_134,2,Standard Terminology Violation,0,,2,0
+73,S2,E3-oracle:page_023:01,E3-oracle,page_023,1,Button Area Clipping,1,Standard Terminology Violation,2,0
+74,S1,E3-page:page_179:03,E3-page,page_179,3,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+75,S3,E2-A1-3:page_128:01,E2-A1-3,page_128,1,None,0,,1,0
+76,S2,E3-oracle:page_122:00,E3-oracle,page_122,0,None,1,Standard Terminology Violation,1,0
+77,S3,E2-A1-3:page_193:00,E2-A1-3,page_193,0,Mobile Layout Breakage,0,Mobile Layout Breakage,1,0
+78,S2,E3-oracle:page_173:00,E3-oracle,page_173,0,Poor Contrast Ratio,1,Poor Contrast Ratio;Standard Terminology Violation,1,0
+79,S1,E3-oracle:page_179:00,E3-oracle,page_179,0,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+80,S2,E2-A1-1:page_175:00,E2-A1-1,page_175,0,None,1,Standard Terminology Violation,2,0
+81,S1,E2-A1-1:page_181:02,E2-A1-1,page_181,2,Standard Terminology Violation,1,Standard Terminology Violation,3,0
+82,S2,E3-oracle:page_121:00,E3-oracle,page_121,0,None,1,Standard Terminology Violation,1,0
+83,S2,E3-page:page_072:00,E3-page,page_072,0,None,1,Standard Terminology Violation,2,0
+84,S1,E2-A1-1:page_104:03,E2-A1-1,page_104,3,Standard Terminology Violation,0,,2,0
+85,S2,E3-page:page_023:00,E3-page,page_023,0,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage;Standard Terminology Violation,2,0
+86,S2,E3-oracle:page_104:00,E3-oracle,page_104,0,None,1,Standard Terminology Violation,1,0
+87,S1,E2-A1-2:page_159:01,E2-A1-2,page_159,1,Standard Terminology Violation,1,Standard Terminology Violation,2,0
+88,S2,E2-A1-1:page_077:00,E2-A1-1,page_077,0,None,1,Standard Terminology Violation,4,0
+89,S3,E2-A1-1:page_109:01,E2-A1-1,page_109,1,Duplicate ID Markup Error,0,Duplicate ID Markup Error,1,0
+90,S1,E2-A1-1:page_014:02,E2-A1-1,page_014,2,Standard Terminology Violation,0,,1,0
+91,S3,E2-A1-1:page_015:01,E2-A1-1,page_015,1,Mobile Layout Breakage,0,Mobile Layout Breakage,9,0
+92,S3,E2-A1-1:page_016:05,E2-A1-1,page_016,5,None,0,,7,0
+93,S2,E4-mobile:page_174:02,E4-mobile,page_174,2,None,1,Standard Terminology Violation,1,0
+94,S2,E3-oracle:page_169:02,E3-oracle,page_169,2,None,1,Standard Terminology Violation,1,0
+95,S1,E3-page:page_062:01,E3-page,page_062,1,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+96,S1,E3-oracle:page_052:00,E3-oracle,page_052,0,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+97,S3,E3-page:page_069:01,E3-page,page_069,1,None,0,,3,0
+98,S3,E2-A1-2:page_011:03,E2-A1-2,page_011,3,None,0,,2,0
+99,S1,E3-oracle:page_077:00,E3-oracle,page_077,0,Standard Terminology Violation,1,Standard Terminology Violation,3,0
+100,S1,E3-oracle:page_070:01,E3-oracle,page_070,1,Standard Terminology Violation,1,Standard Terminology Violation,1,0
+101,S3,E2-A1-1:page_018:01,E2-A1-1,page_018,1,Button Area Clipping,0,Button Area Clipping;Mobile Layout Breakage;Poor Contrast Ratio,2,0
+102,S3,E3-page:page_065:00,E3-page,page_065,0,Duplicate ID Markup Error,0,Duplicate ID Markup Error,1,0
+103,S2,E3-oracle:page_113:00,E3-oracle,page_113,0,None,1,Standard Terminology Violation,1,0
+104,S3,E2-A1-1:page_115:00,E2-A1-1,page_115,0,Button Area Clipping,0,Button Area Clipping;Poor Contrast Ratio,5,0
+105,S1,E2-A1-1:page_024:00,E2-A1-1,page_024,0,Standard Terminology Violation,0,,4,0
+106,S2,E3-oracle:page_017:00,E3-oracle,page_017,0,None,1,Standard Terminology Violation,1,0
+107,S2,E3-oracle:page_133:01,E3-oracle,page_133,1,None,1,Standard Terminology Violation,1,0

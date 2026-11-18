@@ -1,0 +1,1691 @@
+{
+ "created_utc": "2026-11-12T14:57:32.198+00:00",
+ "rule_source": "docs/e9_design.md §4.1 (사전 지정, 결과를 본 뒤 바꾸지 않음)",
+ "condition_name": "E9 결함 주제 키워드를 제외한 컨텍스트, 길이 맞춤 (fixed-long)",
+ "embedding_call": {
+  "ts_start_utc": "2026-11-12T14:57:29.597+00:00",
+  "purpose": "fixed-query ranking (gov_check top rank; E9 fixed-long selection)",
+  "model": "models/gemini-embedding-001",
+  "query": "웹 UI/UX 표준 가이드라인 공통 규정",
+  "chroma_source": "services/chroma_db",
+  "chroma_source_sha256": {
+   "chroma.sqlite3": "b3fed16a5f4b65a26b867e98a27cceb60712a7951afe80643588d7cae1a4809b"
+  },
+  "status": "ok",
+  "attempts": 1,
+  "errors": [],
+  "ts_end_utc": "2026-11-12T14:57:32.017+00:00",
+  "latency_sec": 0.5683
+ },
+ "query": "웹 UI/UX 표준 가이드라인 공통 규정",
+ "n_ranked": 1020,
+ "target_chars": 4538,
+ "range_chars": [
+  4084,
+  4992
+ ],
+ "keywords": [
+  "공식 배너",
+  "공식 전자정부 누리집",
+  "배너",
+  "헤더",
+  "푸터",
+  "로그인",
+  "회원가입",
+  "작은 화면",
+  "768px"
+ ],
+ "keyword_check": "case-insensitive substring on raw text OR on whitespace-removed text",
+ "excluded_n": 170,
+ "excluded_by_reason": {
+  "a_related_clause": 6,
+  "b_keyword": 164
+ },
+ "excluded_per_keyword": {
+  "공식 배너": 25,
+  "공식 전자정부 누리집": 2,
+  "배너": 48,
+  "헤더": 70,
+  "푸터": 39,
+  "로그인": 25,
+  "회원가입": 8,
+  "작은 화면": 25,
+  "768px": 16
+ },
+ "excluded": [
+  {
+   "id": "ffd48677-a4cc-405b-aacd-15820a7f65f0",
+   "rank": 2,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "654c214c-448d-4030-862a-67c5899520ca",
+   "rank": 3,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "b97d3ca0-d7f6-44b4-a054-e4cd551a9fa7",
+   "rank": 6,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "227b687e-c1e8-4326-95e8-9ce595577ae3",
+   "rank": 7,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "9abe2a32-ccfa-4715-80bc-5401aa39cf59",
+   "rank": 12,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "3e70e80b-2e7c-48b2-8626-fefa10781069",
+   "rank": 20,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "edb4d24b-9f32-44a9-b663-85fb19065a6d",
+   "rank": 22,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "4da6c385-46d0-492e-b905-c80bb62f49f0",
+   "rank": 24,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "a537bea8-f3f7-4abc-ae72-6f40906cb413",
+   "rank": 25,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "1534baa5-36ba-4b0f-a1c6-1afd0045480d",
+   "rank": 26,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너"
+   ]
+  },
+  {
+   "id": "97624125-65ec-4318-a94b-9a79e4454caf",
+   "rank": 29,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터"
+   ]
+  },
+  {
+   "id": "78a902f6-539e-48db-a22a-3012180bf6eb",
+   "rank": 33,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "5880560c-5509-4164-894f-6a7765ca6f15",
+   "rank": 36,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너"
+   ]
+  },
+  {
+   "id": "b46d3461-b045-4c6b-b826-527e528baaa8",
+   "rank": 37,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "5adcc7a9-4d1e-4965-8532-c33ba1f2b034",
+   "rank": 38,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "4433951c-cdb8-460d-8f73-616ac9d65682",
+   "rank": 40,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "feaff86e-c336-4b95-8b96-6480a35f0f02",
+   "rank": 49,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "푸터"
+   ]
+  },
+  {
+   "id": "b2daf887-6ddd-4cf1-9782-963b631a9ec5",
+   "rank": 50,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너"
+   ]
+  },
+  {
+   "id": "8ada9241-734d-4854-bee0-ed41b258658f",
+   "rank": 51,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "7e80169a-9cd6-4ca2-a05c-f6875178ca7f",
+   "rank": 52,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "157cfa2e-c119-41fd-96e9-fedd812a54a6",
+   "rank": 53,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "19f5aa58-2b0b-4493-8eb1-dd39a881e38f",
+   "rank": 55,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "d9fac545-a5e5-4ba0-9ca2-fa63cd15da49",
+   "rank": 57,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터"
+   ]
+  },
+  {
+   "id": "d940ea6e-93f3-491e-992a-54d3f7aba8c7",
+   "rank": 59,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "df801f0d-d76b-4a0f-9a0e-e55f2cd23a9e",
+   "rank": 74,
+   "reason": "b_keyword",
+   "keywords": [
+    "768px"
+   ]
+  },
+  {
+   "id": "dcc05cd9-891c-4dc4-90ee-6855cd5ed18a",
+   "rank": 82,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "b90b4ebd-ccda-427e-bf43-6de5afdcf0fd",
+   "rank": 83,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "ed61cd79-15f0-468d-a0e5-9cc9b6518146",
+   "rank": 89,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "헤더",
+    "로그인",
+    "회원가입"
+   ]
+  },
+  {
+   "id": "5c3225fd-dc2e-4afb-ab30-90684735bba5",
+   "rank": 91,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "ef7832a8-12d6-4206-bd58-b075dde87168",
+   "rank": 92,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터",
+    "회원가입"
+   ]
+  },
+  {
+   "id": "c599eca6-9810-4187-a56f-b3f544495c7a",
+   "rank": 93,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "b19aef48-c314-4ab0-82e9-96bbf0062102",
+   "rank": 95,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터"
+   ]
+  },
+  {
+   "id": "9b25134c-83b9-474d-b2c3-1f69863902cc",
+   "rank": 96,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "1975c967-8c86-4225-9269-1bee1b2a2f3a",
+   "rank": 99,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "d4f6479f-bd99-4c50-af16-1d8cc4615811",
+   "rank": 104,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터"
+   ]
+  },
+  {
+   "id": "d4cc2494-18ea-4fe6-a04c-f12bd87b04ab",
+   "rank": 110,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "8e14ea50-98c9-4318-9d54-1d86be23241d",
+   "rank": 121,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더",
+    "로그인",
+    "회원가입"
+   ]
+  },
+  {
+   "id": "82fb78fb-57de-493d-a4a1-2a45577d13e9",
+   "rank": 123,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "01967421-e356-492b-a351-f5d81c504540",
+   "rank": 125,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "42490582-d5ef-45a2-ad88-95075ca0aef3",
+   "rank": 129,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "4536a37e-2033-44f9-913a-fd9fe9ef6fdc",
+   "rank": 130,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더",
+    "작은 화면"
+   ]
+  },
+  {
+   "id": "5994fd6c-2eca-45eb-a93e-943cb824f71c",
+   "rank": 136,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "공식 전자정부 누리집",
+    "배너",
+    "헤더"
+   ]
+  },
+  {
+   "id": "51cab320-d925-42bc-a9e4-fb8eeb6a3f5f",
+   "rank": 139,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "헤더",
+    "로그인",
+    "회원가입"
+   ]
+  },
+  {
+   "id": "ba2c77a1-029a-47fc-8cbb-c5ffccedaf57",
+   "rank": 143,
+   "reason": "b_keyword",
+   "keywords": [
+    "768px"
+   ]
+  },
+  {
+   "id": "4782b967-f132-43c0-bb85-4b3693184c96",
+   "rank": 147,
+   "reason": "b_keyword",
+   "keywords": [
+    "768px"
+   ]
+  },
+  {
+   "id": "07e4a68a-dbc1-474b-b130-235d694caa44",
+   "rank": 149,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "583424a5-4f35-492d-93db-1f1cce5ead68",
+   "rank": 156,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터",
+    "작은 화면"
+   ]
+  },
+  {
+   "id": "03bd8764-b638-4ee5-a154-53d1e8cf6762",
+   "rank": 158,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "공식 전자정부 누리집",
+    "배너"
+   ]
+  },
+  {
+   "id": "1fff974d-ca33-444d-a3ac-8b93b5a8aadf",
+   "rank": 159,
+   "reason": "a_related_clause"
+  },
+  {
+   "id": "31fdca98-9c3c-4761-8bc6-8bea048e6778",
+   "rank": 162,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "265eeb6d-3e1a-43bc-99b7-d299c8ff4233",
+   "rank": 169,
+   "reason": "a_related_clause"
+  },
+  {
+   "id": "f172053d-6a18-447a-aa1d-040303c1051a",
+   "rank": 177,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너",
+    "헤더"
+   ]
+  },
+  {
+   "id": "349eca14-0d45-4fa0-b325-61775b8e08a5",
+   "rank": 179,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너"
+   ]
+  },
+  {
+   "id": "7c5979d5-2eab-476e-b40b-c9bd33c64e92",
+   "rank": 185,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면",
+    "768px"
+   ]
+  },
+  {
+   "id": "dcfc72bb-2905-4847-8feb-b2eb45c703c9",
+   "rank": 190,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "01dbc64d-9c3d-4c0f-ac6b-94918ed920dc",
+   "rank": 195,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "77741f18-52bd-4d36-bf08-07e5066aeef5",
+   "rank": 202,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더",
+    "로그인"
+   ]
+  },
+  {
+   "id": "5dd540a2-fbb7-4777-bc5e-6212239866d9",
+   "rank": 213,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "d0053fbc-8c1e-45dc-9444-34c83d04c0d8",
+   "rank": 215,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "7deabd3b-7e1b-4a77-a1b0-1f4300651890",
+   "rank": 219,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "cc2ad362-bc84-4ff7-9394-7fa9a7021a89",
+   "rank": 221,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "헤더"
+   ]
+  },
+  {
+   "id": "cb68fa6a-c088-4e4c-bce6-199af1745a7d",
+   "rank": 231,
+   "reason": "b_keyword",
+   "keywords": [
+    "회원가입"
+   ]
+  },
+  {
+   "id": "4a7ba676-d59f-4587-93ba-dc73ff01afd6",
+   "rank": 238,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터"
+   ]
+  },
+  {
+   "id": "159f91c8-0fb3-4ad9-942f-9745a862d846",
+   "rank": 240,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "916c524c-39d6-4ddf-9eb3-7c2ae5f4fc01",
+   "rank": 241,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너"
+   ]
+  },
+  {
+   "id": "5af4ec0f-1882-4c5c-b5a1-b8e23955da2f",
+   "rank": 246,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터"
+   ]
+  },
+  {
+   "id": "09a309d0-0ea0-4ee0-8a7f-4b51ebd29d8c",
+   "rank": 256,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면"
+   ]
+  },
+  {
+   "id": "358e6b72-7857-4b75-8b03-5bb462ac382c",
+   "rank": 263,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터"
+   ]
+  },
+  {
+   "id": "685ce5f4-72eb-4f56-9664-5dbc9b333653",
+   "rank": 265,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너"
+   ]
+  },
+  {
+   "id": "9e7300bf-f253-4f86-828b-131a1473897f",
+   "rank": 281,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "45f9caac-770e-4085-bae9-e2c3e643b334",
+   "rank": 283,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터"
+   ]
+  },
+  {
+   "id": "14d8d71e-3db5-4437-9eb1-a54cd64b1fc6",
+   "rank": 287,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "35ba773a-cf4c-4eba-832f-a838ff67c305",
+   "rank": 291,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터"
+   ]
+  },
+  {
+   "id": "193234c5-edf2-431f-81b3-fe5416730b5d",
+   "rank": 311,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면",
+    "768px"
+   ]
+  },
+  {
+   "id": "c45ca8df-f83e-425c-bf9b-804a6c8cc4df",
+   "rank": 313,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터",
+    "작은 화면",
+    "768px"
+   ]
+  },
+  {
+   "id": "cf753e8b-fe92-4645-ac07-693d28d60552",
+   "rank": 317,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "96c447d4-a960-48ef-895e-8c2d58cc251c",
+   "rank": 320,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "ccb785dd-e0de-423a-917a-ef37bc3ddced",
+   "rank": 325,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면"
+   ]
+  },
+  {
+   "id": "87f08a4d-b8b6-427c-8fd5-2925b07b4d8a",
+   "rank": 332,
+   "reason": "a_related_clause"
+  },
+  {
+   "id": "22201aab-2324-4d2f-8545-10c653c259c7",
+   "rank": 333,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "4a034ac2-8add-48c5-933a-61fe373e6dab",
+   "rank": 347,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면",
+    "768px"
+   ]
+  },
+  {
+   "id": "513d7eab-34b9-4fca-a08d-977c8d6f11b1",
+   "rank": 356,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "ceb76ae6-1151-4048-911f-767db03822e1",
+   "rank": 365,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면",
+    "768px"
+   ]
+  },
+  {
+   "id": "0fb26807-ac8f-4027-81ea-3ca9fc354517",
+   "rank": 368,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "4dc72859-92b9-4be3-8389-950f1a47b20c",
+   "rank": 373,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "011678ce-9a35-4383-a5ca-33611e8aba17",
+   "rank": 380,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면",
+    "768px"
+   ]
+  },
+  {
+   "id": "524592de-b9ec-4f21-b3da-9c12a3087bcb",
+   "rank": 381,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "c432e9a7-c524-4871-bffd-94d1322940f5",
+   "rank": 382,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터"
+   ]
+  },
+  {
+   "id": "a0d8a626-9521-4a04-bc5e-7a5f067beebb",
+   "rank": 383,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터"
+   ]
+  },
+  {
+   "id": "bc238e6d-767e-45f5-84a3-6bda0161f22f",
+   "rank": 399,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너"
+   ]
+  },
+  {
+   "id": "8787ef59-dac5-46c7-bfb2-ff418e134bdc",
+   "rank": 403,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "ee479578-66d2-4793-ae9a-685771f6f690",
+   "rank": 404,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면"
+   ]
+  },
+  {
+   "id": "6579658f-0b32-4ba2-8443-6da8f50661cf",
+   "rank": 408,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "fcc0e33c-46ef-4c66-a106-e287ffbdcf86",
+   "rank": 413,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "75267362-52ca-4a2f-984c-488b14bb231e",
+   "rank": 417,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "3426f740-ab55-4529-9f61-1eb5c604357c",
+   "rank": 426,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "2ed95431-5ef7-435e-85a9-2cc96394e4d5",
+   "rank": 430,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터"
+   ]
+  },
+  {
+   "id": "a1b6fa90-ca0d-4af5-8097-b6a198a78212",
+   "rank": 436,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "ad350718-1ae4-4753-b3ce-77acf68a49c1",
+   "rank": 450,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "427419c3-0b27-48d6-9eae-a3579b18d39c",
+   "rank": 455,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "4b50b5f9-15b2-4050-a698-51779125b8fb",
+   "rank": 461,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터"
+   ]
+  },
+  {
+   "id": "82e6b3e7-e0e9-4687-a0ea-49f76c3548ae",
+   "rank": 464,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "55ebcc14-9fde-4da2-bf23-be3e79c4da9a",
+   "rank": 466,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "8cf768d3-60e4-4b57-ada0-a0c27d6f3fcd",
+   "rank": 481,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "574b8c73-13b0-43e7-bbe8-abc31f41bb2c",
+   "rank": 488,
+   "reason": "a_related_clause"
+  },
+  {
+   "id": "18086ef9-d136-4134-a25c-cedb9e69065e",
+   "rank": 490,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "645124a6-8e77-4717-aa8d-a751a10e4631",
+   "rank": 491,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "9d4027f9-c2d7-48af-b082-279bf998e0a5",
+   "rank": 502,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "37c490e4-e3d3-45a4-8822-868cd051e129",
+   "rank": 503,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면"
+   ]
+  },
+  {
+   "id": "b671d3cf-4977-4a9a-b2ca-1998fd5deb65",
+   "rank": 504,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면",
+    "768px"
+   ]
+  },
+  {
+   "id": "03eb3551-239d-4520-985c-2adfd5cdfccb",
+   "rank": 511,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "906848de-bb99-4446-adb1-16a2dc61d34e",
+   "rank": 516,
+   "reason": "a_related_clause"
+  },
+  {
+   "id": "d3ccc0a4-7431-43cb-9419-0fc27c4a45ed",
+   "rank": 519,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "0270a4a3-e0a1-4d73-ae83-f2203c60a1ff",
+   "rank": 533,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터",
+    "작은 화면"
+   ]
+  },
+  {
+   "id": "384a848b-4cc2-4ac3-a3ab-085d71dd50d4",
+   "rank": 535,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "9f7ee24c-1cc3-4533-85ad-c396993069d4",
+   "rank": 538,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "c96c4b51-9e59-42b8-86c3-f48524cb9255",
+   "rank": 544,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "21fbd153-d94e-4cc0-a9bc-23ab2741f9e6",
+   "rank": 551,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면",
+    "768px"
+   ]
+  },
+  {
+   "id": "905711bf-2989-473d-9cf8-47a3ed1dd8f9",
+   "rank": 554,
+   "reason": "a_related_clause"
+  },
+  {
+   "id": "b8a8d014-ed7b-4cb1-9dc5-4a1fd82964c0",
+   "rank": 555,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인",
+    "회원가입"
+   ]
+  },
+  {
+   "id": "443c0908-4f30-49d2-b069-7276e680b6a9",
+   "rank": 556,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더",
+    "로그인"
+   ]
+  },
+  {
+   "id": "5a5d99cd-4e2c-4c64-9c99-c6c7c7fb5d1f",
+   "rank": 563,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "351dfc34-a6c8-44d5-9406-0ee59900a5ab",
+   "rank": 569,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더",
+    "작은 화면"
+   ]
+  },
+  {
+   "id": "e743f4b7-9a57-4002-8fed-cf169bb4ba12",
+   "rank": 573,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "57b8f5a2-e22a-4af7-bf04-27cfb01f2dc4",
+   "rank": 615,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면",
+    "768px"
+   ]
+  },
+  {
+   "id": "7298b08c-06e3-4391-97c4-be91b93fac3e",
+   "rank": 627,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "e274216c-468a-4b63-8dbc-92cb8c6221dc",
+   "rank": 632,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "d3564a0c-f611-49df-97b5-8551c8daae3b",
+   "rank": 639,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "7938a47e-e4fc-4dc3-bfe2-a3767c38a381",
+   "rank": 642,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면",
+    "768px"
+   ]
+  },
+  {
+   "id": "cecaae07-de17-40bc-867b-5d6de51305d2",
+   "rank": 645,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "5b7a14d3-3809-4598-9eb1-dd8929a214bd",
+   "rank": 647,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면",
+    "768px"
+   ]
+  },
+  {
+   "id": "87a2c616-d7ab-4a97-89a6-3bf6b6ad4a02",
+   "rank": 657,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "7fb1df81-254f-47c5-b931-70fee9ee5e22",
+   "rank": 659,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "4529fe51-7f31-4bdd-988c-27c70ba2fca1",
+   "rank": 661,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "d9d0f958-b4cd-45a3-ab0b-be32f34f478f",
+   "rank": 665,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면"
+   ]
+  },
+  {
+   "id": "f842a8df-a040-4e66-9d8b-28d76867d272",
+   "rank": 671,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "푸터"
+   ]
+  },
+  {
+   "id": "2872b637-1a36-452a-bc17-6876ea522363",
+   "rank": 675,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "484622f7-0124-4e11-b0ec-cc481d5b39d3",
+   "rank": 679,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "9d4c71a3-a650-4f7c-b0c8-f0cc0c7516d4",
+   "rank": 686,
+   "reason": "b_keyword",
+   "keywords": [
+    "푸터"
+   ]
+  },
+  {
+   "id": "4f727aa0-4cb6-471a-a1ff-f00361bdbacc",
+   "rank": 691,
+   "reason": "b_keyword",
+   "keywords": [
+    "회원가입"
+   ]
+  },
+  {
+   "id": "2519b734-64fb-481e-aa60-4e1f7771f803",
+   "rank": 705,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "1532db57-fb1e-449a-8335-5d7fdb589c25",
+   "rank": 706,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면"
+   ]
+  },
+  {
+   "id": "3c8bcc8f-1a38-448d-80d5-a50fe5b753eb",
+   "rank": 707,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "e3304bb3-9f38-4a92-9342-062fc5413d50",
+   "rank": 735,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "63051a29-3fc0-4a6f-8e5e-b3aacc75365c",
+   "rank": 758,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "cc25709d-6334-40cc-98b2-029549282b18",
+   "rank": 759,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "4888ac75-bc73-40a6-b16a-64eb2c002f4b",
+   "rank": 761,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "ca6dd3e5-d233-4df8-9b9b-1ecb2440a1a6",
+   "rank": 763,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "77168bc0-3d50-41ec-84f0-b879e49a3e2c",
+   "rank": 770,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면"
+   ]
+  },
+  {
+   "id": "2df0260c-115e-49ab-8e02-059b0eaaaa41",
+   "rank": 774,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "e41390f5-5a0d-474a-964d-5039027a8776",
+   "rank": 784,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "70bf41a5-f032-47e5-bab7-d1d89fa2f34e",
+   "rank": 785,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면",
+    "768px"
+   ]
+  },
+  {
+   "id": "8ebe959d-81e0-4694-8809-68068123951b",
+   "rank": 796,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "c1eba7f3-05a3-4bca-8243-15c0c8ab0c1f",
+   "rank": 804,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "a07a8553-2abd-4dad-8d71-b0db8a8ec176",
+   "rank": 814,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  },
+  {
+   "id": "aa0825d1-c0dc-426d-b2f6-f9ae2b1ed33e",
+   "rank": 833,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "16059b18-a1cc-4d59-b4f5-b570b7d53289",
+   "rank": 845,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "0f9c2e82-a436-4833-8dae-ed13501478d6",
+   "rank": 863,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "26211672-32ec-4d6e-95cc-86b4ac7ef65a",
+   "rank": 865,
+   "reason": "b_keyword",
+   "keywords": [
+    "작은 화면",
+    "768px"
+   ]
+  },
+  {
+   "id": "2d81dc1d-7f14-4d67-b8cf-4d1960f436c1",
+   "rank": 878,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인",
+    "회원가입"
+   ]
+  },
+  {
+   "id": "2d5b822e-345c-4c17-80fe-343def3f8d72",
+   "rank": 885,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "76648c77-3a4c-4bf3-a07f-b58e5d3e73b3",
+   "rank": 892,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인",
+    "작은 화면"
+   ]
+  },
+  {
+   "id": "ba1c7fbe-49b8-47cd-b2b8-2182364684f3",
+   "rank": 902,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더",
+    "푸터"
+   ]
+  },
+  {
+   "id": "5e397790-ed3a-4b16-9ce3-956711689b3a",
+   "rank": 910,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "b7d7aff7-e45a-4d6e-bfaa-41aa6849840c",
+   "rank": 923,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "72e71684-a00b-452f-8bc8-95f3fc8b8ac2",
+   "rank": 940,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "ce95ff09-3803-40d4-a4f0-442be521a655",
+   "rank": 948,
+   "reason": "b_keyword",
+   "keywords": [
+    "배너"
+   ]
+  },
+  {
+   "id": "b0e16ee9-c3cb-4afc-ab31-0130ec2e522d",
+   "rank": 949,
+   "reason": "b_keyword",
+   "keywords": [
+    "공식 배너",
+    "배너",
+    "헤더"
+   ]
+  },
+  {
+   "id": "66d310d7-a519-4de2-83c7-7be0dde79a84",
+   "rank": 950,
+   "reason": "b_keyword",
+   "keywords": [
+    "헤더"
+   ]
+  },
+  {
+   "id": "ddc801cd-65e9-44d6-bf29-99801485af85",
+   "rank": 1014,
+   "reason": "b_keyword",
+   "keywords": [
+    "로그인"
+   ]
+  }
+ ],
+ "K": 9,
+ "k_rule_applied": "first K within 4,084-4,992",
+ "cumulative_lengths": [
+  589,
+  645,
+  941,
+  1420,
+  1671,
+  1917,
+  2722,
+  3579,
+  4465
+ ],
+ "final_context_chars": 4465,
+ "selected": [
+  {
+   "filtered_rank": 1,
+   "original_rank": 1,
+   "chunk_id": "ce334282-62d0-4346-81ba-237ca8ef4d57",
+   "source": "gov_guide.pdf",
+   "page": 9,
+   "distance": 0.45179423689842224,
+   "chars": 566,
+   "prompt_form_chars": 589
+  },
+  {
+   "filtered_rank": 2,
+   "original_rank": 4,
+   "chunk_id": "c1f2ba02-03ef-4962-a6c8-532bd1e0171c",
+   "source": "gov_guide.pdf",
+   "page": 1,
+   "distance": 0.4625679850578308,
+   "chars": 31,
+   "prompt_form_chars": 54
+  },
+  {
+   "filtered_rank": 3,
+   "original_rank": 5,
+   "chunk_id": "c7f4b597-a4a1-4868-83f5-d4d9bf9de0b5",
+   "source": "gov_guide.pdf",
+   "page": 355,
+   "distance": 0.47385865449905396,
+   "chars": 269,
+   "prompt_form_chars": 294
+  },
+  {
+   "filtered_rank": 4,
+   "original_rank": 8,
+   "chunk_id": "2ca6dd09-33e9-4d9a-9cce-c42f0f304ae7",
+   "source": "gov_guide.pdf",
+   "page": 20,
+   "distance": 0.47838786244392395,
+   "chars": 453,
+   "prompt_form_chars": 477
+  },
+  {
+   "filtered_rank": 5,
+   "original_rank": 9,
+   "chunk_id": "d021a99c-68c0-4def-a65b-41af0eaba68d",
+   "source": "gov_guide.pdf",
+   "page": 217,
+   "distance": 0.48155561089515686,
+   "chars": 224,
+   "prompt_form_chars": 249
+  },
+  {
+   "filtered_rank": 6,
+   "original_rank": 10,
+   "chunk_id": "265cb612-ffe6-451f-9f3a-87a09d9a65ca",
+   "source": "gov_guide.pdf",
+   "page": 562,
+   "distance": 0.48168057203292847,
+   "chars": 219,
+   "prompt_form_chars": 244
+  },
+  {
+   "filtered_rank": 7,
+   "original_rank": 11,
+   "chunk_id": "dc74b6e6-da33-4150-94ab-17e1b5952399",
+   "source": "gov_guide.pdf",
+   "page": 14,
+   "distance": 0.48405081033706665,
+   "chars": 779,
+   "prompt_form_chars": 803
+  },
+  {
+   "filtered_rank": 8,
+   "original_rank": 13,
+   "chunk_id": "1c4a73a9-49a0-416c-aec0-b159506187e4",
+   "source": "gov_guide.pdf",
+   "page": 13,
+   "distance": 0.4849737286567688,
+   "chars": 831,
+   "prompt_form_chars": 855
+  },
+  {
+   "filtered_rank": 9,
+   "original_rank": 14,
+   "chunk_id": "a38282ab-8ddb-4a50-9891-2f4ce07e67a0",
+   "source": "gov_guide.pdf",
+   "page": 25,
+   "distance": 0.4853147864341736,
+   "chars": 860,
+   "prompt_form_chars": 884
+  }
+ ],
+ "fixed_top4_excluded": [
+  "ffd48677-a4cc-405b-aacd-15820a7f65f0",
+  "654c214c-448d-4030-862a-67c5899520ca"
+ ],
+ "reference_raw_substring_only (not pre-registered)": {
+  "excluded_n": 169,
+  "K": 9,
+  "final_context_chars": 4465,
+  "selected_ids": [
+   "ce334282-62d0-4346-81ba-237ca8ef4d57",
+   "c1f2ba02-03ef-4962-a6c8-532bd1e0171c",
+   "c7f4b597-a4a1-4868-83f5-d4d9bf9de0b5",
+   "2ca6dd09-33e9-4d9a-9cce-c42f0f304ae7",
+   "d021a99c-68c0-4def-a65b-41af0eaba68d",
+   "265cb612-ffe6-451f-9f3a-87a09d9a65ca",
+   "dc74b6e6-da33-4150-94ab-17e1b5952399",
+   "1c4a73a9-49a0-416c-aec0-b159506187e4",
+   "a38282ab-8ddb-4a50-9891-2f4ce07e67a0"
+  ],
+  "same_selection_as_preregistered": true
+ },
+ "gov_check": {
+  "n_chunks": 288,
+  "top": {
+   "rank": 15,
+   "chunk_id": "2dfc80de-9186-4677-9087-d30e091855f8",
+   "page": 62,
+   "distance": 0.4853934049606323
+  },
+  "top5": [
+   {
+    "rank": 15,
+    "chunk_id": "2dfc80de-9186-4677-9087-d30e091855f8",
+    "page": 62,
+    "distance": 0.4853934049606323
+   },
+   {
+    "rank": 19,
+    "chunk_id": "bc9dfa88-b170-463d-8a34-7685c369a003",
+    "page": 55,
+    "distance": 0.4878593683242798
+   },
+   {
+    "rank": 20,
+    "chunk_id": "3e70e80b-2e7c-48b2-8626-fefa10781069",
+    "page": 2,
+    "distance": 0.48818135261535645
+   },
+   {
+    "rank": 33,
+    "chunk_id": "78a902f6-539e-48db-a22a-3012180bf6eb",
+    "page": 60,
+    "distance": 0.49621737003326416
+   },
+   {
+    "rank": 37,
+    "chunk_id": "b46d3461-b045-4c6b-b826-527e528baaa8",
+    "page": 4,
+    "distance": 0.4974290132522583
+   }
+  ],
+  "fixed_top4": [
+   {
+    "rank": 1,
+    "chunk_id": "ce334282-62d0-4346-81ba-237ca8ef4d57",
+    "source": "gov_guide.pdf",
+    "page": 9,
+    "distance": 0.45179423689842224
+   },
+   {
+    "rank": 2,
+    "chunk_id": "ffd48677-a4cc-405b-aacd-15820a7f65f0",
+    "source": "gov_guide.pdf",
+    "page": 15,
+    "distance": 0.4572265148162842
+   },
+   {
+    "rank": 3,
+    "chunk_id": "654c214c-448d-4030-862a-67c5899520ca",
+    "source": "gov_guide.pdf",
+    "page": 218,
+    "distance": 0.45933997631073
+   },
+   {
+    "rank": 4,
+    "chunk_id": "c1f2ba02-03ef-4962-a6c8-532bd1e0171c",
+    "source": "gov_guide.pdf",
+    "page": 1,
+    "distance": 0.4625679850578308
+   }
+  ]
+ }
+}

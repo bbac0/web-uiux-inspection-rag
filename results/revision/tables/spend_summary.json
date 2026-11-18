@@ -1,0 +1,187 @@
+{
+ "rows": [
+  {
+   "run_id": "pilot-01",
+   "condition": "pilot",
+   "state": "complete",
+   "calls": 10,
+   "attempts": 0,
+   "input_uncached": 0,
+   "input_cached": 0,
+   "output_incl_thinking": 0,
+   "cost_usd": 0.0
+  },
+  {
+   "run_id": "pilot-02",
+   "condition": "pilot",
+   "state": "complete",
+   "calls": 10,
+   "attempts": 10,
+   "input_uncached": 22620,
+   "input_cached": 0,
+   "output_incl_thinking": 34202,
+   "cost_usd": 0.0923
+  },
+  {
+   "run_id": "E1-R1",
+   "condition": "E1",
+   "state": "complete",
+   "calls": 200,
+   "attempts": 200,
+   "input_uncached": 453994,
+   "input_cached": 0,
+   "output_incl_thinking": 751018,
+   "cost_usd": 2.0137
+  },
+  {
+   "run_id": "E2-A1-1",
+   "condition": "E2-A1",
+   "state": "complete",
+   "calls": 200,
+   "attempts": 200,
+   "input_uncached": 146350,
+   "input_cached": 66844,
+   "output_incl_thinking": 548365,
+   "cost_usd": 1.4168
+  },
+  {
+   "run_id": "E1-R2",
+   "condition": "E1",
+   "state": "complete",
+   "calls": 200,
+   "attempts": 200,
+   "input_uncached": 325441,
+   "input_cached": 128553,
+   "output_incl_thinking": 625259,
+   "cost_usd": 1.6646
+  },
+  {
+   "run_id": "E2-A1-2",
+   "condition": "E2-A1",
+   "state": "complete",
+   "calls": 200,
+   "attempts": 200,
+   "input_uncached": 145094,
+   "input_cached": 68100,
+   "output_incl_thinking": 545095,
+   "cost_usd": 1.4083
+  },
+  {
+   "run_id": "E1-R3",
+   "condition": "E1",
+   "state": "aborted",
+   "calls": 160,
+   "attempts": 160,
+   "input_uncached": 258909,
+   "input_cached": 104458,
+   "output_incl_thinking": 487285,
+   "cost_usd": 1.299
+  },
+  {
+   "run_id": "E1-R3b",
+   "condition": "E1",
+   "state": "complete",
+   "calls": 200,
+   "attempts": 200,
+   "input_uncached": 406224,
+   "input_cached": 47770,
+   "output_incl_thinking": 700135,
+   "cost_usd": 1.8736
+  },
+  {
+   "run_id": "E2-A1-3",
+   "condition": "E2-A1",
+   "state": "complete",
+   "calls": 200,
+   "attempts": 200,
+   "input_uncached": 186208,
+   "input_cached": 26986,
+   "output_incl_thinking": 572093,
+   "cost_usd": 1.4869
+  },
+  {
+   "run_id": "E2-A2",
+   "condition": "E2-A2",
+   "state": "complete",
+   "calls": 200,
+   "attempts": 200,
+   "input_uncached": 211175,
+   "input_cached": 191219,
+   "output_incl_thinking": 651750,
+   "cost_usd": 1.6985
+  },
+  {
+   "run_id": "E2-A3",
+   "condition": "E2-A3",
+   "state": "complete",
+   "calls": 200,
+   "attempts": 200,
+   "input_uncached": 363052,
+   "input_cached": 67548,
+   "output_incl_thinking": 609868,
+   "cost_usd": 1.6356
+  },
+  {
+   "run_id": "E3-page",
+   "condition": "E3-page",
+   "state": "complete",
+   "calls": 84,
+   "attempts": 84,
+   "input_uncached": 151920,
+   "input_cached": 33315,
+   "output_incl_thinking": 290115,
+   "cost_usd": 0.7719
+  },
+  {
+   "run_id": "E3-oracle",
+   "condition": "E3-oracle",
+   "state": "complete",
+   "calls": 84,
+   "attempts": 84,
+   "input_uncached": 128088,
+   "input_cached": 32742,
+   "output_incl_thinking": 293507,
+   "cost_usd": 0.7732
+  },
+  {
+   "run_id": "E4-mobile",
+   "condition": "E4-mobile",
+   "state": "complete",
+   "calls": 95,
+   "attempts": 95,
+   "input_uncached": 169794,
+   "input_cached": 45794,
+   "output_incl_thinking": 287637,
+   "cost_usd": 0.7714
+  }
+ ],
+ "recorded_total_usd": 16.9058,
+ "analysis_complete_subtotal_usd": 15.5145,
+ "unlogged_estimates": [
+  {
+   "run_id": "E1-R3",
+   "basis": "스크린샷은 수집 단계 끝에서 저장되고 이후 질의 임베딩 → 이미지 업로드(File API) → 생성 호출 순서로 진행된다. 강제 종료는 순서 로그 마지막 쓰기 시각 전후로 본다. R1 평균: 업로드 5.1초, 생성 18.7초.",
+   "pages": {
+    "page_161": "스크린샷 후 약 22초 경과 → 생성 호출 진행 중이었을 가능성 높음 (과금 가능성 높음)",
+    "page_162": "스크린샷 후 약 4초 → 업로드 중 또는 생성 시작 직후 (과금 가능성 있음)",
+    "page_163": "스크린샷 후 약 1~2초 → 임베딩·업로드 단계 (생성 과금 가능성 낮음)",
+    "4th_slot": "스크린샷 없음 → 수집 단계였다고 보고 생성 과금 없음으로 둔다"
+   },
+   "generation_calls_possible": {
+    "low": 0,
+    "likely": 1,
+    "high": 3
+   },
+   "r3_cost_per_call_usd": {
+    "mean": 0.008119,
+    "max": 0.014516
+   },
+   "cost_usd": {
+    "likely": 0.0081,
+    "high_mean_based": 0.0244,
+    "high_max_based": 0.0435
+   },
+   "note": "생성 요청이 클라이언트 종료로 끊겨도 서버에서 과금될 수 있다고 보수적으로 가정한 추정이다. 비용 기록은 생성 호출 기준이며 질의 임베딩 호출은 다른 run 에서도 비용에 넣지 않았으므로 여기서도 넣지 않는다."
+  }
+ ]
+}

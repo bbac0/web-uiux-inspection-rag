@@ -1,0 +1,167 @@
+{
+  "run_id": "E1-R3b",
+  "condition": "E1",
+  "started_utc": "2026-11-12T10:50:48.069+00:00",
+  "finished_utc": "2026-11-12T11:41:48.170+00:00",
+  "aborted": false,
+  "abort_reason": null,
+  "pages_requested": 200,
+  "pages_with_record": 200,
+  "pages_missing_record": [],
+  "records": 200,
+  "status_counts": {
+    "ok": 200
+  },
+  "failed_pages": [],
+  "parse_error_pages": [],
+  "tokens_total": {
+    "prompt_token_count": 453994,
+    "cached_content_token_count": 47770,
+    "candidates_token_count": 132239,
+    "total_token_count": 1201899,
+    "thoughts_token_count_derived": 567896
+  },
+  "tokens_mean": {
+    "prompt_token_count": 2270.0,
+    "cached_content_token_count": 238.8,
+    "candidates_token_count": 661.2,
+    "total_token_count": 6009.5,
+    "thoughts_token_count_derived": 2839.5
+  },
+  "cost_usd_total": 1.873638,
+  "cost_usd_mean_per_call": 0.009368,
+  "latency_sec": {
+    "acquisition": {
+      "n": 200,
+      "mean": 3.885,
+      "median": 3.8833,
+      "p95": 3.9036
+    },
+    "query_embedding": {
+      "n": 200,
+      "mean": 0.4825,
+      "median": 0.4862,
+      "p95": 0.5209
+    },
+    "vector_search": {
+      "n": 200,
+      "mean": 0.0053,
+      "median": 0.004,
+      "p95": 0.0159
+    },
+    "upload": {
+      "n": 200,
+      "mean": 4.1869,
+      "median": 4.1328,
+      "p95": 4.8475
+    },
+    "llm": {
+      "n": 200,
+      "mean": 19.0786,
+      "median": 18.8572,
+      "p95": 24.1008
+    },
+    "total": {
+      "n": 200,
+      "mean": 29.3969,
+      "median": 29.1945,
+      "p95": 34.7933
+    }
+  },
+  "retries_total": 0,
+  "model_versions": [
+    "gemini-2.5-flash"
+  ],
+  "prompt_sha256_distinct": 102,
+  "negative_derived_thoughts": [],
+  "cached_tokens_positive": [
+    "page_011",
+    "page_012",
+    "page_024",
+    "page_026",
+    "page_038",
+    "page_055",
+    "page_067",
+    "page_068",
+    "page_069",
+    "page_071",
+    "page_073",
+    "page_078",
+    "page_094",
+    "page_096",
+    "page_099",
+    "page_105",
+    "page_107",
+    "page_136",
+    "page_137",
+    "page_138",
+    "page_149",
+    "page_156",
+    "page_158",
+    "page_181",
+    "page_192",
+    "page_195",
+    "page_199"
+  ],
+  "rag_n_chunks_counts": {
+    "4": 200
+  },
+  "schema_problem_records": 0,
+  "cost_usd_breakdown": {
+    "input_uncached": 0.121867,
+    "input_cached": 0.001433,
+    "output": 1.750338
+  },
+  "thoughts_check_mismatch": [
+    "page_011",
+    "page_012",
+    "page_024",
+    "page_026",
+    "page_038",
+    "page_055",
+    "page_067",
+    "page_068",
+    "page_069",
+    "page_071",
+    "page_073",
+    "page_078",
+    "page_094",
+    "page_096",
+    "page_099",
+    "page_105",
+    "page_107",
+    "page_136",
+    "page_137",
+    "page_138",
+    "page_149",
+    "page_156",
+    "page_158",
+    "page_181",
+    "page_192",
+    "page_195",
+    "page_199"
+  ],
+  "chroma": {
+    "source": "services/chroma_db",
+    "copied_at_utc": "2026-11-12T10:50:48.574+00:00",
+    "copy_path": "<HOME>\\AppData\\Local\\Temp\\chroma_E1-R3b_af83rrvc\\chroma_db",
+    "source_sha256": {
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/data_level0.bin": "9a04f76f4997901ab061bc48d621e9cf3044a1a90180878d09482192a1c3366f",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/header.bin": "397183ff93fe1d8f4a9ea91f6fd2615782c5cd7ca30e5275d1a5f899abb10a17",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/index_metadata.pickle": "3487e78d48f423e5444892612440b5e8998e73a9f314c9d099b69985eb509a63",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/length.bin": "fd7ca52bc90eefbe7a82498b18f6668824b7e3380b096d656c53e57a3d0d515f",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/link_lists.bin": "affa510add7d2d97492f814a35f8a10054564ab48f9663661e2f1da92895dcd6",
+      "chroma.sqlite3": "b3fed16a5f4b65a26b867e98a27cceb60712a7951afe80643588d7cae1a4809b"
+    },
+    "source_combined_sha256": "95165c227ef7567f9bc99b0d132b0de45a0828c82565b3ce9cf72e5bd8ebaae1",
+    "cleanup": {
+      "deleted": true,
+      "warning": null
+    }
+  },
+  "prices": {
+    "input_uncached_per_1M": 0.3,
+    "input_cached_per_1M": 0.03,
+    "output_incl_thinking_per_1M": 2.5
+  }
+}

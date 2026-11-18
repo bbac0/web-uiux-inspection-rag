@@ -1,0 +1,89 @@
+{
+  "run_id": "e9-pilot-norag",
+  "condition": "E9-pilot-norag",
+  "started_utc": "2026-11-12T16:13:12.517+00:00",
+  "argv": [
+    "--run-id",
+    "e9-pilot-norag",
+    "--condition",
+    "E9-pilot-norag",
+    "--pages",
+    "all",
+    "--max-pages",
+    "1",
+    "--chroma-path",
+    "services/chroma_db",
+    "--prompt-date",
+    "2026-11-11",
+    "--no-rag",
+    "--concurrency",
+    "2",
+    "--base-url",
+    "http://localhost:8091",
+    "--runs-base",
+    "results\\revision\\runs_e9_pilot"
+  ],
+  "args": {
+    "run_id": "e9-pilot-norag",
+    "condition": "E9-pilot-norag",
+    "pages": "all",
+    "max_pages": 1,
+    "no_rag": true,
+    "modality": "both",
+    "viewport_extra": null,
+    "query_mode": "fixed",
+    "oracle_chunks": null,
+    "chroma_path": "services/chroma_db",
+    "prompt_date": "2026-11-11",
+    "concurrency": 2,
+    "base_url": "http://localhost:8091",
+    "runs_base": "results\\revision\\runs_e9_pilot",
+    "mock_llm": false
+  },
+  "pages": [
+    "e9p_001",
+    "e9p_002",
+    "e9p_003",
+    "e9p_004",
+    "e9p_005",
+    "e9p_006",
+    "e9p_007",
+    "e9p_008"
+  ],
+  "mock": false,
+  "env": {
+    "python": "3.11.5",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "google-generativeai": "0.8.6",
+      "google-ai-generativelanguage": "0.6.15",
+      "langchain-google-genai": "4.3.5",
+      "langchain-chroma": "1.1.0",
+      "chromadb": "1.5.9",
+      "playwright": "1.62.0"
+    },
+    "git_head": "8c1d0d84f95859dbfb79ead13320dc7668048ff4",
+    "git_describe": "exp-freeze-e9-v2",
+    "git_dirty_files": [
+      "?? experiments/revision/run_e9_pilot.py"
+    ],
+    "freeze_tag_commit": "a8d2997b316a29c5b8321962bd6bf63dea7cc951",
+    "e9": {
+      "runner": "experiments/revision/run_experiment_e9.py",
+      "testbed": "pilot",
+      "testbed_dir": "testbed_e9_pilot",
+      "metadata_path": "testbed_e9_pilot\\dataset_metadata_e9_pilot.json",
+      "metadata_sha256": "315a4fbec31c1645f268bcce4560d362a89fef13cf7e1055b9c8db04a0a2b098",
+      "freeze_tag_e9_commit": "2598e526a5724ef3c72d037cf97b8bf476302dd7"
+    }
+  },
+  "frozen_settings": {
+    "model": "models/gemini-2.5-flash",
+    "temperature": 0.0,
+    "rag_query": "웹 UI/UX 표준 가이드라인 공통 규정",
+    "rag_k": 4,
+    "html_char_limit": 5000,
+    "chunk_size": 1000,
+    "chunk_overlap": 100
+  }
+}

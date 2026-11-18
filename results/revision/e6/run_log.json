@@ -1,0 +1,33 @@
+{
+ "started_utc": "2026-11-13T14:38:46Z",
+ "axe_file": "axe.min.js",
+ "axe_sha256": "20c09fe157a8a34a30e241aaa1fcdade657734f08ab379ecfbeb7d45cc46e878",
+ "configs": {
+  "A": {},
+  "B": {
+   "rules": {
+    "duplicate-id": {
+     "enabled": true
+    },
+    "duplicate-id-active": {
+     "enabled": true
+    },
+    "duplicate-id-aria": {
+     "enabled": true
+    }
+   }
+  }
+ },
+ "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+ "wait": "goto(wait_until='networkidle', timeout=30000) + 3000 ms",
+ "base": "http://localhost:8080/testbed_200",
+ "errors": [],
+ "chromium_version": "151.0.7922.34",
+ "finished_utc": "2026-11-13T15:05:25Z",
+ "pages_scanned": {
+  "A_1280": 200,
+  "A_390": 200,
+  "B_1280": 200,
+  "B_390": 200
+ }
+}

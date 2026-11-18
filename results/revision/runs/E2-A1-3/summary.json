@@ -1,0 +1,164 @@
+{
+  "run_id": "E2-A1-3",
+  "condition": "E2-A1",
+  "started_utc": "2026-11-12T11:41:51.243+00:00",
+  "finished_utc": "2026-11-12T12:27:39.862+00:00",
+  "aborted": false,
+  "abort_reason": null,
+  "pages_requested": 200,
+  "pages_with_record": 200,
+  "pages_missing_record": [],
+  "records": 200,
+  "status_counts": {
+    "ok": 200
+  },
+  "failed_pages": [],
+  "parse_error_pages": [],
+  "tokens_total": {
+    "prompt_token_count": 213194,
+    "cached_content_token_count": 26986,
+    "candidates_token_count": 105756,
+    "total_token_count": 812273,
+    "thoughts_token_count_derived": 466337
+  },
+  "tokens_mean": {
+    "prompt_token_count": 1066.0,
+    "cached_content_token_count": 134.9,
+    "candidates_token_count": 528.8,
+    "total_token_count": 4061.4,
+    "thoughts_token_count_derived": 2331.7
+  },
+  "cost_usd_total": 1.486904,
+  "cost_usd_mean_per_call": 0.007435,
+  "latency_sec": {
+    "acquisition": {
+      "n": 200,
+      "mean": 3.8857,
+      "median": 3.8847,
+      "p95": 3.9075
+    },
+    "query_embedding": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "p95": null
+    },
+    "vector_search": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "p95": null
+    },
+    "upload": {
+      "n": 200,
+      "mean": 4.2158,
+      "median": 4.1968,
+      "p95": 4.7422
+    },
+    "llm": {
+      "n": 200,
+      "mean": 16.4892,
+      "median": 16.0634,
+      "p95": 22.9152
+    },
+    "total": {
+      "n": 200,
+      "mean": 26.3392,
+      "median": 25.9377,
+      "p95": 33.0027
+    }
+  },
+  "retries_total": 0,
+  "model_versions": [
+    "gemini-2.5-flash"
+  ],
+  "prompt_sha256_distinct": 102,
+  "negative_derived_thoughts": [],
+  "cached_tokens_positive": [
+    "page_012",
+    "page_011",
+    "page_016",
+    "page_024",
+    "page_026",
+    "page_038",
+    "page_043",
+    "page_047",
+    "page_046",
+    "page_048",
+    "page_055",
+    "page_058",
+    "page_060",
+    "page_067",
+    "page_068",
+    "page_069",
+    "page_071",
+    "page_073",
+    "page_078",
+    "page_081",
+    "page_084",
+    "page_120",
+    "page_136",
+    "page_137",
+    "page_138",
+    "page_139",
+    "page_149",
+    "page_156",
+    "page_158",
+    "page_181",
+    "page_192",
+    "page_195",
+    "page_197",
+    "page_199"
+  ],
+  "rag_n_chunks_counts": {
+    "0": 200
+  },
+  "schema_problem_records": 0,
+  "cost_usd_breakdown": {
+    "input_uncached": 0.055862,
+    "input_cached": 0.00081,
+    "output": 1.430233
+  },
+  "thoughts_check_mismatch": [
+    "page_012",
+    "page_011",
+    "page_016",
+    "page_024",
+    "page_026",
+    "page_038",
+    "page_043",
+    "page_047",
+    "page_046",
+    "page_048",
+    "page_055",
+    "page_058",
+    "page_060",
+    "page_067",
+    "page_068",
+    "page_069",
+    "page_071",
+    "page_073",
+    "page_078",
+    "page_081",
+    "page_084",
+    "page_120",
+    "page_136",
+    "page_137",
+    "page_138",
+    "page_139",
+    "page_149",
+    "page_156",
+    "page_158",
+    "page_181",
+    "page_192",
+    "page_195",
+    "page_197",
+    "page_199"
+  ],
+  "chroma": null,
+  "prices": {
+    "input_uncached_per_1M": 0.3,
+    "input_cached_per_1M": 0.03,
+    "output_incl_thinking_per_1M": 2.5
+  }
+}

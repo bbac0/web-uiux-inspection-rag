@@ -1,0 +1,87 @@
+{
+  "source_run": "E2-A1-3",
+  "pass": 1,
+  "input_fields": [
+    "description",
+    "suggestion"
+  ],
+  "mock": false,
+  "mode": "batch",
+  "out_id": "E2-A1-3-sem-p1-retry",
+  "retry_of": "E2-A1-3-sem-p1",
+  "config_sha256": "744c4442fcc80dc5dd66bae37731e69717cff92b939f7a5ebf0c3f23ab97b0a7",
+  "orig_config_sha256": "290b6eadc2fef41f2be56f0407db963677f1c18114a4a1eb1d7a8664b9fce8e0",
+  "judge_prompt_sha256": "d4567e7633543ba90adc3db9c60319846c30d9c2197858b52e05c500d0507977",
+  "targets": [
+    "E2-A1-3:page_074:02",
+    "E2-A1-3:page_041:01",
+    "E2-A1-3:page_056:06",
+    "E2-A1-3:page_084:02",
+    "E2-A1-3:page_070:00",
+    "E2-A1-3:page_132:02",
+    "E2-A1-3:page_001:01",
+    "E2-A1-3:page_124:03",
+    "E2-A1-3:page_094:02",
+    "E2-A1-3:page_071:00",
+    "E2-A1-3:page_159:01",
+    "E2-A1-3:page_161:01",
+    "E2-A1-3:page_050:01",
+    "E2-A1-3:page_081:04",
+    "E2-A1-3:page_012:02",
+    "E2-A1-3:page_106:03",
+    "E2-A1-3:page_154:02"
+  ],
+  "targets_file": "results/revision/semantic_truncation_targets.csv",
+  "targets_sha256": "1582620ada73b5fb39c363385a998abe08e7c050b6cfa5a3efd2ebf05b8ab8a4",
+  "config": {
+    "provider": "anthropic",
+    "model": "claude-sonnet-5-5",
+    "temperature": null,
+    "api_key_env": "ANTHROPIC_API_KEY",
+    "max_tokens": 800,
+    "judge_prompt_source": "experiments/semantic_issue_classifier.py:JUDGE_PROMPT",
+    "judge_prompt_version": "v1",
+    "input_fields": [
+      "description",
+      "suggestion"
+    ],
+    "suggestion_joiner": "\n제안: ",
+    "thinking": {
+      "type": "between_tools"
+    },
+    "effort": "high",
+    "fallbacks": null,
+    "max_retries": 3,
+    "_notes": [
+      "2026-11-12 사용자 결정: temperature 는 모델 사양상 지정 불가라 보내지 않는다(기본 샘플링). 대신 모든 이슈를 2회 채점(pass1=주 결과, pass2=안정성).",
+      "thinking between_tools + effort high 명시, max_tokens 100 유지. stop_reason=max_tokens 는 파싱 실패(truncated)로 기록.",
+      "입력: description(URL 접두어 제거) + suggestion. R1 에 한해 description 만 넣은 민감도 채점 pass1 1회 추가.",
+      "fallback 끔. refusal 은 라벨 'refusal' 로 기록.",
+      "null 인 항목은 요청에 넣지 않는다.",
+      "2026-11-13 재채점 전용(scoring/grader_config_retry800.json): 원 설정에서 max_tokens 만 100 -> 800. max_tokens 100 에서 잘린 150건만 1회 재채점한다(results/revision/analysis_plan_addendum_semantic_retry.md)."
+    ]
+  },
+  "started_utc": "2026-11-13T17:40:08.405+00:00",
+  "sessions": [
+    {
+      "ts_utc": "2026-11-13T17:40:14.880+00:00",
+      "action": "submit",
+      "batch_id": "msgbatch_01H63uz9VHSfnbt2sQmEjhdG",
+      "n": 17,
+      "resume": false
+    },
+    {
+      "ts_utc": "2026-11-13T17:46:30.157+00:00",
+      "action": "collect",
+      "status_counts": {
+        "ok": 17
+      },
+      "still_processing": []
+    }
+  ],
+  "total_records": 17,
+  "final_issues": 17,
+  "targets_n": 17,
+  "complete": true,
+  "finished_utc": "2026-11-13T17:46:30.157+00:00"
+}

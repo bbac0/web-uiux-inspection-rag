@@ -1,0 +1,8 @@
+scorer,type,E1_mean,E1_sd,E1_range,A1_mean,A1_sd,A1_range,mean_diff_E1_minus_A1
+keyword,Contrast,47.00,1.00,46-48,67.00,2.00,65-69,-20.00
+keyword,Mobile,86.67,2.31,84-88,106.00,1.73,105-108,-19.33
+keyword,Button,40.00,0.00,40-40,36.67,2.31,34-38,3.33
+keyword,Terminology,12.67,1.15,12-14,16.00,3.61,12-19,-3.33
+string_match,Terminology,12.67,1.15,12-14,16.00,3.61,12-19,-3.33
+keyword,DupID,34.67,2.08,33-37,36.33,2.52,34-39,-1.66
+keyword,micro (5 types),221.00,6.00,215-227,262.00,3.61,258-265,-41.00

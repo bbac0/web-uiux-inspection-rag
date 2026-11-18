@@ -1,0 +1,20 @@
+\begin{table}[ht]
+\centering
+\caption{Per-stage latency (s), run E1-R1, $n=200$ pages, sequential.}
+\begin{tabular}{lrrrrr}
+\toprule
+Stage & Mean & SD & Median & P95 & Share \\
+\midrule
+Acquisition$^{a}$ & 3.96 & 0.29 & 3.92 & 3.97 & 13.2\% \\
+Query embedding & 0.55 & 0.23 & 0.52 & 0.68 & 1.8\% \\
+Vector search & 0.01 & 0.02 & 0.01 & 0.01 & 0.0\% \\
+Image upload & 5.11 & 1.08 & 4.96 & 6.23 & 17.0\% \\
+LLM generation & 18.68 & 3.19 & 18.48 & 25.02 & 62.2\% \\
+Other$^{b}$ & 1.74 & 0.28 & 1.68 & 2.10 & 5.8\% \\
+\midrule
+Total & 30.05 & 3.36 & 29.71 & 36.41 & 100.0\% \\
+\bottomrule
+\end{tabular}
+
+\vspace{2pt}\footnotesize $^{a}$Includes the fixed 3-s wait after network idle in the production pipeline. $^{b}$Total minus the measured stages (prompt assembly, JSON parsing, file deletion).
+\end{table}

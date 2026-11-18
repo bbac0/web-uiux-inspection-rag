@@ -1,0 +1,1301 @@
+{
+ "files": [
+  "rater_A_e9/e9_rater_guidelines.md",
+  "rater_A_e9/eval_sheet_A_e9.csv",
+  "rater_A_e9/viewer_A_e9.html",
+  "rater_A_e9/shots/P0002b3767f.png",
+  "rater_A_e9/shots/P027f9e4fd6.png",
+  "rater_A_e9/shots/P06226707f2.png",
+  "rater_A_e9/shots/P064966454c.png",
+  "rater_A_e9/shots/P0a601ba6c0.png",
+  "rater_A_e9/shots/P0b4088422d.png",
+  "rater_A_e9/shots/P0d82c42a60.png",
+  "rater_A_e9/shots/P12d19a80c0.png",
+  "rater_A_e9/shots/P17bab8c151.png",
+  "rater_A_e9/shots/P1b6f884e90.png",
+  "rater_A_e9/shots/P1e8e01636f.png",
+  "rater_A_e9/shots/P1f86e03a56.png",
+  "rater_A_e9/shots/P219b38f838.png",
+  "rater_A_e9/shots/P238ade69e9.png",
+  "rater_A_e9/shots/P24ed6b4f40.png",
+  "rater_A_e9/shots/P284bf722d5.png",
+  "rater_A_e9/shots/P29c2777875.png",
+  "rater_A_e9/shots/P2c3fb41b26.png",
+  "rater_A_e9/shots/P2cd64027d9.png",
+  "rater_A_e9/shots/P337c7789f4.png",
+  "rater_A_e9/shots/P33d1025cad.png",
+  "rater_A_e9/shots/P34a66bad4a.png",
+  "rater_A_e9/shots/P34fe77e28e.png",
+  "rater_A_e9/shots/P35066b94f5.png",
+  "rater_A_e9/shots/P351926d8b3.png",
+  "rater_A_e9/shots/P3658362ece.png",
+  "rater_A_e9/shots/P371ebcd91c.png",
+  "rater_A_e9/shots/P3746389981.png",
+  "rater_A_e9/shots/P381b2c2cc2.png",
+  "rater_A_e9/shots/P38b1b78a7f.png",
+  "rater_A_e9/shots/P3b3bba380f.png",
+  "rater_A_e9/shots/P404b1bc44d.png",
+  "rater_A_e9/shots/P44728db9b7.png",
+  "rater_A_e9/shots/P44bd28a5aa.png",
+  "rater_A_e9/shots/P4b54e053d3.png",
+  "rater_A_e9/shots/P51b6f997f6.png",
+  "rater_A_e9/shots/P53f45d9491.png",
+  "rater_A_e9/shots/P55ab7515ed.png",
+  "rater_A_e9/shots/P573dac2fd9.png",
+  "rater_A_e9/shots/P575318efcc.png",
+  "rater_A_e9/shots/P5bfde671b2.png",
+  "rater_A_e9/shots/P5c06943899.png",
+  "rater_A_e9/shots/P5c2ea49d44.png",
+  "rater_A_e9/shots/P5c38a24db1.png",
+  "rater_A_e9/shots/P5df375a9b3.png",
+  "rater_A_e9/shots/P62e12d0927.png",
+  "rater_A_e9/shots/P632c3e6a96.png",
+  "rater_A_e9/shots/P639754b313.png",
+  "rater_A_e9/shots/P649294e060.png",
+  "rater_A_e9/shots/P65a63f44f2.png",
+  "rater_A_e9/shots/P66cb1dddba.png",
+  "rater_A_e9/shots/P66ce7aca43.png",
+  "rater_A_e9/shots/P6d1d2507f0.png",
+  "rater_A_e9/shots/P6e9ffb0db6.png",
+  "rater_A_e9/shots/P755c8ec4cd.png",
+  "rater_A_e9/shots/P76d52ca7a2.png",
+  "rater_A_e9/shots/P77f7fb452f.png",
+  "rater_A_e9/shots/P78ef1a92fb.png",
+  "rater_A_e9/shots/P7958dabf76.png",
+  "rater_A_e9/shots/P7aa032d708.png",
+  "rater_A_e9/shots/P7ccfb9d7dc.png",
+  "rater_A_e9/shots/P7dcee17b0e.png",
+  "rater_A_e9/shots/P80eaef33da.png",
+  "rater_A_e9/shots/P823e9f2dee.png",
+  "rater_A_e9/shots/P837cda6cda.png",
+  "rater_A_e9/shots/P83f00690ba.png",
+  "rater_A_e9/shots/P862bb906ae.png",
+  "rater_A_e9/shots/P8ab7c6db33.png",
+  "rater_A_e9/shots/P8aca3819da.png",
+  "rater_A_e9/shots/P8f0ca848f4.png",
+  "rater_A_e9/shots/P8fc89c780a.png",
+  "rater_A_e9/shots/P964974a7cc.png",
+  "rater_A_e9/shots/P9afb985ca5.png",
+  "rater_A_e9/shots/Pa000fcff56.png",
+  "rater_A_e9/shots/Pa0bfd6f5f2.png",
+  "rater_A_e9/shots/Pa1d1c6a6ed.png",
+  "rater_A_e9/shots/Pa297781dc8.png",
+  "rater_A_e9/shots/Pa70e0779f1.png",
+  "rater_A_e9/shots/Pb1e14d18dc.png",
+  "rater_A_e9/shots/Pb6457b4b4b.png",
+  "rater_A_e9/shots/Pb94dc5e3a6.png",
+  "rater_A_e9/shots/Pbce9514388.png",
+  "rater_A_e9/shots/Pbfb13e0ecc.png",
+  "rater_A_e9/shots/Pc0aa3d8fa2.png",
+  "rater_A_e9/shots/Pc3da100bbf.png",
+  "rater_A_e9/shots/Pc716983fed.png",
+  "rater_A_e9/shots/Pc8912759e8.png",
+  "rater_A_e9/shots/Pcd04a890d1.png",
+  "rater_A_e9/shots/Pcf1a8bf409.png",
+  "rater_A_e9/shots/Pd0ae81fa8a.png",
+  "rater_A_e9/shots/Pd156213e75.png",
+  "rater_A_e9/shots/Pd1c7b31237.png",
+  "rater_A_e9/shots/Pd34fc824a4.png",
+  "rater_A_e9/shots/Pd6cf3042ab.png",
+  "rater_A_e9/shots/Pd984f83d67.png",
+  "rater_A_e9/shots/Pd9c8d73c67.png",
+  "rater_A_e9/shots/Pda6728f339.png",
+  "rater_A_e9/shots/Pda6cb75af5.png",
+  "rater_A_e9/shots/Pe152af18eb.png",
+  "rater_A_e9/shots/Pe28eecda18.png",
+  "rater_A_e9/shots/Pe45e8c27e7.png",
+  "rater_A_e9/shots/Pe63c0bba71.png",
+  "rater_A_e9/shots/Pe6ad2fac4b.png",
+  "rater_A_e9/shots/Pe6f4be2aa1.png",
+  "rater_A_e9/shots/Pe8e47d8078.png",
+  "rater_A_e9/shots/Pf3e0e896c9.png",
+  "rater_A_e9/shots/Pf4169c04c6.png",
+  "rater_A_e9/shots/Pf56e4ad880.png",
+  "rater_A_e9/shots/Pf57cbed2ef.png",
+  "rater_A_e9/shots/Pf58cadbcce.png",
+  "rater_A_e9/shots/Pf70a2c664e.png",
+  "rater_A_e9/shots/Pf857146e3b.png",
+  "rater_A_e9/shots/Pf9dfdae376.png",
+  "rater_A_e9/shots/Pfd5f9cd427.png",
+  "rater_A_e9/shots/Pfdeee21c7b.png",
+  "rater_A_e9_retest/e9_rater_guidelines.md",
+  "rater_A_e9_retest/eval_sheet_A_e9_retest.csv",
+  "rater_A_e9_retest/viewer_A_e9_retest.html",
+  "rater_A_e9_retest/shots/P02dce6dbc8.png",
+  "rater_A_e9_retest/shots/P2bac0af346.png",
+  "rater_A_e9_retest/shots/P3b081187fc.png",
+  "rater_A_e9_retest/shots/P3f6a3f8edd.png",
+  "rater_A_e9_retest/shots/P474db865e8.png",
+  "rater_A_e9_retest/shots/P4a4f4de396.png",
+  "rater_A_e9_retest/shots/P5047d93aa6.png",
+  "rater_A_e9_retest/shots/P671342cdea.png",
+  "rater_A_e9_retest/shots/P6e1a4efc48.png",
+  "rater_A_e9_retest/shots/P7dd98401ea.png",
+  "rater_A_e9_retest/shots/P9e41c000fb.png",
+  "rater_A_e9_retest/shots/Pa8b6dfeb26.png",
+  "rater_A_e9_retest/shots/Pb853713160.png",
+  "rater_A_e9_retest/shots/Pc49a316946.png",
+  "rater_A_e9_retest/shots/Pc7e1bd0698.png",
+  "rater_A_e9_retest/shots/Pcb35527d98.png",
+  "rater_A_e9_retest/shots/Pdc16324a68.png",
+  "rater_A_e9_retest/shots/Pe1246b37b8.png",
+  "rater_A_e9_retest/shots/Pf827fb229c.png",
+  "e9_howto.md"
+ ],
+ "hits": [
+  {
+   "file": "rater_A_e9/e9_rater_guidelines.md",
+   "where": "파일명",
+   "category": "결함 유형 표기",
+   "match": "e9",
+   "context": "rater_A_e9/e9_rater_guidelines.md",
+   "judge": "연구자가 지정한 파일·폴더 이름(e9)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "대한민국 전자정부 누리집",
+   "context": " 제목을 웹사이트의 포괄적인 성격을 더 잘 나타내는 '대한민국 전자정부 누리집' 또는 이와 유사한 문구로 수정하여 사용자에게 명확한",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "웹사이트입니다",
+   "context": "드라인에 명시된 표준 문구와 다르게 사용되었습니다. '웹사이트입니다.' 대신 '누리집입니다.'가 사용되어야 합니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "'로그인' 링크가 가이드라인과 다르게 회원가입 페이지(/signup)로 연결됩니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a>`의 `href` 속성을 로그인 페이지",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "헤더의 '로그인' 링크가 회원가입 페이지('/signup')로 연결되어 있습니다. 가이드라인에 따르면 로그인 ",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "'로그인' 링크가 회원가입 페이지('/signup')로 연결되어 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": " '로그인' 링크 텍스트가 실제로는 회원가입 페이지(`/signup`)로 연결되어 사용자에게 혼란을 줄 수 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "'로그인' 링크가 회원가입 페이지('/signup')로 연결되어 있습니다. 가이드라인에 따르면 로그인 ",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "헤더의 '로그인' 링크(`href=\"/signup\"`)가 실제로는 회원가입 페이지로 연결되어 사용자에게",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "공식 배너 텍스트가 가이드라인(p.69)과 다르게 '홈페이지입니다.'로 변형되어 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "헤더의 '로그인' 링크(href=\"/signup\")가 회원가입 페이지로 연결되어, 사용자가 로그인 기",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "전자정부누리집",
+   "context": "너 4)과 다르게 띄어쓰기가 적용되지 않았습니다. ('전자정부누리집입니다.'로 표기됨)",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "헤더의 '로그인' 링크가 실제로는 회원가입 페이지(`/signup`)로 연결되어 있습니다. '로그인 – 로그인 기능 찾",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "배너의 텍스트 내용이 가이드라인(p.69)과 다르게 '홈페이지입니다.'로 변형되어 사용되고 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "#000000",
+   "context": "니다. 가이드라인은 #1D1D1D를 요구하지만, 현재 #000000으로 설정되어 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": " '로그인' 링크 텍스트가 실제로는 회원가입 페이지(`/signup`)로 연결되어 사용자에게 혼란을 줄 수 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "전자정부누리집",
+   "context": "식 배너 텍스트의 띄어쓰기가 가이드라인과 다릅니다. '전자정부누리집입니다.'로 표기되어 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "대한민국 전자정부 누리집",
+   "context": "공식 배너 4])과 다르게 제공됩니다. '이 누리집은 대한민국 전자정부 누리집입니다.'로 표시되어 있어 '공식' 단어가 누락되었습니",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": " 방식 선택 화면)로 수정해야 합니다. 현재 링크는 '/signup'으로 설정되어 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": " 로그인 화면으로 연결되도록 수정해야 합니다. 현재 `/signup`으로 설정된 `href` 속성을 로그인 페이지 URL",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "#000000",
+   "context": "보 텍스트 색상이 가이드라인(#1D1D1D)과 다르게 #000000으로 설정되어 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "헤더의 '로그인' 링크(href=\"/signup\")가 회원가입 페이지로 연결되어, 사용자가 로그인 기",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/eval_sheet_A_e9.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "공식 배너의 텍스트 내용이 가이드라인과 다릅니다. '홈페이지입니다.' 대신 '누리집입니다.'를 사용해야 합니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 코드·마크업",
+   "category": "조건·run",
+   "match": "fixed",
+   "context": " style=\"display:none;position:fixed;inset:0;background:rgba(0,0,0",
+   "judge": "CSS position:fixed"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "대한민국 전자정부 누리집",
+   "context": " 제목을 웹사이트의 포괄적인 성격을 더 잘 나타내는 '대한민국 전자정부 누리집' 또는 이와 유사한 문구로 수정하여 사용자에게 명확한",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "웹사이트입니다",
+   "context": "드라인에 명시된 표준 문구와 다르게 사용되었습니다. '웹사이트입니다.' 대신 '누리집입니다.'가 사용되어야 합니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "'로그인' 링크가 가이드라인과 다르게 회원가입 페이지(/signup)로 연결됩니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a>`의 `href` 속성을 로그인 페이지",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "헤더의 '로그인' 링크가 회원가입 페이지('/signup')로 연결되어 있습니다. 가이드라인에 따르면 로그인 ",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "'로그인' 링크가 회원가입 페이지('/signup')로 연결되어 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": " '로그인' 링크 텍스트가 실제로는 회원가입 페이지(`/signup`)로 연결되어 사용자에게 혼란을 줄 수 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "'로그인' 링크가 회원가입 페이지('/signup')로 연결되어 있습니다. 가이드라인에 따르면 로그인 ",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "헤더의 '로그인' 링크(`href=\"/signup\"`)가 실제로는 회원가입 페이지로 연결되어 사용자에게",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "공식 배너 텍스트가 가이드라인(p.69)과 다르게 '홈페이지입니다.'로 변형되어 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "헤더의 '로그인' 링크(href=\"/signup\")가 회원가입 페이지로 연결되어, 사용자가 로그인 기",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "전자정부누리집",
+   "context": "너 4)과 다르게 띄어쓰기가 적용되지 않았습니다. ('전자정부누리집입니다.'로 표기됨)",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "헤더의 '로그인' 링크가 실제로는 회원가입 페이지(`/signup`)로 연결되어 있습니다. '로그인 – 로그인 기능 찾",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "배너의 텍스트 내용이 가이드라인(p.69)과 다르게 '홈페이지입니다.'로 변형되어 사용되고 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "#000000",
+   "context": "니다. 가이드라인은 #1D1D1D를 요구하지만, 현재 #000000으로 설정되어 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": " '로그인' 링크 텍스트가 실제로는 회원가입 페이지(`/signup`)로 연결되어 사용자에게 혼란을 줄 수 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "전자정부누리집",
+   "context": "식 배너 텍스트의 띄어쓰기가 가이드라인과 다릅니다. '전자정부누리집입니다.'로 표기되어 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "대한민국 전자정부 누리집",
+   "context": "공식 배너 4])과 다르게 제공됩니다. '이 누리집은 대한민국 전자정부 누리집입니다.'로 표시되어 있어 '공식' 단어가 누락되었습니",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": " 방식 선택 화면)로 수정해야 합니다. 현재 링크는 '/signup'으로 설정되어 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": " 로그인 화면으로 연결되도록 수정해야 합니다. 현재 `/signup`으로 설정된 `href` 속성을 로그인 페이지 URL",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "#000000",
+   "context": "보 텍스트 색상이 가이드라인(#1D1D1D)과 다르게 #000000으로 설정되어 있습니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "헤더의 '로그인' 링크(href=\"/signup\")가 회원가입 페이지로 연결되어, 사용자가 로그인 기",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "공식 배너의 텍스트 내용이 가이드라인과 다릅니다. '홈페이지입니다.' 대신 '누리집입니다.'를 사용해야 합니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "font-size:14px",
+   "context": "1F5;font-family:pretendardGOV;font-size:14px;font-weight:400;color:#1D1D1D",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "#000000",
+   "context": "r-top:1px solid #D8D8D8;color:#000000;padding:12px 16px}.ft-contact",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "공식전자정부",
+   "context": "ass=\"banner-text\">이 누리집은 대한민국 공식전자정부 누리집입니다.</span></div><header c",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "padding:10px",
+   "context": "ms:center;gap:8px;height:32px;padding:10px;background:#EDF1F5;font-famil",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "padding:10px",
+   "context": "ms:center;gap:8px;height:32px;padding:10px;background:#EDF1F5;font-famil",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "이누리집",
+   "context": "16\"><span class=\"banner-text\">이누리집은 대한민국 공식 전자정부 누리집입니다.</span><",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "공식전자정부",
+   "context": "ass=\"banner-text\">이 누리집은 대한민국 공식전자정부 누리집입니다.</span></div><header c",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "전자정부누리집",
+   "context": "=\"banner-text\">이 누리집은 대한민국 공식 전자정부누리집입니다.</span></div><header class",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "대한민국 전자정부 누리집",
+   "context": "an class=\"banner-text\">이 누리집은 대한민국 전자정부 누리집입니다.</span></div><header class",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "ner-text\">이 누리집은 대한민국 공식 전자정부 홈페이지입니다.</span></div><header class=\"h",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "웹사이트입니다",
+   "context": "ss=\"banner-text\">대한민국 공식 전자정부 웹사이트입니다.</span></div><header class=\"h",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "#000000",
+   "context": "ze:15px;font-weight:400;color:#000000}.gov-banner .flag{width:24px;",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "ner-text\">이 누리집은 대한민국 공식 전자정부 홈페이지입니다.</span></div><header class=\"h",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "전자정부누리집",
+   "context": "=\"banner-text\">이 누리집은 대한민국 공식 전자정부누리집입니다.</span></div><header class",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "공식전자정부",
+   "context": "ass=\"banner-text\">이 누리집은 대한민국 공식전자정부 누리집입니다.</span></div><header c",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "이누리집",
+   "context": "16\"><span class=\"banner-text\">이누리집은 대한민국 공식 전자정부 누리집입니다.</span><",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "대한민국 전자정부 누리집",
+   "context": "an class=\"banner-text\">이 누리집은 대한민국 전자정부 누리집입니다.</span></div><header class",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "ner-text\">이 누리집은 대한민국 공식 전자정부 홈페이지입니다.</span></div><header class=\"h",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "웹사이트입니다",
+   "context": "ss=\"banner-text\">대한민국 공식 전자정부 웹사이트입니다.</span></div><header class=\"h",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "이누리집",
+   "context": "16\"><span class=\"banner-text\">이누리집은 대한민국 공식 전자정부 누리집입니다.</span><",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "font-size:14px",
+   "context": "1F5;font-family:pretendardGOV;font-size:14px;font-weight:400;color:#1D1D1D",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "#000000",
+   "context": "r-top:1px solid #D8D8D8;color:#000000;padding:12px 16px}.ft-contact",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "padding:10px",
+   "context": "ms:center;gap:8px;height:32px;padding:10px;background:#EDF1F5;font-famil",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "padding:10px",
+   "context": "ms:center;gap:8px;height:32px;padding:10px;background:#EDF1F5;font-famil",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "이누리집",
+   "context": "16\"><span class=\"banner-text\">이누리집은 대한민국 공식 전자정부 누리집입니다.</span><",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "전자정부누리집",
+   "context": "=\"banner-text\">이 누리집은 대한민국 공식 전자정부누리집입니다.</span></div><header class",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "대한민국 전자정부 누리집",
+   "context": "an class=\"banner-text\">이 누리집은 대한민국 전자정부 누리집입니다.</span></div><header class",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "ner-text\">이 누리집은 대한민국 공식 전자정부 홈페이지입니다.</span></div><header class=\"h",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "웹사이트입니다",
+   "context": "ss=\"banner-text\">대한민국 공식 전자정부 웹사이트입니다.</span></div><header class=\"h",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "#000000",
+   "context": "ze:15px;font-weight:400;color:#000000}.gov-banner .flag{width:24px;",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "ner-text\">이 누리집은 대한민국 공식 전자정부 홈페이지입니다.</span></div><header class=\"h",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "전자정부누리집",
+   "context": "=\"banner-text\">이 누리집은 대한민국 공식 전자정부누리집입니다.</span></div><header class",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "이누리집",
+   "context": "16\"><span class=\"banner-text\">이누리집은 대한민국 공식 전자정부 누리집입니다.</span><",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "대한민국 전자정부 누리집",
+   "context": "an class=\"banner-text\">이 누리집은 대한민국 전자정부 누리집입니다.</span></div><header class",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "ner-text\">이 누리집은 대한민국 공식 전자정부 홈페이지입니다.</span></div><header class=\"h",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "웹사이트입니다",
+   "context": "ss=\"banner-text\">대한민국 공식 전자정부 웹사이트입니다.</span></div><header class=\"h",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "이누리집",
+   "context": "16\"><span class=\"banner-text\">이누리집은 대한민국 공식 전자정부 누리집입니다.</span><",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9/viewer_A_e9.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9_retest/e9_rater_guidelines.md",
+   "where": "파일명",
+   "category": "결함 유형 표기",
+   "match": "e9",
+   "context": "rater_A_e9_retest/e9_rater_guidelines.md",
+   "judge": "연구자가 지정한 파일·폴더 이름(e9)"
+  },
+  {
+   "file": "rater_A_e9_retest/eval_sheet_A_e9_retest.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": " 로그인 화면으로 연결되도록 수정해야 합니다. 현재 `/signup`으로 설정된 `href` 속성을 로그인 페이지 URL",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9_retest/eval_sheet_A_e9_retest.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "공식 배너의 텍스트 내용이 가이드라인과 다릅니다. '홈페이지입니다.' 대신 '누리집입니다.'를 사용해야 합니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9_retest/eval_sheet_A_e9_retest.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "대한민국 전자정부 누리집",
+   "context": "공식 배너 4])과 다르게 제공됩니다. '이 누리집은 대한민국 전자정부 누리집입니다.'로 표시되어 있어 '공식' 단어가 누락되었습니",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9_retest/eval_sheet_A_e9_retest.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "헤더의 '로그인' 링크(`href=\"/signup\"`)가 실제로는 회원가입 페이지로 연결되어 사용자에게",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9_retest/eval_sheet_A_e9_retest.csv",
+   "where": "CSV 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "헤더의 '로그인' 링크가 회원가입 페이지('/signup')로 연결되어 있습니다. 가이드라인에 따르면 로그인 ",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "뷰어 코드·마크업",
+   "category": "조건·run",
+   "match": "fixed",
+   "context": " style=\"display:none;position:fixed;inset:0;background:rgba(0,0,0",
+   "judge": "CSS position:fixed"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": " 로그인 화면으로 연결되도록 수정해야 합니다. 현재 `/signup`으로 설정된 `href` 속성을 로그인 페이지 URL",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "공식 배너의 텍스트 내용이 가이드라인과 다릅니다. '홈페이지입니다.' 대신 '누리집입니다.'를 사용해야 합니다.",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "대한민국 전자정부 누리집",
+   "context": "공식 배너 4])과 다르게 제공됩니다. '이 누리집은 대한민국 전자정부 누리집입니다.'로 표시되어 있어 '공식' 단어가 누락되었습니",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "헤더의 '로그인' 링크(`href=\"/signup\"`)가 실제로는 회원가입 페이지로 연결되어 사용자에게",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "뷰어 본문(이슈 문장)",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "헤더의 '로그인' 링크가 회원가입 페이지('/signup')로 연결되어 있습니다. 가이드라인에 따르면 로그인 ",
+   "judge": "평가 대상(이슈 문장)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "공식전자정부",
+   "context": "ass=\"banner-text\">이 누리집은 대한민국 공식전자정부 누리집입니다.</span></div><header c",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "웹사이트입니다",
+   "context": "ss=\"banner-text\">대한민국 공식 전자정부 웹사이트입니다.</span></div><header class=\"h",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "ner-text\">이 누리집은 대한민국 공식 전자정부 홈페이지입니다.</span></div><header class=\"h",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "#000000",
+   "context": "r-top:1px solid #D8D8D8;color:#000000;padding:12px 16px}.ft-contact",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "/signup",
+   "context": "ss=\"hd-icon login-link\" href=\"/signup\">로그인</a></div><nav class=\"hd-",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "홈페이지입니다",
+   "context": "ner-text\">이 누리집은 대한민국 공식 전자정부 홈페이지입니다.</span></div><header class=\"h",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "rater_A_e9_retest/viewer_A_e9_retest.html",
+   "where": "포함된 페이지 HTML",
+   "category": "주입 문구",
+   "match": "대한민국 전자정부 누리집",
+   "context": "an class=\"banner-text\">이 누리집은 대한민국 전자정부 누리집입니다.</span></div><header class",
+   "judge": "평가 대상(페이지 원문)"
+  },
+  {
+   "file": "e9_howto.md",
+   "where": "안내문 본문",
+   "category": "결함 유형 표기",
+   "match": "e9",
+   "context": " `results/revision/human_eval/e9_eval/rater_A_e9/eval_sheet_A_",
+   "judge": "연구자가 지정한 파일·폴더 이름(e9)"
+  },
+  {
+   "file": "e9_howto.md",
+   "where": "안내문 본문",
+   "category": "결함 유형 표기",
+   "match": "e9",
+   "context": " `results/revision/human_eval/e9_eval/rater_A_e9_retest/eval_s",
+   "judge": "연구자가 지정한 파일·폴더 이름(e9)"
+  },
+  {
+   "file": "e9_howto.md",
+   "where": "안내문 본문",
+   "category": "결함 유형 표기",
+   "match": "e9",
+   "context": "같은 내용의 시트 CSV, `shots/`, 지침서(`e9_rater_guidelines.md`)가 들어 있습니",
+   "judge": "연구자가 지정한 파일·폴더 이름(e9)"
+  },
+  {
+   "file": "e9_howto.md",
+   "where": "안내문 본문",
+   "category": "결함 유형 표기",
+   "match": "e9",
+   "context": "에 받습니다.  ## 2. 판정 칸 (자세한 기준은 `e9_rater_guidelines.md`)  / 칸 / ",
+   "judge": "연구자가 지정한 파일·폴더 이름(e9)"
+  },
+  {
+   "file": "e9_howto.md",
+   "where": "안내문 본문",
+   "category": "결함 유형 표기",
+   "match": "e9",
+   "context": " `results/revision/human_eval/e9_eval/e9_rater_guidelines.md` ",
+   "judge": "연구자가 지정한 파일·폴더 이름(e9)"
+  },
+  {
+   "file": "e9_howto.md",
+   "where": "안내문 본문",
+   "category": "결함 유형 표기",
+   "match": "e9",
+   "context": "s/revision/human_eval/e9_eval/e9_rater_guidelines.md`  - 세 칸을 ",
+   "judge": "연구자가 지정한 파일·폴더 이름(e9)"
+  }
+ ],
+ "nonblank_input_cells": 0,
+ "reused_screenshot_names": []
+}

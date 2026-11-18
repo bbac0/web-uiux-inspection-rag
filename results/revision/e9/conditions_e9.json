@@ -1,0 +1,65 @@
+{
+ "note": "E9 5개 조건의 러너 인자 (docs/e9_design.md §4, §5). 러너: experiments/revision/run_experiment_e9.py. 동시 실행 수는 실행 시점 메모리 규칙(5GB 이상 2건, 4.0~5.0GB 1건, 4.0GB 미만 실행 안 함)을 따르며 결과에는 영향이 없다.",
+ "server": "python -m http.server 8090 --bind 127.0.0.1 --directory testbed_e9",
+ "common_args": [
+  "--testbed",
+  "main",
+  "--pages",
+  "all",
+  "--max-pages",
+  "1",
+  "--chroma-path",
+  "services/chroma_db",
+  "--prompt-date",
+  "2026-11-11"
+ ],
+ "conditions": {
+  "norag": {
+   "name": "RAG 끔",
+   "args": [
+    "--no-rag"
+   ]
+  },
+  "fixed": {
+   "name": "고정 질의 (K=4)",
+   "args": []
+  },
+  "page": {
+   "name": "페이지별 질의",
+   "args": [
+    "--query-mode",
+    "page"
+   ]
+  },
+  "related": {
+   "name": "관련 조항 제공 (related-clause, 6청크)",
+   "args": [
+    "--query-mode",
+    "oracle",
+    "--oracle-chunks",
+    "results/revision/e9/e9_related_clause_chunks.csv"
+   ]
+  },
+  "fixedlong": {
+   "name": "E9 결함 주제 키워드를 제외한 컨텍스트, 길이 맞춤 (fixed-long, 9청크 4,465자)",
+   "args": [
+    "--query-mode",
+    "oracle",
+    "--oracle-chunks",
+    "results/revision/e9/e9_fixed_long_chunks.csv"
+   ]
+  }
+ },
+ "run_id_pattern": "E9-R{rep}-{condition}  (rep = 1, 2, 규칙 발동 시 3)",
+ "condition_label_pattern": "E9-{condition}",
+ "auxiliary_390": {
+  "run_id_pattern": "E9AUX390-{condition}",
+  "extra_args": [
+   "--viewport-extra",
+   "mobile",
+   "--pages",
+   "file:results/revision/e9/e9_aux390_pages.txt"
+  ],
+  "pages": "E9-4 15 + 대조군 30, 반복 1회, 의미 채점 없음"
+ }
+}

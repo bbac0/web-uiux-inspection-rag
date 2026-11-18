@@ -1,0 +1,6839 @@
+{
+ "unsourced": [],
+ "checks": [
+  {
+   "where": "4.1 E1-R1 sem_merged nominal 정밀도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "1.000",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "의미(병합)",
+    "라벨": "nominal"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 sem_merged nominal 재현율",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.801",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "의미(병합)",
+    "라벨": "nominal"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.801",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 sem_merged nominal 특이도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "1.000",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "의미(병합)",
+    "라벨": "nominal"
+   },
+   "col": "특이도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 sem_merged nominal MCC[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.869",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "의미(병합)",
+    "라벨": "nominal"
+   },
+   "col": "MCC [CI]",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.869",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 sem_merged nominal MCC[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.845",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "의미(병합)",
+    "라벨": "nominal"
+   },
+   "col": "MCC [CI]",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.845",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 sem_merged nominal MCC[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.899",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "의미(병합)",
+    "라벨": "nominal"
+   },
+   "col": "MCC [CI]",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.899",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 sem_merged effective 정밀도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.859",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "의미(병합)",
+    "라벨": "effective"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.859",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 sem_merged effective 재현율",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.787",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "의미(병합)",
+    "라벨": "effective"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.787",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 sem_merged effective 특이도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.967",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "의미(병합)",
+    "라벨": "effective"
+   },
+   "col": "특이도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.967",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 sem_merged effective MCC[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.780",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "의미(병합)",
+    "라벨": "effective"
+   },
+   "col": "MCC [CI]",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.780",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 sem_merged effective MCC[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.686",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "의미(병합)",
+    "라벨": "effective"
+   },
+   "col": "MCC [CI]",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.686",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 sem_merged effective MCC[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.863",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "의미(병합)",
+    "라벨": "effective"
+   },
+   "col": "MCC [CI]",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.863",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 keyword nominal 정밀도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.842",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "키워드",
+    "라벨": "nominal"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.842",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 keyword nominal 재현율",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.805",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "키워드",
+    "라벨": "nominal"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.805",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 keyword nominal 특이도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.954",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "키워드",
+    "라벨": "nominal"
+   },
+   "col": "특이도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.954",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 keyword nominal MCC[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.772",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "키워드",
+    "라벨": "nominal"
+   },
+   "col": "MCC [CI]",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.772",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 keyword nominal MCC[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.727",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "키워드",
+    "라벨": "nominal"
+   },
+   "col": "MCC [CI]",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.727",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 keyword nominal MCC[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.826",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "키워드",
+    "라벨": "nominal"
+   },
+   "col": "MCC [CI]",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.826",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 keyword effective 정밀도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.751",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "키워드",
+    "라벨": "effective"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.751",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 keyword effective 재현율",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.822",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "키워드",
+    "라벨": "effective"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.822",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 keyword effective 특이도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.931",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "키워드",
+    "라벨": "effective"
+   },
+   "col": "특이도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.931",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 keyword effective MCC[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.728",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "키워드",
+    "라벨": "effective"
+   },
+   "col": "MCC [CI]",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.728",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 keyword effective MCC[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.650",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "키워드",
+    "라벨": "effective"
+   },
+   "col": "MCC [CI]",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.650",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E1-R1 keyword effective MCC[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.799",
+   "section": "## 1",
+   "keys": {
+    "run": "E1-R1 (켬)",
+    "채점기": "키워드",
+    "라벨": "effective"
+   },
+   "col": "MCC [CI]",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.799",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 sem_merged nominal 정밀도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.955",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "의미(병합)",
+    "라벨": "nominal"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.955",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 sem_merged nominal 재현율",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.827",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "의미(병합)",
+    "라벨": "nominal"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.827",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 sem_merged nominal 특이도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.988",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "의미(병합)",
+    "라벨": "nominal"
+   },
+   "col": "특이도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.988",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 sem_merged nominal MCC[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.859",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "의미(병합)",
+    "라벨": "nominal"
+   },
+   "col": "MCC [CI]",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.859",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 sem_merged nominal MCC[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.832",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "의미(병합)",
+    "라벨": "nominal"
+   },
+   "col": "MCC [CI]",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.832",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 sem_merged nominal MCC[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.893",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "의미(병합)",
+    "라벨": "nominal"
+   },
+   "col": "MCC [CI]",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.893",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 sem_merged effective 정밀도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.825",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "의미(병합)",
+    "라벨": "effective"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.825",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 sem_merged effective 재현율",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.817",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "의미(병합)",
+    "라벨": "effective"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.817",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 sem_merged effective 특이도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.956",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "의미(병합)",
+    "라벨": "effective"
+   },
+   "col": "특이도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.956",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 sem_merged effective MCC[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.776",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "의미(병합)",
+    "라벨": "effective"
+   },
+   "col": "MCC [CI]",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.776",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 sem_merged effective MCC[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.689",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "의미(병합)",
+    "라벨": "effective"
+   },
+   "col": "MCC [CI]",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.689",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 sem_merged effective MCC[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.854",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "의미(병합)",
+    "라벨": "effective"
+   },
+   "col": "MCC [CI]",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.854",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 keyword nominal 정밀도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.707",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "키워드",
+    "라벨": "nominal"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.707",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 keyword nominal 재현율",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.805",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "키워드",
+    "라벨": "nominal"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.805",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 keyword nominal 특이도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.900",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "키워드",
+    "라벨": "nominal"
+   },
+   "col": "특이도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.900",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 keyword nominal MCC[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.675",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "키워드",
+    "라벨": "nominal"
+   },
+   "col": "MCC [CI]",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.675",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 keyword nominal MCC[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.616",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "키워드",
+    "라벨": "nominal"
+   },
+   "col": "MCC [CI]",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.616",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 keyword nominal MCC[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.741",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "키워드",
+    "라벨": "nominal"
+   },
+   "col": "MCC [CI]",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.741",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 keyword effective 정밀도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.639",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "키워드",
+    "라벨": "effective"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.639",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 keyword effective 재현율",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.832",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "키워드",
+    "라벨": "effective"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.832",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 keyword effective 특이도",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.881",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "키워드",
+    "라벨": "effective"
+   },
+   "col": "특이도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.881",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 keyword effective MCC[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.650",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "키워드",
+    "라벨": "effective"
+   },
+   "col": "MCC [CI]",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.650",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 keyword effective MCC[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.590",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "키워드",
+    "라벨": "effective"
+   },
+   "col": "MCC [CI]",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.590",
+   "status": "일치"
+  },
+  {
+   "where": "4.1 E2-A1-1 keyword effective MCC[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.712",
+   "section": "## 1",
+   "keys": {
+    "run": "E2-A1-1 (끔)",
+    "채점기": "키워드",
+    "라벨": "effective"
+   },
+   "col": "MCC [CI]",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.712",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_merged nominal MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.010",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "nominal"
+   },
+   "col": "의미(병합), 주",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.010",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_merged nominal MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.005",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "nominal"
+   },
+   "col": "의미(병합), 주",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.005",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_merged nominal MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.025",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "nominal"
+   },
+   "col": "의미(병합), 주",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.025",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 주 비교 Contrast sem_merged MCC차",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 3",
+   "keys": {
+    "유형": "명도 대비"
+   },
+   "col": "의미(병합)",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 주 비교 Mobile sem_merged MCC차",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.024",
+   "section": "## 3",
+   "keys": {
+    "유형": "모바일"
+   },
+   "col": "의미(병합)",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.024",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 주 비교 Button sem_merged MCC차",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 3",
+   "keys": {
+    "유형": "버튼 잘림"
+   },
+   "col": "의미(병합)",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 주 비교 Terminology sem_merged MCC차",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "정의 안 됨",
+   "section": "## 3",
+   "keys": {
+    "유형": "표준 용어"
+   },
+   "col": "의미(병합)",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "정의 안 됨",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 주 비교 DupID sem_merged MCC차",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.016",
+   "section": "## 3",
+   "keys": {
+    "유형": "중복 ID"
+   },
+   "col": "의미(병합)",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.016",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_merged effective MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.004",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "effective"
+   },
+   "col": "의미(병합), 주",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.004",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_merged effective MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.010",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "effective"
+   },
+   "col": "의미(병합), 주",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.010",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_merged effective MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.019",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "effective"
+   },
+   "col": "의미(병합), 주",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.019",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_merged guideline_grounded MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거(대비)"
+   },
+   "col": "의미(병합), 주",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_merged guideline_grounded MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거(대비)"
+   },
+   "col": "의미(병합), 주",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_merged guideline_grounded MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거(대비)"
+   },
+   "col": "의미(병합), 주",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_merged guideline_grounded_btn_true MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거+버튼"
+   },
+   "col": "의미(병합), 주",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_merged guideline_grounded_btn_true MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거+버튼"
+   },
+   "col": "의미(병합), 주",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_merged guideline_grounded_btn_true MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거+버튼"
+   },
+   "col": "의미(병합), 주",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_orig nominal MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.004",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "nominal"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.004",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_orig nominal MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.006",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "nominal"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.006",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_orig nominal MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.014",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "nominal"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.014",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_orig effective MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "effective"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_orig effective MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.011",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "effective"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.011",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_orig effective MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.011",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "effective"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.011",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_orig guideline_grounded MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거(대비)"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_orig guideline_grounded MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거(대비)"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_orig guideline_grounded MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거(대비)"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_orig guideline_grounded_btn_true MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거+버튼"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_orig guideline_grounded_btn_true MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거+버튼"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 sem_orig guideline_grounded_btn_true MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거+버튼"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 keyword nominal MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.097",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "nominal"
+   },
+   "col": "키워드, 보조",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.097",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 keyword nominal MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.043",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "nominal"
+   },
+   "col": "키워드, 보조",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.043",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 keyword nominal MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.147",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "nominal"
+   },
+   "col": "키워드, 보조",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.147",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 주 비교 Contrast keyword MCC차",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.226",
+   "section": "## 3",
+   "keys": {
+    "유형": "명도 대비"
+   },
+   "col": "키워드",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.226",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 주 비교 Mobile keyword MCC차",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.110",
+   "section": "## 3",
+   "keys": {
+    "유형": "모바일"
+   },
+   "col": "키워드",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.110",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 주 비교 Button keyword MCC차",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.029",
+   "section": "## 3",
+   "keys": {
+    "유형": "버튼 잘림"
+   },
+   "col": "키워드",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.029",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 주 비교 Terminology keyword MCC차",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.097",
+   "section": "## 3",
+   "keys": {
+    "유형": "표준 용어"
+   },
+   "col": "키워드",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.097",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 주 비교 DupID keyword MCC차",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.100",
+   "section": "## 3",
+   "keys": {
+    "유형": "중복 ID"
+   },
+   "col": "키워드",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.100",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 keyword effective MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.079",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "effective"
+   },
+   "col": "키워드, 보조",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.079",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 keyword effective MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.022",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "effective"
+   },
+   "col": "키워드, 보조",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.022",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 keyword effective MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.129",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "effective"
+   },
+   "col": "키워드, 보조",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.129",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 keyword guideline_grounded MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.226",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거(대비)"
+   },
+   "col": "키워드, 보조",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.226",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 keyword guideline_grounded MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.111",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거(대비)"
+   },
+   "col": "키워드, 보조",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.111",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 keyword guideline_grounded MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.336",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거(대비)"
+   },
+   "col": "키워드, 보조",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.336",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 keyword guideline_grounded_btn_true MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.106",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거+버튼"
+   },
+   "col": "키워드, 보조",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.106",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 keyword guideline_grounded_btn_true MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.016",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거+버튼"
+   },
+   "col": "키워드, 보조",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.016",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R1 - E2-A1-1 keyword guideline_grounded_btn_true MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.197",
+   "section": "## 2",
+   "keys": {
+    "비교": "R1 − A1-1 (주)",
+    "라벨": "근거+버튼"
+   },
+   "col": "키워드, 보조",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.197",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 주 비교 Terminology string_match MCC차",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.097",
+   "section": "## 3",
+   "keys": {
+    "유형": "표준 용어"
+   },
+   "col": "string_match",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.097",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 sem_merged nominal MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.013",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "nominal"
+   },
+   "col": "의미(병합), 주",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.013",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 sem_merged nominal MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.030",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "nominal"
+   },
+   "col": "의미(병합), 주",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.030",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 sem_merged nominal MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.001",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "nominal"
+   },
+   "col": "의미(병합), 주",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.001",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 sem_merged effective MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.020",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "effective"
+   },
+   "col": "의미(병합), 주",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.020",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 sem_merged effective MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.046",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "effective"
+   },
+   "col": "의미(병합), 주",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.046",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 sem_merged effective MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.001",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "effective"
+   },
+   "col": "의미(병합), 주",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.001",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 sem_orig nominal MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.017",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "nominal"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.017",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 sem_orig nominal MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.033",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "nominal"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.033",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 sem_orig nominal MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.003",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "nominal"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.003",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 sem_orig effective MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.022",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "effective"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.022",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 sem_orig effective MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.047",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "effective"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.047",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 sem_orig effective MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.004",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "effective"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.004",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 keyword nominal MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.109",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "nominal"
+   },
+   "col": "키워드, 보조",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.109",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 keyword nominal MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.048",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "nominal"
+   },
+   "col": "키워드, 보조",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.048",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 keyword nominal MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.173",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "nominal"
+   },
+   "col": "키워드, 보조",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.173",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 keyword effective MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.070",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "effective"
+   },
+   "col": "키워드, 보조",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.070",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 keyword effective MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.009",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "effective"
+   },
+   "col": "키워드, 보조",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.009",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R2 - E2-A1-2 keyword effective MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.140",
+   "section": "## 2",
+   "keys": {
+    "비교": "R2 − A1-2",
+    "라벨": "effective"
+   },
+   "col": "키워드, 보조",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.140",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 sem_merged nominal MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.011",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "nominal"
+   },
+   "col": "의미(병합), 주",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.011",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 sem_merged nominal MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.032",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "nominal"
+   },
+   "col": "의미(병합), 주",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.032",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 sem_merged nominal MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.005",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "nominal"
+   },
+   "col": "의미(병합), 주",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.005",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 sem_merged effective MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.016",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "effective"
+   },
+   "col": "의미(병합), 주",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.016",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 sem_merged effective MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.046",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "effective"
+   },
+   "col": "의미(병합), 주",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.046",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 sem_merged effective MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.003",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "effective"
+   },
+   "col": "의미(병합), 주",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.003",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 sem_orig nominal MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.008",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "nominal"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.008",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 sem_orig nominal MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.029",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "nominal"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.029",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 sem_orig nominal MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.007",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "nominal"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.007",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 sem_orig effective MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.013",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "effective"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.013",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 sem_orig effective MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.043",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "effective"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.043",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 sem_orig effective MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.005",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "effective"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.005",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 keyword nominal MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.107",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "nominal"
+   },
+   "col": "키워드, 보조",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.107",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 keyword nominal MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.052",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "nominal"
+   },
+   "col": "키워드, 보조",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.052",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 keyword nominal MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.156",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "nominal"
+   },
+   "col": "키워드, 보조",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.156",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 keyword effective MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.089",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "effective"
+   },
+   "col": "키워드, 보조",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.089",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 keyword effective MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.027",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "effective"
+   },
+   "col": "키워드, 보조",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.027",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-R3b - E2-A1-3 keyword effective MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.141",
+   "section": "## 2",
+   "keys": {
+    "비교": "R3b − A1-3",
+    "라벨": "effective"
+   },
+   "col": "키워드, 보조",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.141",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority sem_merged nominal MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.010",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "nominal"
+   },
+   "col": "의미(병합), 주",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.010",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority sem_merged nominal MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.026",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "nominal"
+   },
+   "col": "의미(병합), 주",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.026",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority sem_merged nominal MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.004",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "nominal"
+   },
+   "col": "의미(병합), 주",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.004",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority sem_merged effective MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.017",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "effective"
+   },
+   "col": "의미(병합), 주",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.017",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority sem_merged effective MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.040",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "effective"
+   },
+   "col": "의미(병합), 주",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.040",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority sem_merged effective MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.000",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "effective"
+   },
+   "col": "의미(병합), 주",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority sem_orig nominal MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.005",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "nominal"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.005",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority sem_orig nominal MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.020",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "nominal"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.020",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority sem_orig nominal MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.007",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "nominal"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.007",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority sem_orig effective MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.009",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "effective"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.009",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority sem_orig effective MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "-0.031",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "effective"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "-0.031",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority sem_orig effective MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.005",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "effective"
+   },
+   "col": "의미(원), 민감도",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.005",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority keyword nominal MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.086",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "nominal"
+   },
+   "col": "키워드, 보조",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.086",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority keyword nominal MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.040",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "nominal"
+   },
+   "col": "키워드, 보조",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.040",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority keyword nominal MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.127",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "nominal"
+   },
+   "col": "키워드, 보조",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.127",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority keyword effective MCC차[0]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.072",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "effective"
+   },
+   "col": "키워드, 보조",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.072",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority keyword effective MCC차[1]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.015",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "effective"
+   },
+   "col": "키워드, 보조",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.015",
+   "status": "일치"
+  },
+  {
+   "where": "4.2 E1-majority - A1-majority keyword effective MCC차[2]",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.121",
+   "section": "## 2",
+   "keys": {
+    "비교": "다수결",
+    "라벨": "effective"
+   },
+   "col": "키워드, 보조",
+   "idx": 2,
+   "regex": null,
+   "ncols": null,
+   "got": "0.121",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E1 (RAG 켬) sem_merged 탐지 셀(3회)",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "185;186;185",
+   "section": "## 4",
+   "keys": {
+    "조건": "E1 (RAG 켬)",
+    "채점기": "의미(병합)"
+   },
+   "col": "탐지 셀(3회)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "185;186;185",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E1 (RAG 켬) sem_merged 3회 동일",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.999",
+   "section": "## 4",
+   "keys": {
+    "조건": "E1 (RAG 켬)",
+    "채점기": "의미(병합)"
+   },
+   "col": "3회 동일",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.999",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E1 (RAG 켬) sem_merged Fleiss kappa",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.998",
+   "section": "## 4",
+   "keys": {
+    "조건": "E1 (RAG 켬)",
+    "채점기": "의미(병합)"
+   },
+   "col": "Fleiss kappa",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.998",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E1 (RAG 켬) sem_merged 쌍별 Cohen kappa",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.997;1.000;0.997",
+   "section": "## 4",
+   "keys": {
+    "조건": "E1 (RAG 켬)",
+    "채점기": "의미(병합)"
+   },
+   "col": "쌍별 Cohen kappa",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.997;1.000;0.997",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E1 (RAG 켬) keyword 탐지 셀(3회)",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "221;227;215",
+   "section": "## 4",
+   "keys": {
+    "조건": "E1 (RAG 켬)",
+    "채점기": "키워드"
+   },
+   "col": "탐지 셀(3회)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "221;227;215",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E1 (RAG 켬) keyword 3회 동일",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.971",
+   "section": "## 4",
+   "keys": {
+    "조건": "E1 (RAG 켬)",
+    "채점기": "키워드"
+   },
+   "col": "3회 동일",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.971",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E1 (RAG 켬) keyword Fleiss kappa",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.944",
+   "section": "## 4",
+   "keys": {
+    "조건": "E1 (RAG 켬)",
+    "채점기": "키워드"
+   },
+   "col": "Fleiss kappa",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.944",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E1 (RAG 켬) keyword 쌍별 Cohen kappa",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.948;0.947;0.936",
+   "section": "## 4",
+   "keys": {
+    "조건": "E1 (RAG 켬)",
+    "채점기": "키워드"
+   },
+   "col": "쌍별 Cohen kappa",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.948;0.947;0.936",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E2-A1 (RAG 끔) sem_merged 탐지 셀(3회)",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "200;199;197",
+   "section": "## 4",
+   "keys": {
+    "조건": "E2-A1 (RAG 끔)",
+    "채점기": "의미(병합)"
+   },
+   "col": "탐지 셀(3회)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "200;199;197",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E2-A1 (RAG 끔) sem_merged 3회 동일",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.983",
+   "section": "## 4",
+   "keys": {
+    "조건": "E2-A1 (RAG 끔)",
+    "채점기": "의미(병합)"
+   },
+   "col": "3회 동일",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.983",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E2-A1 (RAG 끔) sem_merged Fleiss kappa",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.964",
+   "section": "## 4",
+   "keys": {
+    "조건": "E2-A1 (RAG 끔)",
+    "채점기": "의미(병합)"
+   },
+   "col": "Fleiss kappa",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.964",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E2-A1 (RAG 끔) sem_merged 쌍별 Cohen kappa",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.959;0.959;0.975",
+   "section": "## 4",
+   "keys": {
+    "조건": "E2-A1 (RAG 끔)",
+    "채점기": "의미(병합)"
+   },
+   "col": "쌍별 Cohen kappa",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.959;0.959;0.975",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E2-A1 (RAG 끔) keyword 탐지 셀(3회)",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "263;265;258",
+   "section": "## 4",
+   "keys": {
+    "조건": "E2-A1 (RAG 끔)",
+    "채점기": "키워드"
+   },
+   "col": "탐지 셀(3회)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "263;265;258",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E2-A1 (RAG 끔) keyword 3회 동일",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.913",
+   "section": "## 4",
+   "keys": {
+    "조건": "E2-A1 (RAG 끔)",
+    "채점기": "키워드"
+   },
+   "col": "3회 동일",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.913",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E2-A1 (RAG 끔) keyword Fleiss kappa",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.850",
+   "section": "## 4",
+   "keys": {
+    "조건": "E2-A1 (RAG 끔)",
+    "채점기": "키워드"
+   },
+   "col": "Fleiss kappa",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.850",
+   "status": "일치"
+  },
+  {
+   "where": "4.3 E2-A1 (RAG 끔) keyword 쌍별 Cohen kappa",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0.851;0.857;0.842",
+   "section": "## 4",
+   "keys": {
+    "조건": "E2-A1 (RAG 끔)",
+    "채점기": "키워드"
+   },
+   "col": "쌍별 Cohen kappa",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.851;0.857;0.842",
+   "status": "일치"
+  },
+  {
+   "where": "4.4 E3 E1-R1 sem_merged",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "0/45, 정의 안 됨",
+   "section": "## 5",
+   "keys": {
+    "묶음": "E3 용어(84페이지)",
+    "run": "E1-R1 (fixed)"
+   },
+   "col": "의미(병합) TP/FN, MCC",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/45, 정의 안 됨",
+   "status": "일치"
+  },
+  {
+   "where": "4.4 E3 E1-R1 keyword",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "12/33, 0.380",
+   "section": "## 5",
+   "keys": {
+    "묶음": "E3 용어(84페이지)",
+    "run": "E1-R1 (fixed)"
+   },
+   "col": "키워드 TP/FN, MCC",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "12/33, 0.380",
+   "status": "일치"
+  },
+  {
+   "where": "4.4 E3 E3-page sem_merged",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "13/32, 0.398",
+   "section": "## 5",
+   "keys": {
+    "묶음": "E3 용어(84페이지)",
+    "run": "E3-page"
+   },
+   "col": "의미(병합) TP/FN, MCC",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "13/32, 0.398",
+   "status": "일치"
+  },
+  {
+   "where": "4.4 E3 E3-page keyword",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "16/29, 0.452",
+   "section": "## 5",
+   "keys": {
+    "묶음": "E3 용어(84페이지)",
+    "run": "E3-page"
+   },
+   "col": "키워드 TP/FN, MCC",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "16/29, 0.452",
+   "status": "일치"
+  },
+  {
+   "where": "4.4 E3 E3-oracle sem_merged",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "24/21, 0.589",
+   "section": "## 5",
+   "keys": {
+    "묶음": "E3 용어(84페이지)",
+    "run": "E3-oracle (related)"
+   },
+   "col": "의미(병합) TP/FN, MCC",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "24/21, 0.589",
+   "status": "일치"
+  },
+  {
+   "where": "4.4 E3 E3-oracle keyword",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "34/11, 0.768",
+   "section": "## 5",
+   "keys": {
+    "묶음": "E3 용어(84페이지)",
+    "run": "E3-oracle (related)"
+   },
+   "col": "키워드 TP/FN, MCC",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "34/11, 0.768",
+   "status": "일치"
+  },
+  {
+   "where": "4.4 E4 E1-R1 sem_merged",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "56/0, 1.000",
+   "section": "## 5",
+   "keys": {
+    "묶음": "E4 모바일(95페이지)",
+    "run": "E1-R1"
+   },
+   "col": "의미(병합) TP/FN, MCC",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "56/0, 1.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.4 E4 E1-R1 keyword",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "56/0, 0.936",
+   "section": "## 5",
+   "keys": {
+    "묶음": "E4 모바일(95페이지)",
+    "run": "E1-R1"
+   },
+   "col": "키워드 TP/FN, MCC",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "56/0, 0.936",
+   "status": "일치"
+  },
+  {
+   "where": "4.4 E4 E4-mobile sem_merged",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "56/0, 1.000",
+   "section": "## 5",
+   "keys": {
+    "묶음": "E4 모바일(95페이지)",
+    "run": "E4-mobile"
+   },
+   "col": "의미(병합) TP/FN, MCC",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "56/0, 1.000",
+   "status": "일치"
+  },
+  {
+   "where": "4.4 E4 E4-mobile keyword",
+   "report": "results/revision/reports/e7_final_report.md",
+   "value": "56/0, 0.936",
+   "section": "## 5",
+   "keys": {
+    "묶음": "E4 모바일(95페이지)",
+    "run": "E4-mobile"
+   },
+   "col": "키워드 TP/FN, MCC",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "56/0, 0.936",
+   "status": "일치"
+  },
+  {
+   "where": "11 대비 R1 키워드",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "44 / 3",
+   "section": "## 5",
+   "keys": {
+    "유형": "대비"
+   },
+   "col": "R1 키워드",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "44 / 3",
+   "status": "일치"
+  },
+  {
+   "where": "11 대비 R1 의미",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "44 / 0",
+   "section": "## 5",
+   "keys": {
+    "유형": "대비"
+   },
+   "col": "R1 의미",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "44 / 0",
+   "status": "일치"
+  },
+  {
+   "where": "11 대비 A1-1 키워드",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "44 / 25",
+   "section": "## 5",
+   "keys": {
+    "유형": "대비"
+   },
+   "col": "A1-1 키워드",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "44 / 25",
+   "status": "일치"
+  },
+  {
+   "where": "11 대비 A1-1 의미",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "44 / 0",
+   "section": "## 5",
+   "keys": {
+    "유형": "대비"
+   },
+   "col": "A1-1 의미",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "44 / 0",
+   "status": "일치"
+  },
+  {
+   "where": "11 모바일 R1 키워드",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "56 / 32",
+   "section": "## 5",
+   "keys": {
+    "유형": "모바일"
+   },
+   "col": "R1 키워드",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "56 / 32",
+   "status": "일치"
+  },
+  {
+   "where": "11 모바일 R1 의미",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "56 / 0",
+   "section": "## 5",
+   "keys": {
+    "유형": "모바일"
+   },
+   "col": "R1 의미",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "56 / 0",
+   "status": "일치"
+  },
+  {
+   "where": "11 모바일 A1-1 키워드",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "56 / 49",
+   "section": "## 5",
+   "keys": {
+    "유형": "모바일"
+   },
+   "col": "A1-1 키워드",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "56 / 49",
+   "status": "일치"
+  },
+  {
+   "where": "11 모바일 A1-1 의미",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "56 / 2",
+   "section": "## 5",
+   "keys": {
+    "유형": "모바일"
+   },
+   "col": "A1-1 의미",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "56 / 2",
+   "status": "일치"
+  },
+  {
+   "where": "11 버튼 R1 키워드",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "40 / 0",
+   "section": "## 5",
+   "keys": {
+    "유형": "버튼"
+   },
+   "col": "R1 키워드",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "40 / 0",
+   "status": "일치"
+  },
+  {
+   "where": "11 버튼 R1 의미",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "46 / 0",
+   "section": "## 5",
+   "keys": {
+    "유형": "버튼"
+   },
+   "col": "R1 의미",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "46 / 0",
+   "status": "일치"
+  },
+  {
+   "where": "11 버튼 A1-1 키워드",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "38 / 0",
+   "section": "## 5",
+   "keys": {
+    "유형": "버튼"
+   },
+   "col": "A1-1 키워드",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "38 / 0",
+   "status": "일치"
+  },
+  {
+   "where": "11 버튼 A1-1 의미",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "46 / 0",
+   "section": "## 5",
+   "keys": {
+    "유형": "버튼"
+   },
+   "col": "A1-1 의미",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "46 / 0",
+   "status": "일치"
+  },
+  {
+   "where": "11 용어 R1 키워드",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "12 / 0",
+   "section": "## 5",
+   "keys": {
+    "유형": "용어"
+   },
+   "col": "R1 키워드",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "12 / 0",
+   "status": "일치"
+  },
+  {
+   "where": "11 용어 R1 의미",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "0 / 0",
+   "section": "## 5",
+   "keys": {
+    "유형": "용어"
+   },
+   "col": "R1 의미",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0 / 0",
+   "status": "일치"
+  },
+  {
+   "where": "11 용어 A1-1 키워드",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "17 / 0",
+   "section": "## 5",
+   "keys": {
+    "유형": "용어"
+   },
+   "col": "A1-1 키워드",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "17 / 0",
+   "status": "일치"
+  },
+  {
+   "where": "11 용어 A1-1 의미",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "3 / 3",
+   "section": "## 5",
+   "keys": {
+    "유형": "용어"
+   },
+   "col": "A1-1 의미",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "3 / 3",
+   "status": "일치"
+  },
+  {
+   "where": "11 중복ID R1 키워드",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "34 / 0",
+   "section": "## 5",
+   "keys": {
+    "유형": "중복ID"
+   },
+   "col": "R1 키워드",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "34 / 0",
+   "status": "일치"
+  },
+  {
+   "where": "11 중복ID R1 의미",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "39 / 0",
+   "section": "## 5",
+   "keys": {
+    "유형": "중복ID"
+   },
+   "col": "R1 의미",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "39 / 0",
+   "status": "일치"
+  },
+  {
+   "where": "11 중복ID A1-1 키워드",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "31 / 3",
+   "section": "## 5",
+   "keys": {
+    "유형": "중복ID"
+   },
+   "col": "A1-1 키워드",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "31 / 3",
+   "status": "일치"
+  },
+  {
+   "where": "11 중복ID A1-1 의미",
+   "report": "results/revision/reports/e6_axe_report.md",
+   "value": "40 / 0",
+   "section": "## 5",
+   "keys": {
+    "유형": "중복ID"
+   },
+   "col": "A1-1 의미",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "40 / 0",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.062",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-1",
+    "조건": "RAG 끔"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.062",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.062",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-1",
+    "조건": "RAG 끔"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.062",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1 r3 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.125",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-1",
+    "조건": "RAG 끔"
+   },
+   "col": "r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.125",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1 primary 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "1/16 / 1/16 / 2/16",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-1",
+    "규칙": "주 지표"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1/16 / 1/16 / 2/16",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1 primary 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-1",
+    "규칙": "주 지표"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1 aux 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "1/16 / 1/16 / 2/16",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-1",
+    "규칙": "보조"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1/16 / 1/16 / 2/16",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1 aux 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-1",
+    "규칙": "보조"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1a primary 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/8 / 1/8 / 1/8",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-1a",
+    "규칙": "주 지표"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/8 / 1/8 / 1/8",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1a primary 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-1a",
+    "규칙": "주 지표"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1a aux 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/8 / 1/8 / 1/8",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-1a",
+    "규칙": "보조"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/8 / 1/8 / 1/8",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1a aux 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-1a",
+    "규칙": "보조"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1b primary 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "1/8 / 0/8 / 1/8",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-1b",
+    "규칙": "주 지표"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1/8 / 0/8 / 1/8",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1b primary 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-1b",
+    "규칙": "주 지표"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1b aux 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "1/8 / 0/8 / 1/8",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-1b",
+    "규칙": "보조"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1/8 / 0/8 / 1/8",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-1b aux 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-1b",
+    "규칙": "보조"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-2 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.067",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-2",
+    "조건": "RAG 끔"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.067",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-2 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.000",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-2",
+    "조건": "RAG 끔"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-2 r3 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.000",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-2",
+    "조건": "RAG 끔"
+   },
+   "col": "r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-2 primary 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "1/15 / 0/15 / 0/15",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-2",
+    "규칙": "주 지표"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1/15 / 0/15 / 0/15",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-2 primary 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "5/30 / 6/30 / 5/30",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-2",
+    "규칙": "주 지표"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "5/30 / 6/30 / 5/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-2 aux 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "1/15 / 0/15 / 0/15",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-2",
+    "규칙": "보조"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1/15 / 0/15 / 0/15",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-2 aux 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "5/30 / 6/30 / 5/30",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-2",
+    "규칙": "보조"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "5/30 / 6/30 / 5/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-3 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.200",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-3",
+    "조건": "RAG 끔"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.200",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-3 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.467",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-3",
+    "조건": "RAG 끔"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.467",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-3 r3 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.333",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-3",
+    "조건": "RAG 끔"
+   },
+   "col": "r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.333",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-3 primary 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "3/15 / 7/15 / 5/15",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-3",
+    "규칙": "주 지표"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "3/15 / 7/15 / 5/15",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-3 primary 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-3",
+    "규칙": "주 지표"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-3 aux 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "3/15 / 7/15 / 5/15",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-3",
+    "규칙": "보조"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "3/15 / 7/15 / 5/15",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-3 aux 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-3",
+    "규칙": "보조"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-4 primary 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "8/15 / 7/15 / 7/15",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-4",
+    "규칙": "주 지표"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "8/15 / 7/15 / 7/15",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-4 primary 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-4",
+    "규칙": "주 지표"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-4 aux 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "8/15 / 7/15 / 7/15",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-4",
+    "규칙": "보조"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "8/15 / 7/15 / 7/15",
+   "status": "일치"
+  },
+  {
+   "where": "6 norag E9-4 aux 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### RAG 끔",
+   "keys": {
+    "유형": "E9-4",
+    "규칙": "보조"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixed E9-1 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.062",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-1",
+    "조건": "고정 질의"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.062",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixed E9-1 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.000",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-1",
+    "조건": "고정 질의"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixed E9-2 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.067",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-2",
+    "조건": "고정 질의"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.067",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixed E9-2 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.067",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-2",
+    "조건": "고정 질의"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.067",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixed E9-3 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.067",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-3",
+    "조건": "고정 질의"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.067",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixed E9-3 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.067",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-3",
+    "조건": "고정 질의"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.067",
+   "status": "일치"
+  },
+  {
+   "where": "6 page E9-1 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.000",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-1",
+    "조건": "페이지별 질의"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "6 page E9-1 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.000",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-1",
+    "조건": "페이지별 질의"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "6 page E9-2 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.133",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-2",
+    "조건": "페이지별 질의"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.133",
+   "status": "일치"
+  },
+  {
+   "where": "6 page E9-2 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.133",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-2",
+    "조건": "페이지별 질의"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.133",
+   "status": "일치"
+  },
+  {
+   "where": "6 page E9-3 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.333",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-3",
+    "조건": "페이지별 질의"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.333",
+   "status": "일치"
+  },
+  {
+   "where": "6 page E9-3 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.333",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-3",
+    "조건": "페이지별 질의"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.333",
+   "status": "일치"
+  },
+  {
+   "where": "6 related E9-1 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.625",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-1",
+    "조건": "관련 조항 제공"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.625",
+   "status": "일치"
+  },
+  {
+   "where": "6 related E9-1 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.688",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-1",
+    "조건": "관련 조항 제공"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.688",
+   "status": "일치"
+  },
+  {
+   "where": "6 related E9-2 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "1.000",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-2",
+    "조건": "관련 조항 제공"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "6 related E9-2 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "1.000",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-2",
+    "조건": "관련 조항 제공"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "6 related E9-3 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "1.000",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-3",
+    "조건": "관련 조항 제공"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "6 related E9-3 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "1.000",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-3",
+    "조건": "관련 조항 제공"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.062",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-1",
+    "조건": "fixed-long"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.062",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.062",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-1",
+    "조건": "fixed-long"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.062",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1 r3 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.062",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-1",
+    "조건": "fixed-long"
+   },
+   "col": "r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.062",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1 primary 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "1/16 / 1/16 / 1/16",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-1",
+    "규칙": "주 지표"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1/16 / 1/16 / 1/16",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1 primary 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-1",
+    "규칙": "주 지표"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1 aux 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "1/16 / 1/16 / 1/16",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-1",
+    "규칙": "보조"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1/16 / 1/16 / 1/16",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1 aux 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-1",
+    "규칙": "보조"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1a primary 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "1/8 / 1/8 / 1/8",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-1a",
+    "규칙": "주 지표"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1/8 / 1/8 / 1/8",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1a primary 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-1a",
+    "규칙": "주 지표"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1a aux 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "1/8 / 1/8 / 1/8",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-1a",
+    "규칙": "보조"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1/8 / 1/8 / 1/8",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1a aux 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-1a",
+    "규칙": "보조"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1b primary 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/8 / 0/8 / 0/8",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-1b",
+    "규칙": "주 지표"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/8 / 0/8 / 0/8",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1b primary 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-1b",
+    "규칙": "주 지표"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1b aux 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/8 / 0/8 / 0/8",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-1b",
+    "규칙": "보조"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/8 / 0/8 / 0/8",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-1b aux 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-1b",
+    "규칙": "보조"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-2 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.000",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-2",
+    "조건": "fixed-long"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-2 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.067",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-2",
+    "조건": "fixed-long"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.067",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-2 r3 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.067",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-2",
+    "조건": "fixed-long"
+   },
+   "col": "r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.067",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-2 primary 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/15 / 1/15 / 1/15",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-2",
+    "규칙": "주 지표"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/15 / 1/15 / 1/15",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-2 primary 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "3/30 / 3/30 / 5/30",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-2",
+    "규칙": "주 지표"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "3/30 / 3/30 / 5/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-2 aux 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/15 / 1/15 / 1/15",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-2",
+    "규칙": "보조"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/15 / 1/15 / 1/15",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-2 aux 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "3/30 / 3/30 / 5/30",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-2",
+    "규칙": "보조"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "3/30 / 3/30 / 5/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-3 r1 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.133",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-3",
+    "조건": "fixed-long"
+   },
+   "col": "r1",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.133",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-3 r2 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.133",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-3",
+    "조건": "fixed-long"
+   },
+   "col": "r2",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.133",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-3 r3 탐지율",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0.200",
+   "section": "### 3.1",
+   "keys": {
+    "유형": "E9-3",
+    "조건": "fixed-long"
+   },
+   "col": "r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0.200",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-3 primary 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "2/15 / 2/15 / 3/15",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-3",
+    "규칙": "주 지표"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "2/15 / 2/15 / 3/15",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-3 primary 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-3",
+    "규칙": "주 지표"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-3 aux 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "2/15 / 2/15 / 3/15",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-3",
+    "규칙": "보조"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "2/15 / 2/15 / 3/15",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-3 aux 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-3",
+    "규칙": "보조"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-4 primary 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "6/15 / 3/15 / 4/15",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-4",
+    "규칙": "주 지표"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "6/15 / 3/15 / 4/15",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-4 primary 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-4",
+    "규칙": "주 지표"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-4 aux 결함",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "6/15 / 3/15 / 4/15",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-4",
+    "규칙": "보조"
+   },
+   "col": "결함 탐지 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "6/15 / 3/15 / 4/15",
+   "status": "일치"
+  },
+  {
+   "where": "6 fixedlong E9-4 aux 대조군",
+   "report": "results/revision/reports/e9_main_report_r3.md",
+   "value": "0/30 / 0/30 / 0/30",
+   "section": "### fixed-long",
+   "keys": {
+    "유형": "E9-4",
+    "규칙": "보조"
+   },
+   "col": "대조군 위양성 r1 / r2 / r3",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0/30 / 0/30 / 0/30",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 명도 대비 키워드 TP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "11",
+   "section": "## 1",
+   "keys": {
+    "유형": "명도 대비",
+    "채점기": "키워드"
+   },
+   "col": "TP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "11",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 명도 대비 키워드 FP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "2",
+   "section": "## 1",
+   "keys": {
+    "유형": "명도 대비",
+    "채점기": "키워드"
+   },
+   "col": "FP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "2",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 명도 대비 키워드 FN",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1",
+   "section": "## 1",
+   "keys": {
+    "유형": "명도 대비",
+    "채점기": "키워드"
+   },
+   "col": "FN",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 명도 대비 키워드 정밀도",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.846",
+   "section": "## 1",
+   "keys": {
+    "유형": "명도 대비",
+    "채점기": "키워드"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.846",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 명도 대비 키워드 재현율",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.917",
+   "section": "## 1",
+   "keys": {
+    "유형": "명도 대비",
+    "채점기": "키워드"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.917",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 명도 대비 키워드 kappa",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.872",
+   "section": "## 1",
+   "keys": {
+    "유형": "명도 대비",
+    "채점기": "키워드"
+   },
+   "col": "kappa",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.872",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 명도 대비 의미 TP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "12",
+   "section": "## 1",
+   "keys": {
+    "유형": "명도 대비",
+    "채점기": "의미"
+   },
+   "col": "TP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "12",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 명도 대비 의미 FP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1",
+   "section": "## 1",
+   "keys": {
+    "유형": "명도 대비",
+    "채점기": "의미"
+   },
+   "col": "FP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 명도 대비 의미 FN",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "명도 대비",
+    "채점기": "의미"
+   },
+   "col": "FN",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 명도 대비 의미 정밀도",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.923",
+   "section": "## 1",
+   "keys": {
+    "유형": "명도 대비",
+    "채점기": "의미"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.923",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 명도 대비 의미 재현율",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "명도 대비",
+    "채점기": "의미"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 명도 대비 의미 kappa",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.957",
+   "section": "## 1",
+   "keys": {
+    "유형": "명도 대비",
+    "채점기": "의미"
+   },
+   "col": "kappa",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.957",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 모바일 키워드 TP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "19",
+   "section": "## 1",
+   "keys": {
+    "유형": "모바일",
+    "채점기": "키워드"
+   },
+   "col": "TP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "19",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 모바일 키워드 FP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "8",
+   "section": "## 1",
+   "keys": {
+    "유형": "모바일",
+    "채점기": "키워드"
+   },
+   "col": "FP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "8",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 모바일 키워드 FN",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "모바일",
+    "채점기": "키워드"
+   },
+   "col": "FN",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 모바일 키워드 정밀도",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.704",
+   "section": "## 1",
+   "keys": {
+    "유형": "모바일",
+    "채점기": "키워드"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.704",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 모바일 키워드 재현율",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "모바일",
+    "채점기": "키워드"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 모바일 키워드 kappa",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.805",
+   "section": "## 1",
+   "keys": {
+    "유형": "모바일",
+    "채점기": "키워드"
+   },
+   "col": "kappa",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.805",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 모바일 의미 TP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "19",
+   "section": "## 1",
+   "keys": {
+    "유형": "모바일",
+    "채점기": "의미"
+   },
+   "col": "TP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "19",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 모바일 의미 FP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "모바일",
+    "채점기": "의미"
+   },
+   "col": "FP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 모바일 의미 FN",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "모바일",
+    "채점기": "의미"
+   },
+   "col": "FN",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 모바일 의미 정밀도",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "모바일",
+    "채점기": "의미"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 모바일 의미 재현율",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "모바일",
+    "채점기": "의미"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 모바일 의미 kappa",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "모바일",
+    "채점기": "의미"
+   },
+   "col": "kappa",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 버튼 잘림 키워드 TP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "12",
+   "section": "## 1",
+   "keys": {
+    "유형": "버튼 잘림",
+    "채점기": "키워드"
+   },
+   "col": "TP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "12",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 버튼 잘림 키워드 FP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "버튼 잘림",
+    "채점기": "키워드"
+   },
+   "col": "FP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 버튼 잘림 키워드 FN",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1",
+   "section": "## 1",
+   "keys": {
+    "유형": "버튼 잘림",
+    "채점기": "키워드"
+   },
+   "col": "FN",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 버튼 잘림 키워드 정밀도",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "버튼 잘림",
+    "채점기": "키워드"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 버튼 잘림 키워드 재현율",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.923",
+   "section": "## 1",
+   "keys": {
+    "유형": "버튼 잘림",
+    "채점기": "키워드"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.923",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 버튼 잘림 키워드 kappa",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.957",
+   "section": "## 1",
+   "keys": {
+    "유형": "버튼 잘림",
+    "채점기": "키워드"
+   },
+   "col": "kappa",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.957",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 버튼 잘림 의미 TP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "13",
+   "section": "## 1",
+   "keys": {
+    "유형": "버튼 잘림",
+    "채점기": "의미"
+   },
+   "col": "TP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "13",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 버튼 잘림 의미 FP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "버튼 잘림",
+    "채점기": "의미"
+   },
+   "col": "FP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 버튼 잘림 의미 FN",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "버튼 잘림",
+    "채점기": "의미"
+   },
+   "col": "FN",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 버튼 잘림 의미 정밀도",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "버튼 잘림",
+    "채점기": "의미"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 버튼 잘림 의미 재현율",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "버튼 잘림",
+    "채점기": "의미"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 버튼 잘림 의미 kappa",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "버튼 잘림",
+    "채점기": "의미"
+   },
+   "col": "kappa",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 키워드 TP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "키워드"
+   },
+   "col": "TP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 키워드 FP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "7",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "키워드"
+   },
+   "col": "FP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "7",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 키워드 FN",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "키워드"
+   },
+   "col": "FN",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 키워드 정밀도",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "키워드"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 키워드 재현율",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "정의 안 됨",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "키워드"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "정의 안 됨",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 키워드 kappa",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "키워드"
+   },
+   "col": "kappa",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 의미 TP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "의미"
+   },
+   "col": "TP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 의미 FP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "의미"
+   },
+   "col": "FP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 의미 FN",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "의미"
+   },
+   "col": "FN",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 의미 정밀도",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "정의 안 됨",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "의미"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "정의 안 됨",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 의미 재현율",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "정의 안 됨",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "의미"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "정의 안 됨",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 의미 kappa",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "정의 안 됨",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "의미"
+   },
+   "col": "kappa",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "정의 안 됨",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 string_match TP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "string_match"
+   },
+   "col": "TP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 string_match FP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "7",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "string_match"
+   },
+   "col": "FP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "7",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 string_match FN",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "string_match"
+   },
+   "col": "FN",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 string_match 정밀도",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "string_match"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 string_match 재현율",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "정의 안 됨",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "string_match"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "정의 안 됨",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 표준 용어 string_match kappa",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "표준 용어",
+    "채점기": "string_match"
+   },
+   "col": "kappa",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 중복 ID 키워드 TP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "8",
+   "section": "## 1",
+   "keys": {
+    "유형": "중복 ID",
+    "채점기": "키워드"
+   },
+   "col": "TP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "8",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 중복 ID 키워드 FP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "중복 ID",
+    "채점기": "키워드"
+   },
+   "col": "FP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 중복 ID 키워드 FN",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "4",
+   "section": "## 1",
+   "keys": {
+    "유형": "중복 ID",
+    "채점기": "키워드"
+   },
+   "col": "FN",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "4",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 중복 ID 키워드 정밀도",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "중복 ID",
+    "채점기": "키워드"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 중복 ID 키워드 재현율",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.667",
+   "section": "## 1",
+   "keys": {
+    "유형": "중복 ID",
+    "채점기": "키워드"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.667",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 중복 ID 키워드 kappa",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.790",
+   "section": "## 1",
+   "keys": {
+    "유형": "중복 ID",
+    "채점기": "키워드"
+   },
+   "col": "kappa",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.790",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 중복 ID 의미 TP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "11",
+   "section": "## 1",
+   "keys": {
+    "유형": "중복 ID",
+    "채점기": "의미"
+   },
+   "col": "TP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "11",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 중복 ID 의미 FP",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "유형": "중복 ID",
+    "채점기": "의미"
+   },
+   "col": "FP",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 중복 ID 의미 FN",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1",
+   "section": "## 1",
+   "keys": {
+    "유형": "중복 ID",
+    "채점기": "의미"
+   },
+   "col": "FN",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 중복 ID 의미 정밀도",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "1.000",
+   "section": "## 1",
+   "keys": {
+    "유형": "중복 ID",
+    "채점기": "의미"
+   },
+   "col": "정밀도",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "1.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 중복 ID 의미 재현율",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.917",
+   "section": "## 1",
+   "keys": {
+    "유형": "중복 ID",
+    "채점기": "의미"
+   },
+   "col": "재현율",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.917",
+   "status": "일치"
+  },
+  {
+   "where": "9.1 중복 ID 의미 kappa",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.954",
+   "section": "## 1",
+   "keys": {
+    "유형": "중복 ID",
+    "채점기": "의미"
+   },
+   "col": "kappa",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0.954",
+   "status": "일치"
+  },
+  {
+   "where": "9.2 의미 6분류 kappa",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.978",
+   "section": null,
+   "keys": {},
+   "col": null,
+   "idx": 0,
+   "regex": "의미 채점 6분류 kappa ([\\d.]+)",
+   "ncols": null,
+   "got": "0.978",
+   "status": "일치"
+  },
+  {
+   "where": "9.3 S1 사람 6분류 = 표준 용어 위반 k",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "34",
+   "section": "## 2",
+   "keys": {
+    "층": "S1"
+   },
+   "col": "사람 6분류 = 표준 용어",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "34",
+   "status": "일치"
+  },
+  {
+   "where": "9.3 S1 사람 6분류 = 표준 용어 위반 rate",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.791",
+   "section": "## 2",
+   "keys": {
+    "층": "S1"
+   },
+   "col": "사람 6분류 = 표준 용어",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.791",
+   "status": "일치"
+  },
+  {
+   "where": "9.3 S1 사람 로그인 레이블 지적 = 예 k",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "33",
+   "section": "## 2",
+   "keys": {
+    "층": "S1"
+   },
+   "col": "사람 로그인 레이블 지적 = 예",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "33",
+   "status": "일치"
+  },
+  {
+   "where": "9.3 S1 사람 로그인 레이블 지적 = 예 rate",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.767",
+   "section": "## 2",
+   "keys": {
+    "층": "S1"
+   },
+   "col": "사람 로그인 레이블 지적 = 예",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.767",
+   "status": "일치"
+  },
+  {
+   "where": "9.3 S2 사람 6분류 = 표준 용어 위반 k",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 2",
+   "keys": {
+    "층": "S2"
+   },
+   "col": "사람 6분류 = 표준 용어",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.3 S2 사람 6분류 = 표준 용어 위반 rate",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "층": "S2"
+   },
+   "col": "사람 6분류 = 표준 용어",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.3 S2 사람 로그인 레이블 지적 = 예 k",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 2",
+   "keys": {
+    "층": "S2"
+   },
+   "col": "사람 로그인 레이블 지적 = 예",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.3 S2 사람 로그인 레이블 지적 = 예 rate",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "층": "S2"
+   },
+   "col": "사람 로그인 레이블 지적 = 예",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.3 S3 사람 6분류 = 표준 용어 위반 k",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 2",
+   "keys": {
+    "층": "S3"
+   },
+   "col": "사람 6분류 = 표준 용어",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.3 S3 사람 6분류 = 표준 용어 위반 rate",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "층": "S3"
+   },
+   "col": "사람 6분류 = 표준 용어",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "9.3 S3 사람 로그인 레이블 지적 = 예 k",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0",
+   "section": "## 2",
+   "keys": {
+    "층": "S3"
+   },
+   "col": "사람 로그인 레이블 지적 = 예",
+   "idx": 0,
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "9.3 S3 사람 로그인 레이블 지적 = 예 rate",
+   "report": "results/revision/reports/e5b_report.md",
+   "value": "0.000",
+   "section": "## 2",
+   "keys": {
+    "층": "S3"
+   },
+   "col": "사람 로그인 레이블 지적 = 예",
+   "idx": 1,
+   "regex": null,
+   "ncols": null,
+   "got": "0.000",
+   "status": "일치"
+  },
+  {
+   "where": "12 e9-main-related-r1 E9-1 E9-1",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "10건 중 9건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 켬",
+    "페이지 결함 유형": "E9-1"
+   },
+   "col": "banner-text",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "10건 중 9건",
+   "status": "일치"
+  },
+  {
+   "where": "12 e9-main-related-r1 E9-1 E9-2",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "1건 중 1건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 켬",
+    "페이지 결함 유형": "E9-1"
+   },
+   "col": "spec-values",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1건 중 1건",
+   "status": "일치"
+  },
+  {
+   "where": "12 e9-main-related-r1 E9-2 E9-1",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "4건 중 0건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 켬",
+    "페이지 결함 유형": "E9-2"
+   },
+   "col": "banner-text",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "4건 중 0건",
+   "status": "일치"
+  },
+  {
+   "where": "12 e9-main-related-r1 E9-2 E9-2",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "15건 중 15건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 켬",
+    "페이지 결함 유형": "E9-2"
+   },
+   "col": "spec-values",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15건 중 15건",
+   "status": "일치"
+  },
+  {
+   "where": "12 e9-main-related-r1 E9-3 E9-3",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "17건 중 15건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 켬",
+    "페이지 결함 유형": "E9-3"
+   },
+   "col": "login-address",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "17건 중 15건",
+   "status": "일치"
+  },
+  {
+   "where": "12 e9-main-related-r1 control E9-3",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "2건 중 0건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 켬",
+    "페이지 결함 유형": "대조군"
+   },
+   "col": "login-address",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "2건 중 0건",
+   "status": "일치"
+  },
+  {
+   "where": "12 e9-main-norag-r1 E9-1 E9-1",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "1건 중 0건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 결함 유형": "E9-1"
+   },
+   "col": "banner-text",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1건 중 0건",
+   "status": "일치"
+  },
+  {
+   "where": "12 e9-main-norag-r1 E9-2 E9-2",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "2건 중 0건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 결함 유형": "E9-2"
+   },
+   "col": "spec-values",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "2건 중 0건",
+   "status": "일치"
+  },
+  {
+   "where": "12 e9-main-norag-r1 E9-3 E9-3",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "3건 중 3건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 결함 유형": "E9-3"
+   },
+   "col": "login-address",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "3건 중 3건",
+   "status": "일치"
+  },
+  {
+   "where": "12 e9-main-norag-r1 control E9-2",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "2건 중 0건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 결함 유형": "대조군"
+   },
+   "col": "spec-values",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "2건 중 0건",
+   "status": "일치"
+  },
+  {
+   "where": "12 합계 e9-main-related-r1 E9-1",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "14건 중 9건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 켬"
+   },
+   "col": "banner-text",
+   "idx": "raw",
+   "regex": null,
+   "ncols": 4,
+   "got": "14건 중 9건",
+   "status": "일치"
+  },
+  {
+   "where": "12 합계 e9-main-related-r1 E9-2",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "16건 중 16건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 켬"
+   },
+   "col": "spec-values",
+   "idx": "raw",
+   "regex": null,
+   "ncols": 4,
+   "got": "16건 중 16건",
+   "status": "일치"
+  },
+  {
+   "where": "12 합계 e9-main-related-r1 E9-3",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "19건 중 15건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 켬"
+   },
+   "col": "login-address",
+   "idx": "raw",
+   "regex": null,
+   "ncols": 4,
+   "got": "19건 중 15건",
+   "status": "일치"
+  },
+  {
+   "where": "12 합계 e9-main-norag-r1 E9-1",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "1건 중 0건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 끔"
+   },
+   "col": "banner-text",
+   "idx": "raw",
+   "regex": null,
+   "ncols": 4,
+   "got": "1건 중 0건",
+   "status": "일치"
+  },
+  {
+   "where": "12 합계 e9-main-norag-r1 E9-2",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "4건 중 0건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 끔"
+   },
+   "col": "spec-values",
+   "idx": "raw",
+   "regex": null,
+   "ncols": 4,
+   "got": "4건 중 0건",
+   "status": "일치"
+  },
+  {
+   "where": "12 합계 e9-main-norag-r1 E9-3",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "3건 중 3건",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 끔"
+   },
+   "col": "login-address",
+   "idx": "raw",
+   "regex": null,
+   "ncols": 4,
+   "got": "3건 중 3건",
+   "status": "일치"
+  },
+  {
+   "where": "12 불일치 쌍",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "14",
+   "section": null,
+   "keys": {},
+   "col": null,
+   "idx": 0,
+   "regex": "## 5\\. 불일치 목록 \\(.*?, (\\d+)쌍\\)",
+   "ncols": null,
+   "got": "14",
+   "status": "일치"
+  },
+  {
+   "where": "12 모호",
+   "report": "results/revision/reports/e9_human_report.md",
+   "value": "0",
+   "section": null,
+   "keys": {},
+   "col": null,
+   "idx": 0,
+   "regex": "모호 표시\\(.*?\\)가 있는 이슈 \\| (\\d+) \\|",
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-1 표본 쪽",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-1"
+   },
+   "col": "표본 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-1 걸린 이슈",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "1",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-1"
+   },
+   "col": "걸린 이슈",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-1 정규식",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "1",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-1"
+   },
+   "col": "정규식",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-1 하한 (가)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-1"
+   },
+   "col": "하한 (가)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-1 하한 (나)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-1"
+   },
+   "col": "하한 (나)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-1 전체",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "1/16",
+   "section": "## 2",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-1"
+   },
+   "col": "정규식 검출 / 전체 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1/16",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-2 표본 쪽",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-2"
+   },
+   "col": "표본 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-2 걸린 이슈",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "2",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-2"
+   },
+   "col": "걸린 이슈",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "2",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-2 정규식",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "1",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-2"
+   },
+   "col": "정규식",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-2 하한 (가)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-2"
+   },
+   "col": "하한 (가)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-2 하한 (나)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-2"
+   },
+   "col": "하한 (나)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-2 전체",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "1/15",
+   "section": "## 2",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-2"
+   },
+   "col": "정규식 검출 / 전체 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "1/15",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-3 표본 쪽",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-3"
+   },
+   "col": "표본 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-3 걸린 이슈",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "3",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-3"
+   },
+   "col": "걸린 이슈",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "3",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-3 정규식",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "3",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-3"
+   },
+   "col": "정규식",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "3",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-3 하한 (가)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "3",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-3"
+   },
+   "col": "하한 (가)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "3",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-3 하한 (나)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "3",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-3"
+   },
+   "col": "하한 (나)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "3",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 E9-3 전체",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "3/15",
+   "section": "## 2",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "E9-3"
+   },
+   "col": "정규식 검출 / 전체 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "3/15",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 control 표본 쪽",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "대조군"
+   },
+   "col": "표본 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 control 걸린 이슈",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "2",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "대조군"
+   },
+   "col": "걸린 이슈",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "2",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 control 정규식",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "2",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "대조군"
+   },
+   "col": "정규식",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "2",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 control 하한 (가)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "-",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "대조군"
+   },
+   "col": "하한 (가)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "-",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 control 하한 (나)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "대조군"
+   },
+   "col": "하한 (나)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 control 전체",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "5/30",
+   "section": "## 2",
+   "keys": {
+    "조건": "RAG 끔",
+    "페이지 층": "대조군"
+   },
+   "col": "정규식 검출 / 전체 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "5/30",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 대조군 A 결함 아님(세 열 모두 아니오)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "2",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 끔"
+   },
+   "col": "A 결함 아님(세 열 모두 아니오)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "2",
+   "status": "일치"
+  },
+  {
+   "where": "13 RAG 끔 대조군 A '예' 하나 이상",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "0",
+   "section": "## 3",
+   "keys": {
+    "조건": "RAG 끔"
+   },
+   "col": "A '예' 하나 이상",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-1 표본 쪽",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-1"
+   },
+   "col": "표본 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-1 걸린 이슈",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "10",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-1"
+   },
+   "col": "걸린 이슈",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "10",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-1 정규식",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "9",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-1"
+   },
+   "col": "정규식",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "9",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-1 하한 (가)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "9",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-1"
+   },
+   "col": "하한 (가)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "9",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-1 하한 (나)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "9",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-1"
+   },
+   "col": "하한 (나)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "9",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-1 전체",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "10/16",
+   "section": "## 2",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-1"
+   },
+   "col": "정규식 검출 / 전체 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "10/16",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-2 표본 쪽",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-2"
+   },
+   "col": "표본 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-2 걸린 이슈",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-2"
+   },
+   "col": "걸린 이슈",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-2 정규식",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-2"
+   },
+   "col": "정규식",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-2 하한 (가)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-2"
+   },
+   "col": "하한 (가)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-2 하한 (나)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-2"
+   },
+   "col": "하한 (나)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-2 전체",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15/15",
+   "section": "## 2",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-2"
+   },
+   "col": "정규식 검출 / 전체 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15/15",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-3 표본 쪽",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-3"
+   },
+   "col": "표본 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-3 걸린 이슈",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "17",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-3"
+   },
+   "col": "걸린 이슈",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "17",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-3 정규식",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-3"
+   },
+   "col": "정규식",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-3 하한 (가)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-3"
+   },
+   "col": "하한 (가)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-3 하한 (나)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-3"
+   },
+   "col": "하한 (나)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 E9-3 전체",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15/15",
+   "section": "## 2",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "E9-3"
+   },
+   "col": "정규식 검출 / 전체 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15/15",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 control 표본 쪽",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "15",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "대조군"
+   },
+   "col": "표본 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "15",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 control 걸린 이슈",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "2",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "대조군"
+   },
+   "col": "걸린 이슈",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "2",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 control 정규식",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "2",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "대조군"
+   },
+   "col": "정규식",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "2",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 control 하한 (가)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "-",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "대조군"
+   },
+   "col": "하한 (가)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "-",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 control 하한 (나)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "0",
+   "section": "## 1",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "대조군"
+   },
+   "col": "하한 (나)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 control 전체",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "3/30",
+   "section": "## 2",
+   "keys": {
+    "조건": "관련 조항",
+    "페이지 층": "대조군"
+   },
+   "col": "정규식 검출 / 전체 쪽",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "3/30",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 대조군 A 결함 아님(세 열 모두 아니오)",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "2",
+   "section": "## 3",
+   "keys": {
+    "조건": "관련 조항"
+   },
+   "col": "A 결함 아님(세 열 모두 아니오)",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "2",
+   "status": "일치"
+  },
+  {
+   "where": "13 관련 조항 대조군 A '예' 하나 이상",
+   "report": "results/revision/reports/e9_human_report_supp.md",
+   "value": "0",
+   "section": "## 3",
+   "keys": {
+    "조건": "관련 조항"
+   },
+   "col": "A '예' 하나 이상",
+   "idx": "raw",
+   "regex": null,
+   "ncols": null,
+   "got": "0",
+   "status": "일치"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{"ts_utc": "2026-11-12T19:00:11.897+00:00", "event": "pre_start_check", "avail_gb": 6.65, "total_gb": 15.62, "load_pct": 57, "threshold_gb": 5.0, "low_threshold_gb": 4.0}
+{"ts_utc": "2026-11-12T19:01:49.448+00:00", "event": "progress", "avail_gb": 4.06, "total_gb": 15.62, "load_pct": 74, "records": 5, "mark": 5}
+{"ts_utc": "2026-11-12T19:01:49.448+00:00", "event": "warning_below_threshold", "avail_gb": 4.06, "total_gb": 15.62, "load_pct": 74, "records": 5, "threshold_gb": 5.0}
+{"ts_utc": "2026-11-12T19:02:53.800+00:00", "event": "progress", "avail_gb": 6.26, "total_gb": 15.62, "load_pct": 59, "records": 10, "mark": 10}
+{"ts_utc": "2026-11-12T19:04:22.299+00:00", "event": "progress", "avail_gb": 6.18, "total_gb": 15.62, "load_pct": 60, "records": 15, "mark": 15}
+{"ts_utc": "2026-11-12T19:05:26.732+00:00", "event": "progress", "avail_gb": 6.08, "total_gb": 15.62, "load_pct": 61, "records": 20, "mark": 20}
+{"ts_utc": "2026-11-12T19:06:49.324+00:00", "event": "progress", "avail_gb": 6.16, "total_gb": 15.62, "load_pct": 60, "records": 25, "mark": 25}
+{"ts_utc": "2026-11-12T19:08:05.830+00:00", "event": "progress", "avail_gb": 6.11, "total_gb": 15.62, "load_pct": 60, "records": 30, "mark": 30}
+{"ts_utc": "2026-11-12T19:09:24.461+00:00", "event": "progress", "avail_gb": 6.11, "total_gb": 15.62, "load_pct": 60, "records": 35, "mark": 35}
+{"ts_utc": "2026-11-12T19:10:51.072+00:00", "event": "progress", "avail_gb": 6.08, "total_gb": 15.62, "load_pct": 61, "records": 41, "mark": 40}
+{"ts_utc": "2026-11-12T19:11:51.608+00:00", "event": "progress", "avail_gb": 6.07, "total_gb": 15.62, "load_pct": 61, "records": 45, "mark": 45}
+{"ts_utc": "2026-11-12T19:13:06.234+00:00", "event": "progress", "avail_gb": 6.1, "total_gb": 15.62, "load_pct": 60, "records": 50, "mark": 50}
+{"ts_utc": "2026-11-12T19:14:24.996+00:00", "event": "progress", "avail_gb": 6.15, "total_gb": 15.62, "load_pct": 60, "records": 55, "mark": 55}
+{"ts_utc": "2026-11-12T19:15:35.710+00:00", "event": "progress", "avail_gb": 6.15, "total_gb": 15.62, "load_pct": 60, "records": 60, "mark": 60}
+{"ts_utc": "2026-11-12T19:16:50.436+00:00", "event": "progress", "avail_gb": 6.16, "total_gb": 15.62, "load_pct": 60, "records": 65, "mark": 65}
+{"ts_utc": "2026-11-12T19:18:07.117+00:00", "event": "progress", "avail_gb": 6.1, "total_gb": 15.62, "load_pct": 60, "records": 70, "mark": 70}
+{"ts_utc": "2026-11-12T19:19:25.831+00:00", "event": "progress", "avail_gb": 6.09, "total_gb": 15.62, "load_pct": 61, "records": 75, "mark": 75}
+{"ts_utc": "2026-11-12T19:20:34.453+00:00", "event": "progress", "avail_gb": 6.11, "total_gb": 15.62, "load_pct": 60, "records": 80, "mark": 80}
+{"ts_utc": "2026-11-12T19:21:59.326+00:00", "event": "progress", "avail_gb": 6.0, "total_gb": 15.62, "load_pct": 61, "records": 85, "mark": 85}
+{"ts_utc": "2026-11-12T19:23:04.006+00:00", "event": "progress", "avail_gb": 6.12, "total_gb": 15.62, "load_pct": 60, "records": 90, "mark": 90}
+{"ts_utc": "2026-11-12T19:24:22.797+00:00", "event": "progress", "avail_gb": 6.39, "total_gb": 15.62, "load_pct": 59, "records": 95, "mark": 95}
+{"ts_utc": "2026-11-12T19:24:22.980+00:00", "event": "run_end", "avail_gb": 6.58, "total_gb": 15.62, "load_pct": 57, "records": 95}

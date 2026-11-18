@@ -1,0 +1,4 @@
+{"ts_utc": "2026-11-13T02:46:24.762+00:00", "run_id": "e9-pilot2-norag", "avail_gb": 4.49, "concurrency": 1, "planned_concurrency": 2, "reason": "pre-start free memory 4.0-5.0GB (researcher rule 2026-11-13)"}
+{"ts_utc": "2026-11-13T02:50:44.252+00:00", "run_id": "e9-pilot2-fixed", "avail_gb": 4.87, "concurrency": 1, "planned_concurrency": 2, "reason": "pre-start free memory 4.0-5.0GB (researcher rule 2026-11-13)"}
+{"ts_utc": "2026-11-13T02:55:28.834+00:00", "run_id": "e9-pilot2-page", "avail_gb": 4.8, "concurrency": 1, "planned_concurrency": 2, "reason": "pre-start free memory 4.0-5.0GB (researcher rule 2026-11-13)"}
+{"ts_utc": "2026-11-13T03:00:09.414+00:00", "run_id": "e9-pilot2-related", "avail_gb": 4.89, "concurrency": 1, "planned_concurrency": 2, "reason": "pre-start free memory 4.0-5.0GB (researcher rule 2026-11-13)"}

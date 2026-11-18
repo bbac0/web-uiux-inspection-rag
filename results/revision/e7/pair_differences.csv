@@ -1,0 +1,77 @@
+comparison,role,scorer,label,type,precision_diff,precision_diff_ci_lo,precision_diff_ci_hi,recall_diff,recall_diff_ci_lo,recall_diff_ci_hi,specificity_diff,specificity_diff_ci_lo,specificity_diff_ci_hi,balanced_accuracy_diff,balanced_accuracy_diff_ci_lo,balanced_accuracy_diff_ci_hi,mcc_diff,mcc_diff_ci_lo,mcc_diff_ci_hi
+E1-R1 - E2-A1-1,primary,keyword,nominal,Contrast,0.298,0.149,0.437,0.000,0.000,0.000,0.141,0.062,0.234,0.071,0.031,0.117,0.226,0.111,0.336
+E1-R1 - E2-A1-1,primary,keyword,nominal,Mobile,0.103,0.018,0.205,0.000,0.000,0.000,0.118,0.020,0.229,0.059,0.010,0.115,0.110,0.019,0.216
+E1-R1 - E2-A1-1,primary,keyword,nominal,Button,0.000,0.000,0.000,0.043,-0.121,0.200,0.000,0.000,0.000,0.022,-0.061,0.100,0.029,-0.078,0.133
+E1-R1 - E2-A1-1,primary,keyword,nominal,Terminology,0.000,0.000,0.000,-0.111,-0.268,0.054,0.000,0.000,0.000,-0.056,-0.134,0.027,-0.097,-0.244,0.049
+E1-R1 - E2-A1-1,primary,keyword,nominal,DupID,0.088,0.000,0.188,0.075,-0.067,0.229,0.019,0.000,0.038,0.047,-0.026,0.126,0.100,-0.001,0.234
+E1-R1 - E2-A1-1,primary,keyword,nominal,micro (5 types),0.134,0.081,0.192,0.000,-0.056,0.049,0.055,0.034,0.074,0.027,-0.003,0.054,0.097,0.043,0.147
+E1-R1 - E2-A1-1,primary,keyword,effective,Contrast,0.298,0.149,0.437,0.000,0.000,0.000,0.141,0.062,0.234,0.071,0.031,0.117,0.226,0.111,0.336
+E1-R1 - E2-A1-1,primary,keyword,effective,Mobile,0.103,0.018,0.205,0.000,0.000,0.000,0.118,0.020,0.229,0.059,0.010,0.115,0.110,0.019,0.216
+E1-R1 - E2-A1-1,primary,keyword,effective,Button,-0.026,-0.109,0.072,0.000,0.000,0.000,-0.011,-0.053,0.027,-0.006,-0.026,0.014,-0.022,-0.092,0.056
+E1-R1 - E2-A1-1,primary,keyword,effective,Terminology,0.000,0.000,0.000,-0.119,-0.293,0.057,0.000,0.000,0.000,-0.060,-0.146,0.028,-0.101,-0.255,0.051
+E1-R1 - E2-A1-1,primary,keyword,effective,DupID,0.088,0.000,0.188,0.075,-0.067,0.229,0.019,0.000,0.038,0.047,-0.026,0.126,0.100,-0.001,0.234
+E1-R1 - E2-A1-1,primary,keyword,effective,micro (5 types),0.112,0.052,0.172,-0.010,-0.053,0.034,0.050,0.026,0.072,0.020,-0.006,0.046,0.079,0.022,0.129
+E1-R1 - E2-A1-1,primary,keyword,guideline_grounded,Contrast,0.298,0.149,0.437,0.000,0.000,0.000,0.141,0.062,0.234,0.071,0.031,0.117,0.226,0.111,0.336
+E1-R1 - E2-A1-1,primary,keyword,guideline_grounded,micro (5 types),0.298,0.149,0.437,0.000,0.000,0.000,0.141,0.062,0.234,0.071,0.031,0.117,0.226,0.111,0.336
+E1-R1 - E2-A1-1,primary,keyword,guideline_grounded_btn_true,Contrast,0.298,0.149,0.437,0.000,0.000,0.000,0.141,0.062,0.234,0.071,0.031,0.117,0.226,0.111,0.336
+E1-R1 - E2-A1-1,primary,keyword,guideline_grounded_btn_true,Button,-0.026,-0.109,0.072,0.000,0.000,0.000,-0.011,-0.053,0.027,-0.006,-0.026,0.014,-0.022,-0.092,0.056
+E1-R1 - E2-A1-1,primary,keyword,guideline_grounded_btn_true,micro (5 types),0.138,0.021,0.255,0.000,0.000,0.000,0.060,0.009,0.116,0.030,0.004,0.058,0.106,0.016,0.197
+E1-R1 - E2-A1-1,primary,string_match,nominal,Terminology,0.000,0.000,0.000,-0.111,-0.268,0.054,0.000,0.000,0.000,-0.056,-0.134,0.027,-0.097,-0.244,0.049
+E1-R1 - E2-A1-1,primary,string_match,effective,Terminology,0.000,0.000,0.000,-0.119,-0.293,0.057,0.000,0.000,0.000,-0.060,-0.146,0.028,-0.101,-0.255,0.051
+E1-R2 - E2-A1-2,auxiliary,keyword,nominal,Contrast,0.240,0.052,0.442,0.000,0.000,0.000,0.109,0.021,0.216,0.054,0.011,0.108,0.180,0.039,0.337
+E1-R2 - E2-A1-2,auxiliary,keyword,nominal,Mobile,0.118,-0.019,0.229,0.000,0.000,0.000,0.139,-0.020,0.282,0.069,-0.010,0.141,0.128,-0.020,0.251
+E1-R2 - E2-A1-2,auxiliary,keyword,nominal,Button,0.000,0.000,0.000,0.130,-0.026,0.306,0.000,0.000,0.000,0.065,-0.013,0.153,0.087,-0.016,0.213
+E1-R2 - E2-A1-2,auxiliary,keyword,nominal,Terminology,0.000,0.000,0.000,-0.111,-0.304,0.083,0.000,0.000,0.000,-0.056,-0.152,0.042,-0.092,-0.249,0.074
+E1-R2 - E2-A1-2,auxiliary,keyword,nominal,DupID,0.128,0.000,0.283,0.075,0.000,0.205,0.031,0.000,0.086,0.053,0.000,0.117,0.126,0.000,0.249
+E1-R2 - E2-A1-2,auxiliary,keyword,nominal,micro (5 types),0.136,0.058,0.208,0.017,-0.039,0.075,0.055,0.019,0.089,0.036,0.006,0.066,0.109,0.048,0.173
+E1-R2 - E2-A1-2,auxiliary,keyword,effective,Contrast,0.240,0.052,0.442,0.000,0.000,0.000,0.109,0.021,0.216,0.054,0.011,0.108,0.180,0.039,0.337
+E1-R2 - E2-A1-2,auxiliary,keyword,effective,Mobile,0.118,-0.019,0.229,0.000,0.000,0.000,0.139,-0.020,0.282,0.069,-0.010,0.141,0.128,-0.020,0.251
+E1-R2 - E2-A1-2,auxiliary,keyword,effective,Button,-0.088,-0.200,0.019,0.000,0.000,0.000,-0.033,-0.082,0.006,-0.017,-0.041,0.003,-0.070,-0.161,0.013
+E1-R2 - E2-A1-2,auxiliary,keyword,effective,Terminology,0.000,0.000,0.000,-0.119,-0.326,0.091,0.000,0.000,0.000,-0.060,-0.163,0.045,-0.096,-0.261,0.078
+E1-R2 - E2-A1-2,auxiliary,keyword,effective,DupID,0.128,0.000,0.283,0.075,0.000,0.205,0.031,0.000,0.086,0.053,0.000,0.117,0.126,0.000,0.249
+E1-R2 - E2-A1-2,auxiliary,keyword,effective,micro (5 types),0.100,0.007,0.176,-0.010,-0.059,0.040,0.045,0.005,0.080,0.018,-0.015,0.050,0.070,-0.009,0.140
+E1-R2 - E2-A1-2,auxiliary,keyword,guideline_grounded,Contrast,0.240,0.052,0.442,0.000,0.000,0.000,0.109,0.021,0.216,0.054,0.011,0.108,0.180,0.039,0.337
+E1-R2 - E2-A1-2,auxiliary,keyword,guideline_grounded,micro (5 types),0.240,0.052,0.442,0.000,0.000,0.000,0.109,0.021,0.216,0.054,0.011,0.108,0.180,0.039,0.337
+E1-R2 - E2-A1-2,auxiliary,keyword,guideline_grounded_btn_true,Contrast,0.240,0.052,0.442,0.000,0.000,0.000,0.109,0.021,0.216,0.054,0.011,0.108,0.180,0.039,0.337
+E1-R2 - E2-A1-2,auxiliary,keyword,guideline_grounded_btn_true,Button,-0.088,-0.200,0.019,0.000,0.000,0.000,-0.033,-0.082,0.006,-0.017,-0.041,0.003,-0.070,-0.161,0.013
+E1-R2 - E2-A1-2,auxiliary,keyword,guideline_grounded_btn_true,micro (5 types),0.081,-0.051,0.213,0.000,0.000,0.000,0.033,-0.020,0.094,0.016,-0.010,0.047,0.061,-0.038,0.163
+E1-R2 - E2-A1-2,auxiliary,string_match,nominal,Terminology,0.000,0.000,0.000,-0.111,-0.304,0.083,0.000,0.000,0.000,-0.056,-0.152,0.042,-0.092,-0.249,0.074
+E1-R2 - E2-A1-2,auxiliary,string_match,effective,Terminology,0.000,0.000,0.000,-0.119,-0.326,0.091,0.000,0.000,0.000,-0.060,-0.163,0.045,-0.096,-0.261,0.078
+E1-R3b - E2-A1-3,auxiliary,keyword,nominal,Contrast,0.300,0.154,0.440,0.000,0.000,0.000,0.135,0.060,0.216,0.067,0.030,0.108,0.223,0.111,0.334
+E1-R3b - E2-A1-3,auxiliary,keyword,nominal,Mobile,0.133,0.031,0.244,0.000,0.000,0.000,0.146,0.034,0.262,0.073,0.017,0.131,0.140,0.033,0.252
+E1-R3b - E2-A1-3,auxiliary,keyword,nominal,Button,0.000,0.000,0.000,0.043,-0.053,0.140,0.000,0.000,0.000,0.022,-0.026,0.070,0.029,-0.034,0.094
+E1-R3b - E2-A1-3,auxiliary,keyword,nominal,Terminology,0.000,0.000,0.000,0.000,-0.152,0.176,0.000,0.000,0.000,0.000,-0.076,0.088,0.000,-0.144,0.176
+E1-R3b - E2-A1-3,auxiliary,keyword,nominal,DupID,0.056,0.000,0.121,-0.025,-0.162,0.097,0.012,0.000,0.031,-0.006,-0.071,0.051,0.017,-0.059,0.088
+E1-R3b - E2-A1-3,auxiliary,keyword,nominal,micro (5 types),0.147,0.079,0.216,0.004,-0.039,0.042,0.057,0.030,0.083,0.031,0.005,0.051,0.107,0.052,0.156
+E1-R3b - E2-A1-3,auxiliary,keyword,effective,Contrast,0.300,0.154,0.440,0.000,0.000,0.000,0.135,0.060,0.216,0.067,0.030,0.108,0.223,0.111,0.334
+E1-R3b - E2-A1-3,auxiliary,keyword,effective,Mobile,0.133,0.031,0.244,0.000,0.000,0.000,0.146,0.034,0.262,0.073,0.017,0.131,0.140,0.033,0.252
+E1-R3b - E2-A1-3,auxiliary,keyword,effective,Button,-0.026,-0.075,0.038,0.000,0.000,0.000,-0.011,-0.037,0.012,-0.006,-0.019,0.006,-0.022,-0.063,0.028
+E1-R3b - E2-A1-3,auxiliary,keyword,effective,Terminology,0.000,0.000,0.000,0.000,-0.167,0.189,0.000,0.000,0.000,0.000,-0.083,0.094,0.000,-0.152,0.186
+E1-R3b - E2-A1-3,auxiliary,keyword,effective,DupID,0.056,0.000,0.121,-0.025,-0.162,0.097,0.012,0.000,0.031,-0.006,-0.071,0.051,0.017,-0.059,0.088
+E1-R3b - E2-A1-3,auxiliary,keyword,effective,micro (5 types),0.124,0.054,0.189,-0.005,-0.047,0.037,0.053,0.024,0.080,0.024,-0.003,0.048,0.089,0.027,0.141
+E1-R3b - E2-A1-3,auxiliary,keyword,guideline_grounded,Contrast,0.300,0.154,0.440,0.000,0.000,0.000,0.135,0.060,0.216,0.067,0.030,0.108,0.223,0.111,0.334
+E1-R3b - E2-A1-3,auxiliary,keyword,guideline_grounded,micro (5 types),0.300,0.154,0.440,0.000,0.000,0.000,0.135,0.060,0.216,0.067,0.030,0.108,0.223,0.111,0.334
+E1-R3b - E2-A1-3,auxiliary,keyword,guideline_grounded_btn_true,Contrast,0.300,0.154,0.440,0.000,0.000,0.000,0.135,0.060,0.216,0.067,0.030,0.108,0.223,0.111,0.334
+E1-R3b - E2-A1-3,auxiliary,keyword,guideline_grounded_btn_true,Button,-0.026,-0.075,0.038,0.000,0.000,0.000,-0.011,-0.037,0.012,-0.006,-0.019,0.006,-0.022,-0.063,0.028
+E1-R3b - E2-A1-3,auxiliary,keyword,guideline_grounded_btn_true,micro (5 types),0.135,0.035,0.228,0.000,0.000,0.000,0.057,0.014,0.101,0.028,0.007,0.050,0.102,0.027,0.174
+E1-R3b - E2-A1-3,auxiliary,string_match,nominal,Terminology,0.000,0.000,0.000,0.000,-0.152,0.176,0.000,0.000,0.000,0.000,-0.076,0.088,0.000,-0.144,0.176
+E1-R3b - E2-A1-3,auxiliary,string_match,effective,Terminology,0.000,0.000,0.000,0.000,-0.167,0.189,0.000,0.000,0.000,0.000,-0.083,0.094,0.000,-0.152,0.186
+E1-majority - A1-majority,robustness (3-run majority),keyword,nominal,Contrast,0.298,0.142,0.451,0.000,0.000,0.000,0.141,0.057,0.239,0.071,0.029,0.119,0.226,0.105,0.349
+E1-majority - A1-majority,robustness (3-run majority),keyword,nominal,Mobile,0.110,0.010,0.224,0.000,0.000,0.000,0.125,0.013,0.252,0.062,0.007,0.126,0.118,0.012,0.236
+E1-majority - A1-majority,robustness (3-run majority),keyword,nominal,Button,0.000,0.000,0.000,0.022,-0.122,0.133,0.000,0.000,0.000,0.011,-0.061,0.067,0.014,-0.079,0.091
+E1-majority - A1-majority,robustness (3-run majority),keyword,nominal,Terminology,0.000,0.000,0.000,-0.133,-0.306,0.057,0.000,0.000,0.000,-0.067,-0.153,0.028,-0.115,-0.262,0.050
+E1-majority - A1-majority,robustness (3-run majority),keyword,nominal,DupID,0.081,0.000,0.178,0.025,-0.097,0.175,0.019,0.000,0.047,0.022,-0.037,0.095,0.065,-0.021,0.169
+E1-majority - A1-majority,robustness (3-run majority),keyword,nominal,micro (5 types),0.134,0.076,0.194,-0.017,-0.066,0.028,0.056,0.032,0.079,0.019,-0.006,0.041,0.086,0.040,0.127
+E1-majority - A1-majority,robustness (3-run majority),keyword,effective,Contrast,0.298,0.142,0.451,0.000,0.000,0.000,0.141,0.057,0.239,0.071,0.029,0.119,0.226,0.105,0.349
+E1-majority - A1-majority,robustness (3-run majority),keyword,effective,Mobile,0.110,0.010,0.224,0.000,0.000,0.000,0.125,0.013,0.252,0.062,0.007,0.126,0.118,0.012,0.236
+E1-majority - A1-majority,robustness (3-run majority),keyword,effective,Button,-0.013,-0.075,0.077,0.000,0.000,0.000,-0.006,-0.037,0.027,-0.003,-0.018,0.014,-0.011,-0.062,0.059
+E1-majority - A1-majority,robustness (3-run majority),keyword,effective,Terminology,0.000,0.000,0.000,-0.143,-0.326,0.061,0.000,0.000,0.000,-0.071,-0.163,0.030,-0.120,-0.275,0.052
+E1-majority - A1-majority,robustness (3-run majority),keyword,effective,DupID,0.081,0.000,0.178,0.025,-0.097,0.175,0.019,0.000,0.047,0.022,-0.037,0.095,0.065,-0.021,0.169
+E1-majority - A1-majority,robustness (3-run majority),keyword,effective,micro (5 types),0.115,0.051,0.177,-0.025,-0.071,0.023,0.053,0.026,0.078,0.014,-0.014,0.039,0.072,0.015,0.121
+E1-majority - A1-majority,robustness (3-run majority),keyword,guideline_grounded,Contrast,0.298,0.142,0.451,0.000,0.000,0.000,0.141,0.057,0.239,0.071,0.029,0.119,0.226,0.105,0.349
+E1-majority - A1-majority,robustness (3-run majority),keyword,guideline_grounded,micro (5 types),0.298,0.142,0.451,0.000,0.000,0.000,0.141,0.057,0.239,0.071,0.029,0.119,0.226,0.105,0.349
+E1-majority - A1-majority,robustness (3-run majority),keyword,guideline_grounded_btn_true,Contrast,0.298,0.142,0.451,0.000,0.000,0.000,0.141,0.057,0.239,0.071,0.029,0.119,0.226,0.105,0.349
+E1-majority - A1-majority,robustness (3-run majority),keyword,guideline_grounded_btn_true,Button,-0.013,-0.075,0.077,0.000,0.000,0.000,-0.006,-0.037,0.027,-0.003,-0.018,0.014,-0.011,-0.062,0.059
+E1-majority - A1-majority,robustness (3-run majority),keyword,guideline_grounded_btn_true,micro (5 types),0.146,0.030,0.262,0.000,0.000,0.000,0.062,0.012,0.118,0.031,0.006,0.059,0.112,0.023,0.200
+E1-majority - A1-majority,robustness (3-run majority),string_match,nominal,Terminology,0.000,0.000,0.000,-0.133,-0.306,0.057,0.000,0.000,0.000,-0.067,-0.153,0.028,-0.115,-0.262,0.050
+E1-majority - A1-majority,robustness (3-run majority),string_match,effective,Terminology,0.000,0.000,0.000,-0.143,-0.326,0.061,0.000,0.000,0.000,-0.071,-0.163,0.030,-0.120,-0.275,0.052

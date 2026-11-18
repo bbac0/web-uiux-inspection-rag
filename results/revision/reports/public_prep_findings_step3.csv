@@ -1,0 +1,34 @@
+﻿file,line,category,match,context
+repo_public_staging_v3/experiments/revision/run_e9_main.py,111,이메일,⟨이메일⟩ (길이 21),"y: Claude Opus 5.5 <⟨이메일⟩>""])"
+repo_public_staging_v3/experiments/revision/run_remaining.py,109,이메일,⟨이메일⟩ (길이 21),"y: Claude Opus 5.5 <⟨이메일⟩>""])"
+repo_public_staging_v3/results/revision/oracle_candidates.csv,92,전화번호,⟨전화번호⟩ (길이 13),화번호 입력 필드에 플레이스홀더로 ‘⟨전화번호⟩’ 숫자를 제공함-생년월일 입력 필드
+repo_public_staging_v3/results/revision/oracle_candidates.md,507,전화번호,⟨전화번호⟩ (길이 13),화번호 입력 필드에 플레이스홀더로 ‘⟨전화번호⟩’ 숫자를 제공함-생년월일 입력 필드
+repo_public_staging_v3/results/revision/reports/public_prep_findings.csv,2409,aternos,⟨aternos⟩ (길이 7),"/scan_personal.py,6,⟨aternos⟩,⟨⟨aternos⟩⟩ (길이 7),""분"
+repo_public_staging_v3/results/revision/reports/public_prep_findings.csv,2409,aternos,⟨aternos⟩ (길이 7),"sonal.py,6,⟨aternos⟩,⟨⟨aternos⟩⟩ (길이 7),""분류: ⟨atern"
+repo_public_staging_v3/results/revision/reports/public_prep_findings.csv,2409,aternos,⟨aternos⟩ (길이 7),"ernos⟩ (길이 7),""분류: ⟨⟨aternos⟩⟩, 이메일, 전화번호, 사용자 홈 "
+repo_public_staging_v3/results/revision/reports/public_prep_findings.csv,2410,aternos,⟨aternos⟩ (길이 7),"scan_personal.py,43,⟨aternos⟩,⟨⟨aternos⟩⟩ (길이 7),"" "
+repo_public_staging_v3/results/revision/reports/public_prep_findings.csv,2410,aternos,⟨aternos⟩ (길이 7),"onal.py,43,⟨aternos⟩,⟨⟨aternos⟩⟩ (길이 7),""    P = [("
+repo_public_staging_v3/results/revision/reports/public_prep_findings.csv,2410,aternos,⟨aternos⟩ (길이 7),"길이 7),""    P = [(""""⟨⟨aternos⟩⟩"""", re.compile(r""""a"
+repo_public_staging_v3/results/revision/reports/public_prep_findings.csv,2411,aternos,⟨aternos⟩ (길이 7),"scan_personal.py,43,⟨aternos⟩,⟨⟨aternos⟩⟩ (길이 7),""r"
+repo_public_staging_v3/results/revision/reports/public_prep_findings.csv,2411,aternos,⟨aternos⟩ (길이 7),"onal.py,43,⟨aternos⟩,⟨⟨aternos⟩⟩ (길이 7),""rnos"""", re"
+repo_public_staging_v3/results/revision/reports/public_prep_findings.csv,2411,aternos,⟨aternos⟩ (길이 7),"s"""", re.compile(r""""⟨⟨aternos⟩⟩"""", re.I)),"""
+repo_public_staging_v3/results/revision/reports/public_prep_findings_step2.csv,8,aternos,⟨aternos⟩ (길이 7),"/scan_personal.py,6,⟨aternos⟩,⟨⟨aternos⟩⟩ (길이 7),""분"
+repo_public_staging_v3/results/revision/reports/public_prep_findings_step2.csv,8,aternos,⟨aternos⟩ (길이 7),"sonal.py,6,⟨aternos⟩,⟨⟨aternos⟩⟩ (길이 7),""분류: ⟨atern"
+repo_public_staging_v3/results/revision/reports/public_prep_findings_step2.csv,8,aternos,⟨aternos⟩ (길이 7),"ernos⟩ (길이 7),""분류: ⟨⟨aternos⟩⟩, 이메일, 전화번호, 사용자 홈 "
+repo_public_staging_v3/results/revision/reports/public_prep_findings_step2.csv,9,aternos,⟨aternos⟩ (길이 7),"scan_personal.py,43,⟨aternos⟩,⟨⟨aternos⟩⟩ (길이 7),"" "
+repo_public_staging_v3/results/revision/reports/public_prep_findings_step2.csv,9,aternos,⟨aternos⟩ (길이 7),"onal.py,43,⟨aternos⟩,⟨⟨aternos⟩⟩ (길이 7),""    P = [("
+repo_public_staging_v3/results/revision/reports/public_prep_findings_step2.csv,9,aternos,⟨aternos⟩ (길이 7),"길이 7),""    P = [(""""⟨⟨aternos⟩⟩"""", re.compile(r""""a"
+repo_public_staging_v3/results/revision/reports/public_prep_findings_step2.csv,10,aternos,⟨aternos⟩ (길이 7),"scan_personal.py,43,⟨aternos⟩,⟨⟨aternos⟩⟩ (길이 7),""r"
+repo_public_staging_v3/results/revision/reports/public_prep_findings_step2.csv,10,aternos,⟨aternos⟩ (길이 7),"onal.py,43,⟨aternos⟩,⟨⟨aternos⟩⟩ (길이 7),""rnos"""", re"
+repo_public_staging_v3/results/revision/reports/public_prep_findings_step2.csv,10,aternos,⟨aternos⟩ (길이 7),"s"""", re.compile(r""""⟨⟨aternos⟩⟩"""", re.I)),"""
+repo_public_staging_v3/results/revision/reports/public_staging_meta.json,6,aternos,⟨aternos⟩ (길이 7)," ""⟨aternos⟩_redactions"": 0,"
+repo_public_staging_v3/scripts/redact_home_paths.py,6,홈 경로,⟨홈 경로⟩ (길이 14),  ⟨홈 경로⟩ ⟨홈 경로⟩
+repo_public_staging_v3/scripts/redact_home_paths.py,6,홈 경로,⟨홈 경로⟩ (길이 17),  ⟨홈 경로⟩ ⟨홈 경로⟩
+repo_public_staging_v3/tools/build_public_staging.py,8,aternos,⟨aternos⟩ (길이 7),3. 이미 알려진 ⟨aternos⟩ 문자열: 스테이징의 results/
+repo_public_staging_v3/tools/build_public_staging.py,78,aternos,⟨aternos⟩ (길이 7),".subn(rb""[^\s|`'\""]*⟨aternos⟩[^\s|`'\""]*"", b""[RED"
+repo_public_staging_v3/tools/build_public_staging.py,123,aternos,⟨aternos⟩ (길이 7),"rchive"": excluded, ""⟨aternos⟩_redactions"": red, """
+repo_public_staging_v3/tools/build_public_staging.py,127,aternos,⟨aternos⟩ (길이 7),ed {len(excluded)}; ⟨aternos⟩ {red}; rater copies
+repo_public_staging_v3/tools/scan_personal.py,6,aternos,⟨aternos⟩ (길이 7),"분류: ⟨aternos⟩, 이메일, 전화번호, 사용자 홈 경"
+repo_public_staging_v3/tools/scan_personal.py,43,aternos,⟨aternos⟩ (길이 7),"    P = [(""⟨aternos⟩"", re.compile(r""ater"
+repo_public_staging_v3/tools/scan_personal.py,43,aternos,⟨aternos⟩ (길이 7),"rnos"", re.compile(r""⟨aternos⟩"", re.I)),"
+repo_public_staging_v3/tools/scan_personal.py,52,홈 경로,⟨홈 경로⟩ (길이 8),"[^/\s\""']+|(?<![\w])⟨홈 경로⟩/\s\""']+"", re.I))]"

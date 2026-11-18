@@ -1,0 +1,58 @@
+{
+ "pages": 8,
+ "verification_pass": 8,
+ "controls_all_checks_pass": 2,
+ "structurally_undetectable": 0,
+ "by_subtype": {
+  "E9-1a": {
+   "pages": 1,
+   "verification_pass": 1,
+   "structurally_undetectable": 0,
+   "not_in_first_5000": 0,
+   "not_in_viewport": 0
+  },
+  "E9-1b": {
+   "pages": 1,
+   "verification_pass": 1,
+   "structurally_undetectable": 0,
+   "not_in_first_5000": 0,
+   "not_in_viewport": 0
+  },
+  "E9-2-banner": {
+   "pages": 1,
+   "verification_pass": 1,
+   "structurally_undetectable": 0,
+   "not_in_first_5000": 0,
+   "not_in_viewport": 0
+  },
+  "E9-2-footer": {
+   "pages": 1,
+   "verification_pass": 1,
+   "structurally_undetectable": 0,
+   "not_in_first_5000": 0,
+   "not_in_viewport": 0
+  },
+  "E9-3": {
+   "pages": 1,
+   "verification_pass": 1,
+   "structurally_undetectable": 0,
+   "not_in_first_5000": 0,
+   "not_in_viewport": 0
+  },
+  "E9-4": {
+   "pages": 1,
+   "verification_pass": 1,
+   "structurally_undetectable": 0,
+   "not_in_first_5000": 0,
+   "not_in_viewport": 0
+  },
+  "control": {
+   "pages": 2,
+   "verification_pass": 2
+  }
+ },
+ "max_rendered_html_chars": 1842,
+ "elapsed_sec": 13.7,
+ "conditions": "Chromium, 1280x800, networkidle + 3s, page.content()",
+ "failures": []
+}

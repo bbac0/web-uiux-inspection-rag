@@ -1,0 +1,121 @@
+condition,run,type,rule,rule_desc,defect_pages,detected,recall,controls,control_detected,control_fpr,main_metric
+norag,e9-main-norag-r1,E9-1,primary,page-specific injected variant (primary),16,1,0.062,30,0,0.000,yes
+norag,e9-main-norag-r1,E9-1,aux,all 6 variants on every page (auxiliary),16,1,0.062,30,0,0.000,yes
+norag,e9-main-norag-r1,E9-1a,primary,page-specific injected variant (primary),8,0,0.000,30,0,0.000,yes
+norag,e9-main-norag-r1,E9-1a,aux,all 6 variants on every page (auxiliary),8,0,0.000,30,0,0.000,yes
+norag,e9-main-norag-r1,E9-1b,primary,page-specific injected variant (primary),8,1,0.125,30,0,0.000,yes
+norag,e9-main-norag-r1,E9-1b,aux,all 6 variants on every page (auxiliary),8,1,0.125,30,0,0.000,yes
+norag,e9-main-norag-r1,E9-2,primary,page-specific injected variant (primary),15,1,0.067,30,5,0.167,yes
+norag,e9-main-norag-r1,E9-2,aux,all 6 variants on every page (auxiliary),15,1,0.067,30,5,0.167,yes
+norag,e9-main-norag-r1,E9-3,primary,page-specific injected variant (primary),15,3,0.200,30,0,0.000,yes
+norag,e9-main-norag-r1,E9-3,aux,all 6 variants on every page (auxiliary),15,3,0.200,30,0,0.000,yes
+norag,e9-main-norag-r1,E9-4,primary,page-specific injected variant (primary),15,8,0.533,30,0,0.000,no (auxiliary E9-4)
+norag,e9-main-norag-r1,E9-4,aux,all 6 variants on every page (auxiliary),15,8,0.533,30,0,0.000,no (auxiliary E9-4)
+fixed,e9-main-fixed-r1,E9-1,primary,page-specific injected variant (primary),16,1,0.062,30,0,0.000,yes
+fixed,e9-main-fixed-r1,E9-1,aux,all 6 variants on every page (auxiliary),16,1,0.062,30,0,0.000,yes
+fixed,e9-main-fixed-r1,E9-1a,primary,page-specific injected variant (primary),8,1,0.125,30,0,0.000,yes
+fixed,e9-main-fixed-r1,E9-1a,aux,all 6 variants on every page (auxiliary),8,1,0.125,30,0,0.000,yes
+fixed,e9-main-fixed-r1,E9-1b,primary,page-specific injected variant (primary),8,0,0.000,30,0,0.000,yes
+fixed,e9-main-fixed-r1,E9-1b,aux,all 6 variants on every page (auxiliary),8,0,0.000,30,0,0.000,yes
+fixed,e9-main-fixed-r1,E9-2,primary,page-specific injected variant (primary),15,1,0.067,30,4,0.133,yes
+fixed,e9-main-fixed-r1,E9-2,aux,all 6 variants on every page (auxiliary),15,1,0.067,30,4,0.133,yes
+fixed,e9-main-fixed-r1,E9-3,primary,page-specific injected variant (primary),15,1,0.067,30,0,0.000,yes
+fixed,e9-main-fixed-r1,E9-3,aux,all 6 variants on every page (auxiliary),15,1,0.067,30,0,0.000,yes
+fixed,e9-main-fixed-r1,E9-4,primary,page-specific injected variant (primary),15,3,0.200,30,0,0.000,no (auxiliary E9-4)
+fixed,e9-main-fixed-r1,E9-4,aux,all 6 variants on every page (auxiliary),15,3,0.200,30,0,0.000,no (auxiliary E9-4)
+page,e9-main-page-r1,E9-1,primary,page-specific injected variant (primary),16,0,0.000,30,2,0.067,yes
+page,e9-main-page-r1,E9-1,aux,all 6 variants on every page (auxiliary),16,0,0.000,30,2,0.067,yes
+page,e9-main-page-r1,E9-1a,primary,page-specific injected variant (primary),8,0,0.000,30,2,0.067,yes
+page,e9-main-page-r1,E9-1a,aux,all 6 variants on every page (auxiliary),8,0,0.000,30,2,0.067,yes
+page,e9-main-page-r1,E9-1b,primary,page-specific injected variant (primary),8,0,0.000,30,2,0.067,yes
+page,e9-main-page-r1,E9-1b,aux,all 6 variants on every page (auxiliary),8,0,0.000,30,2,0.067,yes
+page,e9-main-page-r1,E9-2,primary,page-specific injected variant (primary),15,2,0.133,30,0,0.000,yes
+page,e9-main-page-r1,E9-2,aux,all 6 variants on every page (auxiliary),15,2,0.133,30,0,0.000,yes
+page,e9-main-page-r1,E9-3,primary,page-specific injected variant (primary),15,5,0.333,30,0,0.000,yes
+page,e9-main-page-r1,E9-3,aux,all 6 variants on every page (auxiliary),15,5,0.333,30,0,0.000,yes
+page,e9-main-page-r1,E9-4,primary,page-specific injected variant (primary),15,4,0.267,30,0,0.000,no (auxiliary E9-4)
+page,e9-main-page-r1,E9-4,aux,all 6 variants on every page (auxiliary),15,4,0.267,30,0,0.000,no (auxiliary E9-4)
+related,e9-main-related-r1,E9-1,primary,page-specific injected variant (primary),16,10,0.625,30,0,0.000,yes
+related,e9-main-related-r1,E9-1,aux,all 6 variants on every page (auxiliary),16,10,0.625,30,0,0.000,yes
+related,e9-main-related-r1,E9-1a,primary,page-specific injected variant (primary),8,8,1.000,30,0,0.000,yes
+related,e9-main-related-r1,E9-1a,aux,all 6 variants on every page (auxiliary),8,8,1.000,30,0,0.000,yes
+related,e9-main-related-r1,E9-1b,primary,page-specific injected variant (primary),8,2,0.250,30,0,0.000,yes
+related,e9-main-related-r1,E9-1b,aux,all 6 variants on every page (auxiliary),8,2,0.250,30,0,0.000,yes
+related,e9-main-related-r1,E9-2,primary,page-specific injected variant (primary),15,15,1.000,30,0,0.000,yes
+related,e9-main-related-r1,E9-2,aux,all 6 variants on every page (auxiliary),15,15,1.000,30,0,0.000,yes
+related,e9-main-related-r1,E9-3,primary,page-specific injected variant (primary),15,15,1.000,30,3,0.100,yes
+related,e9-main-related-r1,E9-3,aux,all 6 variants on every page (auxiliary),15,15,1.000,30,3,0.100,yes
+related,e9-main-related-r1,E9-4,primary,page-specific injected variant (primary),15,15,1.000,30,0,0.000,no (auxiliary E9-4)
+related,e9-main-related-r1,E9-4,aux,all 6 variants on every page (auxiliary),15,15,1.000,30,0,0.000,no (auxiliary E9-4)
+fixedlong,e9-main-fixedlong-r1,E9-1,primary,page-specific injected variant (primary),16,1,0.062,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r1,E9-1,aux,all 6 variants on every page (auxiliary),16,1,0.062,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r1,E9-1a,primary,page-specific injected variant (primary),8,1,0.125,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r1,E9-1a,aux,all 6 variants on every page (auxiliary),8,1,0.125,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r1,E9-1b,primary,page-specific injected variant (primary),8,0,0.000,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r1,E9-1b,aux,all 6 variants on every page (auxiliary),8,0,0.000,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r1,E9-2,primary,page-specific injected variant (primary),15,0,0.000,30,3,0.100,yes
+fixedlong,e9-main-fixedlong-r1,E9-2,aux,all 6 variants on every page (auxiliary),15,0,0.000,30,3,0.100,yes
+fixedlong,e9-main-fixedlong-r1,E9-3,primary,page-specific injected variant (primary),15,2,0.133,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r1,E9-3,aux,all 6 variants on every page (auxiliary),15,2,0.133,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r1,E9-4,primary,page-specific injected variant (primary),15,6,0.400,30,0,0.000,no (auxiliary E9-4)
+fixedlong,e9-main-fixedlong-r1,E9-4,aux,all 6 variants on every page (auxiliary),15,6,0.400,30,0,0.000,no (auxiliary E9-4)
+norag,e9-main-norag-r2,E9-1,primary,page-specific injected variant (primary),16,1,0.062,30,0,0.000,yes
+norag,e9-main-norag-r2,E9-1,aux,all 6 variants on every page (auxiliary),16,1,0.062,30,0,0.000,yes
+norag,e9-main-norag-r2,E9-1a,primary,page-specific injected variant (primary),8,1,0.125,30,0,0.000,yes
+norag,e9-main-norag-r2,E9-1a,aux,all 6 variants on every page (auxiliary),8,1,0.125,30,0,0.000,yes
+norag,e9-main-norag-r2,E9-1b,primary,page-specific injected variant (primary),8,0,0.000,30,0,0.000,yes
+norag,e9-main-norag-r2,E9-1b,aux,all 6 variants on every page (auxiliary),8,0,0.000,30,0,0.000,yes
+norag,e9-main-norag-r2,E9-2,primary,page-specific injected variant (primary),15,0,0.000,30,6,0.200,yes
+norag,e9-main-norag-r2,E9-2,aux,all 6 variants on every page (auxiliary),15,0,0.000,30,6,0.200,yes
+norag,e9-main-norag-r2,E9-3,primary,page-specific injected variant (primary),15,7,0.467,30,0,0.000,yes
+norag,e9-main-norag-r2,E9-3,aux,all 6 variants on every page (auxiliary),15,7,0.467,30,0,0.000,yes
+norag,e9-main-norag-r2,E9-4,primary,page-specific injected variant (primary),15,7,0.467,30,0,0.000,no (auxiliary E9-4)
+norag,e9-main-norag-r2,E9-4,aux,all 6 variants on every page (auxiliary),15,7,0.467,30,0,0.000,no (auxiliary E9-4)
+fixed,e9-main-fixed-r2,E9-1,primary,page-specific injected variant (primary),16,0,0.000,30,0,0.000,yes
+fixed,e9-main-fixed-r2,E9-1,aux,all 6 variants on every page (auxiliary),16,0,0.000,30,0,0.000,yes
+fixed,e9-main-fixed-r2,E9-1a,primary,page-specific injected variant (primary),8,0,0.000,30,0,0.000,yes
+fixed,e9-main-fixed-r2,E9-1a,aux,all 6 variants on every page (auxiliary),8,0,0.000,30,0,0.000,yes
+fixed,e9-main-fixed-r2,E9-1b,primary,page-specific injected variant (primary),8,0,0.000,30,0,0.000,yes
+fixed,e9-main-fixed-r2,E9-1b,aux,all 6 variants on every page (auxiliary),8,0,0.000,30,0,0.000,yes
+fixed,e9-main-fixed-r2,E9-2,primary,page-specific injected variant (primary),15,1,0.067,30,3,0.100,yes
+fixed,e9-main-fixed-r2,E9-2,aux,all 6 variants on every page (auxiliary),15,1,0.067,30,3,0.100,yes
+fixed,e9-main-fixed-r2,E9-3,primary,page-specific injected variant (primary),15,1,0.067,30,0,0.000,yes
+fixed,e9-main-fixed-r2,E9-3,aux,all 6 variants on every page (auxiliary),15,1,0.067,30,0,0.000,yes
+fixed,e9-main-fixed-r2,E9-4,primary,page-specific injected variant (primary),15,3,0.200,30,0,0.000,no (auxiliary E9-4)
+fixed,e9-main-fixed-r2,E9-4,aux,all 6 variants on every page (auxiliary),15,3,0.200,30,0,0.000,no (auxiliary E9-4)
+page,e9-main-page-r2,E9-1,primary,page-specific injected variant (primary),16,0,0.000,30,0,0.000,yes
+page,e9-main-page-r2,E9-1,aux,all 6 variants on every page (auxiliary),16,0,0.000,30,0,0.000,yes
+page,e9-main-page-r2,E9-1a,primary,page-specific injected variant (primary),8,0,0.000,30,0,0.000,yes
+page,e9-main-page-r2,E9-1a,aux,all 6 variants on every page (auxiliary),8,0,0.000,30,0,0.000,yes
+page,e9-main-page-r2,E9-1b,primary,page-specific injected variant (primary),8,0,0.000,30,0,0.000,yes
+page,e9-main-page-r2,E9-1b,aux,all 6 variants on every page (auxiliary),8,0,0.000,30,0,0.000,yes
+page,e9-main-page-r2,E9-2,primary,page-specific injected variant (primary),15,2,0.133,30,0,0.000,yes
+page,e9-main-page-r2,E9-2,aux,all 6 variants on every page (auxiliary),15,2,0.133,30,0,0.000,yes
+page,e9-main-page-r2,E9-3,primary,page-specific injected variant (primary),15,5,0.333,30,0,0.000,yes
+page,e9-main-page-r2,E9-3,aux,all 6 variants on every page (auxiliary),15,5,0.333,30,0,0.000,yes
+page,e9-main-page-r2,E9-4,primary,page-specific injected variant (primary),15,5,0.333,30,0,0.000,no (auxiliary E9-4)
+page,e9-main-page-r2,E9-4,aux,all 6 variants on every page (auxiliary),15,5,0.333,30,0,0.000,no (auxiliary E9-4)
+related,e9-main-related-r2,E9-1,primary,page-specific injected variant (primary),16,11,0.688,30,0,0.000,yes
+related,e9-main-related-r2,E9-1,aux,all 6 variants on every page (auxiliary),16,11,0.688,30,0,0.000,yes
+related,e9-main-related-r2,E9-1a,primary,page-specific injected variant (primary),8,8,1.000,30,0,0.000,yes
+related,e9-main-related-r2,E9-1a,aux,all 6 variants on every page (auxiliary),8,8,1.000,30,0,0.000,yes
+related,e9-main-related-r2,E9-1b,primary,page-specific injected variant (primary),8,3,0.375,30,0,0.000,yes
+related,e9-main-related-r2,E9-1b,aux,all 6 variants on every page (auxiliary),8,3,0.375,30,0,0.000,yes
+related,e9-main-related-r2,E9-2,primary,page-specific injected variant (primary),15,15,1.000,30,0,0.000,yes
+related,e9-main-related-r2,E9-2,aux,all 6 variants on every page (auxiliary),15,15,1.000,30,0,0.000,yes
+related,e9-main-related-r2,E9-3,primary,page-specific injected variant (primary),15,15,1.000,30,4,0.133,yes
+related,e9-main-related-r2,E9-3,aux,all 6 variants on every page (auxiliary),15,15,1.000,30,4,0.133,yes
+related,e9-main-related-r2,E9-4,primary,page-specific injected variant (primary),15,15,1.000,30,0,0.000,no (auxiliary E9-4)
+related,e9-main-related-r2,E9-4,aux,all 6 variants on every page (auxiliary),15,15,1.000,30,0,0.000,no (auxiliary E9-4)
+fixedlong,e9-main-fixedlong-r2,E9-1,primary,page-specific injected variant (primary),16,1,0.062,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r2,E9-1,aux,all 6 variants on every page (auxiliary),16,1,0.062,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r2,E9-1a,primary,page-specific injected variant (primary),8,1,0.125,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r2,E9-1a,aux,all 6 variants on every page (auxiliary),8,1,0.125,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r2,E9-1b,primary,page-specific injected variant (primary),8,0,0.000,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r2,E9-1b,aux,all 6 variants on every page (auxiliary),8,0,0.000,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r2,E9-2,primary,page-specific injected variant (primary),15,1,0.067,30,3,0.100,yes
+fixedlong,e9-main-fixedlong-r2,E9-2,aux,all 6 variants on every page (auxiliary),15,1,0.067,30,3,0.100,yes
+fixedlong,e9-main-fixedlong-r2,E9-3,primary,page-specific injected variant (primary),15,2,0.133,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r2,E9-3,aux,all 6 variants on every page (auxiliary),15,2,0.133,30,0,0.000,yes
+fixedlong,e9-main-fixedlong-r2,E9-4,primary,page-specific injected variant (primary),15,3,0.200,30,0,0.000,no (auxiliary E9-4)
+fixedlong,e9-main-fixedlong-r2,E9-4,aux,all 6 variants on every page (auxiliary),15,3,0.200,30,0,0.000,no (auxiliary E9-4)

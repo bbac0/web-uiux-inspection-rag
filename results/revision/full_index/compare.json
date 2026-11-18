@@ -1,0 +1,5062 @@
+{
+ "n_new_chunks": 1485,
+ "n_old_chunks": 1020,
+ "old_to_new_match": {
+  "text": 1001,
+  "same_page_fallback": {
+   "3e002b3f-4714-4987-8402-e87c8ef5b597": "same page, ratio 0.998",
+   "d1ff4561-285f-4fe9-b28d-12ee4bc875c2": "same page, ratio 0.951",
+   "3e70e80b-2e7c-48b2-8626-fefa10781069": "same page, ratio 0.996",
+   "cdeec362-8800-403d-8f16-406f86daa16f": "same page, ratio 0.997",
+   "b53f0c7c-be70-4700-b120-78cd698649e7": "same page, ratio 0.998",
+   "6c2daf0b-8574-407a-a324-e7162d0697e7": "same page, ratio 0.929",
+   "088a50d1-f306-4662-b5e3-0ca203e2716b": "same page, ratio 0.872",
+   "427419c3-0b27-48d6-9eae-a3579b18d39c": "same page, ratio 0.822",
+   "5c903e8a-18ce-4b0d-8d33-fd8b1329f09d": "same page, ratio 0.860",
+   "75ac056f-e710-42f2-bc0a-ea02abca0921": "same page, ratio 0.853",
+   "b46d3461-b045-4c6b-b826-527e528baaa8": "same page, ratio 0.999",
+   "209c148a-fba2-41fd-b039-36c6c7f6819b": "same page, ratio 0.997",
+   "a1239665-3d21-48ce-8a7c-d2c8d7e5df15": "same page, ratio 0.925",
+   "597a6bb0-0dd5-4c19-af6b-0f1d3e44014d": "same page, ratio 0.800",
+   "51ebcd13-44cc-47d1-b1d6-d56fce40c228": "same page, ratio 0.828",
+   "d3564a0c-f611-49df-97b5-8551c8daae3b": "same page, ratio 0.997",
+   "8167ff79-9349-41e1-ad51-1b911999e91f": "same page, ratio 0.993",
+   "74ca2f69-0e27-4cf8-9ad7-d3589d714aba": "same page, ratio 0.997",
+   "3a524ff2-569a-42a2-b0d0-bc51a0a214d6": "same page, ratio 0.995"
+  }
+ },
+ "related6_match": {
+  "906848de-bb99-4446-adb1-16a2dc61d34e": "text",
+  "574b8c73-13b0-43e7-bbe8-abc31f41bb2c": "text",
+  "265eeb6d-3e1a-43bc-99b7-d299c8ff4233": "text",
+  "1fff974d-ca33-444d-a3ac-8b93b5a8aadf": "text",
+  "87f08a4d-b8b6-427c-8fd5-2925b07b4d8a": "text",
+  "905711bf-2989-473d-9cf8-47a3ed1dd8f9": "text"
+ },
+ "fixed": {
+  "old_top4": [
+   {
+    "id": "ce334282-62d0-4346-81ba-237ca8ef4d57",
+    "source": "gov_guide.pdf",
+    "page": 9,
+    "new_id": "7fa7b561-69ef-4b8d-9bac-4982738ecb4c",
+    "match": "text"
+   },
+   {
+    "id": "ffd48677-a4cc-405b-aacd-15820a7f65f0",
+    "source": "gov_guide.pdf",
+    "page": 15,
+    "new_id": "9b072ac6-9fc4-4d3a-a16a-19beedf0288a",
+    "match": "text"
+   },
+   {
+    "id": "654c214c-448d-4030-862a-67c5899520ca",
+    "source": "gov_guide.pdf",
+    "page": 218,
+    "new_id": "72798149-8ec4-4746-8889-46efe213cd05",
+    "match": "text"
+   },
+   {
+    "id": "c1f2ba02-03ef-4962-a6c8-532bd1e0171c",
+    "source": "gov_guide.pdf",
+    "page": 1,
+    "new_id": "b786d80c-03bc-419f-b392-8579dc21db8a",
+    "match": "text"
+   }
+  ],
+  "new_top4": [
+   {
+    "id": "57d35d83-c0ee-4807-9bc6-af869da6bb9d",
+    "source": "gov_guide.pdf",
+    "page": 780
+   },
+   {
+    "id": "3d7f6710-3875-4dbc-a26e-18ead88353e3",
+    "source": "gov_guide.pdf",
+    "page": 816
+   },
+   {
+    "id": "7fa7b561-69ef-4b8d-9bac-4982738ecb4c",
+    "source": "gov_guide.pdf",
+    "page": 9
+   },
+   {
+    "id": "9b072ac6-9fc4-4d3a-a16a-19beedf0288a",
+    "source": "gov_guide.pdf",
+    "page": 15
+   }
+  ],
+  "same_set": false,
+  "same_order": false
+ },
+ "pages": {
+  "E3|page_006": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_007": {
+   "query": "자주 묻는 질문 FAQ",
+   "same_set": true,
+   "same_order": true,
+   "new_in_top4": [],
+   "new_from_unindexed_pages": 0
+  },
+  "E3|page_017": {
+   "query": "자주 묻는 질문 FAQ",
+   "same_set": true,
+   "same_order": true,
+   "new_in_top4": [],
+   "new_from_unindexed_pages": 0
+  },
+  "E3|page_023": {
+   "query": "접속하기 - 대한민국 정부 접속하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_024": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_025": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_027": {
+   "query": "자주 묻는 질문 FAQ",
+   "same_set": true,
+   "same_order": true,
+   "new_in_top4": [],
+   "new_from_unindexed_pages": 0
+  },
+  "E3|page_028": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_032": {
+   "query": "공지사항 게시판 공지사항 목록",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_033": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E3|page_034": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_038": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_039": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_049": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_052": {
+   "query": "공지사항 게시판 공지사항 목록",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_057": {
+   "query": "자주 묻는 질문 FAQ",
+   "same_set": true,
+   "same_order": true,
+   "new_in_top4": [],
+   "new_from_unindexed_pages": 0
+  },
+  "E3|page_058": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_061": {
+   "query": "정부24 메인 주요 서비스 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_062": {
+   "query": "공지사항 게시판 공지사항 목록",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_064": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_065": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_067": {
+   "query": "자주 묻는 질문 FAQ",
+   "same_set": true,
+   "same_order": true,
+   "new_in_top4": [],
+   "new_from_unindexed_pages": 0
+  },
+  "E3|page_069": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_070": {
+   "query": "고객센터 문의하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_071": {
+   "query": "정부24 메인 주요 서비스 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_072": {
+   "query": "공지사항 게시판 공지사항 목록",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_076": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_077": {
+   "query": "자주 묻는 질문 FAQ",
+   "same_set": true,
+   "same_order": true,
+   "new_in_top4": [],
+   "new_from_unindexed_pages": 0
+  },
+  "E3|page_078": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_079": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_083": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E3|page_086": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_087": {
+   "query": "자주 묻는 질문 FAQ",
+   "same_set": true,
+   "same_order": true,
+   "new_in_top4": [],
+   "new_from_unindexed_pages": 0
+  },
+  "E3|page_090": {
+   "query": "고객센터 문의하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_093": {
+   "query": "접속하기 - 대한민국 정부 접속하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_102": {
+   "query": "공지사항 게시판 공지사항 목록",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_104": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_108": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_110": {
+   "query": "고객센터 문의하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_112": {
+   "query": "공지사항 게시판 공지사항 목록",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_113": {
+   "query": "접속하기 - 대한민국 정부 접속하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_114": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_119": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_120": {
+   "query": "고객센터 문의하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_121": {
+   "query": "정부24 메인 주요 서비스 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_122": {
+   "query": "공지사항 게시판 공지사항 목록",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_126": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_127": {
+   "query": "자주 묻는 질문 FAQ",
+   "same_set": true,
+   "same_order": true,
+   "new_in_top4": [],
+   "new_from_unindexed_pages": 0
+  },
+  "E3|page_131": {
+   "query": "정부24 메인 주요 서비스 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_133": {
+   "query": "접속하기 - 대한민국 정부 접속하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_134": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_136": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_140": {
+   "query": "고객센터 문의하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_145": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_149": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_150": {
+   "query": "고객센터 문의하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_151": {
+   "query": "정부24 메인 주요 서비스 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_152": {
+   "query": "공지사항 게시판 공지사항 목록",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_157": {
+   "query": "자주 묻는 질문 FAQ",
+   "same_set": true,
+   "same_order": true,
+   "new_in_top4": [],
+   "new_from_unindexed_pages": 0
+  },
+  "E3|page_158": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_159": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_160": {
+   "query": "고객센터 문의하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_165": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_167": {
+   "query": "자주 묻는 질문 FAQ",
+   "same_set": true,
+   "same_order": true,
+   "new_in_top4": [],
+   "new_from_unindexed_pages": 0
+  },
+  "E3|page_168": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_169": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_170": {
+   "query": "고객센터 문의하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_171": {
+   "query": "정부24 메인 주요 서비스 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_172": {
+   "query": "공지사항 게시판 공지사항 목록",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_173": {
+   "query": "접속하기 - 대한민국 정부 접속하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_174": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_175": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_177": {
+   "query": "자주 묻는 질문 FAQ",
+   "same_set": true,
+   "same_order": true,
+   "new_in_top4": [],
+   "new_from_unindexed_pages": 0
+  },
+  "E3|page_178": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_179": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_180": {
+   "query": "고객센터 문의하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_181": {
+   "query": "정부24 메인 주요 서비스 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_182": {
+   "query": "공지사항 게시판 공지사항 목록",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_189": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_192": {
+   "query": "공지사항 게시판 공지사항 목록",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_193": {
+   "query": "접속하기 - 대한민국 정부 접속하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E3|page_194": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E3|page_199": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E3|page_200": {
+   "query": "고객센터 문의하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_001": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_002": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_003": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_004": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_005": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_006": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_007": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r1|e9_008": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r1|e9_009": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_010": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_011": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_012": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_013": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_014": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_015": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_016": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r1|e9_017": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r1|e9_018": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r1|e9_019": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_020": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_021": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_022": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_023": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_024": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_025": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_026": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r1|e9_027": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_028": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_029": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_030": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_031": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_032": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r1|e9_033": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_034": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_035": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_036": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_037": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_038": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_039": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_040": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_041": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_042": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_043": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_044": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r1|e9_045": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_046": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r1|e9_047": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_048": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_049": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_050": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_051": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_052": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_053": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_054": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_055": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_056": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_057": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_058": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r1|e9_059": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r1|e9_060": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_061": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_062": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_063": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_064": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r1|e9_065": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_066": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_067": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_068": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_069": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_070": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_071": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_072": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_073": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_074": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_075": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_076": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_077": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_078": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_079": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_080": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_081": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_082": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_083": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r1|e9_084": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r1|e9_085": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_086": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r1|e9_087": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r1|e9_088": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_089": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r1|e9_090": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r1|e9_091": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r2|e9_001": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_002": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_003": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_004": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_005": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_006": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_007": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r2|e9_008": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r2|e9_009": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_010": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_011": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_012": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_013": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_014": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_015": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_016": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r2|e9_017": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r2|e9_018": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r2|e9_019": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_020": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_021": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_022": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_023": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_024": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_025": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_026": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r2|e9_027": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_028": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_029": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_030": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_031": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_032": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r2|e9_033": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_034": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_035": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_036": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_037": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_038": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_039": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_040": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_041": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_042": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_043": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_044": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r2|e9_045": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_046": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r2|e9_047": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_048": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_049": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_050": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_051": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_052": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_053": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_054": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_055": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_056": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_057": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_058": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r2|e9_059": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r2|e9_060": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_061": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_062": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_063": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_064": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r2|e9_065": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_066": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_067": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_068": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_069": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_070": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_071": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_072": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_073": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_074": {
+   "query": "고객센터",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_075": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_076": {
+   "query": "공지사항 게시판",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "95b08557-5711-4bee-9602-c952a2177067",
+     "source": "gov_guide.pdf",
+     "page": 861
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_077": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_078": {
+   "query": "정부24 메인 신청하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "0e5508d6-1395-478f-a4b5-4a9c76f465d8",
+     "source": "gov_guide.pdf",
+     "page": 861
+    },
+    {
+     "id": "e0c41881-f41d-405e-95ff-9da0b3258013",
+     "source": "gov_check.pdf",
+     "page": 3
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_079": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_080": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_081": {
+   "query": "통합 검색 결과",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "2a78b09f-ea73-4a44-93ea-1186a938d701",
+     "source": "gov_guide.pdf",
+     "page": 900
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_082": {
+   "query": "민원 신청서 작성 제출하기",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "506361d8-ca6e-4a22-92bc-e2534118f123",
+     "source": "gov_guide.pdf",
+     "page": 1097
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_083": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r2|e9_084": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r2|e9_085": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_086": {
+   "query": "로그인 - 대한민국 정부 로그인",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    },
+    {
+     "id": "a1906a1f-999c-4e4f-b116-56545c8fd843",
+     "source": "gov_guide.pdf",
+     "page": 1023
+    },
+    {
+     "id": "a9eb655d-dfae-477b-bcb4-0a10b2b02ebb",
+     "source": "gov_guide.pdf",
+     "page": 1031
+    },
+    {
+     "id": "0128e7fc-8482-4ea7-ace0-93050a3ecfc0",
+     "source": "gov_guide.pdf",
+     "page": 977
+    }
+   ],
+   "new_from_unindexed_pages": 4
+  },
+  "E9-r2|e9_087": {
+   "query": "자주 묻는 질문",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "9f26e2f2-d955-4a97-897f-4c0ca320c2f1",
+     "source": "gov_guide.pdf",
+     "page": 884
+    }
+   ],
+   "new_from_unindexed_pages": 1
+  },
+  "E9-r2|e9_088": {
+   "query": "이용약관",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "a3dbabc9-cadb-4202-88b2-4f2e5a9c8f71",
+     "source": "gov_guide.pdf",
+     "page": 791
+    },
+    {
+     "id": "74553fab-d3d1-4beb-8d59-5a08eb7c1504",
+     "source": "gov_guide.pdf",
+     "page": 795
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_089": {
+   "query": "마이페이지 대시보드 신청 처리 내역",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "34e9e3a7-2228-4d70-bd14-0c6ac8928ec4",
+     "source": "gov_guide.pdf",
+     "page": 1133
+    },
+    {
+     "id": "59aa6292-6fd8-4bdc-a84d-1ee422c2c492",
+     "source": "gov_guide.pdf",
+     "page": 1137
+    }
+   ],
+   "new_from_unindexed_pages": 2
+  },
+  "E9-r2|e9_090": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  },
+  "E9-r2|e9_091": {
+   "query": "민원 안내 상세 주민등록표등본 발급 발급 신청",
+   "same_set": false,
+   "same_order": false,
+   "new_in_top4": [
+    {
+     "id": "cba7506c-4e5b-4ed2-ba09-21284eb2492d",
+     "source": "gov_guide.pdf",
+     "page": 778
+    },
+    {
+     "id": "96ef3ad8-a7ff-431a-95aa-86e19f0d529a",
+     "source": "gov_guide.pdf",
+     "page": 1052
+    },
+    {
+     "id": "e0c7d2ab-cc12-41c2-9aa0-ee55a663416f",
+     "source": "gov_guide.pdf",
+     "page": 775
+    }
+   ],
+   "new_from_unindexed_pages": 3
+  }
+ },
+ "recall": {
+  "고객센터": {
+   "recall_at_4": 0.0,
+   "ranks": [
+    1160,
+    1164,
+    673,
+    442,
+    81,
+    129
+   ],
+   "best": 81
+  },
+  "공지사항 게시판": {
+   "recall_at_4": 0.0,
+   "ranks": [
+    509,
+    525,
+    640,
+    617,
+    229,
+    353
+   ],
+   "best": 229
+  },
+  "로그인 - 대한민국 정부 로그인": {
+   "recall_at_4": 0.0,
+   "ranks": [
+    205,
+    606,
+    298,
+    341,
+    63,
+    78
+   ],
+   "best": 63
+  },
+  "마이페이지 대시보드 신청 처리 내역": {
+   "recall_at_4": 0.0,
+   "ranks": [
+    590,
+    946,
+    380,
+    726,
+    219,
+    274
+   ],
+   "best": 219
+  },
+  "민원 신청서 작성 제출하기": {
+   "recall_at_4": 0.0,
+   "ranks": [
+    716,
+    756,
+    641,
+    864,
+    417,
+    488
+   ],
+   "best": 417
+  },
+  "민원 안내 상세 주민등록표등본 발급 발급 신청": {
+   "recall_at_4": 0.0,
+   "ranks": [
+    1105,
+    957,
+    974,
+    1250,
+    658,
+    701
+   ],
+   "best": 658
+  },
+  "웹 UI/UX 표준 가이드라인 공통 규정": {
+   "recall_at_4": 0.0,
+   "ranks": [
+    1063,
+    943,
+    226,
+    716,
+    695,
+    808
+   ],
+   "best": 226
+  },
+  "이용약관": {
+   "recall_at_4": 0.0,
+   "ranks": [
+    549,
+    1108,
+    823,
+    340,
+    62,
+    74
+   ],
+   "best": 62
+  },
+  "자주 묻는 질문": {
+   "recall_at_4": 0.0,
+   "ranks": [
+    1329,
+    1407,
+    1129,
+    1104,
+    135,
+    512
+   ],
+   "best": 135
+  },
+  "정부24 메인 신청하기": {
+   "recall_at_4": 0.0,
+   "ranks": [
+    980,
+    1276,
+    714,
+    1293,
+    546,
+    739
+   ],
+   "best": 546
+  },
+  "통합 검색 결과": {
+   "recall_at_4": 0.0,
+   "ranks": [
+    1249,
+    1387,
+    587,
+    616,
+    164,
+    236
+   ],
+   "best": 164
+  }
+ },
+ "spent_usd_upper": 0.09295965000000003,
+ "n_calls": 165
+}

@@ -1,0 +1,257 @@
+{
+ "files": [
+  "rater_A_retest/eval_sheet_A_retest.csv",
+  "rater_A_retest/rater_guidelines.md",
+  "rater_A_retest/shots/P0334a07b1b.png",
+  "rater_A_retest/shots/P04e9701044.png",
+  "rater_A_retest/shots/P0e4775a60a.png",
+  "rater_A_retest/shots/P1096f85a3f.png",
+  "rater_A_retest/shots/P10ab525fb2.png",
+  "rater_A_retest/shots/P1562780708.png",
+  "rater_A_retest/shots/P1c64571dc8.png",
+  "rater_A_retest/shots/P22e9c46395.png",
+  "rater_A_retest/shots/P23e42bc074.png",
+  "rater_A_retest/shots/P26762fa5c6.png",
+  "rater_A_retest/shots/P299d5cea0c.png",
+  "rater_A_retest/shots/P2dc8a1ce47.png",
+  "rater_A_retest/shots/P41c389134a.png",
+  "rater_A_retest/shots/P486ea0ea71.png",
+  "rater_A_retest/shots/P4b7163c9b7.png",
+  "rater_A_retest/shots/P5122410a7a.png",
+  "rater_A_retest/shots/P7c91715657.png",
+  "rater_A_retest/shots/P8c125ae4fc.png",
+  "rater_A_retest/shots/P8fe2ef3c40.png",
+  "rater_A_retest/shots/P9218e44987.png",
+  "rater_A_retest/shots/P9447e40680.png",
+  "rater_A_retest/shots/Pa23741076b.png",
+  "rater_A_retest/shots/Pa4d9e94f7d.png",
+  "rater_A_retest/shots/Pa560c0314f.png",
+  "rater_A_retest/shots/Pa6782f9d25.png",
+  "rater_A_retest/shots/Pb0202902dd.png",
+  "rater_A_retest/shots/Pc1a4f3be4a.png",
+  "rater_A_retest/shots/Pca23a00605.png",
+  "rater_A_retest/shots/Pcdbb8a9532.png",
+  "rater_A_retest/shots/Pcef0a7e85e.png",
+  "rater_A_retest/shots/Pd136dc75e2.png",
+  "rater_A_retest/shots/Pdb076a0d49.png",
+  "rater_A_retest/shots/Pde5dedcc97.png",
+  "rater_A_retest/shots/Pe0d98e1cc1.png",
+  "rater_A_retest/shots/Pf3b9454a46.png",
+  "rater_A_retest/viewer_A_retest.html",
+  "retest_howto.md"
+ ],
+ "hits": [
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "파일명·경로",
+   "category": "라벨 열 이름",
+   "match": "guideline",
+   "context": "rater_A_retest/rater_guidelines.md"
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "대비",
+   "context": " 이 분류 / 이 분류가 아닌 것 / /---/---/---/ / 명도 대비 부족 / 글자색과 배경색의 대비가 낮아 읽기 어렵다 / 색상이 브랜드 "
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "대비",
+   "context": " / /---/---/---/ / 명도 대비 부족 / 글자색과 배경색의 대비가 낮아 읽기 어렵다 / 색상이 브랜드 가이드와 다르다(대비 언급 없이)"
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "대비",
+   "context": "과 배경색의 대비가 낮아 읽기 어렵다 / 색상이 브랜드 가이드와 다르다(대비 언급 없이) / / 모바일 레이아웃 깨짐 / 고정 폭, 강제 가로 스크"
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "모바일",
+   "context": "읽기 어렵다 / 색상이 브랜드 가이드와 다르다(대비 언급 없이) / / 모바일 레이아웃 깨짐 / 고정 폭, 강제 가로 스크롤 등으로 화면 폭에 따라 "
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "용어",
+   "context": "거나 누를 수 없다 / 버튼 디자인이 표준 스타일과 다르다 / / 표준 용어 위반 / 링크, 버튼, 제목 같은 UI 레이블의 용어가 비표준이거나 모"
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "용어",
+   "context": "르다 / / 표준 용어 위반 / 링크, 버튼, 제목 같은 UI 레이블의 용어가 비표준이거나 모호해 표준 용어로 바꿔야 한다 / 오탈자, 문장이 길다"
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "용어",
+   "context": "링크, 버튼, 제목 같은 UI 레이블의 용어가 비표준이거나 모호해 표준 용어로 바꿔야 한다 / 오탈자, 문장이 길다 / / 중복 ID / 같은 `i"
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "중복 ID",
+   "context": "이거나 모호해 표준 용어로 바꿔야 한다 / 오탈자, 문장이 길다 / / 중복 ID / 같은 `id` 값이 문서에서 두 번 이상 쓰였다 / WAI-ARIA"
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "버튼 잘림",
+   "context": "유 / /---/---/---/ / 분류 / 버튼 영역 잘림 / 설명이 버튼 잘림을 지적한다 / / 코드에 존재하는가 / 예 / 버튼을 찌그러뜨리는 CS"
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "중복 ID",
+   "context": " 화면에는 잘린 버튼이 없다 /  ### 예시 2: 화면에 보이지 않는 중복 ID  `<body>` 바로 아래에 `<div id=\"main-banner\""
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "중복 ID",
+   "context": ":  / 질문 / 답 / 이유 / /---/---/---/ / 분류 / 중복 ID / / / 코드에 존재하는가 / 예 / 같은 id 가 두 번 쓰였다 /"
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "중복 ID",
+   "context": "/ 같은 id 가 두 번 쓰였다 / / 화면에서 보이는가 / 아니오 / 중복 ID 는 마크업 문제라 화면에 드러나지 않는다 (빈 요소라 면적도 없다) /"
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "대비",
+   "context": "가 아주 연한 회색(#e5e5e5)이고 배경이 흰색이다. 이슈가 \"명도 대비가 부족하다\"고 말한다면 코드에 존재하는가 `예`, 화면에서 보이는가 `"
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "용어",
+   "context": "예` 이다.  ### 예시 4: 둘 다 아니오  이슈가 \"로그인 링크의 용어가 비표준이다\"라고 말하지만 페이지 코드와 화면 어디에도 로그인 링크나 "
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "용어",
+   "context": "준이다\"라고 말하지만 페이지 코드와 화면 어디에도 로그인 링크나 비표준 용어가 없다면 코드에 존재하는가 `아니오`, 화면에서 보이는가 `아니오` 이"
+  },
+  {
+   "file": "rater_A_retest/rater_guidelines.md",
+   "where": "지침서 본문",
+   "category": "결함 유형(한글)",
+   "match": "대비",
+   "context": "아니오 / 레이블은 언급만 되고 지적 대상은 마크업 구조 / / \"색상 대비가 낮아 글자를 읽기 어렵다.\" / 아니오 / 로그인 링크 레이블과 무관"
+  },
+  {
+   "file": "rater_A_retest/viewer_A_retest.html",
+   "where": "뷰어 코드·마크업",
+   "category": "결함 유형(한글)",
+   "match": "대비",
+   "context": "n value=\"\">선택</option><option value=\"명도 대비 부족\">명도 대비 부족</option><option value=\"모바일"
+  },
+  {
+   "file": "rater_A_retest/viewer_A_retest.html",
+   "where": "뷰어 코드·마크업",
+   "category": "결함 유형(한글)",
+   "match": "대비",
+   "context": ">선택</option><option value=\"명도 대비 부족\">명도 대비 부족</option><option value=\"모바일 레이아웃 깨짐\">"
+  },
+  {
+   "file": "rater_A_retest/viewer_A_retest.html",
+   "where": "뷰어 코드·마크업",
+   "category": "결함 유형(한글)",
+   "match": "모바일",
+   "context": " 대비 부족\">명도 대비 부족</option><option value=\"모바일 레이아웃 깨짐\">모바일 레이아웃 깨짐</option><option va"
+  },
+  {
+   "file": "rater_A_retest/viewer_A_retest.html",
+   "where": "뷰어 코드·마크업",
+   "category": "결함 유형(한글)",
+   "match": "모바일",
+   "context": " 부족</option><option value=\"모바일 레이아웃 깨짐\">모바일 레이아웃 깨짐</option><option value=\"버튼 영역 잘림"
+  },
+  {
+   "file": "rater_A_retest/viewer_A_retest.html",
+   "where": "뷰어 코드·마크업",
+   "category": "결함 유형(한글)",
+   "match": "용어",
+   "context": " 잘림\">버튼 영역 잘림</option><option value=\"표준 용어 위반\">표준 용어 위반</option><option value=\"중복 "
+  },
+  {
+   "file": "rater_A_retest/viewer_A_retest.html",
+   "where": "뷰어 코드·마크업",
+   "category": "결함 유형(한글)",
+   "match": "용어",
+   "context": " 잘림</option><option value=\"표준 용어 위반\">표준 용어 위반</option><option value=\"중복 ID\">중복 ID<"
+  },
+  {
+   "file": "rater_A_retest/viewer_A_retest.html",
+   "where": "뷰어 코드·마크업",
+   "category": "결함 유형(한글)",
+   "match": "중복 ID",
+   "context": " 용어 위반\">표준 용어 위반</option><option value=\"중복 ID\">중복 ID</option><option value=\"해당 없음\">해당"
+  },
+  {
+   "file": "rater_A_retest/viewer_A_retest.html",
+   "where": "뷰어 코드·마크업",
+   "category": "결함 유형(한글)",
+   "match": "중복 ID",
+   "context": ">표준 용어 위반</option><option value=\"중복 ID\">중복 ID</option><option value=\"해당 없음\">해당 없음</op"
+  },
+  {
+   "file": "rater_A_retest/viewer_A_retest.html",
+   "where": "뷰어 코드·마크업 CSS",
+   "category": "조건명",
+   "match": "fixed",
+   "context": "id=\"modal\" style=\"display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-ind"
+  },
+  {
+   "file": "rater_A_retest/viewer_A_retest.html",
+   "where": "뷰어 코드·마크업",
+   "category": "이전 답",
+   "match": "_filled",
+   "context": "blob); a.download = \"eval_sheet_A_retest_filled.csv\"; a.click(); };  /* csv-import v1: "
+  },
+  {
+   "file": "retest_howto.md",
+   "where": "안내문 본문 지침서 파일명",
+   "category": "라벨 열 이름",
+   "match": "guideline",
+   "context": "_A_retest.csv`), `shots/`,   지침서(`rater_guidelines.md`, 본 평가와 같은 판).  ## 2. viewer_howto."
+  },
+  {
+   "file": "retest_howto.md",
+   "where": "안내문 본문 안내 문구",
+   "category": "이전 답",
+   "match": "이전 답",
+   "context": " 메모를 열어 보지 마세요.** 이슈 ID 가 본 평가와 같아서 찾으면 이전 답이 보입니다.   기억나는 답이 있어도 이번 화면과 지침서만 보고 지금 "
+  },
+  {
+   "file": "retest_howto.md",
+   "where": "안내문 본문 안내 문구",
+   "category": "이전 답",
+   "match": "_filled",
+   "context": "거부됩니다. - 내보낸 파일 이름은 `eval_sheet_A_retest_filled.csv` 입니다.  ## 4. 예상 소요 시간  본 평가와 같은 판정이"
+  }
+ ],
+ "nonblank_input_cells": 0,
+ "reused_screenshot_names": []
+}

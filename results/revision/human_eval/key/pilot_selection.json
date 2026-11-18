@@ -1,0 +1,29 @@
+{
+ "seed": 20261118,
+ "source_sheet": "rater_A/eval_sheet_A.csv",
+ "method": "random.Random(seed).sample(A 시트 행을 issue_id 순으로 정렬한 목록, 20); 층화 없음, 정답 키·채점 결과 미사용",
+ "issue_ids": [
+  "Ib943221a4f",
+  "If5c98d5d1e",
+  "I3aed7f3794",
+  "I659719567d",
+  "I1aa0822eb8",
+  "I0ec75463dc",
+  "Ida78933a5f",
+  "I06c3601733",
+  "I429c24776c",
+  "I6e62f70f04",
+  "I5a804c43f0",
+  "I8c8ed2dd5e",
+  "Icd2e753304",
+  "I7d40ee9099",
+  "Ic9c562ed1d",
+  "I30a019f4eb",
+  "I3fa9e467eb",
+  "Ic0d24d410d",
+  "I010a049fdb",
+  "I43bab6e6ba"
+ ],
+ "pages": 19,
+ "note": "연습용. 분석에 쓰지 않는다. 같은 이슈가 A 시트에도 있다."
+}

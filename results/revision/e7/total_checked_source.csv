@@ -1,0 +1,10 @@
+group,run,pages,absent_default_30,explicit_30,explicit_60,explicit_other,raw_unparseable,distinguishable
+RAG on,E1-R1,200,0,67,0,133,0,yes
+RAG on,E1-R2,200,0,72,0,128,0,yes
+RAG on,E1-R3b,200,0,78,0,122,0,yes
+RAG on,pooled (3 runs),600,0,217,0,383,0,yes
+RAG off,E2-A1-1,200,0,115,0,85,0,yes
+RAG off,E2-A1-2,200,0,114,0,86,0,yes
+RAG off,E2-A1-3,200,0,108,0,92,0,yes
+RAG off,pooled (3 runs),600,0,337,0,263,0,yes
+legacy run2,all reports,200,n/a,n/a,n/a,n/a,n/a,"no (report only, no raw model output; report total_count: 30=23, 60=101, other=76)"

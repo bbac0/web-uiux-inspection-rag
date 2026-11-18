@@ -1,0 +1,11 @@
+defect_type,label_set,positives,tp,fn,fp,tn,recall,specificity
+Poor Contrast Ratio,nominal,44,44,0,25,131,1.0,0.8397435897435898
+Poor Contrast Ratio,effective,44,44,0,25,131,1.0,0.8397435897435898
+Mobile Layout Breakage,nominal,56,56,0,48,96,1.0,0.6666666666666666
+Mobile Layout Breakage,effective,56,56,0,48,96,1.0,0.6666666666666666
+Button Area Clipping,nominal,46,41,5,0,154,0.8913043478260869,1.0
+Button Area Clipping,effective,20,20,0,21,159,1.0,0.8833333333333333
+Standard Terminology Violation,nominal,45,14,31,0,155,0.3111111111111111,1.0
+Standard Terminology Violation,effective,42,14,28,0,158,0.3333333333333333,1.0
+Duplicate ID Markup Error,nominal,40,37,3,1,159,0.925,0.99375
+Duplicate ID Markup Error,effective,40,37,3,1,159,0.925,0.99375

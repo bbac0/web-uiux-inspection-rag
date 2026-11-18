@@ -1,0 +1,3 @@
+# 결과 파일은 줄바꿈 변환 없이 바이트 그대로 보관 (SHA256SUMS 검증 유지)
+results/revision/** -text
+testbed_200/** -text

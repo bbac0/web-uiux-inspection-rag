@@ -1,0 +1,26 @@
+{
+ "installed_utc": "2026-11-12T15:02:10+00:00",
+ "python": "3.11.5",
+ "command": "venv/Scripts/python.exe -m pip install anthropic",
+ "approved": "2026-11-12 연구자 승인 (R1~A1 종료 후)",
+ "packages": {
+  "anthropic": "2.8.0",
+  "httpx": "0.28.1",
+  "httpx2": "2.16.0",
+  "httpcore2": "2.16.0",
+  "jiter": "0.19.0",
+  "docstring_parser": "0.18.0",
+  "truststore": "0.10.5",
+  "pydantic": "2.13.4"
+ },
+ "newly_installed": [
+  "anthropic",
+  "httpx2",
+  "httpcore2",
+  "jiter",
+  "docstring_parser",
+  "truststore"
+ ],
+ "unchanged_existing": "google-generativeai 0.8.6, langchain-google-genai 4.3.5, langchain-chroma 1.1.0, chromadb 1.5.9, httpx 0.28.1, pydantic 2.13.4 (설치 전후 같음)",
+ "sdk_check": "messages.create 에 thinking, output_config 인자가 있음; ThinkingConfigBetweenToolsParam 타입 있음 (extra_body 전환 불필요)"
+}

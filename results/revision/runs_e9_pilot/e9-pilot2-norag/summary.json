@@ -1,0 +1,94 @@
+{
+  "run_id": "e9-pilot2-norag",
+  "condition": "E9-pilot2-norag",
+  "started_utc": "2026-11-13T02:46:24.973+00:00",
+  "finished_utc": "2026-11-13T02:50:43.752+00:00",
+  "aborted": false,
+  "abort_reason": null,
+  "pages_requested": 8,
+  "pages_with_record": 8,
+  "pages_missing_record": [],
+  "records": 8,
+  "status_counts": {
+    "ok": 8
+  },
+  "failed_pages": [],
+  "parse_error_pages": [],
+  "tokens_total": {
+    "prompt_token_count": 13392,
+    "cached_content_token_count": 0,
+    "candidates_token_count": 4167,
+    "total_token_count": 44818,
+    "thoughts_token_count_derived": 27259
+  },
+  "tokens_mean": {
+    "prompt_token_count": 1674,
+    "cached_content_token_count": 0,
+    "candidates_token_count": 520.9,
+    "total_token_count": 5602.2,
+    "thoughts_token_count_derived": 3407.4
+  },
+  "cost_usd_total": 0.082583,
+  "cost_usd_mean_per_call": 0.010323,
+  "latency_sec": {
+    "acquisition": {
+      "n": 8,
+      "mean": 4.1311,
+      "median": 4.1287,
+      "p95": 4.1547
+    },
+    "query_embedding": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "p95": null
+    },
+    "vector_search": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "p95": null
+    },
+    "upload": {
+      "n": 8,
+      "mean": 4.2032,
+      "median": 4.3142,
+      "p95": 4.4632
+    },
+    "llm": {
+      "n": 8,
+      "mean": 20.6926,
+      "median": 21.7317,
+      "p95": 25.0683
+    },
+    "total": {
+      "n": 8,
+      "mean": 30.7609,
+      "median": 31.7168,
+      "p95": 35.2682
+    }
+  },
+  "retries_total": 0,
+  "model_versions": [
+    "gemini-2.5-flash"
+  ],
+  "prompt_sha256_distinct": 8,
+  "negative_derived_thoughts": [],
+  "cached_tokens_positive": [],
+  "rag_n_chunks_counts": {
+    "0": 8
+  },
+  "schema_problem_records": 0,
+  "cost_usd_breakdown": {
+    "input_uncached": 0.004018,
+    "input_cached": 0.0,
+    "output": 0.078565
+  },
+  "thoughts_check_mismatch": [],
+  "chroma": null,
+  "prices": {
+    "input_uncached_per_1M": 0.3,
+    "input_cached_per_1M": 0.03,
+    "output_incl_thinking_per_1M": 2.5
+  }
+}

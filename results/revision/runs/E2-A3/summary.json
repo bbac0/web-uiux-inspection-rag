@@ -1,0 +1,195 @@
+{
+  "run_id": "E2-A3",
+  "condition": "E2-A3",
+  "started_utc": "2026-11-12T17:23:38.569+00:00",
+  "finished_utc": "2026-11-12T18:14:40.636+00:00",
+  "aborted": false,
+  "abort_reason": null,
+  "pages_requested": 200,
+  "pages_with_record": 200,
+  "pages_missing_record": [],
+  "records": 200,
+  "status_counts": {
+    "ok": 200
+  },
+  "failed_pages": [],
+  "parse_error_pages": [],
+  "tokens_total": {
+    "prompt_token_count": 430600,
+    "cached_content_token_count": 67548,
+    "candidates_token_count": 109444,
+    "total_token_count": 1107963,
+    "thoughts_token_count_derived": 500371
+  },
+  "tokens_mean": {
+    "prompt_token_count": 2153,
+    "cached_content_token_count": 337.7,
+    "candidates_token_count": 547.2,
+    "total_token_count": 5539.8,
+    "thoughts_token_count_derived": 2501.9
+  },
+  "cost_usd_total": 1.635612,
+  "cost_usd_mean_per_call": 0.008178,
+  "latency_sec": {
+    "acquisition": {
+      "n": 200,
+      "mean": 3.9184,
+      "median": 3.9155,
+      "p95": 3.9462
+    },
+    "query_embedding": {
+      "n": 200,
+      "mean": 0.5181,
+      "median": 0.5202,
+      "p95": 0.5875
+    },
+    "vector_search": {
+      "n": 200,
+      "mean": 0.008,
+      "median": 0.0048,
+      "p95": 0.0159
+    },
+    "upload": {
+      "n": 200,
+      "mean": 4.7303,
+      "median": 4.6829,
+      "p95": 5.5113
+    },
+    "llm": {
+      "n": 200,
+      "mean": 18.0202,
+      "median": 17.2463,
+      "p95": 25.0667
+    },
+    "total": {
+      "n": 200,
+      "mean": 29.1996,
+      "median": 28.4374,
+      "p95": 36.3789
+    }
+  },
+  "retries_total": 0,
+  "model_versions": [
+    "gemini-2.5-flash"
+  ],
+  "prompt_sha256_distinct": 1,
+  "negative_derived_thoughts": [
+    "page_055",
+    "page_105",
+    "page_195"
+  ],
+  "cached_tokens_positive": [
+    "page_011",
+    "page_012",
+    "page_016",
+    "page_024",
+    "page_026",
+    "page_038",
+    "page_043",
+    "page_047",
+    "page_046",
+    "page_048",
+    "page_055",
+    "page_058",
+    "page_060",
+    "page_067",
+    "page_068",
+    "page_071",
+    "page_073",
+    "page_078",
+    "page_081",
+    "page_084",
+    "page_085",
+    "page_094",
+    "page_096",
+    "page_097",
+    "page_099",
+    "page_105",
+    "page_107",
+    "page_111",
+    "page_112",
+    "page_116",
+    "page_118",
+    "page_120",
+    "page_130",
+    "page_136",
+    "page_138",
+    "page_139",
+    "page_149",
+    "page_192",
+    "page_195"
+  ],
+  "rag_n_chunks_counts": {
+    "4": 200
+  },
+  "schema_problem_records": 0,
+  "cost_usd_breakdown": {
+    "input_uncached": 0.108916,
+    "input_cached": 0.002026,
+    "output": 1.52467
+  },
+  "thoughts_check_mismatch": [
+    "page_011",
+    "page_012",
+    "page_016",
+    "page_024",
+    "page_026",
+    "page_038",
+    "page_043",
+    "page_047",
+    "page_046",
+    "page_048",
+    "page_055",
+    "page_058",
+    "page_060",
+    "page_067",
+    "page_068",
+    "page_071",
+    "page_073",
+    "page_078",
+    "page_081",
+    "page_084",
+    "page_085",
+    "page_094",
+    "page_096",
+    "page_097",
+    "page_099",
+    "page_105",
+    "page_107",
+    "page_111",
+    "page_112",
+    "page_116",
+    "page_118",
+    "page_120",
+    "page_130",
+    "page_136",
+    "page_138",
+    "page_139",
+    "page_149",
+    "page_192",
+    "page_195"
+  ],
+  "chroma": {
+    "source": "services/chroma_db",
+    "copied_at_utc": "2026-11-12T17:23:39.270+00:00",
+    "copy_path": "<HOME>\\AppData\\Local\\Temp\\chroma_E2-A3_4b7f4v_y\\chroma_db",
+    "source_sha256": {
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/data_level0.bin": "9a04f76f4997901ab061bc48d621e9cf3044a1a90180878d09482192a1c3366f",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/header.bin": "397183ff93fe1d8f4a9ea91f6fd2615782c5cd7ca30e5275d1a5f899abb10a17",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/index_metadata.pickle": "3487e78d48f423e5444892612440b5e8998e73a9f314c9d099b69985eb509a63",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/length.bin": "fd7ca52bc90eefbe7a82498b18f6668824b7e3380b096d656c53e57a3d0d515f",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/link_lists.bin": "affa510add7d2d97492f814a35f8a10054564ab48f9663661e2f1da92895dcd6",
+      "chroma.sqlite3": "b3fed16a5f4b65a26b867e98a27cceb60712a7951afe80643588d7cae1a4809b"
+    },
+    "source_combined_sha256": "95165c227ef7567f9bc99b0d132b0de45a0828c82565b3ce9cf72e5bd8ebaae1",
+    "cleanup": {
+      "deleted": true,
+      "warning": null
+    }
+  },
+  "prices": {
+    "input_uncached_per_1M": 0.3,
+    "input_cached_per_1M": 0.03,
+    "output_incl_thinking_per_1M": 2.5
+  }
+}

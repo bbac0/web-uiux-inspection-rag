@@ -1,0 +1,445 @@
+issue_id,run_id,page_id,template_id,issue_index,page_token,stratum,in_sheet_B,nominal_types,effective_types_1280
+I00a60444d3,E1-R1,page_123,login_page,0,Pd46406de8e,Duplicate ID Markup Error,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I010a049fdb,E1-R1,page_014,detail_page,2,P427b6033fe,Duplicate ID Markup Error,0,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I01d6a3ae91,E1-R1,page_162,board_list,3,P0f0a58eb0a,Mobile Layout Breakage,0,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I01dbf8cd70,E1-R1,page_153,login_page,4,P829e7d5bf0,Mobile Layout Breakage,1,Mobile Layout Breakage,Mobile Layout Breakage
+I0386c6f30f,E1-R1,page_019,terms_page,0,Pc1f9978c93,Mobile Layout Breakage,0,Mobile Layout Breakage;Poor Contrast Ratio,Mobile Layout Breakage;Poor Contrast Ratio
+I04231d754c,E1-R1,page_160,contact_page,0,Pb978c50b95,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I043baeae4d,E1-R1,page_105,dashboard,1,P263b67f51b,Poor Contrast Ratio,0,Poor Contrast Ratio,Poor Contrast Ratio
+I04a3497d96,E1-R1,page_130,contact_page,1,P70c340aa2b,Button Area Clipping,1,Button Area Clipping,
+I05bd121218,E1-R1,page_011,portal_main,0,P9c23029a1d,Button Area Clipping,1,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+I06c3601733,E1-R1,page_032,board_list,2,P9b5855c87b,control,0,,
+I06cb0e389f,E1-R1,page_127,faq_page,2,P72908a28f1,control,0,,
+I06dda3d05d,E1-R1,page_038,form_page,1,Pecf886041e,terminology,1,Standard Terminology Violation,
+I06e3eca365,E1-R1,page_189,terms_page,0,P2b4f5e47f8,control,0,,
+I08016c7587,E1-R1,page_034,detail_page,1,Pad4dc90c2b,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I0917195a6a,E1-R1,page_199,terms_page,1,P3f6f375fd6,control,1,,
+I0920fd2dea,E1-R1,page_130,contact_page,0,P70c340aa2b,Button Area Clipping,1,Button Area Clipping,
+I0affae551d,E1-R1,page_110,contact_page,0,P37183fb176,control,1,,
+I0b8739ffbc,E1-R1,page_046,search_result,4,P6d8971624e,Mobile Layout Breakage,0,Mobile Layout Breakage;Poor Contrast Ratio,Mobile Layout Breakage;Poor Contrast Ratio
+I0c435296bd,E1-R1,page_189,terms_page,2,P2b4f5e47f8,control,0,,
+I0cb93d3f92,E1-R1,page_096,search_result,1,Pa901d1883f,Mobile Layout Breakage,1,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I0ce6cb6c90,E1-R1,page_080,contact_page,0,P339decfb0c,Mobile Layout Breakage,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I0dc33b2f85,E1-R1,page_021,portal_main,1,P1553f746ad,Mobile Layout Breakage,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I0e38c4ce5c,E1-R1,page_113,login_page,1,P546b41c1ee,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I0ec75463dc,E1-R1,page_019,terms_page,2,Pc1f9978c93,Mobile Layout Breakage,0,Mobile Layout Breakage;Poor Contrast Ratio,Mobile Layout Breakage;Poor Contrast Ratio
+I0ef4d97adb,E1-R1,page_086,search_result,1,P4a2da1482c,control,0,,
+I0f50569560,E1-R1,page_048,form_page,0,P7e61378fa5,Duplicate ID Markup Error,1,Duplicate ID Markup Error,Duplicate ID Markup Error
+I0f8f7a3426,E1-R1,page_024,detail_page,0,Pb0191f249c,control,1,,
+I1130a08902,E1-R1,page_171,portal_main,0,P377d4a2f68,terminology,0,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error;Standard Terminology Violation
+I11ca2ca51a,E1-R1,page_062,board_list,4,P1fe5249535,terminology,0,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I11d5a1ca37,E1-R1,page_160,contact_page,1,Pb978c50b95,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I12bfc6dd51,E1-R1,page_018,form_page,0,P963e2aa9c5,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage,Button Area Clipping;Mobile Layout Breakage
+I12d3f01efd,E1-R1,page_104,detail_page,1,P22fe870734,terminology,1,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error;Standard Terminology Violation
+I13304b4169,E1-R1,page_193,login_page,2,P104a89af67,terminology,0,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I15044e44c6,E1-R1,page_058,form_page,0,Pda2d39fd45,control,1,,
+I15aa471f2b,E1-R1,page_052,board_list,2,P5bce2de34a,terminology,1,Button Area Clipping;Standard Terminology Violation,Standard Terminology Violation
+I16c44c09d2,E1-R1,page_018,form_page,1,P963e2aa9c5,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage,Button Area Clipping;Mobile Layout Breakage
+I16ffbfc9c2,E1-R1,page_013,login_page,2,Ped251451a1,Poor Contrast Ratio,1,Button Area Clipping;Poor Contrast Ratio,Button Area Clipping;Poor Contrast Ratio
+I17334ab6c0,E1-R1,page_112,board_list,0,P6f160e38ba,control,0,,
+I1aa0822eb8,E1-R1,page_112,board_list,4,P6f160e38ba,control,0,,
+I1aa6696d0c,E1-R1,page_098,form_page,5,Pe30cd42aa4,Duplicate ID Markup Error,0,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+I1b123be8d9,E1-R1,page_141,portal_main,3,Pf50bd52b2c,Mobile Layout Breakage,0,Mobile Layout Breakage,Mobile Layout Breakage
+I1b18cc5a47,E1-R1,page_159,terms_page,2,P05149e15a4,terminology,1,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error;Standard Terminology Violation
+I1b5e57b605,E1-R1,page_165,dashboard,3,P2050182c80,control,1,,
+I1b62fabf41,E1-R1,page_024,detail_page,2,Pb0191f249c,control,1,,
+I1b88558f99,E1-R1,page_067,faq_page,0,Pfdd296165c,control,0,,
+I1bc0d7f6fa,E1-R1,page_195,dashboard,0,Pf8351a61bd,Poor Contrast Ratio,0,Poor Contrast Ratio,Poor Contrast Ratio
+I1d29afdf43,E1-R1,page_006,search_result,1,P7e23b257fe,control,0,,
+I1df60e13c4,E1-R1,page_090,contact_page,1,Paec951ebb8,control,1,,
+I1edf209360,E1-R1,page_046,search_result,0,P6d8971624e,Mobile Layout Breakage,0,Mobile Layout Breakage;Poor Contrast Ratio,Mobile Layout Breakage;Poor Contrast Ratio
+I1ee35c7816,E1-R1,page_062,board_list,0,P1fe5249535,terminology,0,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I1f254e0125,E1-R1,page_140,contact_page,1,Pc6f1ebce8b,terminology,0,Button Area Clipping;Standard Terminology Violation,Standard Terminology Violation
+I1f63cf8e8a,E1-R1,page_194,detail_page,2,P3443f18631,control,1,,
+I20e07a7906,E1-R1,page_069,terms_page,2,P196d4f9280,control,0,,
+I212dde089a,E1-R1,page_175,dashboard,0,P4c1b807fea,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I216faf793e,E1-R1,page_126,search_result,1,P35e92077d0,control,1,,
+I21b9fc366b,E1-R1,page_070,contact_page,2,Pab2bb11eb5,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I22a8341b8a,E1-R1,page_040,contact_page,0,P3d5c49b489,Duplicate ID Markup Error,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I2319333b74,E1-R1,page_193,login_page,1,P104a89af67,terminology,0,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I233aedaf36,E1-R1,page_108,form_page,0,Pe0ef0ba638,control,0,,
+I23f3acc67d,E1-R1,page_117,faq_page,0,P4fe3ff59ab,Duplicate ID Markup Error,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I24c45aa9e2,E1-R1,page_157,faq_page,3,Peee0a7198b,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I24e1d964d7,E1-R1,page_033,login_page,3,Pe58ebeba09,control,1,,
+I25a7658296,E1-R1,page_162,board_list,2,P0f0a58eb0a,Mobile Layout Breakage,0,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I2606c4d51c,E1-R1,page_069,terms_page,1,P196d4f9280,control,0,,
+I26481ec09b,E1-R1,page_141,portal_main,1,Pf50bd52b2c,Mobile Layout Breakage,0,Mobile Layout Breakage,Mobile Layout Breakage
+I266b01ccff,E1-R1,page_092,board_list,4,Pb82cfc0adf,Mobile Layout Breakage,0,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I267725dc45,E1-R1,page_112,board_list,3,P6f160e38ba,control,0,,
+I26e88836e7,E1-R1,page_067,faq_page,2,Pfdd296165c,control,0,,
+I2792eba4d8,E1-R1,page_119,terms_page,1,P79454afb1d,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I27d9b88ed1,E1-R1,page_168,form_page,2,Pa491db9cd4,terminology,0,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio
+I2826e59dce,E1-R1,page_110,contact_page,1,P37183fb176,control,1,,
+I29553b09a3,E1-R1,page_105,dashboard,3,P263b67f51b,Poor Contrast Ratio,0,Poor Contrast Ratio,Poor Contrast Ratio
+I2970fd872f,E1-R1,page_074,detail_page,1,P8cd02a1ddf,Poor Contrast Ratio,0,Poor Contrast Ratio,Poor Contrast Ratio
+I299c60c015,E1-R1,page_037,faq_page,1,P40e4c5dd2c,Poor Contrast Ratio,1,Button Area Clipping;Poor Contrast Ratio,Poor Contrast Ratio
+I29f3b8844e,E1-R1,page_129,terms_page,3,P338cb39a5a,Button Area Clipping,0,Button Area Clipping;Duplicate ID Markup Error,Duplicate ID Markup Error
+I2a3a6a9f87,E1-R1,page_072,board_list,0,P3ed0eee5ce,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I2b4ecf7f11,E1-R1,page_037,faq_page,0,P40e4c5dd2c,Poor Contrast Ratio,1,Button Area Clipping;Poor Contrast Ratio,Poor Contrast Ratio
+I2bb22f362e,E1-R1,page_159,terms_page,3,P05149e15a4,terminology,1,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error;Standard Terminology Violation
+I2bfc444a46,E1-R1,page_102,board_list,0,Pae74983ce8,control,0,,
+I2cc2bea5f3,E1-R1,page_179,terms_page,0,P98793898ad,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I2d131ae495,E1-R1,page_049,terms_page,1,P2603589663,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I2ec4dcb856,E1-R1,page_144,detail_page,2,P51dd9d5135,Duplicate ID Markup Error,0,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+I303c377c90,E1-R1,page_061,portal_main,4,P34ff35704e,control,0,,
+I306197520f,E1-R1,page_181,portal_main,0,P7e38037d64,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I30a019f4eb,E1-R1,page_017,faq_page,0,Pa79226fcb2,terminology,0,Button Area Clipping;Standard Terminology Violation,Standard Terminology Violation
+I3146e4b78f,E1-R1,page_080,contact_page,2,P339decfb0c,Mobile Layout Breakage,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I314b65172d,E1-R1,page_078,form_page,1,Pb8552574da,control,1,,
+I321710158a,E1-R1,page_092,board_list,3,Pb82cfc0adf,Mobile Layout Breakage,0,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I3294b4b8ea,E1-R1,page_078,form_page,2,Pb8552574da,control,1,,
+I3336725547,E1-R1,page_176,search_result,1,P43ae661a94,Poor Contrast Ratio,1,Poor Contrast Ratio,Poor Contrast Ratio
+I333828f369,E1-R1,page_165,dashboard,4,P2050182c80,control,1,,
+I3463cd4317,E1-R1,page_033,login_page,0,Pe58ebeba09,control,1,,
+I347fb1b31f,E1-R1,page_060,contact_page,0,P0623bc01be,Duplicate ID Markup Error,0,Duplicate ID Markup Error,Duplicate ID Markup Error
+I34b7be2bd4,E1-R1,page_189,terms_page,1,P2b4f5e47f8,control,0,,
+I355f8d7d07,E1-R1,page_096,search_result,3,Pa901d1883f,Mobile Layout Breakage,1,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I36a172ba8d,E1-R1,page_157,faq_page,1,Peee0a7198b,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I36e0b9bc0d,E1-R1,page_094,detail_page,1,Pd0ff92ada0,Poor Contrast Ratio,0,Poor Contrast Ratio,Poor Contrast Ratio
+I379065e5b4,E1-R1,page_039,terms_page,1,P53921184cb,control,0,,
+I38faad24d5,E1-R1,page_032,board_list,0,P9b5855c87b,control,0,,
+I399486e7e2,E1-R1,page_087,faq_page,2,P4877dfabe7,control,1,,
+I39b154d449,E1-R1,page_011,portal_main,3,P9c23029a1d,Button Area Clipping,1,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+I3a0b911b49,E1-R1,page_198,form_page,0,Pdf5931cdc9,Button Area Clipping,0,Button Area Clipping;Poor Contrast Ratio,Button Area Clipping;Poor Contrast Ratio
+I3a1d3a9493,E1-R1,page_134,detail_page,0,P48c29fcc80,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I3a3f5e1615,E1-R1,page_130,contact_page,2,P70c340aa2b,Button Area Clipping,1,Button Area Clipping,
+I3aed7f3794,E1-R1,page_151,portal_main,0,Pc4d06cceec,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I3b13050cbf,E1-R1,page_012,board_list,0,Pad1289494e,Poor Contrast Ratio,1,Duplicate ID Markup Error;Poor Contrast Ratio,Duplicate ID Markup Error;Poor Contrast Ratio
+I3b4b85f4f7,E1-R1,page_026,search_result,4,Pc4a4c63a4e,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I3b8bcb3713,E1-R1,page_072,board_list,1,P3ed0eee5ce,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I3bc1923cb5,E1-R1,page_026,search_result,1,Pc4a4c63a4e,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I3cc65aac65,E1-R1,page_018,form_page,2,P963e2aa9c5,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage,Button Area Clipping;Mobile Layout Breakage
+I3cccbc6e4b,E1-R1,page_162,board_list,1,P0f0a58eb0a,Mobile Layout Breakage,0,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I3fa9e467eb,E1-R1,page_170,contact_page,1,Pd2810dc6ad,terminology,1,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio;Standard Terminology Violation
+I400850bd44,E1-R1,page_121,portal_main,3,Pf0e1467987,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I40ef0d2ddf,E1-R1,page_071,portal_main,2,Pb649262010,control,0,,
+I41dcae527b,E1-R1,page_141,portal_main,0,Pf50bd52b2c,Mobile Layout Breakage,0,Mobile Layout Breakage,Mobile Layout Breakage
+I429c24776c,E1-R1,page_063,login_page,0,Pee9f2a9524,Poor Contrast Ratio,1,Poor Contrast Ratio,Poor Contrast Ratio
+I429db61563,E1-R1,page_178,form_page,0,P2d89e048e0,control,1,,
+I43bab6e6ba,E1-R1,page_077,faq_page,0,Pb2e70593bf,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I459f42257b,E1-R1,page_123,login_page,2,Pd46406de8e,Duplicate ID Markup Error,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I45b34f8cc1,E1-R1,page_012,board_list,3,Pad1289494e,Poor Contrast Ratio,1,Duplicate ID Markup Error;Poor Contrast Ratio,Duplicate ID Markup Error;Poor Contrast Ratio
+I466080e2fb,E1-R1,page_182,board_list,1,P8d044cc6c7,control,0,,
+I466a3dc21b,E1-R1,page_192,board_list,3,Pbd1d18da63,control,1,,
+I473a1bc0ca,E1-R1,page_176,search_result,0,P43ae661a94,Poor Contrast Ratio,1,Poor Contrast Ratio,Poor Contrast Ratio
+I47c1136400,E1-R1,page_178,form_page,1,P2d89e048e0,control,1,,
+I480a54693b,E1-R1,page_192,board_list,1,Pbd1d18da63,control,1,,
+I48129abe87,E1-R1,page_121,portal_main,2,Pf0e1467987,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I48232c65b1,E1-R1,page_026,search_result,3,Pc4a4c63a4e,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I48b6611e5e,E1-R1,page_071,portal_main,3,Pb649262010,control,0,,
+I49358dd742,E1-R1,page_071,portal_main,4,Pb649262010,control,0,,
+I49c7dc9d55,E1-R1,page_165,dashboard,2,P2050182c80,control,1,,
+I4b0724da18,E1-R1,page_023,login_page,1,Pfe562d1f4b,terminology,1,Button Area Clipping;Standard Terminology Violation,Button Area Clipping;Standard Terminology Violation
+I4b8aeb2620,E1-R1,page_032,board_list,3,P9b5855c87b,control,0,,
+I4c2b901edc,E1-R1,page_152,board_list,0,Pd2a301ef34,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I4c9cd390d1,E1-R1,page_112,board_list,1,P6f160e38ba,control,0,,
+I4d74954328,E1-R1,page_121,portal_main,4,Pf0e1467987,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I4d9b486b3c,E1-R1,page_092,board_list,0,Pb82cfc0adf,Mobile Layout Breakage,0,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I4db45bad3c,E1-R1,page_077,faq_page,1,Pb2e70593bf,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I4f6a99b260,E1-R1,page_150,contact_page,2,P27e7af4247,control,0,,
+I4f96d174e2,E1-R1,page_050,contact_page,2,Pe72974a465,Button Area Clipping,0,Button Area Clipping,
+I4fc276a3a4,E1-R1,page_175,dashboard,2,P4c1b807fea,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I5091d5fb92,E1-R1,page_064,detail_page,0,P9325017603,control,0,,
+I50b13fba05,E1-R1,page_021,portal_main,3,P1553f746ad,Mobile Layout Breakage,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I524832a66a,E1-R1,page_078,form_page,0,Pb8552574da,control,1,,
+I533d8db07a,E1-R1,page_111,portal_main,0,Pf0867a6e51,Duplicate ID Markup Error,0,Duplicate ID Markup Error,Duplicate ID Markup Error
+I535b63d291,E1-R1,page_024,detail_page,1,Pb0191f249c,control,1,,
+I539cc1acb8,E1-R1,page_110,contact_page,2,P37183fb176,control,1,,
+I54017a4bd0,E1-R1,page_173,login_page,1,P7afb18e7ce,terminology,1,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio;Standard Terminology Violation
+I5474481c0d,E1-R1,page_081,portal_main,1,P57a717736c,Duplicate ID Markup Error,0,Duplicate ID Markup Error,Duplicate ID Markup Error
+I55200586e1,E1-R1,page_077,faq_page,2,Pb2e70593bf,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I55606293c2,E1-R1,page_148,form_page,0,P5c69cb6941,Mobile Layout Breakage,1,Mobile Layout Breakage,Mobile Layout Breakage
+I5619f30d39,E1-R1,page_182,board_list,0,P8d044cc6c7,control,0,,
+I568a3cd4cb,E1-R1,page_028,form_page,1,P7b493e9f80,terminology,0,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error
+I575cd93a5f,E1-R1,page_076,search_result,1,Pa73a0c30cd,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I577620f536,E1-R1,page_011,portal_main,2,P9c23029a1d,Button Area Clipping,1,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+I583035bdf7,E1-R1,page_158,form_page,1,P5887d0ae51,control,0,,
+I58ce2e0f96,E1-R1,page_154,detail_page,2,P1ae22869c3,Poor Contrast Ratio,0,Poor Contrast Ratio,Poor Contrast Ratio
+I5958d0f276,E1-R1,page_159,terms_page,1,P05149e15a4,terminology,1,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error;Standard Terminology Violation
+I595d666d9b,E1-R1,page_039,terms_page,2,P53921184cb,control,0,,
+I596104e8fc,E1-R1,page_080,contact_page,4,P339decfb0c,Mobile Layout Breakage,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I596aacc05b,E1-R1,page_200,contact_page,1,Pbf244c3449,terminology,0,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio;Standard Terminology Violation
+I596dc306f4,E1-R1,page_090,contact_page,0,Paec951ebb8,control,1,,
+I5a804c43f0,E1-R1,page_008,form_page,3,P58b36fc91d,Mobile Layout Breakage,0,Mobile Layout Breakage,Mobile Layout Breakage
+I5abfc57a3e,E1-R1,page_109,terms_page,2,Pdafae954be,Poor Contrast Ratio,0,Duplicate ID Markup Error;Poor Contrast Ratio,Duplicate ID Markup Error;Poor Contrast Ratio
+I5bd2245e5b,E1-R1,page_129,terms_page,0,P338cb39a5a,Button Area Clipping,0,Button Area Clipping;Duplicate ID Markup Error,Duplicate ID Markup Error
+I5c33c3ecbd,E1-R1,page_148,form_page,2,P5c69cb6941,Mobile Layout Breakage,1,Mobile Layout Breakage,Mobile Layout Breakage
+I5e4270764c,E1-R1,page_198,form_page,1,Pdf5931cdc9,Button Area Clipping,0,Button Area Clipping;Poor Contrast Ratio,Button Area Clipping;Poor Contrast Ratio
+I5e74b2f8e3,E1-R1,page_127,faq_page,0,P72908a28f1,control,0,,
+I5e76874376,E1-R1,page_177,faq_page,0,Pb894e39b45,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I5f0ab40c04,E1-R1,page_153,login_page,0,P829e7d5bf0,Mobile Layout Breakage,1,Mobile Layout Breakage,Mobile Layout Breakage
+I60554707b0,E1-R1,page_104,detail_page,0,P22fe870734,terminology,1,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error;Standard Terminology Violation
+I61575bd90c,E1-R1,page_078,form_page,3,Pb8552574da,control,1,,
+I631d780525,E1-R1,page_057,faq_page,0,Pd9224d302c,control,0,,
+I633fa534e0,E1-R1,page_131,portal_main,1,P01d7fb8da5,control,1,,
+I6458eaf222,E1-R1,page_120,contact_page,1,Pf47b86ddf1,control,0,,
+I64a1cd04af,E1-R1,page_175,dashboard,1,P4c1b807fea,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I659719567d,E1-R1,page_131,portal_main,0,P01d7fb8da5,control,1,,
+I667d748876,E1-R1,page_069,terms_page,0,P196d4f9280,control,0,,
+I675ea9c7df,E1-R1,page_025,dashboard,1,Pcef2b522f9,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I6761e2e221,E1-R1,page_133,login_page,1,Pacc1184e73,terminology,0,Button Area Clipping;Standard Terminology Violation,Button Area Clipping;Standard Terminology Violation
+I678a91ef3e,E1-R1,page_173,login_page,2,P7afb18e7ce,terminology,1,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio;Standard Terminology Violation
+I679652cf58,E1-R1,page_012,board_list,2,Pad1289494e,Poor Contrast Ratio,1,Duplicate ID Markup Error;Poor Contrast Ratio,Duplicate ID Markup Error;Poor Contrast Ratio
+I67d270a210,E1-R1,page_033,login_page,2,Pe58ebeba09,control,1,,
+I680c3760be,E1-R1,page_107,faq_page,1,P8097ba7c96,Button Area Clipping,0,Button Area Clipping,
+I6817d0e574,E1-R1,page_159,terms_page,0,P05149e15a4,terminology,1,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error;Standard Terminology Violation
+I686babd36f,E1-R1,page_050,contact_page,1,Pe72974a465,Button Area Clipping,0,Button Area Clipping,
+I68bb51ee65,E1-R1,page_092,board_list,2,Pb82cfc0adf,Mobile Layout Breakage,0,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I69c2868cde,E1-R1,page_064,detail_page,1,P9325017603,control,0,,
+I69f5acf795,E1-R1,page_149,terms_page,0,P131aabaf92,control,0,,
+I6a1668d308,E1-R1,page_113,login_page,2,P546b41c1ee,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I6ab98a13df,E1-R1,page_114,detail_page,0,P8395edd5c6,control,1,,
+I6b1b57f06e,E1-R1,page_157,faq_page,0,Peee0a7198b,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I6b543ed0cd,E1-R1,page_007,faq_page,0,Pa374b07559,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I6babbf89d6,E1-R1,page_144,detail_page,0,P51dd9d5135,Duplicate ID Markup Error,0,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+I6cf5f33ac6,E1-R1,page_071,portal_main,1,Pb649262010,control,0,,
+I6d290cc467,E1-R1,page_156,search_result,1,P766819a5c8,Poor Contrast Ratio,1,Mobile Layout Breakage;Poor Contrast Ratio,Mobile Layout Breakage;Poor Contrast Ratio
+I6e62f70f04,E1-R1,page_150,contact_page,1,P27e7af4247,control,0,,
+I6ec093a2c5,E1-R1,page_178,form_page,2,P2d89e048e0,control,1,,
+I6fbde40234,E1-R1,page_083,login_page,2,Pb821a16d62,control,1,,
+I7027bbe520,E1-R1,page_174,detail_page,2,P99b5b1350a,terminology,0,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I708954520c,E1-R1,page_098,form_page,4,Pe30cd42aa4,Duplicate ID Markup Error,0,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+I70a75af749,E1-R1,page_035,dashboard,1,P17b5d54312,Button Area Clipping,0,Button Area Clipping;Duplicate ID Markup Error,Duplicate ID Markup Error
+I70c89e9ba3,E1-R1,page_132,board_list,2,P8b20dfee8f,Duplicate ID Markup Error,0,Duplicate ID Markup Error;Poor Contrast Ratio,Duplicate ID Markup Error;Poor Contrast Ratio
+I71475465b2,E1-R1,page_193,login_page,0,P104a89af67,terminology,0,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I728a5efef0,E1-R1,page_157,faq_page,2,Peee0a7198b,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I7366ec52af,E1-R1,page_169,terms_page,1,Pbafd180455,terminology,1,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio;Standard Terminology Violation
+I73dad0d9b1,E1-R1,page_174,detail_page,1,P99b5b1350a,terminology,0,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I740bcfa7f8,E1-R1,page_145,dashboard,0,Pef614414d9,terminology,0,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I7476fd13ce,E1-R1,page_052,board_list,1,P5bce2de34a,terminology,1,Button Area Clipping;Standard Terminology Violation,Standard Terminology Violation
+I75a552b51f,E1-R1,page_107,faq_page,0,P8097ba7c96,Button Area Clipping,0,Button Area Clipping,
+I762a596917,E1-R1,page_132,board_list,0,P8b20dfee8f,Duplicate ID Markup Error,0,Duplicate ID Markup Error;Poor Contrast Ratio,Duplicate ID Markup Error;Poor Contrast Ratio
+I76b83632d8,E1-R1,page_021,portal_main,4,P1553f746ad,Mobile Layout Breakage,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I77957c7f6e,E1-R1,page_199,terms_page,2,P3f6f375fd6,control,1,,
+I79c2580a51,E1-R1,page_136,search_result,0,P94f6e47f23,control,1,,
+I7a183e8520,E1-R1,page_165,dashboard,0,P2050182c80,control,1,,
+I7ae65f542b,E1-R1,page_034,detail_page,0,Pad4dc90c2b,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I7c23062399,E1-R1,page_127,faq_page,1,P72908a28f1,control,0,,
+I7d40ee9099,E1-R1,page_145,dashboard,2,Pef614414d9,terminology,0,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I7dacf435b2,E1-R1,page_165,dashboard,1,P2050182c80,control,1,,
+I7dbaea003c,E1-R1,page_028,form_page,0,P7b493e9f80,terminology,0,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error
+I7ea3042a2c,E1-R1,page_026,search_result,0,Pc4a4c63a4e,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I7ea886cdd6,E1-R1,page_167,faq_page,0,P7deedb6e47,control,0,,
+I7f40e67d71,E1-R1,page_123,login_page,1,Pd46406de8e,Duplicate ID Markup Error,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I7ff537b05f,E1-R1,page_109,terms_page,3,Pdafae954be,Poor Contrast Ratio,0,Duplicate ID Markup Error;Poor Contrast Ratio,Duplicate ID Markup Error;Poor Contrast Ratio
+I7ffc19749b,E1-R1,page_136,search_result,1,P94f6e47f23,control,1,,
+I813d7fe6f7,E1-R1,page_014,detail_page,1,P427b6033fe,Duplicate ID Markup Error,0,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I81531d62cc,E1-R1,page_109,terms_page,1,Pdafae954be,Poor Contrast Ratio,0,Duplicate ID Markup Error;Poor Contrast Ratio,Duplicate ID Markup Error;Poor Contrast Ratio
+I81558bf733,E1-R1,page_152,board_list,1,Pd2a301ef34,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I8281be9bb7,E1-R1,page_154,detail_page,0,P1ae22869c3,Poor Contrast Ratio,0,Poor Contrast Ratio,Poor Contrast Ratio
+I82f02fb501,E1-R1,page_134,detail_page,1,P48c29fcc80,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I8329a491f9,E1-R1,page_070,contact_page,1,Pab2bb11eb5,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I833342c528,E1-R1,page_120,contact_page,0,Pf47b86ddf1,control,0,,
+I83ebd5c597,E1-R1,page_071,portal_main,0,Pb649262010,control,0,,
+I83f691a7e5,E1-R1,page_048,form_page,3,P7e61378fa5,Duplicate ID Markup Error,1,Duplicate ID Markup Error,Duplicate ID Markup Error
+I85acd97b79,E1-R1,page_061,portal_main,5,P34ff35704e,control,0,,
+I85ffef3b09,E1-R1,page_062,board_list,3,P1fe5249535,terminology,0,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I85fff48134,E1-R1,page_182,board_list,4,P8d044cc6c7,control,0,,
+I868d9c9c49,E1-R1,page_113,login_page,0,P546b41c1ee,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I871cf7eb61,E1-R1,page_102,board_list,1,Pae74983ce8,control,0,,
+I875ad68969,E1-R1,page_132,board_list,1,P8b20dfee8f,Duplicate ID Markup Error,0,Duplicate ID Markup Error;Poor Contrast Ratio,Duplicate ID Markup Error;Poor Contrast Ratio
+I876e76e83b,E1-R1,page_017,faq_page,1,Pa79226fcb2,terminology,0,Button Area Clipping;Standard Terminology Violation,Standard Terminology Violation
+I87bf3ed822,E1-R1,page_067,faq_page,1,Pfdd296165c,control,0,,
+I87f42aafc4,E1-R1,page_032,board_list,1,P9b5855c87b,control,0,,
+I880a3032fb,E1-R1,page_086,search_result,2,P4a2da1482c,control,0,,
+I8818124a0a,E1-R1,page_119,terms_page,0,P79454afb1d,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I8880dc9c2a,E1-R1,page_086,search_result,0,P4a2da1482c,control,0,,
+I88bc9769e4,E1-R1,page_192,board_list,4,Pbd1d18da63,control,1,,
+I88c799d173,E1-R1,page_111,portal_main,3,Pf0867a6e51,Duplicate ID Markup Error,0,Duplicate ID Markup Error,Duplicate ID Markup Error
+I891e18c92d,E1-R1,page_098,form_page,1,Pe30cd42aa4,Duplicate ID Markup Error,0,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+I89cb95edb9,E1-R1,page_046,search_result,3,P6d8971624e,Mobile Layout Breakage,0,Mobile Layout Breakage;Poor Contrast Ratio,Mobile Layout Breakage;Poor Contrast Ratio
+I8a34c00614,E1-R1,page_046,search_result,2,P6d8971624e,Mobile Layout Breakage,0,Mobile Layout Breakage;Poor Contrast Ratio,Mobile Layout Breakage;Poor Contrast Ratio
+I8aa457bccb,E1-R1,page_057,faq_page,1,Pd9224d302c,control,0,,
+I8b8b8c1ab1,E1-R1,page_172,board_list,1,P8ececa7388,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I8c18883255,E1-R1,page_081,portal_main,0,P57a717736c,Duplicate ID Markup Error,0,Duplicate ID Markup Error,Duplicate ID Markup Error
+I8c8ed2dd5e,E1-R1,page_103,login_page,0,Pa3f4f0d56b,Button Area Clipping,0,Button Area Clipping,Button Area Clipping
+I8daa7c622e,E1-R1,page_038,form_page,2,Pecf886041e,terminology,1,Standard Terminology Violation,
+I8e05a6ae7d,E1-R1,page_061,portal_main,3,P34ff35704e,control,0,,
+I8e2474dfda,E1-R1,page_114,detail_page,1,P8395edd5c6,control,1,,
+I8f6de695a1,E1-R1,page_080,contact_page,3,P339decfb0c,Mobile Layout Breakage,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I8f795b2907,E1-R1,page_077,faq_page,3,Pb2e70593bf,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I8fdbf0e2ae,E1-R1,page_035,dashboard,2,P17b5d54312,Button Area Clipping,0,Button Area Clipping;Duplicate ID Markup Error,Duplicate ID Markup Error
+I903d7cef81,E1-R1,page_013,login_page,3,Ped251451a1,Poor Contrast Ratio,1,Button Area Clipping;Poor Contrast Ratio,Button Area Clipping;Poor Contrast Ratio
+I90bd28f35b,E1-R1,page_060,contact_page,2,P0623bc01be,Duplicate ID Markup Error,0,Duplicate ID Markup Error,Duplicate ID Markup Error
+I90fe2081d4,E1-R1,page_129,terms_page,2,P338cb39a5a,Button Area Clipping,0,Button Area Clipping;Duplicate ID Markup Error,Duplicate ID Markup Error
+I919ab9d093,E1-R1,page_121,portal_main,1,Pf0e1467987,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I91cb671750,E1-R1,page_023,login_page,0,Pfe562d1f4b,terminology,1,Button Area Clipping;Standard Terminology Violation,Button Area Clipping;Standard Terminology Violation
+I9234995abd,E1-R1,page_122,board_list,0,Pa7d4045d89,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+I92505131d6,E1-R1,page_190,contact_page,2,Pef5cee1a1b,Mobile Layout Breakage,1,Mobile Layout Breakage,Mobile Layout Breakage
+I9270e71f09,E1-R1,page_025,dashboard,0,Pcef2b522f9,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+I9318fa8984,E1-R1,page_170,contact_page,0,Pd2810dc6ad,terminology,1,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio;Standard Terminology Violation
+I93db00f08b,E1-R1,page_061,portal_main,1,P34ff35704e,control,0,,
+I943080e81c,E1-R1,page_061,portal_main,2,P34ff35704e,control,0,,
+I9452e505e4,E1-R1,page_170,contact_page,2,Pd2810dc6ad,terminology,1,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio;Standard Terminology Violation
+I96067ad98c,E1-R1,page_013,login_page,4,Ped251451a1,Poor Contrast Ratio,1,Button Area Clipping;Poor Contrast Ratio,Button Area Clipping;Poor Contrast Ratio
+I9662cbc377,E1-R1,page_026,search_result,2,Pc4a4c63a4e,Button Area Clipping,1,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I966fffde82,E1-R1,page_108,form_page,3,Pe0ef0ba638,control,0,,
+I98268459fa,E1-R1,page_052,board_list,0,P5bce2de34a,terminology,1,Button Area Clipping;Standard Terminology Violation,Standard Terminology Violation
+I98324799cb,E1-R1,page_136,search_result,2,P94f6e47f23,control,1,,
+I98d39b664f,E1-R1,page_189,terms_page,3,P2b4f5e47f8,control,0,,
+I98eabd98c0,E1-R1,page_114,detail_page,2,P8395edd5c6,control,1,,
+I99682a3c4c,E1-R1,page_148,form_page,1,P5c69cb6941,Mobile Layout Breakage,1,Mobile Layout Breakage,Mobile Layout Breakage
+I9968788fa7,E1-R1,page_131,portal_main,2,P01d7fb8da5,control,1,,
+I9b3800b929,E1-R1,page_083,login_page,1,Pb821a16d62,control,1,,
+I9ba5e7bdbd,E1-R1,page_096,search_result,0,Pa901d1883f,Mobile Layout Breakage,1,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+I9ba705e715,E1-R1,page_180,contact_page,0,Peccefdfb66,terminology,0,Button Area Clipping;Standard Terminology Violation,Standard Terminology Violation
+I9bb2cd2908,E1-R1,page_014,detail_page,0,P427b6033fe,Duplicate ID Markup Error,0,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+I9bf215d87e,E1-R1,page_061,portal_main,0,P34ff35704e,control,0,,
+I9c40391fde,E1-R1,page_108,form_page,1,Pe0ef0ba638,control,0,,
+I9ca4b46c4c,E1-R1,page_105,dashboard,2,P263b67f51b,Poor Contrast Ratio,0,Poor Contrast Ratio,Poor Contrast Ratio
+I9d46c237fb,E1-R1,page_070,contact_page,0,Pab2bb11eb5,terminology,1,Standard Terminology Violation,Standard Terminology Violation
+I9d68062f17,E1-R1,page_050,contact_page,0,Pe72974a465,Button Area Clipping,0,Button Area Clipping,
+I9e0a67e82d,E1-R1,page_008,form_page,2,P58b36fc91d,Mobile Layout Breakage,0,Mobile Layout Breakage,Mobile Layout Breakage
+I9e787184d5,E1-R1,page_169,terms_page,2,Pbafd180455,terminology,1,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio;Standard Terminology Violation
+I9ef96bfff6,E1-R1,page_133,login_page,0,Pacc1184e73,terminology,0,Button Area Clipping;Standard Terminology Violation,Button Area Clipping;Standard Terminology Violation
+Ia05662371f,E1-R1,page_176,search_result,2,P43ae661a94,Poor Contrast Ratio,1,Poor Contrast Ratio,Poor Contrast Ratio
+Ia0699eda90,E1-R1,page_033,login_page,1,Pe58ebeba09,control,1,,
+Ia07ca570c0,E1-R1,page_162,board_list,4,P0f0a58eb0a,Mobile Layout Breakage,0,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+Ia0f551e8d8,E1-R1,page_107,faq_page,2,P8097ba7c96,Button Area Clipping,0,Button Area Clipping,
+Ia1fc3f9582,E1-R1,page_103,login_page,2,Pa3f4f0d56b,Button Area Clipping,0,Button Area Clipping,Button Area Clipping
+Ia20eba87f2,E1-R1,page_190,contact_page,0,Pef5cee1a1b,Mobile Layout Breakage,1,Mobile Layout Breakage,Mobile Layout Breakage
+Ia324661e8b,E1-R1,page_065,dashboard,0,P83212a77ef,terminology,0,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error;Standard Terminology Violation
+Ia3831e1c05,E1-R1,page_040,contact_page,2,P3d5c49b489,Duplicate ID Markup Error,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+Ia3b97c8604,E1-R1,page_169,terms_page,0,Pbafd180455,terminology,1,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio;Standard Terminology Violation
+Ia3c57b261b,E1-R1,page_064,detail_page,2,P9325017603,control,0,,
+Ia3cbbd2eda,E1-R1,page_131,portal_main,5,P01d7fb8da5,control,1,,
+Ia600288a51,E1-R1,page_200,contact_page,2,Pbf244c3449,terminology,0,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio;Standard Terminology Violation
+Ia64bef6799,E1-R1,page_104,detail_page,2,P22fe870734,terminology,1,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error;Standard Terminology Violation
+Ia6608df5d6,E1-R1,page_192,board_list,2,Pbd1d18da63,control,1,,
+Ia772fad114,E1-R1,page_049,terms_page,0,P2603589663,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+Ia89830a027,E1-R1,page_140,contact_page,0,Pc6f1ebce8b,terminology,0,Button Area Clipping;Standard Terminology Violation,Standard Terminology Violation
+Ia98fc644b6,E1-R1,page_040,contact_page,1,P3d5c49b489,Duplicate ID Markup Error,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+Iaa096bd583,E1-R1,page_156,search_result,2,P766819a5c8,Poor Contrast Ratio,1,Mobile Layout Breakage;Poor Contrast Ratio,Mobile Layout Breakage;Poor Contrast Ratio
+Iaa45f5301a,E1-R1,page_180,contact_page,2,Peccefdfb66,terminology,0,Button Area Clipping;Standard Terminology Violation,Standard Terminology Violation
+Iaaaef5c05f,E1-R1,page_083,login_page,3,Pb821a16d62,control,1,,
+Iaab28bc3e9,E1-R1,page_194,detail_page,1,P3443f18631,control,1,,
+Iaadeaa2438,E1-R1,page_008,form_page,0,P58b36fc91d,Mobile Layout Breakage,0,Mobile Layout Breakage,Mobile Layout Breakage
+Iad218c631d,E1-R1,page_096,search_result,4,Pa901d1883f,Mobile Layout Breakage,1,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+Iad49143f2b,E1-R1,page_079,terms_page,2,P963cd1dcb3,terminology,0,Button Area Clipping;Standard Terminology Violation,Standard Terminology Violation
+Iaddc82e689,E1-R1,page_162,board_list,0,P0f0a58eb0a,Mobile Layout Breakage,0,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+Iae30c4a953,E1-R1,page_035,dashboard,0,P17b5d54312,Button Area Clipping,0,Button Area Clipping;Duplicate ID Markup Error,Duplicate ID Markup Error
+Iaeb10fbe02,E1-R1,page_013,login_page,1,Ped251451a1,Poor Contrast Ratio,1,Button Area Clipping;Poor Contrast Ratio,Button Area Clipping;Poor Contrast Ratio
+Ib04b10f97e,E1-R1,page_008,form_page,1,P58b36fc91d,Mobile Layout Breakage,0,Mobile Layout Breakage,Mobile Layout Breakage
+Ib11e3cc626,E1-R1,page_062,board_list,2,P1fe5249535,terminology,0,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+Ib14b62fc66,E1-R1,page_060,contact_page,1,P0623bc01be,Duplicate ID Markup Error,0,Duplicate ID Markup Error,Duplicate ID Markup Error
+Ib17fa35fa4,E1-R1,page_006,search_result,2,P7e23b257fe,control,0,,
+Ib1a9769485,E1-R1,page_167,faq_page,1,P7deedb6e47,control,0,,
+Ib28a97335f,E1-R1,page_109,terms_page,0,Pdafae954be,Poor Contrast Ratio,0,Duplicate ID Markup Error;Poor Contrast Ratio,Duplicate ID Markup Error;Poor Contrast Ratio
+Ib2a334967a,E1-R1,page_117,faq_page,1,P4fe3ff59ab,Duplicate ID Markup Error,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+Ib2bb04679a,E1-R1,page_079,terms_page,0,P963cd1dcb3,terminology,0,Button Area Clipping;Standard Terminology Violation,Standard Terminology Violation
+Ib3055b28bb,E1-R1,page_028,form_page,2,P7b493e9f80,terminology,0,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error
+Ib30a569e1f,E1-R1,page_074,detail_page,0,P8cd02a1ddf,Poor Contrast Ratio,0,Poor Contrast Ratio,Poor Contrast Ratio
+Ib31e6ff4d5,E1-R1,page_079,terms_page,1,P963cd1dcb3,terminology,0,Button Area Clipping;Standard Terminology Violation,Standard Terminology Violation
+Ib3b7428dfb,E1-R1,page_111,portal_main,1,Pf0867a6e51,Duplicate ID Markup Error,0,Duplicate ID Markup Error,Duplicate ID Markup Error
+Ib507fedc49,E1-R1,page_149,terms_page,2,P131aabaf92,control,0,,
+Ib51673df09,E1-R1,page_076,search_result,2,Pa73a0c30cd,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+Ib87de7be1a,E1-R1,page_200,contact_page,0,Pbf244c3449,terminology,0,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio;Standard Terminology Violation
+Ib943221a4f,E1-R1,page_145,dashboard,1,Pef614414d9,terminology,0,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+Iba8245a31f,E1-R1,page_153,login_page,1,P829e7d5bf0,Mobile Layout Breakage,1,Mobile Layout Breakage,Mobile Layout Breakage
+Iba8c742537,E1-R1,page_058,form_page,1,Pda2d39fd45,control,1,,
+Ibb4d88339f,E1-R1,page_123,login_page,3,Pd46406de8e,Duplicate ID Markup Error,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+Ibc7a416930,E1-R1,page_092,board_list,5,Pb82cfc0adf,Mobile Layout Breakage,0,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+Ibcc4bfcc8a,E1-R1,page_096,search_result,2,Pa901d1883f,Mobile Layout Breakage,1,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+Ibcd49a4152,E1-R1,page_123,login_page,4,Pd46406de8e,Duplicate ID Markup Error,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+Ibd01e6e600,E1-R1,page_153,login_page,2,P829e7d5bf0,Mobile Layout Breakage,1,Mobile Layout Breakage,Mobile Layout Breakage
+Ibd508857a9,E1-R1,page_065,dashboard,1,P83212a77ef,terminology,0,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error;Standard Terminology Violation
+Ibfda510080,E1-R1,page_098,form_page,2,Pe30cd42aa4,Duplicate ID Markup Error,0,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+Ic0247e10f5,E1-R1,page_092,board_list,1,Pb82cfc0adf,Mobile Layout Breakage,0,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+Ic0d24d410d,E1-R1,page_168,form_page,1,Pa491db9cd4,terminology,0,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio
+Ic0dfd61854,E1-R1,page_019,terms_page,1,Pc1f9978c93,Mobile Layout Breakage,0,Mobile Layout Breakage;Poor Contrast Ratio,Mobile Layout Breakage;Poor Contrast Ratio
+Ic14579f179,E1-R1,page_168,form_page,0,Pa491db9cd4,terminology,0,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio
+Ic2c530061b,E1-R1,page_197,faq_page,0,P1c8b70e515,Button Area Clipping,1,Button Area Clipping,
+Ic3983a63e8,E1-R1,page_182,board_list,2,P8d044cc6c7,control,0,,
+Ic3a9cb752a,E1-R1,page_141,portal_main,2,Pf50bd52b2c,Mobile Layout Breakage,0,Mobile Layout Breakage,Mobile Layout Breakage
+Ic3e053b0ac,E1-R1,page_190,contact_page,1,Pef5cee1a1b,Mobile Layout Breakage,1,Mobile Layout Breakage,Mobile Layout Breakage
+Ic3ea074dce,E1-R1,page_153,login_page,3,P829e7d5bf0,Mobile Layout Breakage,1,Mobile Layout Breakage,Mobile Layout Breakage
+Ic41332ce22,E1-R1,page_027,faq_page,0,P293e468880,control,1,,
+Ic625bc1ffe,E1-R1,page_062,board_list,1,P1fe5249535,terminology,0,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+Ic7eb7b6b48,E1-R1,page_058,form_page,2,Pda2d39fd45,control,1,,
+Ic87ff0f9c8,E1-R1,page_063,login_page,1,Pee9f2a9524,Poor Contrast Ratio,1,Poor Contrast Ratio,Poor Contrast Ratio
+Ic9c00368d5,E1-R1,page_083,login_page,0,Pb821a16d62,control,1,,
+Ic9c562ed1d,E1-R1,page_126,search_result,2,P35e92077d0,control,1,,
+Icd2e753304,E1-R1,page_093,login_page,1,Pb0aea2eab8,terminology,0,Button Area Clipping;Standard Terminology Violation,Button Area Clipping;Standard Terminology Violation
+Icd33bd2f23,E1-R1,page_021,portal_main,2,P1553f746ad,Mobile Layout Breakage,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+Icd504d9567,E1-R1,page_087,faq_page,0,P4877dfabe7,control,1,,
+Icedca6367a,E1-R1,page_156,search_result,0,P766819a5c8,Poor Contrast Ratio,1,Mobile Layout Breakage;Poor Contrast Ratio,Mobile Layout Breakage;Poor Contrast Ratio
+Icf44fb633e,E1-R1,page_173,login_page,0,P7afb18e7ce,terminology,1,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio;Standard Terminology Violation
+Id090f60f94,E1-R1,page_027,faq_page,2,P293e468880,control,1,,
+Id0a861c09b,E1-R1,page_124,detail_page,1,P1531648956,Duplicate ID Markup Error,1,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+Id1b9d010e8,E1-R1,page_148,form_page,3,P5c69cb6941,Mobile Layout Breakage,1,Mobile Layout Breakage,Mobile Layout Breakage
+Id20264129b,E1-R1,page_171,portal_main,2,P377d4a2f68,terminology,0,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error;Standard Terminology Violation
+Id229a05adf,E1-R1,page_127,faq_page,3,P72908a28f1,control,0,,
+Id25bf7d313,E1-R1,page_105,dashboard,0,P263b67f51b,Poor Contrast Ratio,0,Poor Contrast Ratio,Poor Contrast Ratio
+Id264e6a970,E1-R1,page_048,form_page,2,P7e61378fa5,Duplicate ID Markup Error,1,Duplicate ID Markup Error,Duplicate ID Markup Error
+Id2c12ef1fa,E1-R1,page_172,board_list,0,P8ececa7388,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+Id3ba5190df,E1-R1,page_025,dashboard,2,Pcef2b522f9,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+Id3d704c3bf,E1-R1,page_097,faq_page,0,P1abacc4670,Button Area Clipping,0,Button Area Clipping,
+Id43475237e,E1-R1,page_197,faq_page,2,P1c8b70e515,Button Area Clipping,1,Button Area Clipping,
+Id563d0e081,E1-R1,page_087,faq_page,1,P4877dfabe7,control,1,,
+Id59c82b91b,E1-R1,page_168,form_page,3,Pa491db9cd4,terminology,0,Poor Contrast Ratio;Standard Terminology Violation,Poor Contrast Ratio
+Id6292b8545,E1-R1,page_039,terms_page,0,P53921184cb,control,0,,
+Id6744c59a2,E1-R1,page_098,form_page,0,Pe30cd42aa4,Duplicate ID Markup Error,0,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+Id74b9a4b02,E1-R1,page_126,search_result,0,P35e92077d0,control,1,,
+Id75a454d57,E1-R1,page_132,board_list,3,P8b20dfee8f,Duplicate ID Markup Error,0,Duplicate ID Markup Error;Poor Contrast Ratio,Duplicate ID Markup Error;Poor Contrast Ratio
+Id80c83ffeb,E1-R1,page_180,contact_page,1,Peccefdfb66,terminology,0,Button Area Clipping;Standard Terminology Violation,Standard Terminology Violation
+Ida4d0cc3ef,E1-R1,page_080,contact_page,1,P339decfb0c,Mobile Layout Breakage,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+Ida6b7fcfb6,E1-R1,page_071,portal_main,5,Pb649262010,control,0,,
+Ida78933a5f,E1-R1,page_120,contact_page,2,Pf47b86ddf1,control,0,,
+Idcc017fc3b,E1-R1,page_032,board_list,4,P9b5855c87b,control,0,,
+Iddfb64251c,E1-R1,page_006,search_result,0,P7e23b257fe,control,0,,
+Ide8bc4bd90,E1-R1,page_171,portal_main,1,P377d4a2f68,terminology,0,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error;Standard Terminology Violation
+Ie0dcefccb8,E1-R1,page_144,detail_page,1,P51dd9d5135,Duplicate ID Markup Error,0,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+Ie115b00807,E1-R1,page_081,portal_main,2,P57a717736c,Duplicate ID Markup Error,0,Duplicate ID Markup Error,Duplicate ID Markup Error
+Ie1afecf398,E1-R1,page_028,form_page,3,P7b493e9f80,terminology,0,Duplicate ID Markup Error;Standard Terminology Violation,Duplicate ID Markup Error
+Ie24539f232,E1-R1,page_011,portal_main,1,P9c23029a1d,Button Area Clipping,1,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+Ie3fb161a13,E1-R1,page_111,portal_main,2,Pf0867a6e51,Duplicate ID Markup Error,0,Duplicate ID Markup Error,Duplicate ID Markup Error
+Ie46a0f25a3,E1-R1,page_021,portal_main,0,P1553f746ad,Mobile Layout Breakage,1,Duplicate ID Markup Error;Mobile Layout Breakage,Duplicate ID Markup Error;Mobile Layout Breakage
+Ie4ca713243,E1-R1,page_124,detail_page,0,P1531648956,Duplicate ID Markup Error,1,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+Ie5bf8db690,E1-R1,page_013,login_page,0,Ped251451a1,Poor Contrast Ratio,1,Button Area Clipping;Poor Contrast Ratio,Button Area Clipping;Poor Contrast Ratio
+Ie603d81b87,E1-R1,page_035,dashboard,3,P17b5d54312,Button Area Clipping,0,Button Area Clipping;Duplicate ID Markup Error,Duplicate ID Markup Error
+Ie6a1c1e237,E1-R1,page_149,terms_page,1,P131aabaf92,control,0,,
+Ie799c0d41f,E1-R1,page_076,search_result,3,Pa73a0c30cd,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+Ie7c078c18e,E1-R1,page_063,login_page,2,Pee9f2a9524,Poor Contrast Ratio,1,Poor Contrast Ratio,Poor Contrast Ratio
+Ie7db96cdb6,E1-R1,page_027,faq_page,1,P293e468880,control,1,,
+Ie80f0cd6f5,E1-R1,page_162,board_list,5,P0f0a58eb0a,Mobile Layout Breakage,0,Button Area Clipping;Mobile Layout Breakage,Mobile Layout Breakage
+Ie87ec99f20,E1-R1,page_174,detail_page,0,P99b5b1350a,terminology,0,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+Ieae4b9fc61,E1-R1,page_094,detail_page,0,Pd0ff92ada0,Poor Contrast Ratio,0,Poor Contrast Ratio,Poor Contrast Ratio
+Ieb60bdcd7b,E1-R1,page_007,faq_page,1,Pa374b07559,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+Ieb89981063,E1-R1,page_197,faq_page,1,P1c8b70e515,Button Area Clipping,1,Button Area Clipping,
+Iebb47b3a5d,E1-R1,page_199,terms_page,0,P3f6f375fd6,control,1,,
+Iebc5cbaa84,E1-R1,page_158,form_page,2,P5887d0ae51,control,0,,
+Iebcc38b9d1,E1-R1,page_150,contact_page,0,P27e7af4247,control,0,,
+Iec5ce3a512,E1-R1,page_090,contact_page,2,Paec951ebb8,control,1,,
+Iecbc6473c3,E1-R1,page_108,form_page,2,Pe0ef0ba638,control,0,,
+Ied99eea5fd,E1-R1,page_131,portal_main,3,P01d7fb8da5,control,1,,
+Iedc8cdb931,E1-R1,page_057,faq_page,3,Pd9224d302c,control,0,,
+Iee6ae65563,E1-R1,page_199,terms_page,3,P3f6f375fd6,control,1,,
+Ieefd362871,E1-R1,page_129,terms_page,1,P338cb39a5a,Button Area Clipping,0,Button Area Clipping;Duplicate ID Markup Error,Duplicate ID Markup Error
+Ief18c8dec2,E1-R1,page_112,board_list,2,P6f160e38ba,control,0,,
+Ief1d0b6247,E1-R1,page_158,form_page,0,P5887d0ae51,control,0,,
+If0a88615fc,E1-R1,page_198,form_page,2,Pdf5931cdc9,Button Area Clipping,0,Button Area Clipping;Poor Contrast Ratio,Button Area Clipping;Poor Contrast Ratio
+If1644ac130,E1-R1,page_192,board_list,0,Pbd1d18da63,control,1,,
+If16e1eb3c5,E1-R1,page_093,login_page,0,Pb0aea2eab8,terminology,0,Button Area Clipping;Standard Terminology Violation,Button Area Clipping;Standard Terminology Violation
+If1e0898c93,E1-R1,page_063,login_page,3,Pee9f2a9524,Poor Contrast Ratio,1,Poor Contrast Ratio,Poor Contrast Ratio
+If25e19352c,E1-R1,page_038,form_page,0,Pecf886041e,terminology,1,Standard Terminology Violation,
+If31c716e94,E1-R1,page_124,detail_page,2,P1531648956,Duplicate ID Markup Error,1,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+If4a3abce0b,E1-R1,page_121,portal_main,0,Pf0e1467987,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+If5c98d5d1e,E1-R1,page_122,board_list,1,Pa7d4045d89,terminology,0,Standard Terminology Violation,Standard Terminology Violation
+If7d7dc9c4f,E1-R1,page_154,detail_page,1,P1ae22869c3,Poor Contrast Ratio,0,Poor Contrast Ratio,Poor Contrast Ratio
+If81da76c27,E1-R1,page_057,faq_page,2,Pd9224d302c,control,0,,
+If86f6380d3,E1-R1,page_048,form_page,1,P7e61378fa5,Duplicate ID Markup Error,1,Duplicate ID Markup Error,Duplicate ID Markup Error
+If8943dd32b,E1-R1,page_103,login_page,1,Pa3f4f0d56b,Button Area Clipping,0,Button Area Clipping,Button Area Clipping
+If9316905eb,E1-R1,page_094,detail_page,2,Pd0ff92ada0,Poor Contrast Ratio,0,Poor Contrast Ratio,Poor Contrast Ratio
+If93dcc3580,E1-R1,page_046,search_result,1,P6d8971624e,Mobile Layout Breakage,0,Mobile Layout Breakage;Poor Contrast Ratio,Mobile Layout Breakage;Poor Contrast Ratio
+If972e26eb0,E1-R1,page_182,board_list,3,P8d044cc6c7,control,0,,
+If99c7e567b,E1-R1,page_167,faq_page,2,P7deedb6e47,control,0,,
+Ifab2c6424a,E1-R1,page_133,login_page,2,Pacc1184e73,terminology,0,Button Area Clipping;Standard Terminology Violation,Button Area Clipping;Standard Terminology Violation
+Ifb8f782858,E1-R1,page_140,contact_page,2,Pc6f1ebce8b,terminology,0,Button Area Clipping;Standard Terminology Violation,Standard Terminology Violation
+Ifc29548adf,E1-R1,page_060,contact_page,3,P0623bc01be,Duplicate ID Markup Error,0,Duplicate ID Markup Error,Duplicate ID Markup Error
+Ifcdc59b072,E1-R1,page_012,board_list,1,Pad1289494e,Poor Contrast Ratio,1,Duplicate ID Markup Error;Poor Contrast Ratio,Duplicate ID Markup Error;Poor Contrast Ratio
+Ifd15f5d458,E1-R1,page_006,search_result,3,P7e23b257fe,control,0,,
+Ifd319f0d42,E1-R1,page_194,detail_page,0,P3443f18631,control,1,,
+Ifd936c6d5b,E1-R1,page_131,portal_main,4,P01d7fb8da5,control,1,,
+Ifd9d6335ae,E1-R1,page_098,form_page,3,Pe30cd42aa4,Duplicate ID Markup Error,0,Button Area Clipping;Duplicate ID Markup Error,Button Area Clipping;Duplicate ID Markup Error
+Ifda9650b6b,E1-R1,page_076,search_result,0,Pa73a0c30cd,terminology,1,Mobile Layout Breakage;Standard Terminology Violation,Mobile Layout Breakage;Standard Terminology Violation
+Iff197367eb,E1-R1,page_102,board_list,2,Pae74983ce8,control,0,,

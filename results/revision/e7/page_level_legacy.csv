@@ -1,0 +1,17 @@
+run,scorer,label,defect_pages,control_pages,TP,FP,FN,TN,precision,recall,f1,fpr
+E1-R1,keyword,nominal,161,39,142,3,19,36,0.979,0.882,0.928,0.077
+E1-R1,keyword,effective,149,51,132,12,17,39,0.917,0.886,0.901,0.235
+E1-R2,keyword,nominal,161,39,143,2,18,37,0.986,0.888,0.935,0.051
+E1-R2,keyword,effective,149,51,133,12,16,39,0.917,0.893,0.905,0.235
+E1-R3b,keyword,nominal,161,39,141,1,20,38,0.993,0.876,0.931,0.026
+E1-R3b,keyword,effective,149,51,130,11,19,40,0.922,0.872,0.897,0.216
+E2-A1-1,keyword,nominal,161,39,142,19,19,20,0.882,0.882,0.882,0.487
+E2-A1-1,keyword,effective,149,51,136,28,13,23,0.829,0.913,0.869,0.549
+E2-A1-2,keyword,nominal,161,39,140,18,21,21,0.886,0.870,0.878,0.462
+E2-A1-2,keyword,effective,149,51,137,25,12,26,0.846,0.919,0.881,0.490
+E2-A1-3,keyword,nominal,161,39,142,19,19,20,0.882,0.882,0.882,0.487
+E2-A1-3,keyword,effective,149,51,134,25,15,26,0.843,0.899,0.870,0.490
+E1-majority,keyword,nominal,161,39,141,2,20,37,0.986,0.876,0.928,0.051
+E1-majority,keyword,effective,149,51,131,12,18,39,0.916,0.879,0.897,0.235
+A1-majority,keyword,nominal,161,39,143,19,18,20,0.883,0.888,0.885,0.487
+A1-majority,keyword,effective,149,51,137,26,12,25,0.840,0.919,0.878,0.510

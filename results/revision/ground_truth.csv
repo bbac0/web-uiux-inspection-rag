@@ -1,0 +1,1001 @@
+page_id,template_id,defect_type,defect_id,nominal_injected,static_string_present,effective_1280,effective_390,effective_injected,injection_location,exact_string,measurement_1280,measurement_390,verification_pass_1280,verification_pass_390,screen_visible,guideline_grounded,guideline_grounded_candidate,label_guideline_grounded,label_guideline_grounded_390
+page_001,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_001,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_001,portal_main,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.btn",height: 2px !important; font-size: 0px !important;,button.btn h=2 fs=0,button.btn h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_001,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_001,portal_main,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_002,board_list,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h1 '공지사항 목록' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h1 '공지사항 목록' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_002,board_list,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_002,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_002,board_list,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_002,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_003,login_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '로그인' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '로그인' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_003,login_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_003,login_page,Button Area Clipping,,0,0,0,0,0,,,button.login-btn h=24 fs=13.3333,button.login-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_003,login_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x3,'접속하기' in -; '로그인' x3,1,1,,false,false,NA,NA
+page_003,login_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_004,detail_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_004,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_004,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_004,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_004,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_005,dashboard,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_005,dashboard,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_005,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_005,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_005,dashboard,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_006,search_result,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_006,search_result,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_006,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_006,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_006,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_007,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_007,faq_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_007,faq_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_007,faq_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_007,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_008,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_008,form_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_008,form_page,Button Area Clipping,,0,0,0,0,0,,,button. h=24 fs=13.3333,button. h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_008,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_008,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_009,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_009,terms_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_009,terms_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_009,terms_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_009,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_010,contact_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h1 '문의하기' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h1 '문의하기' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_010,contact_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_010,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_010,contact_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_010,contact_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_011,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_011,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_011,portal_main,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.btn",height: 2px !important; font-size: 0px !important;,button.btn h=2 fs=0,button.btn h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_011,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_011,portal_main,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x3 area=26544,#main-banner x3 area=7854,1,1,no,false,false,NA,NA
+page_012,board_list,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h1 '공지사항 목록' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h1 '공지사항 목록' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_012,board_list,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_012,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_012,board_list,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_012,board_list,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_013,login_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h2 '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h2 '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_013,login_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_013,login_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.login-btn",height: 2px !important; font-size: 0px !important;,button.login-btn h=2 fs=0,button.login-btn h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_013,login_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x3,'접속하기' in -; '로그인' x3,1,1,,false,false,NA,NA
+page_013,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_014,detail_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_014,detail_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_014,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_014,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_014,detail_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_015,dashboard,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_015,dashboard,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_015,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_015,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_015,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_016,search_result,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_016,search_result,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_016,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_016,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_016,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_017,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_017,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_017,faq_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_017,faq_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_017,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_018,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=21 (label '성명' rgb(0, 0, 0) on rgb(255, 255, 255))","min_ratio=21 (label '성명' rgb(0, 0, 0) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_018,form_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_018,form_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.",height: 2px !important; font-size: 0px !important;,button. h=2 fs=0,button. h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_018,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_018,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_019,terms_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h1 '이용약관' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h1 '이용약관' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_019,terms_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_019,terms_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_019,terms_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_019,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_020,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_020,contact_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_020,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_020,contact_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_020,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_021,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_021,portal_main,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_021,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_021,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_021,portal_main,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x3 area=63000,#main-banner x3 area=63000,1,1,no,false,false,NA,NA
+page_022,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_022,board_list,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_022,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_022,board_list,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_022,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_023,login_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=21 (h2 '접속하기' rgb(0, 0, 0) on rgb(255, 255, 255))","min_ratio=21 (h2 '접속하기' rgb(0, 0, 0) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_023,login_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_023,login_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.login-btn",height: 2px !important; font-size: 0px !important;,button.login-btn h=2 fs=0,button.login-btn h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_023,login_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,"텍스트 치환 '로그인'→'접속하기' → title, h2, button",접속하기,"'접속하기' in ['title', 'h2', 'button']; '로그인' x0","'접속하기' in ['title', 'h2', 'button']; '로그인' x0",1,1,yes,false,false,NA,NA
+page_023,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_024,detail_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_024,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_024,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_024,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_024,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_025,dashboard,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_025,dashboard,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_025,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_025,dashboard,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_025,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_026,search_result,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_026,search_result,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_026,search_result,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_026,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_026,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_027,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_027,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_027,faq_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_027,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_027,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_028,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_028,form_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_028,form_page,Button Area Clipping,,0,0,0,0,0,,,button. h=24 fs=13.3333,button. h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_028,form_page,Standard Terminology Violation,DEF_OPS_01,1,0,0,0,0,텍스트 치환 '로그인'→'접속하기' → 치환 대상 없음,접속하기,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,0,0,yes,false,false,NA,NA
+page_028,form_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_029,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_029,terms_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_029,terms_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_029,terms_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_029,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_030,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_030,contact_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_030,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_030,contact_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_030,contact_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_031,portal_main,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h1 '주요 서비스' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h1 '주요 서비스' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_031,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_031,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_031,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_031,portal_main,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_032,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_032,board_list,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_032,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_032,board_list,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_032,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_033,login_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '로그인' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '로그인' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_033,login_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_033,login_page,Button Area Clipping,,0,0,0,0,0,,,button.login-btn h=24 fs=13.3333,button.login-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_033,login_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x3,'접속하기' in -; '로그인' x3,1,1,,false,false,NA,NA
+page_033,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_034,detail_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_034,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_034,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_034,detail_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_034,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_035,dashboard,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_035,dashboard,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_035,dashboard,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_035,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_035,dashboard,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_036,search_result,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_036,search_result,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_036,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_036,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_036,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_037,faq_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h1 'FAQ' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h1 'FAQ' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_037,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_037,faq_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_037,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_037,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_038,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_038,form_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_038,form_page,Button Area Clipping,,0,0,0,0,0,,,button. h=24 fs=13.3333,button. h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_038,form_page,Standard Terminology Violation,DEF_OPS_01,1,0,0,0,0,텍스트 치환 '로그인'→'접속하기' → 치환 대상 없음,접속하기,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,0,0,yes,false,false,NA,NA
+page_038,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_039,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_039,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_039,terms_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_039,terms_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_039,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_040,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_040,contact_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_040,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_040,contact_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_040,contact_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_041,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_041,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_041,portal_main,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.btn",height: 2px !important; font-size: 0px !important;,button.btn h=2 fs=0,button.btn h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_041,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_041,portal_main,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_042,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_042,board_list,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_042,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_042,board_list,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_042,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_043,login_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '로그인' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '로그인' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_043,login_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_043,login_page,Button Area Clipping,,0,0,0,0,0,,,button.login-btn h=24 fs=13.3333,button.login-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_043,login_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x3,'접속하기' in -; '로그인' x3,1,1,,false,false,NA,NA
+page_043,login_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_044,detail_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_044,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_044,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_044,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_044,detail_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_045,dashboard,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_045,dashboard,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_045,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_045,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_045,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_046,search_result,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_046,search_result,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_046,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_046,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_046,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_047,faq_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h1 'FAQ' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h1 'FAQ' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_047,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_047,faq_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_047,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_047,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_048,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_048,form_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_048,form_page,Button Area Clipping,,0,0,0,0,0,,,button. h=24 fs=13.3333,button. h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_048,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_048,form_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_049,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_049,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_049,terms_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_049,terms_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_049,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_050,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_050,contact_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_050,contact_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_050,contact_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_050,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_051,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_051,portal_main,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_051,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_051,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_051,portal_main,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x3 area=63000,#main-banner x3 area=63000,1,1,no,false,false,NA,NA
+page_052,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_052,board_list,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_052,board_list,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_052,board_list,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_052,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_053,login_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h2 '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h2 '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_053,login_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_053,login_page,Button Area Clipping,,0,0,0,0,0,,,button.login-btn h=24 fs=13.3333,button.login-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_053,login_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x3,'접속하기' in -; '로그인' x3,1,1,,false,false,NA,NA
+page_053,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_054,detail_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_054,detail_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_054,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_054,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_054,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_055,dashboard,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_055,dashboard,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_055,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_055,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_055,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_056,search_result,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_056,search_result,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_056,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_056,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_056,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_057,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_057,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_057,faq_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_057,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_057,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_058,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_058,form_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_058,form_page,Button Area Clipping,,0,0,0,0,0,,,button. h=24 fs=13.3333,button. h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_058,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_058,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_059,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_059,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_059,terms_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_059,terms_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_059,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_060,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_060,contact_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_060,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_060,contact_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_060,contact_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_061,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_061,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_061,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_061,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_061,portal_main,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_062,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_062,board_list,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_062,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_062,board_list,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_062,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_063,login_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h2 '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h2 '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_063,login_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_063,login_page,Button Area Clipping,,0,0,0,0,0,,,button.login-btn h=24 fs=13.3333,button.login-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_063,login_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x3,'접속하기' in -; '로그인' x3,1,1,,false,false,NA,NA
+page_063,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_064,detail_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_064,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_064,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_064,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_064,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_065,dashboard,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_065,dashboard,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_065,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_065,dashboard,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_065,dashboard,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_066,search_result,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_066,search_result,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_066,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_066,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_066,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_067,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_067,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_067,faq_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_067,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_067,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_068,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_068,form_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_068,form_page,Button Area Clipping,,0,0,0,0,0,,,button. h=24 fs=13.3333,button. h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_068,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_068,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_069,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_069,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_069,terms_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_069,terms_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_069,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_070,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_070,contact_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_070,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_070,contact_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_070,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_071,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_071,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_071,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_071,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_071,portal_main,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_072,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_072,board_list,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_072,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_072,board_list,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_072,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_073,login_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h2 '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h2 '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_073,login_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_073,login_page,Button Area Clipping,,0,0,0,0,0,,,button.login-btn h=24 fs=13.3333,button.login-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_073,login_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x3,'접속하기' in -; '로그인' x3,1,1,,false,false,NA,NA
+page_073,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_074,detail_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_074,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_074,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_074,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_074,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_075,dashboard,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_075,dashboard,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_075,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_075,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_075,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_076,search_result,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_076,search_result,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_076,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_076,search_result,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_076,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_077,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_077,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_077,faq_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_077,faq_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_077,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_078,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_078,form_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_078,form_page,Button Area Clipping,,0,0,0,0,0,,,button. h=24 fs=13.3333,button. h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_078,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_078,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_079,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_079,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_079,terms_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_079,terms_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_079,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_080,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_080,contact_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_080,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_080,contact_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_080,contact_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_081,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_081,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_081,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_081,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_081,portal_main,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x3 area=26544,#main-banner x3 area=7854,1,1,no,false,false,NA,NA
+page_082,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_082,board_list,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_082,board_list,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_082,board_list,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_082,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_083,login_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '로그인' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '로그인' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_083,login_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_083,login_page,Button Area Clipping,,0,0,0,0,0,,,button.login-btn h=24 fs=13.3333,button.login-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_083,login_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x3,'접속하기' in -; '로그인' x3,1,1,,false,false,NA,NA
+page_083,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_084,detail_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_084,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_084,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_084,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_084,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_085,dashboard,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_085,dashboard,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_085,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_085,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_085,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_086,search_result,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_086,search_result,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_086,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_086,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_086,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_087,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_087,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_087,faq_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_087,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_087,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_088,form_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (label '성명' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (label '성명' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_088,form_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_088,form_page,Button Area Clipping,,0,0,0,0,0,,,button. h=24 fs=13.3333,button. h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_088,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_088,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_089,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_089,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_089,terms_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_089,terms_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_089,terms_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_090,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_090,contact_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_090,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_090,contact_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_090,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_091,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_091,portal_main,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_091,portal_main,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.btn",height: 2px !important; font-size: 0px !important;,button.btn h=2 fs=0,button.btn h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_091,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_091,portal_main,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_092,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_092,board_list,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_092,board_list,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_092,board_list,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_092,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_093,login_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=21 (h2 '접속하기' rgb(0, 0, 0) on rgb(255, 255, 255))","min_ratio=21 (h2 '접속하기' rgb(0, 0, 0) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_093,login_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_093,login_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.login-btn",height: 2px !important; font-size: 0px !important;,button.login-btn h=2 fs=0,button.login-btn h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_093,login_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,"텍스트 치환 '로그인'→'접속하기' → title, h2, button",접속하기,"'접속하기' in ['title', 'h2', 'button']; '로그인' x0","'접속하기' in ['title', 'h2', 'button']; '로그인' x0",1,1,yes,false,false,NA,NA
+page_093,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_094,detail_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_094,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_094,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_094,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_094,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_095,dashboard,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_095,dashboard,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_095,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_095,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_095,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_096,search_result,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_096,search_result,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_096,search_result,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_096,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_096,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_097,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_097,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_097,faq_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_097,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_097,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_098,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=21 (label '성명' rgb(0, 0, 0) on rgb(255, 255, 255))","min_ratio=21 (label '성명' rgb(0, 0, 0) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_098,form_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_098,form_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.",height: 2px !important; font-size: 0px !important;,button. h=2 fs=0,button. h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_098,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_098,form_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_099,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_099,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_099,terms_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_099,terms_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_099,terms_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_100,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_100,contact_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_100,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_100,contact_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_100,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_101,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_101,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_101,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_101,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_101,portal_main,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x3 area=26544,#main-banner x3 area=7854,1,1,no,false,false,NA,NA
+page_102,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_102,board_list,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_102,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_102,board_list,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_102,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_103,login_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=21 (h2 '로그인' rgb(0, 0, 0) on rgb(255, 255, 255))","min_ratio=21 (h2 '로그인' rgb(0, 0, 0) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_103,login_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_103,login_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.login-btn",height: 2px !important; font-size: 0px !important;,button.login-btn h=2 fs=0,button.login-btn h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_103,login_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x3,'접속하기' in -; '로그인' x3,1,1,,false,false,NA,NA
+page_103,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_104,detail_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_104,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_104,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_104,detail_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_104,detail_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_105,dashboard,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_105,dashboard,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_105,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_105,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_105,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_106,search_result,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_106,search_result,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_106,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_106,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_106,search_result,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_107,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_107,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_107,faq_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_107,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_107,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_108,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_108,form_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_108,form_page,Button Area Clipping,,0,0,0,0,0,,,button. h=24 fs=13.3333,button. h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_108,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_108,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_109,terms_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h1 '이용약관' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h1 '이용약관' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_109,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_109,terms_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_109,terms_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_109,terms_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_110,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_110,contact_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_110,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_110,contact_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_110,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_111,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_111,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_111,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_111,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_111,portal_main,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x3 area=26544,#main-banner x3 area=7854,1,1,no,false,false,NA,NA
+page_112,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_112,board_list,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_112,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_112,board_list,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_112,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_113,login_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '접속하기' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '접속하기' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_113,login_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_113,login_page,Button Area Clipping,,0,0,0,0,0,,,button.login-btn h=24 fs=13.3333,button.login-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_113,login_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,"텍스트 치환 '로그인'→'접속하기' → title, h2, button",접속하기,"'접속하기' in ['title', 'h2', 'button']; '로그인' x0","'접속하기' in ['title', 'h2', 'button']; '로그인' x0",1,1,yes,false,false,NA,NA
+page_113,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_114,detail_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_114,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_114,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_114,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_114,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_115,dashboard,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_115,dashboard,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_115,dashboard,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_115,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_115,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_116,search_result,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_116,search_result,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_116,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_116,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_116,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_117,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_117,faq_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_117,faq_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_117,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_117,faq_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_118,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_118,form_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_118,form_page,Button Area Clipping,,0,0,0,0,0,,,button. h=24 fs=13.3333,button. h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_118,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_118,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_119,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_119,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_119,terms_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_119,terms_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_119,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_120,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_120,contact_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_120,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_120,contact_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_120,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_121,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_121,portal_main,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_121,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_121,portal_main,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_121,portal_main,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_122,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_122,board_list,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_122,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_122,board_list,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_122,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_123,login_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '로그인' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '로그인' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_123,login_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_123,login_page,Button Area Clipping,,0,0,0,0,0,,,button.login-btn h=24 fs=13.3333,button.login-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_123,login_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x3,'접속하기' in -; '로그인' x3,1,1,,false,false,NA,NA
+page_123,login_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_124,detail_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_124,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_124,detail_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.apply-btn",height: 2px !important; font-size: 0px !important;,button.apply-btn h=2 fs=0,button.apply-btn h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_124,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_124,detail_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_125,dashboard,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_125,dashboard,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_125,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_125,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_125,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_126,search_result,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_126,search_result,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_126,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_126,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_126,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_127,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_127,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_127,faq_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_127,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_127,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_128,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=21 (label '성명' rgb(0, 0, 0) on rgb(255, 255, 255))","min_ratio=21 (label '성명' rgb(0, 0, 0) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_128,form_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_128,form_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.",height: 2px !important; font-size: 0px !important;,button. h=2 fs=0,button. h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_128,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_128,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_129,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_129,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_129,terms_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_129,terms_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_129,terms_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_130,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_130,contact_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_130,contact_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_130,contact_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_130,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_131,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_131,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_131,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_131,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_131,portal_main,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_132,board_list,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h1 '공지사항 목록' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h1 '공지사항 목록' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_132,board_list,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_132,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_132,board_list,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_132,board_list,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_133,login_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=21 (h2 '접속하기' rgb(0, 0, 0) on rgb(255, 255, 255))","min_ratio=21 (h2 '접속하기' rgb(0, 0, 0) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_133,login_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_133,login_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.login-btn",height: 2px !important; font-size: 0px !important;,button.login-btn h=2 fs=0,button.login-btn h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_133,login_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,"텍스트 치환 '로그인'→'접속하기' → title, h2, button",접속하기,"'접속하기' in ['title', 'h2', 'button']; '로그인' x0","'접속하기' in ['title', 'h2', 'button']; '로그인' x0",1,1,yes,false,false,NA,NA
+page_133,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_134,detail_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_134,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_134,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_134,detail_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_134,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_135,dashboard,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_135,dashboard,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_135,dashboard,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_135,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_135,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_136,search_result,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_136,search_result,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_136,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_136,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_136,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_137,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_137,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_137,faq_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_137,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_137,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_138,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=21 (label '성명' rgb(0, 0, 0) on rgb(255, 255, 255))","min_ratio=21 (label '성명' rgb(0, 0, 0) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_138,form_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_138,form_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.",height: 2px !important; font-size: 0px !important;,button. h=2 fs=0,button. h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_138,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_138,form_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_139,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_139,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_139,terms_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_139,terms_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_139,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_140,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_140,contact_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_140,contact_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_140,contact_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_140,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_141,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_141,portal_main,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_141,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_141,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_141,portal_main,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_142,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_142,board_list,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_142,board_list,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_142,board_list,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_142,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_143,login_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=21 (h2 '로그인' rgb(0, 0, 0) on rgb(255, 255, 255))","min_ratio=21 (h2 '로그인' rgb(0, 0, 0) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_143,login_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_143,login_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.login-btn",height: 2px !important; font-size: 0px !important;,button.login-btn h=2 fs=0,button.login-btn h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_143,login_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x3,'접속하기' in -; '로그인' x3,1,1,,false,false,NA,NA
+page_143,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_144,detail_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_144,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_144,detail_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.apply-btn",height: 2px !important; font-size: 0px !important;,button.apply-btn h=2 fs=0,button.apply-btn h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_144,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_144,detail_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_145,dashboard,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_145,dashboard,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_145,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_145,dashboard,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_145,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_146,search_result,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_146,search_result,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_146,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_146,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_146,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_147,faq_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h1 'FAQ' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h1 'FAQ' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_147,faq_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_147,faq_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_147,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_147,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_148,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_148,form_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_148,form_page,Button Area Clipping,,0,0,0,0,0,,,button. h=24 fs=13.3333,button. h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_148,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_148,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_149,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_149,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_149,terms_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_149,terms_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_149,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_150,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_150,contact_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_150,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_150,contact_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_150,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_151,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_151,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_151,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_151,portal_main,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_151,portal_main,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_152,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_152,board_list,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_152,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_152,board_list,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_152,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_153,login_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '로그인' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '로그인' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_153,login_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_153,login_page,Button Area Clipping,,0,0,0,0,0,,,button.login-btn h=24 fs=13.3333,button.login-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_153,login_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x3,'접속하기' in -; '로그인' x3,1,1,,false,false,NA,NA
+page_153,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_154,detail_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_154,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_154,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_154,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_154,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_155,dashboard,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_155,dashboard,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_155,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_155,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_155,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_156,search_result,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_156,search_result,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_156,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_156,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_156,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_157,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_157,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_157,faq_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_157,faq_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_157,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_158,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_158,form_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_158,form_page,Button Area Clipping,,0,0,0,0,0,,,button. h=24 fs=13.3333,button. h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_158,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_158,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_159,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_159,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_159,terms_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_159,terms_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_159,terms_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_160,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_160,contact_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_160,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_160,contact_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_160,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_161,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_161,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_161,portal_main,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.btn",height: 2px !important; font-size: 0px !important;,button.btn h=2 fs=0,button.btn h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_161,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_161,portal_main,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_162,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_162,board_list,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_162,board_list,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_162,board_list,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_162,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_163,login_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=21 (h2 '로그인' rgb(0, 0, 0) on rgb(255, 255, 255))","min_ratio=21 (h2 '로그인' rgb(0, 0, 0) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_163,login_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_163,login_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.login-btn",height: 2px !important; font-size: 0px !important;,button.login-btn h=2 fs=0,button.login-btn h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_163,login_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x3,'접속하기' in -; '로그인' x3,1,1,,false,false,NA,NA
+page_163,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_164,detail_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_164,detail_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_164,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_164,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_164,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_165,dashboard,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_165,dashboard,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_165,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_165,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_165,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_166,search_result,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_166,search_result,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_166,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_166,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_166,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_167,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_167,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_167,faq_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_167,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_167,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_168,form_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (label '성명' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (label '성명' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_168,form_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_168,form_page,Button Area Clipping,,0,0,0,0,0,,,button. h=24 fs=13.3333,button. h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_168,form_page,Standard Terminology Violation,DEF_OPS_01,1,0,0,0,0,텍스트 치환 '로그인'→'접속하기' → 치환 대상 없음,접속하기,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,0,0,yes,false,false,NA,NA
+page_168,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_169,terms_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h1 '이용약관' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h1 '이용약관' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_169,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_169,terms_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_169,terms_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_169,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_170,contact_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h1 '문의하기' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h1 '문의하기' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_170,contact_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_170,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_170,contact_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_170,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_171,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_171,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_171,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_171,portal_main,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_171,portal_main,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x3 area=26544,#main-banner x3 area=7854,1,1,no,false,false,NA,NA
+page_172,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_172,board_list,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_172,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_172,board_list,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_172,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_173,login_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h2 '접속하기' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h2 '접속하기' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_173,login_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_173,login_page,Button Area Clipping,,0,0,0,0,0,,,button.login-btn h=24 fs=13.3333,button.login-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_173,login_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,"텍스트 치환 '로그인'→'접속하기' → title, h2, button",접속하기,"'접속하기' in ['title', 'h2', 'button']; '로그인' x0","'접속하기' in ['title', 'h2', 'button']; '로그인' x0",1,1,yes,false,false,NA,NA
+page_173,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_174,detail_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_174,detail_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_174,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_174,detail_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_174,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_175,dashboard,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_175,dashboard,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_175,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_175,dashboard,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_175,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_176,search_result,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_176,search_result,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_176,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_176,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_176,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_177,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_177,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_177,faq_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_177,faq_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_177,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_178,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '제출하기' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_178,form_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_178,form_page,Button Area Clipping,,0,0,0,0,0,,,button. h=24 fs=13.3333,button. h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_178,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_178,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_179,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_179,terms_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_179,terms_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_179,terms_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_179,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_180,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_180,contact_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_180,contact_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_180,contact_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_180,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_181,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '접속하기' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_181,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_181,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_181,portal_main,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_181,portal_main,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_182,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_182,board_list,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_182,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_182,board_list,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_182,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_183,login_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h2 '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h2 '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_183,login_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_183,login_page,Button Area Clipping,,0,0,0,0,0,,,button.login-btn h=24 fs=13.3333,button.login-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_183,login_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x3,'접속하기' in -; '로그인' x3,1,1,,false,false,NA,NA
+page_183,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_184,detail_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_184,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_184,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_184,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_184,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_185,dashboard,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_185,dashboard,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_185,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_185,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_185,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_186,search_result,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_186,search_result,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_186,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_186,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_186,search_result,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_187,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_187,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_187,faq_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_187,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_187,faq_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_188,form_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=21 (label '성명' rgb(0, 0, 0) on rgb(255, 255, 255))","min_ratio=21 (label '성명' rgb(0, 0, 0) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_188,form_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_188,form_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.",height: 2px !important; font-size: 0px !important;,button. h=2 fs=0,button. h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_188,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_188,form_page,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_189,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_189,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_189,terms_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_189,terms_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_189,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_190,contact_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_190,contact_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_190,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_190,contact_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_190,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_191,portal_main,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_191,portal_main,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_191,portal_main,Button Area Clipping,,0,0,0,0,0,,,button.btn h=24 fs=13.3333,button.btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_191,portal_main,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_191,portal_main,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x3 area=26544,#main-banner x3 area=7854,1,1,no,false,false,NA,NA
+page_192,board_list,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_192,board_list,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_192,board_list,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_192,board_list,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_192,board_list,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_193,login_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=18.427 (button '접속하기' rgb(0, 0, 0) on rgb(240, 240, 240))","min_ratio=18.427 (button '접속하기' rgb(0, 0, 0) on rgb(240, 240, 240))",1,1,,true,candidate_true,0,0
+page_193,login_page,Mobile Layout Breakage,DEF_VIS_02,1,1,1,1,1,"전역 CSS (html, body, div, main, header) width/min-width 3000px",width: 3000px !important; min-width: 3000px !important;,scrollWidth=3008 innerWidth=1280,scrollWidth=3008 innerWidth=390,1,1,yes,false,ambiguous,NA,NA
+page_193,login_page,Button Area Clipping,,0,0,0,0,0,,,button.login-btn h=24 fs=13.3333,button.login-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_193,login_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,"텍스트 치환 '로그인'→'접속하기' → title, h2, button",접속하기,"'접속하기' in ['title', 'h2', 'button']; '로그인' x0","'접속하기' in ['title', 'h2', 'button']; '로그인' x0",1,1,yes,false,false,NA,NA
+page_193,login_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_194,detail_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_194,detail_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_194,detail_page,Button Area Clipping,,0,0,0,0,0,,,button.apply-btn h=24 fs=13.3333,button.apply-btn h=24 fs=13.3333,1,1,,false,ambiguous,NA,NA
+page_194,detail_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_194,detail_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_195,dashboard,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_195,dashboard,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_195,dashboard,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_195,dashboard,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_195,dashboard,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_196,search_result,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (a '로그인' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_196,search_result,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_196,search_result,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_196,search_result,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_196,search_result,Duplicate ID Markup Error,DEF_TEC_01,1,1,1,1,1,<body> 첫 자식 div#main-banner ×2 (빈 요소),"<div id=""main-banner""></div><div id=""main-banner""></div>",#main-banner x2 area=0,#main-banner x2 area=0,1,1,no,false,false,NA,NA
+page_197,faq_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_197,faq_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_197,faq_page,Button Area Clipping,DEF_VIS_03,1,1,0,0,0,"CSS (button, .btn, .login-btn, .apply-btn) → 대상 요소 없음",height: 2px !important; font-size: 0px !important;,no buttons,no buttons,0,0,no,false,ambiguous,NA,NA
+page_197,faq_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_197,faq_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_198,form_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (label '성명' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (label '성명' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_198,form_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_198,form_page,Button Area Clipping,DEF_VIS_03,1,1,1,1,1,"CSS (button, .btn, .login-btn, .apply-btn) → button.",height: 2px !important; font-size: 0px !important;,button. h=2 fs=0,button. h=2 fs=0,1,1,yes,false,ambiguous,NA,NA
+page_198,form_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x0,'접속하기' in -; '로그인' x0,1,1,,false,false,NA,NA
+page_198,form_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_199,terms_page,Poor Contrast Ratio,,0,0,0,0,0,,,"min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))","min_ratio=9.398 (a '로그인' rgb(0, 0, 238) on rgb(255, 255, 255))",1,1,,true,candidate_true,0,0
+page_199,terms_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_199,terms_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_199,terms_page,Standard Terminology Violation,,0,0,0,0,0,,,'접속하기' in -; '로그인' x1,'접속하기' in -; '로그인' x1,1,1,,false,false,NA,NA
+page_199,terms_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA
+page_200,contact_page,Poor Contrast Ratio,DEF_VIS_01,1,1,1,1,1,전역 CSS (* 선택자) → 모든 텍스트 요소,* { color: #e5e5e5 !important; background-color: #ffffff !important; },"min_ratio=1.26 (h1 '문의하기' rgb(229, 229, 229) on rgb(255, 255, 255))","min_ratio=1.26 (h1 '문의하기' rgb(229, 229, 229) on rgb(255, 255, 255))",1,1,yes,true,candidate_true,1,1
+page_200,contact_page,Mobile Layout Breakage,,0,0,0,0,0,,,scrollWidth=1280 innerWidth=1280,scrollWidth=390 innerWidth=390,1,1,,false,ambiguous,NA,NA
+page_200,contact_page,Button Area Clipping,,0,0,0,0,0,,,no buttons,no buttons,1,1,,false,ambiguous,NA,NA
+page_200,contact_page,Standard Terminology Violation,DEF_OPS_01,1,1,1,1,1,텍스트 치환 '로그인'→'접속하기' → a,접속하기,'접속하기' in ['a']; '로그인' x0,'접속하기' in ['a']; '로그인' x0,1,1,yes,false,false,NA,NA
+page_200,contact_page,Duplicate ID Markup Error,,0,0,0,0,0,,,no duplicate ids,no duplicate ids,1,1,,false,false,NA,NA

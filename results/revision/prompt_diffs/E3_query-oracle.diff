@@ -1,0 +1,24 @@
+--- production
++++ E3_query-oracle
+@@ -6,17 +6,11 @@
+     제공된 웹사이트 스크린샷과 HTML 소스 코드를 분석해줘.
+ 
+     [1. 정부 표준 가이드라인 (기본 지침)]
+-    [gov_guide.pdf - 1페이지]
+-<<검색 청크 1 본문>>
++    [gov_check.pdf - 1페이지]
++<<oracle 청크 <chunk_id_1> 본문>>
+ 
+-[gov_guide.pdf - 1페이지]
+-<<검색 청크 2 본문>>
+-
+-[gov_guide.pdf - 1페이지]
+-<<검색 청크 3 본문>>
+-
+-[gov_guide.pdf - 1페이지]
+-<<검색 청크 4 본문>>
++[gov_check.pdf - 1페이지]
++<<oracle 청크 <chunk_id_2> 본문>>
+ 
+     [2. 사용자 지정 추가 가이드라인 (우선 적용)]
+     추가 지침 없음

@@ -1,0 +1,107 @@
+{
+  "run_id": "e9-pilot-fixedlong",
+  "condition": "E9-pilot-fixedlong",
+  "started_utc": "2026-11-12T16:22:46.709+00:00",
+  "argv": [
+    "--run-id",
+    "e9-pilot-fixedlong",
+    "--condition",
+    "E9-pilot-fixedlong",
+    "--pages",
+    "all",
+    "--max-pages",
+    "1",
+    "--chroma-path",
+    "services/chroma_db",
+    "--prompt-date",
+    "2026-11-11",
+    "--query-mode",
+    "oracle",
+    "--oracle-chunks",
+    "results/revision/e9_pilot\\e9p_fixed_long_chunks.csv",
+    "--concurrency",
+    "2",
+    "--base-url",
+    "http://localhost:8091",
+    "--runs-base",
+    "results\\revision\\runs_e9_pilot"
+  ],
+  "args": {
+    "run_id": "e9-pilot-fixedlong",
+    "condition": "E9-pilot-fixedlong",
+    "pages": "all",
+    "max_pages": 1,
+    "no_rag": false,
+    "modality": "both",
+    "viewport_extra": null,
+    "query_mode": "oracle",
+    "oracle_chunks": "results/revision/e9_pilot\\e9p_fixed_long_chunks.csv",
+    "chroma_path": "<HOME>\\AppData\\Local\\Temp\\chroma_e9-pilot-fixedlong_9smj7q1g\\chroma_db",
+    "prompt_date": "2026-11-11",
+    "concurrency": 2,
+    "base_url": "http://localhost:8091",
+    "runs_base": "results\\revision\\runs_e9_pilot",
+    "mock_llm": false
+  },
+  "pages": [
+    "e9p_001",
+    "e9p_002",
+    "e9p_003",
+    "e9p_004",
+    "e9p_005",
+    "e9p_006",
+    "e9p_007",
+    "e9p_008"
+  ],
+  "mock": false,
+  "env": {
+    "python": "3.11.5",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "packages": {
+      "google-generativeai": "0.8.6",
+      "google-ai-generativelanguage": "0.6.15",
+      "langchain-google-genai": "4.3.5",
+      "langchain-chroma": "1.1.0",
+      "chromadb": "1.5.9",
+      "playwright": "1.62.0"
+    },
+    "git_head": "e2729d67e842faaea751bbd73844ac55f6920d05",
+    "git_describe": "exp-freeze-e9-v2-2-ge2729d6",
+    "git_dirty_files": [
+      "?? experiments/revision/e9_pilot_report.py",
+      "?? experiments/revision/run_e9_pilot.py"
+    ],
+    "freeze_tag_commit": "a8d2997b316a29c5b8321962bd6bf63dea7cc951",
+    "e9": {
+      "runner": "experiments/revision/run_experiment_e9.py",
+      "testbed": "pilot",
+      "testbed_dir": "testbed_e9_pilot",
+      "metadata_path": "testbed_e9_pilot\\dataset_metadata_e9_pilot.json",
+      "metadata_sha256": "315a4fbec31c1645f268bcce4560d362a89fef13cf7e1055b9c8db04a0a2b098",
+      "freeze_tag_e9_commit": "2598e526a5724ef3c72d037cf97b8bf476302dd7"
+    }
+  },
+  "frozen_settings": {
+    "model": "models/gemini-2.5-flash",
+    "temperature": 0.0,
+    "rag_query": "웹 UI/UX 표준 가이드라인 공통 규정",
+    "rag_k": 4,
+    "html_char_limit": 5000,
+    "chunk_size": 1000,
+    "chunk_overlap": 100
+  },
+  "chroma": {
+    "source": "services/chroma_db",
+    "copied_at_utc": "2026-11-12T16:22:47.431+00:00",
+    "copy_path": "<HOME>\\AppData\\Local\\Temp\\chroma_e9-pilot-fixedlong_9smj7q1g\\chroma_db",
+    "source_sha256": {
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/data_level0.bin": "9a04f76f4997901ab061bc48d621e9cf3044a1a90180878d09482192a1c3366f",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/header.bin": "397183ff93fe1d8f4a9ea91f6fd2615782c5cd7ca30e5275d1a5f899abb10a17",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/index_metadata.pickle": "3487e78d48f423e5444892612440b5e8998e73a9f314c9d099b69985eb509a63",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/length.bin": "fd7ca52bc90eefbe7a82498b18f6668824b7e3380b096d656c53e57a3d0d515f",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/link_lists.bin": "affa510add7d2d97492f814a35f8a10054564ab48f9663661e2f1da92895dcd6",
+      "chroma.sqlite3": "b3fed16a5f4b65a26b867e98a27cceb60712a7951afe80643588d7cae1a4809b"
+    },
+    "source_combined_sha256": "95165c227ef7567f9bc99b0d132b0de45a0828c82565b3ce9cf72e5bd8ebaae1"
+  }
+}

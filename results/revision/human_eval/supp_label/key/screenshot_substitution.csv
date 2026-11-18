@@ -1,0 +1,7 @@
+﻿source_issue_id,page_id,original_run,original_size,used_run,used_size,same_text_runs,runs_with_issues_on_page,rule_applied,e1_shots_identical,used_sha256
+E4-mobile:page_007:02,page_007,E4-mobile,390x844,E1-R1,1280x800,,E1-R1;E1-R2;E1-R3b,no same-text issue; first run with issues on page,1,ae84b67799c6e3056534a0a2f9a92c6dbf83758d94733620a265c244ab3b3ba5
+E4-mobile:page_117:02,page_117,E4-mobile,390x844,E1-R1,1280x800,,E1-R1;E1-R2;E1-R3b,no same-text issue; first run with issues on page,1,40373be2812cdda1124552f46c8a9b84d895ee144d7e7f76f25e506ddde4b264
+E4-mobile:page_131:03,page_131,E4-mobile,390x844,E1-R1,1280x800,,E1-R1;E1-R2;E1-R3b,no same-text issue; first run with issues on page,1,2fc6940fdfab83bc18526d54782b208e03b1a10fffa13ed4359404b2b2a2b626
+E4-mobile:page_062:02,page_062,E4-mobile,390x844,E1-R1,1280x800,,E1-R1;E1-R2;E1-R3b,no same-text issue; first run with issues on page,1,108bbb210b7d65cad653a012128ce2f2a0d89d6a2ffa58e76673070df09e27a3
+E4-mobile:page_163:03,page_163,E4-mobile,390x844,E1-R1,1280x800,,E1-R1;E1-R2;E1-R3b,no same-text issue; first run with issues on page,1,69d90c11f3d0a53a749686c157dba9601610515fbbad4f8ee0dbbd1e6f5e6c4f
+E4-mobile:page_174:02,page_174,E4-mobile,390x844,E1-R1,1280x800,,E1-R1;E1-R2;E1-R3b,no same-text issue; first run with issues on page,1,4e4d7b4a5dc7f83f4f1a489fcb47669bcd20a82fc728d1c9ae120f55788e78a6

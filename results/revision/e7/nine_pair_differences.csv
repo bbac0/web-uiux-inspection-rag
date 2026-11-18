@@ -1,0 +1,13 @@
+label,scorer,type,detected_diff_9pairs,detected_diff_min,detected_diff_median,detected_diff_max,ba_diff_min,ba_diff_median,ba_diff_max,pairs_with_E1_higher_ba
+nominal,keyword,Contrast,-22;-18;-20;-21;-17;-19;-23;-19;-21,-23,-20.0,-17,0.054,0.064,0.074,9
+nominal,keyword,Mobile,-17;-20;-17;-17;-20;-17;-21;-24;-21,-24,-20.0,-17,0.059,0.069,0.083,9
+nominal,keyword,Button,2;6;2;2;6;2;2;6;2,2,2.0,6,0.022,0.022,0.065,9
+nominal,keyword,Terminology,-5;-7;0;-3;-5;2;-5;-7;0,-7,-5.0,2,-0.078,-0.056,0.022,1
+nominal,keyword,DupID,0;-5;-2;3;-2;1;-1;-6;-3,-6,-2.0,3,-0.006,0.034,0.084,8
+nominal,keyword,micro (5 types),-42;-44;-37;-36;-38;-31;-48;-50;-43,-50,-42.0,-31,0.026,0.030,0.040,9
+effective,keyword,Contrast,-22;-18;-20;-21;-17;-19;-23;-19;-21,-23,-20.0,-17,0.054,0.064,0.074,9
+effective,keyword,Mobile,-17;-20;-17;-17;-20;-17;-21;-24;-21,-24,-20.0,-17,0.059,0.069,0.083,9
+effective,keyword,Button,2;6;2;2;6;2;2;6;2,2,2.0,6,-0.017,-0.006,-0.006,0
+effective,keyword,Terminology,-5;-7;0;-3;-5;2;-5;-7;0,-7,-5.0,2,-0.083,-0.060,0.024,1
+effective,keyword,DupID,0;-5;-2;3;-2;1;-1;-6;-3,-6,-2.0,3,-0.006,0.034,0.084,8
+effective,keyword,micro (5 types),-42;-44;-37;-36;-38;-31;-48;-50;-43,-50,-42.0,-31,0.006,0.021,0.035,9

@@ -1,0 +1,111 @@
+{
+  "run_id": "e9-pilot2-fixed",
+  "condition": "E9-pilot2-fixed",
+  "started_utc": "2026-11-13T02:50:44.498+00:00",
+  "finished_utc": "2026-11-13T02:55:28.129+00:00",
+  "aborted": false,
+  "abort_reason": null,
+  "pages_requested": 8,
+  "pages_with_record": 8,
+  "pages_missing_record": [],
+  "records": 8,
+  "status_counts": {
+    "ok": 8
+  },
+  "failed_pages": [],
+  "parse_error_pages": [],
+  "tokens_total": {
+    "prompt_token_count": 23024,
+    "cached_content_token_count": 0,
+    "candidates_token_count": 2624,
+    "total_token_count": 59231,
+    "thoughts_token_count_derived": 33583
+  },
+  "tokens_mean": {
+    "prompt_token_count": 2878,
+    "cached_content_token_count": 0,
+    "candidates_token_count": 328,
+    "total_token_count": 7403.9,
+    "thoughts_token_count_derived": 4197.9
+  },
+  "cost_usd_total": 0.097425,
+  "cost_usd_mean_per_call": 0.012178,
+  "latency_sec": {
+    "acquisition": {
+      "n": 8,
+      "mean": 4.1324,
+      "median": 4.1322,
+      "p95": 4.1395
+    },
+    "query_embedding": {
+      "n": 8,
+      "mean": 0.5033,
+      "median": 0.5036,
+      "p95": 0.5168
+    },
+    "vector_search": {
+      "n": 8,
+      "mean": 0.0083,
+      "median": 0.005,
+      "p95": 0.0245
+    },
+    "upload": {
+      "n": 8,
+      "mean": 4.2421,
+      "median": 4.3411,
+      "p95": 4.4837
+    },
+    "llm": {
+      "n": 8,
+      "mean": 23.2267,
+      "median": 22.4993,
+      "p95": 32.131
+    },
+    "total": {
+      "n": 8,
+      "mean": 33.842,
+      "median": 33.0746,
+      "p95": 42.217
+    }
+  },
+  "retries_total": 0,
+  "model_versions": [
+    "gemini-2.5-flash"
+  ],
+  "prompt_sha256_distinct": 8,
+  "negative_derived_thoughts": [],
+  "cached_tokens_positive": [],
+  "rag_n_chunks_counts": {
+    "4": 8
+  },
+  "schema_problem_records": 0,
+  "cost_usd_breakdown": {
+    "input_uncached": 0.006907,
+    "input_cached": 0.0,
+    "output": 0.090518
+  },
+  "thoughts_check_mismatch": [],
+  "chroma": {
+    "source": "services/chroma_db",
+    "copied_at_utc": "2026-11-13T02:50:45.100+00:00",
+    "copy_path": "<HOME>\\AppData\\Local\\Temp\\chroma_e9-pilot2-fixed_oihlk3qt\\chroma_db",
+    "source_sha256": {
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/data_level0.bin": "9a04f76f4997901ab061bc48d621e9cf3044a1a90180878d09482192a1c3366f",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/header.bin": "397183ff93fe1d8f4a9ea91f6fd2615782c5cd7ca30e5275d1a5f899abb10a17",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/index_metadata.pickle": "3487e78d48f423e5444892612440b5e8998e73a9f314c9d099b69985eb509a63",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/length.bin": "fd7ca52bc90eefbe7a82498b18f6668824b7e3380b096d656c53e57a3d0d515f",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/link_lists.bin": "affa510add7d2d97492f814a35f8a10054564ab48f9663661e2f1da92895dcd6",
+      "chroma.sqlite3": "b3fed16a5f4b65a26b867e98a27cceb60712a7951afe80643588d7cae1a4809b"
+    },
+    "source_combined_sha256": "95165c227ef7567f9bc99b0d132b0de45a0828c82565b3ce9cf72e5bd8ebaae1",
+    "cleanup": {
+      "deleted": true,
+      "warning": null
+    }
+  },
+  "prices": {
+    "input_uncached_per_1M": 0.3,
+    "input_cached_per_1M": 0.03,
+    "output_incl_thinking_per_1M": 2.5
+  }
+}

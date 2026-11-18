@@ -1,0 +1,7 @@
+﻿stratum,n,human_type_pos,note,키워드_TP,키워드_FP,키워드_FN,의미_TP,의미_FP,의미_FN
+Button Area Clipping,18,8,참고용,7,2,1,8,0,0
+Duplicate ID Markup Error,17,9,참고용,8,1,1,9,0,0
+Mobile Layout Breakage,27,10,참고용,8,1,2,9,0,1
+Poor Contrast Ratio,21,12,참고용,10,2,2,12,0,0
+control,65,0,참고용,0,1,0,0,0,0
+terminology,56,17,참고용,17,10,0,17,1,0

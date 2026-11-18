@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Distribution of total\_checked\_count (report total\_count) by condition.}
+\label{tab:e7-tcc-cond}
+\begin{tabular}{llrrrrr}
+\toprule
+Group & Run & Analyses per report & Pages & 30 & 60 & Other \\
+\midrule
+RAG on (E1-R1, R2, R3b) & E1-R1 & 1 & 200 & 67 & 0 & 133 \\
+RAG on (E1-R1, R2, R3b) & E1-R2 & 1 & 200 & 72 & 0 & 128 \\
+RAG on (E1-R1, R2, R3b) & E1-R3b & 1 & 200 & 78 & 0 & 122 \\
+RAG on (E1-R1, R2, R3b) & pooled (3 runs) & 1 & 600 & 217 & 0 & 383 \\
+RAG off (E2-A1-1, A1-2, A1-3) & E2-A1-1 & 1 & 200 & 115 & 0 & 85 \\
+RAG off (E2-A1-1, A1-2, A1-3) & E2-A1-2 & 1 & 200 & 114 & 0 & 86 \\
+RAG off (E2-A1-1, A1-2, A1-3) & E2-A1-3 & 1 & 200 & 108 & 0 & 92 \\
+RAG off (E2-A1-1, A1-2, A1-3) & pooled (3 runs) & 1 & 600 & 337 & 0 & 263 \\
+legacy run2 & reports with 1 analysis(es) & 1 & 40 & 23 & 0 & 17 \\
+legacy run2 & reports with 2 analysis(es) & 2 & 160 & 0 & 101 & 59 \\
+legacy run2 & all reports & 1 or 2 & 200 & 23 & 101 & 76 \\
+\bottomrule
+\end{tabular}
+\par\footnotesize Legacy run2 reports aggregate two analyses (target page + /login) with total\_count = sum over analyses (services/analyzer.py); 60 occurs only in two-analysis reports.
+\end{table}

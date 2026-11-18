@@ -1,0 +1,5 @@
+definition,denominator_rule,numerator_rule,denominator,numerator,rate,num_JSON null,num_빈 문자열,num_'N/A',num_gov_check.pdf,num_말뭉치 밖 파일명(기타 문자열)
+A,"기존 audit 기준: null/''/'N/A' 제외, /login 포함","말뭉치(gov_guide.pdf, gov_check.pdf)에 없는 파일명",1016,356,0.3504,0,0,0,0,356
+B,"E8 기준: 전체 이슈, /login 포함",gov_guide.pdf 가 아님 (결측 표기 포함),1054,394,0.3738,17,2,19,0,356
+C-A,"대상 페이지 이슈만, null/''/'N/A' 제외",말뭉치에 없는 파일명,464,92,0.1983,0,0,0,0,92
+C-B,"대상 페이지 이슈만, 전체",gov_guide.pdf 가 아님 (결측 표기 포함),502,130,0.259,17,2,19,0,92

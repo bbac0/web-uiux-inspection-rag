@@ -1,0 +1,116 @@
+{
+  "run_id": "pilot-01",
+  "condition": "pilot",
+  "started_utc": "2026-11-11T06:42:32.014+00:00",
+  "finished_utc": "2026-11-11T06:43:25.610+00:00",
+  "aborted": true,
+  "abort_reason": "error rate 10/10 > 20%",
+  "pages_requested": 10,
+  "pages_with_record": 10,
+  "pages_missing_record": [],
+  "records": 10,
+  "status_counts": {
+    "rag_error": 10
+  },
+  "failed_pages": [
+    "page_027",
+    "page_028",
+    "page_033",
+    "page_054",
+    "page_075",
+    "page_077",
+    "page_081",
+    "page_105",
+    "page_123",
+    "page_135"
+  ],
+  "parse_error_pages": [],
+  "tokens_total": {
+    "prompt_token_count": 0,
+    "cached_content_token_count": 0,
+    "candidates_token_count": 0,
+    "total_token_count": 0,
+    "thoughts_token_count_derived": 0
+  },
+  "tokens_mean": {
+    "prompt_token_count": null,
+    "cached_content_token_count": null,
+    "candidates_token_count": null,
+    "total_token_count": null,
+    "thoughts_token_count_derived": null
+  },
+  "cost_usd_total": 0.0,
+  "cost_usd_mean_per_call": null,
+  "latency_sec": {
+    "acquisition": {
+      "n": 10,
+      "mean": 3.8861,
+      "median": 3.8862,
+      "p95": 3.9076
+    },
+    "query_embedding": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "p95": null
+    },
+    "vector_search": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "p95": null
+    },
+    "upload": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "p95": null
+    },
+    "llm": {
+      "n": 0,
+      "mean": null,
+      "median": null,
+      "p95": null
+    },
+    "total": {
+      "n": 10,
+      "mean": 4.1966,
+      "median": 4.0085,
+      "p95": 5.072
+    }
+  },
+  "retries_total": 0,
+  "model_versions": [],
+  "prompt_sha256_distinct": 0,
+  "negative_derived_thoughts": [],
+  "cached_tokens_positive": [],
+  "rag_n_chunks_counts": {
+    "None": 10
+  },
+  "schema_problem_records": 0,
+  "cost_usd_breakdown": {
+    "input_uncached": 0.0,
+    "input_cached": 0.0,
+    "output": 0.0
+  },
+  "thoughts_check_mismatch": [],
+  "chroma": {
+    "source": "services/chroma_db",
+    "copied_at_utc": "2026-11-11T06:42:32.660+00:00",
+    "copy_path": "<HOME>\\AppData\\Local\\Temp\\chroma_pilot-01_rw6508ir\\chroma_db",
+    "source_sha256": {
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/data_level0.bin": "9a04f76f4997901ab061bc48d621e9cf3044a1a90180878d09482192a1c3366f",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/header.bin": "397183ff93fe1d8f4a9ea91f6fd2615782c5cd7ca30e5275d1a5f899abb10a17",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/index_metadata.pickle": "3487e78d48f423e5444892612440b5e8998e73a9f314c9d099b69985eb509a63",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/length.bin": "fd7ca52bc90eefbe7a82498b18f6668824b7e3380b096d656c53e57a3d0d515f",
+      "4c88a8d5-f463-49c3-a112-5142d97bdde6/link_lists.bin": "affa510add7d2d97492f814a35f8a10054564ab48f9663661e2f1da92895dcd6",
+      "chroma.sqlite3": "b3fed16a5f4b65a26b867e98a27cceb60712a7951afe80643588d7cae1a4809b"
+    },
+    "source_combined_sha256": "95165c227ef7567f9bc99b0d132b0de45a0828c82565b3ce9cf72e5bd8ebaae1"
+  },
+  "prices": {
+    "input_uncached_per_1M": 0.3,
+    "input_cached_per_1M": 0.03,
+    "output_incl_thinking_per_1M": 2.5
+  }
+}
