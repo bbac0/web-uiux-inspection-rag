@@ -15,7 +15,6 @@ services/
   scraper.py               Playwright 수집 유틸리티
 frontend/                  Streamlit 웹 UI
 data/                      가이드라인 PDF (gov_guide.pdf, gov_check.pdf)
-.github/workflows/         cli.py 를 이용한 GitHub Actions 검수 예시
 
 testbed_200/               평가용 테스트베드 200페이지 + 정답 메타데이터(dataset_metadata.json)
 testbed/                   구간별 지연시간 측정용 50페이지
