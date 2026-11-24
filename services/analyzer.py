@@ -445,9 +445,9 @@ def merge_results(results, tree_nodes=None, page_errors=None):
     o_scores = [r.get("scores", {}).get("운영", 0) for r in results]
     t_scores = [r.get("scores", {}).get("기술", 0) for r in results]
 
-    avg_d_score = sum(d_scores) // len(results)
-    avg_o_score = sum(o_scores) // len(results)
-    avg_t_score = sum(t_scores) // len(results)
+    avg_d_score = int(round(sum(d_scores) / len(results)))
+    avg_o_score = int(round(sum(o_scores) / len(results)))
+    avg_t_score = int(round(sum(t_scores) / len(results)))
 
     # 트리 노드별 결함 수 매핑
     fault_map = {r.get("url"): r.get("total_faults", 0) for r in results}
